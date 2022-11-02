@@ -1,0 +1,89 @@
+menu_title: Тотемы
+register_command: false
+open_command:
+  - resoursepack_totems
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.default.resoursepack_totems.ultra
+      deny_commands:
+        - "[message] &8[&bDeluxe&eMenus&8] &7У вас нет разрешения для этого!"
+items:
+  next:
+    material: SPECTRAL_ARROW
+    slot: 51
+    priority: 1
+    update: true
+    display_name: "&bНазад"
+    left_click_commands:
+      - "[refresh]"
+  Unique_name_0:
+    material: TOTEM_OF_UNDYING
+    slot: 0
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bSoftPanda#"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7SoftPanda3"
+      - "   &b- &7SoftPanda"
+      - "   &b- &7Панда"
+      - "   &b- &7Пандочка"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать предмет на"
+      - "&r&4[ ! ] &7соответствующее название из списка на наковальне"
+  Unique_name_1:
+    material: TOTEM_OF_UNDYING
+    slot: 1
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bSoftPanda#"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7SoftPanda3"
+      - "   &b- &7SoftPanda"
+      - "   &b- &7Панда"
+      - "   &b- &7Пандочка"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать предмет на"
+      - "&r&4[ ! ] &7соответствующее название из списка на наковальне"
+  Unique_name_2:
+    material: TOTEM_OF_UNDYING
+    slot: 2
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bSoftPanda#"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7SoftPanda3"
+      - "   &b- &7SoftPanda"
+      - "   &b- &7Панда"
+      - "   &b- &7Пандочка"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать предмет на"
+      - "&r&4[ ! ] &7соответствующее название из списка на наковальне"
+  Unique_name_3:
+    material: TOTEM_OF_UNDYING
+    slot: 3
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bSoftPanda#"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7SoftPanda3"
+      - "   &b- &7SoftPanda"
+      - "   &b- &7Панда"
+      - "   &b- &7Пандочка"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать предмет на"
+      - "&r&4[ ! ] &7соответствующее название из списка на наковальне"
