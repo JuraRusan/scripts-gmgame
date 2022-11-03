@@ -13,9 +13,10 @@ itemKeys.forEach(element => {
     i += 1;
 
     const itemTotemName = item[element];
+    const fixColorElement = "   &b- &7";
 
     result[`Unique_name_${slot}`] = {
-        material: "TOTEM_OF_UNDYING",
+        material: itemTotemName.main,
         slot: slot,
         priority: 1,
         update: true,
@@ -24,10 +25,7 @@ itemKeys.forEach(element => {
         lore: [
             " ",
             `&b * &7Вариативность названий:`,
-            `   &b- &7SoftPanda3`,
-            `   &b- &7SoftPanda`,
-            `   &b- &7Панда`,
-            `   &b- &7Пандочка`,
+            `${itemTotemName.variability_name.map ( x => fixColorElement + x)}`,
             " ",
             "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать предмет на",
             "&r&4[ ! ] &7соответствующее название из списка на наковальне"
