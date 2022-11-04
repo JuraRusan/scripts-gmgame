@@ -2,6 +2,10 @@
 
 # dependencies
 resoursepack/totem/node_modules
+resoursepack/food/node_modules
+resoursepack/elytra/node_modules
+resoursepack/drinks/node_modules
+resoursepack/hats/node_modules
 /node_modules
 /.pnp
 .pnp.js

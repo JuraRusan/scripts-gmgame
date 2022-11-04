@@ -1,0 +1,105 @@
+{
+  "menu_title": "Еда",
+  "register_command": false,
+  "open_command": [
+    "resourсe_pack_food_page_2"
+  ],
+  "size": 54,
+  "open_requirement": {
+    "requirements": {
+      "permission": {
+        "type": "has permission",
+        "permission": "deluxemenus.default.resourсe_pack_food_page_2.ultra",
+        "deny_commands": [
+          "[message] &8[&bDeluxe&eMenus&8] &7У вас нет разрешения для этого!"
+        ]
+      }
+    }
+  },
+  "items": {
+    "item1": {
+      "material": "BLACK_STAINED_GLASS_PANE",
+      "slot": 36,
+      "hide_attributes": true,
+      "display_name": " "
+    },
+    "item2": {
+      "material": "BLACK_STAINED_GLASS_PANE",
+      "slot": 37,
+      "hide_attributes": true,
+      "display_name": " "
+    },
+    "item3": {
+      "material": "BLACK_STAINED_GLASS_PANE",
+      "slot": 38,
+      "hide_attributes": true,
+      "display_name": " "
+    },
+    "item4": {
+      "material": "BLACK_STAINED_GLASS_PANE",
+      "slot": 39,
+      "hide_attributes": true,
+      "display_name": " "
+    },
+    "item5": {
+      "material": "BLACK_STAINED_GLASS_PANE",
+      "slot": 40,
+      "hide_attributes": true,
+      "display_name": " "
+    },
+    "item6": {
+      "material": "BLACK_STAINED_GLASS_PANE",
+      "slot": 41,
+      "hide_attributes": true,
+      "display_name": " "
+    },
+    "item7": {
+      "material": "BLACK_STAINED_GLASS_PANE",
+      "slot": 42,
+      "hide_attributes": true,
+      "display_name": " "
+    },
+    "item8": {
+      "material": "BLACK_STAINED_GLASS_PANE",
+      "slot": 43,
+      "hide_attributes": true,
+      "display_name": " "
+    },
+    "item9": {
+      "material": "BLACK_STAINED_GLASS_PANE",
+      "slot": 44,
+      "hide_attributes": true,
+      "display_name": " "
+    },
+    "previous": {
+      "material": "SPECTRAL_ARROW",
+      "slot": 47,
+      "priority": 1,
+      "update": true,
+      "display_name": "&bНазад",
+      "left_click_commands": [
+        "[refresh]",
+        "[openguimenu] resource_pack_food_page_1"
+      ],
+      "right_click_commands": [
+        "[refresh]",
+        "[openguimenu] resource_pack_food_page_1"
+      ],
+      "middle_click_commands": [
+        "[refresh]",
+        "[openguimenu] resource_pack_food_page_1"
+      ]
+    },
+    "current": {
+      "material": "SUNFLOWER",
+      "slot": 49,
+      "priority": 1,
+      "update": true,
+      "display_name": "&bТекущая страница",
+      "lore": [
+        " ",
+        "&b * &7Страница &a2"
+      ]
+    }
+  }
+}
