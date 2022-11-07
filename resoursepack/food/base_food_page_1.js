@@ -16,7 +16,7 @@ const base_food = {
   13: { main: "COOKIE", info_item: "печенье", material_name: "Пряник", variability_name: ["Пряник", "Gingerbread"] },
   14: { main: "COOKIE", info_item: "печенье", material_name: "Шоколадное мороженое", variability_name: ["Шоколадное мороженое", "Chocolate icecream"] },
   15: { main: "COOKIE", info_item: "печенье", material_name: "Ванильное мороженое", variability_name: ["Ванильное мороженое", "Vanilla icecream"] },
-  16: { main: "COOKIE", info_item: "печенье", material_name: "Орео", variability_name: ["Орео", "oreo"] },
+  16: { main: "COOKIE", info_item: "печенье", material_name: "Орео", variability_name: ["Орео", "Oreo"] },
   17: { main: "COOKIE", info_item: "печенье", material_name: "Крендель", variability_name: ["Крендель", "Pretzel"] },
   18: { main: "COOKED_SALMON", info_item: "жаренный лосось", material_name: "Нигири", variability_name: ["Нигири", "Nigiri"] },
   19: { main: "SALMON", info_item: "сырой лосось", material_name: "Нигири", variability_name: ["Нигири", "Nigiri"] },

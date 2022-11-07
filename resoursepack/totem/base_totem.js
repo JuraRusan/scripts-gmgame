@@ -16,7 +16,7 @@ const totem_base = {
   13: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "kurlykepty", variability_name: ["kurlykepty", "Kurlyk", "Курлык"] },
   14: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "KIPO4", variability_name: ["KIPO4", "Кипа"] },
   15: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Li_Ora", variability_name: ["Li_Ora", "Лиора"] },
-  16: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Matuchka", variability_name: ["Matuchka", "Матюша"] },
+  16: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Matychka", variability_name: ["Matychka", "Матюша"] },
   17: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Niksa_Viento", variability_name: ["Niksa_Viento", "Niksa", "Никса", "Никс"] },
   18: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Jean_Viento", variability_name: ["Jean_Viento", "Jean", "Жаник"] },
   19: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "prestig9110", variability_name: ["prestig9110", "Престиж"] },
