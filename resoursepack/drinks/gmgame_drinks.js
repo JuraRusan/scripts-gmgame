@@ -1,21 +1,16 @@
 const YAML = require('yaml');
 const fs = require('fs-extra');
-let { drinks_base, drinks_slot } = require('./base_drinks.js');
+let { drinks_base, fixed_slot_minecraft } = require('../Kerubifi_base.js');
 let template = require('./gmgame_drinks_sample.json');
-
-let result = {};
 
 const itemKeys = Object.keys(drinks_base);
 let i = 0;
 
-itemKeys.forEach(element => {
-    const slot = drinks_slot[i];
-    i += 1;
+const res = itemKeys.reduce((acc, curr, index) => {
+    const slot = fixed_slot_minecraft[i];
+    const itemDrinksName = drinks_base[curr];
 
-    const itemDrinksName = drinks_base[element];
-    const fixColorElement = "   &b- &7";
-
-    result[`Unique_name_${slot}`] = {
+    acc[`Unique_name_${slot}`] = {
         material: itemDrinksName.main,
         slot: slot,
         priority: 1,
@@ -24,16 +19,18 @@ itemKeys.forEach(element => {
         display_name: `&b${itemDrinksName.material_name}`,
         lore: [
             " ",
-            `&b * &7Вариативность названий:`,
-            `${itemDrinksName.variability_name.map(x => fixColorElement + x)}`,
+            "&b * &7Вариативность названий:",
+            ...itemDrinksName.variability_name.map(x => "   &b- &7" + x),
             " ",
             `&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &a${itemDrinksName.info_item}`,
             "&r&4[ ! ] &7на соответствующее название из списка"
         ]
     }
-});
+    i++;
 
+    return acc;
+}, {})
 
-template.items = { ...template.items, ...result }
+template.items = { ...template.items, ...res }
 
-fs.writeFileSync('./resource_pack_drinks.yml', YAML.stringify(template));
+fs.writeFileSync('./server_drop_files/resource_pack_drinks.yml', YAML.stringify(template));

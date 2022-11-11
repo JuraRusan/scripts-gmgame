@@ -1,21 +1,16 @@
 const YAML = require('yaml');
 const fs = require('fs-extra');
-let { totem_base, totem_slot } = require('./base_totem.js');
+let { totem_base, fixed_slot_minecraft } = require('../Kerubifi_base.js');
 let template = require('./gmgame_totem_sample.json');
-
-let result = {};
 
 const itemKeys = Object.keys(totem_base);
 let i = 0;
 
-itemKeys.forEach(element => {
-    const slot = totem_slot[i];
-    i += 1;
+const res = itemKeys.reduce((acc, curr, index) => {
+    const slot = fixed_slot_minecraft[i];
+    const itemTotemName = totem_base[curr];
 
-    const itemTotemName = totem_base[element];
-    const fixColorElement = "   &b- &7";
-
-    result[`Unique_name_${slot}`] = {
+    acc[`Unique_name_${slot}`] = {
         material: itemTotemName.main,
         slot: slot,
         priority: 1,
@@ -24,16 +19,18 @@ itemKeys.forEach(element => {
         display_name: `&b${itemTotemName.material_name}`,
         lore: [
             " ",
-            `&b * &7Вариативность названий:`,
-            `${itemTotemName.variability_name.map(x => fixColorElement + x)}`,
+            "&b * &7Вариативность названий:",
+            ...itemTotemName.variability_name.map(x => "   &b- &7" + x),
             " ",
             `&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &a${itemTotemName.info_item}`,
             "&r&4[ ! ] &7на соответствующее название из списка"
         ]
     }
-});
+    i++;
 
+    return acc;
+}, {})
 
-template.items = { ...template.items, ...result }
+template.items = { ...template.items, ...res }
 
-fs.writeFileSync('./resource_pack_totem.yml', YAML.stringify(template));
+fs.writeFileSync('./server_drop_files/resource_pack_totem.yml', YAML.stringify(template));

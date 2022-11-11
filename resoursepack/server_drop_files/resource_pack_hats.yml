@@ -1,0 +1,277 @@
+menu_title: Шляпы
+register_command: false
+open_command:
+  - resourсe_pack_hats
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.default.resourсe_pack_hats.ultra
+      deny_commands:
+        - "[message] &8[&bDeluxe&eMenus&8] &7У вас нет разрешения для этого!"
+items:
+  item1:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 36
+    hide_attributes: true
+    display_name: " "
+  item2:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 37
+    hide_attributes: true
+    display_name: " "
+  item3:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 38
+    hide_attributes: true
+    display_name: " "
+  item4:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 39
+    hide_attributes: true
+    display_name: " "
+  item5:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 40
+    hide_attributes: true
+    display_name: " "
+  item6:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 41
+    hide_attributes: true
+    display_name: " "
+  item7:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 42
+    hide_attributes: true
+    display_name: " "
+  item8:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 43
+    hide_attributes: true
+    display_name: " "
+  item9:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 44
+    hide_attributes: true
+    display_name: " "
+  previous:
+    material: SPECTRAL_ARROW
+    slot: 47
+    priority: 1
+    update: true
+    display_name: "&bНазад"
+    left_click_commands:
+      - "[refresh]"
+      - "[openguimenu] main_resource_pack"
+    right_click_commands:
+      - "[refresh]"
+      - "[openguimenu] main_resource_pack"
+    middle_click_commands:
+      - "[refresh]"
+      - "[openguimenu] main_resource_pack"
+  current:
+    material: SUNFLOWER
+    slot: 49
+    priority: 1
+    update: true
+    display_name: "&bТекущая страница"
+    lore:
+      - " "
+      - "&b * &7Страница &a1"
+  Unique_name_0:
+    material: CARVED_PUMPKIN
+    slot: 0
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bШляпа лучника"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7Шляпа лучника"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aвырезаную
+        тыкву"
+      - "&r&4[ ! ] &7на соответствующее название из списка"
+  Unique_name_1:
+    material: CARVED_PUMPKIN
+    slot: 1
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bШляпа бронника"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7Шляпа бронника"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aвырезаную
+        тыкву"
+      - "&r&4[ ! ] &7на соответствующее название из списка"
+  Unique_name_2:
+    material: CARVED_PUMPKIN
+    slot: 2
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bСтрела"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7Стрела"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aвырезаную
+        тыкву"
+      - "&r&4[ ! ] &7на соответствующее название из списка"
+  Unique_name_3:
+    material: CARVED_PUMPKIN
+    slot: 3
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bКорона"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7Корона"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aвырезаную
+        тыкву"
+      - "&r&4[ ! ] &7на соответствующее название из списка"
+  Unique_name_4:
+    material: CARVED_PUMPKIN
+    slot: 4
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bЭльф"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7Эльф"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aвырезаную
+        тыкву"
+      - "&r&4[ ! ] &7на соответствующее название из списка"
+  Unique_name_5:
+    material: CARVED_PUMPKIN
+    slot: 5
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bШляпа фермера"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7Шляпа фермера"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aвырезаную
+        тыкву"
+      - "&r&4[ ! ] &7на соответствующее название из списка"
+  Unique_name_6:
+    material: CARVED_PUMPKIN
+    slot: 6
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bШляпа рыбака"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7Шляпа рыбака"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aвырезаную
+        тыкву"
+      - "&r&4[ ! ] &7на соответствующее название из списка"
+  Unique_name_7:
+    material: CARVED_PUMPKIN
+    slot: 7
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bШляпа библиотекаря"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7Шляпа библиотекаря"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aвырезаную
+        тыкву"
+      - "&r&4[ ! ] &7на соответствующее название из списка"
+  Unique_name_8:
+    material: CARVED_PUMPKIN
+    slot: 8
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bКарандаш"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7Карандаш"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aвырезаную
+        тыкву"
+      - "&r&4[ ! ] &7на соответствующее название из списка"
+  Unique_name_9:
+    material: CARVED_PUMPKIN
+    slot: 9
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bСанта"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7Санта"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aвырезаную
+        тыкву"
+      - "&r&4[ ! ] &7на соответствующее название из списка"
+  Unique_name_10:
+    material: CARVED_PUMPKIN
+    slot: 10
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bТрезубец"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7Трезубец"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aвырезаную
+        тыкву"
+      - "&r&4[ ! ] &7на соответствующее название из списка"
+  Unique_name_11:
+    material: CARVED_PUMPKIN
+    slot: 11
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bШляпа ведьмы"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7Шляпа ведьмы"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aвырезаную
+        тыкву"
+      - "&r&4[ ! ] &7на соответствующее название из списка"
+  Unique_name_12:
+    material: CARVED_PUMPKIN
+    slot: 12
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bВенок"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7Венок"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aвырезаную
+        тыкву"
+      - "&r&4[ ! ] &7на соответствующее название из списка"

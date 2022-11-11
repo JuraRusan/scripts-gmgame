@@ -1,0 +1,78 @@
+menu_title: "Ресурспак"
+register_command: true
+open_command:
+  - resource_pack
+size: 27
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.default.resource_pack.ultra
+      deny_commands:
+        - "[message] &8[&bDeluxe&eMenus&8] &7У вас нет разрешения для этого!"
+items:
+  "1":
+    material: TOTEM_OF_UNDYING
+    slot: 11
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bТотемы"
+    left_click_commands:
+      - "[openguimenu] resource_pack_totem "
+    right_click_commands:
+      - "[openguimenu] resource_pack_totem "
+    middle_click_commands:
+      - "[openguimenu] resource_pack_totem "
+  "2":
+    material: SWEET_BERRIES
+    slot: 12
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bЕда"
+    left_click_commands:
+      - "[openguimenu] resource_pack_food_page_1 "
+    right_click_commands:
+      - "[openguimenu] resource_pack_food_page_1 "
+    middle_click_commands:
+      - "[openguimenu] resource_pack_food_page_1 "
+  "3":
+    material: DRAGON_BREATH
+    slot: 13
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bНапитки"
+    left_click_commands:
+      - "[openguimenu] resource_pack_drinks "
+    right_click_commands:
+      - "[openguimenu] resource_pack_drinks "
+    middle_click_commands:
+      - "[openguimenu] resource_pack_drinks "
+  "4":
+    material: CARVED_PUMPKIN
+    slot: 14
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bШапки"
+    left_click_commands:
+      - "[openguimenu] resource_pack_hats "
+    right_click_commands:
+      - "[openguimenu] resource_pack_hats "
+    middle_click_commands:
+      - "[openguimenu] resource_pack_hats "
+  "5":
+    material: ELYTRA
+    slot: 15
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bЕлитры"
+    left_click_commands:
+      - "[openguimenu] resource_pack_elytra "
+    right_click_commands:
+      - "[openguimenu] resource_pack_elytra "
+    middle_click_commands:
+      - "[openguimenu] resource_pack_elytra "
