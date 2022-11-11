@@ -1,3 +1,10 @@
+// Как добавлять елементы новые в массив 
+// Пример возмем `base_food_1` там всего 36 элементов 
+// Потом мы идем `base_food_2` там уже с 37 начинается и должно быть тоже 36 элементов, закончится должно на 72 
+// Если нужно больше то создаем `base_food_3` и продолжаем из 73 и далее до 108
+// Соответствено для тотемов аналогично, если нужно больше то `totem_base` переименовываем в `totem_base_1` и создаем ниже `totem_base_2` И так жалее пока не надоест. 
+
+
 const fixed_slot_minecraft = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35];
 
 const totem_base = {
@@ -9,7 +16,7 @@ const totem_base = {
  6: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Dalandis", variability_name: ["Dalandis", "Даландис"] },
  7: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Dunno59", variability_name: ["Dunno59", "Дуно"] },
  8: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Dunno59c", variability_name: ["Dunno59c"] },
- 9: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "dunno69", variability_name: ["Dunno69"] },
+ 9: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Dunno69", variability_name: ["Dunno69"] },
  10: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "gerhugwsif", variability_name: ["gerhugwsif", "ger", "Гер"] },
  11: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Hazquard", variability_name: ["Hazquard", "Хаз"] },
  12: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Kerubifi", variability_name: ["Kerubifi", "Кирубифи"] },
@@ -120,7 +127,6 @@ const base_food_1 = {
  36: { main: "COOKED_CHICKEN", info_item: "жареную курятину", material_name: "Бурито", variability_name: ["Бурито", "Burrito"] }
 };
 const base_food_2 = {
- 36: { main: "COOKED_CHICKEN", info_item: "жареную курятину", material_name: "Бурито", variability_name: ["Бурито", "Burrito"] },
  37: { main: "COOKED_MUTTON", info_item: "жареную баринину", material_name: "Бурито", variability_name: ["Бурито", "Burrito"] },
  38: { main: "COOKED_PORKCHOP", info_item: "жареную свинину", material_name: "Бурито", variability_name: ["Бурито", "Burrito"] },
  39: { main: "COOKED_RABBIT", info_item: "жареную крольчатину", material_name: "Бурито", variability_name: ["Бурито", "Burrito"] },
