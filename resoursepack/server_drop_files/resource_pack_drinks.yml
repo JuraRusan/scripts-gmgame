@@ -3,13 +3,6 @@ register_command: false
 open_command:
   - resourсe_pack_drinks
 size: 54
-open_requirement:
-  requirements:
-    permission:
-      type: has permission
-      permission: deluxemenus.default.resourсe_pack_drinks.ultra
-      deny_commands:
-        - "[message] &8[&bDeluxe&eMenus&8] &7У вас нет разрешения для этого!"
 items:
   item1:
     material: BLACK_STAINED_GLASS_PANE

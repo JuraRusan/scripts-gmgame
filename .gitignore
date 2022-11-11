@@ -2,6 +2,7 @@
 
 # dependencies
 resoursepack/node_modules
+spawn_shops/node_modules
 /node_modules
 /.pnp
 .pnp.js

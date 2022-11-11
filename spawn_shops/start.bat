@@ -1,0 +1,1 @@
+node ./ore/shops_ore.js

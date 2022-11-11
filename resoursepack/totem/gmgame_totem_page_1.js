@@ -1,14 +1,14 @@
 const YAML = require('yaml');
 const fs = require('fs-extra');
-let { totem_base, fixed_slot_minecraft } = require('../Kerubifi_base.js');
-let template = require('./gmgame_totem_sample.json');
+let { totem_base_1, fixed_slot_minecraft } = require('../Kerubifi_base.js');
+let template = require('./gmgame_totem_sample_page_1.json');
 
-const itemKeys = Object.keys(totem_base);
+const itemKeys = Object.keys(totem_base_1);
 let i = 0;
 
 const res = itemKeys.reduce((acc, curr, index) => {
     const slot = fixed_slot_minecraft[i];
-    const itemTotemName = totem_base[curr];
+    const itemTotemName = totem_base_1[curr];
 
     acc[`Unique_name_${slot}`] = {
         material: itemTotemName.main,
@@ -33,4 +33,4 @@ const res = itemKeys.reduce((acc, curr, index) => {
 
 template.items = { ...template.items, ...res }
 
-fs.writeFileSync('./server_drop_files/resource_pack_totem.yml', YAML.stringify(template));
+fs.writeFileSync('./server_drop_files/resource_pack_totem_page_1.yml', YAML.stringify(template));

@@ -1,8 +1,8 @@
 {
-  "menu_title": "Напитки",
+  "menu_title": "Руды",
   "register_command": false,
   "open_command": [
-    "resourсe_pack_drinks"
+    "shops_ore"
   ],
   "size": 54,
   "items": {
@@ -68,15 +68,15 @@
       "display_name": "&bНазад",
       "left_click_commands": [
         "[refresh]",
-        "[openguimenu] main_resource_pack"
+        "[openguimenu] main_shops"
       ],
       "right_click_commands": [
         "[refresh]",
-        "[openguimenu] main_resource_pack"
+        "[openguimenu] main_shops"
       ],
       "middle_click_commands": [
         "[refresh]",
-        "[openguimenu] main_resource_pack"
+        "[openguimenu] main_shops"
       ]
     },
     "current": {

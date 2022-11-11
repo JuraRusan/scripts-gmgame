@@ -1,8 +1,8 @@
 {
-  "menu_title": "Напитки",
+  "menu_title": "Тотемы",
   "register_command": false,
   "open_command": [
-    "resourсe_pack_drinks"
+    "resourсe_pack_totem_page_2"
   ],
   "size": 54,
   "items": {
@@ -60,6 +60,25 @@
       "hide_attributes": true,
       "display_name": " "
     },
+    "next": {
+      "material": "ARROW",
+      "slot": 51,
+      "priority": 1,
+      "update": true,
+      "display_name": "&bСледующая страница",
+      "left_click_commands": [
+        "[refresh]",
+        "[openguimenu] resource_pack_totem_page_3"
+      ],
+      "right_click_commands": [
+        "[refresh]",
+        "[openguimenu] resource_pack_totem_page_3"
+      ],
+      "middle_click_commands": [
+        "[refresh]",
+        "[openguimenu] resource_pack_totem_page_3"
+      ]
+    },
     "previous": {
       "material": "SPECTRAL_ARROW",
       "slot": 47,
@@ -68,15 +87,15 @@
       "display_name": "&bНазад",
       "left_click_commands": [
         "[refresh]",
-        "[openguimenu] main_resource_pack"
+        "[openguimenu] resource_pack_totem_page_1"
       ],
       "right_click_commands": [
         "[refresh]",
-        "[openguimenu] main_resource_pack"
+        "[openguimenu] resource_pack_totem_page_1"
       ],
       "middle_click_commands": [
         "[refresh]",
-        "[openguimenu] main_resource_pack"
+        "[openguimenu] resource_pack_totem_page_1"
       ]
     },
     "current": {

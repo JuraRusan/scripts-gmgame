@@ -1,41 +1,86 @@
-// Как добавлять елементы новые в массив 
-// Пример возмем `base_food_1` там всего 36 элементов 
-// Потом мы идем `base_food_2` там уже с 37 начинается и должно быть тоже 36 элементов, закончится должно на 72 
-// Если нужно больше то создаем `base_food_3` и продолжаем из 73 и далее до 108
-// Соответствено для тотемов аналогично, если нужно больше то `totem_base` переименовываем в `totem_base_1` и создаем ниже `totem_base_2` И так жалее пока не надоест. 
-
-
 const fixed_slot_minecraft = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35];
 
-const totem_base = {
- 1: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "BaXy", variability_name: ["BaXy", "Бакси"] },
- 2: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Blackirita", variability_name: ["Blackirita", "Блэки"] },
- 3: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Blackirite", variability_name: ["Blackirite", "Срань Господня"] },
- 4: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "BlackPirat", variability_name: ["BlackPirat", "Пиратик"] },
- 5: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Cytrynid", variability_name: ["Cytrynid", "Lemonid", "Desert Cytrynid"] },
- 6: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Dalandis", variability_name: ["Dalandis", "Даландис"] },
- 7: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Dunno59", variability_name: ["Dunno59", "Дуно"] },
- 8: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Dunno59c", variability_name: ["Dunno59c"] },
- 9: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Dunno69", variability_name: ["Dunno69"] },
- 10: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "gerhugwsif", variability_name: ["gerhugwsif", "ger", "Гер"] },
- 11: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Hazquard", variability_name: ["Hazquard", "Хаз"] },
- 12: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Kerubifi", variability_name: ["Kerubifi", "Кирубифи"] },
- 13: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "kurlykepty", variability_name: ["kurlykepty", "Kurlyk", "Курлык"] },
- 14: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "KIPO4", variability_name: ["KIPO4", "Кипа"] },
- 15: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Li_Ora", variability_name: ["Li_Ora", "Лиора"] },
- 16: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Matychka", variability_name: ["Matychka", "Матюша"] },
- 17: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Niksa_Viento", variability_name: ["Niksa_Viento", "Niksa", "Никса", "Никс"] },
- 18: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Jean_Viento", variability_name: ["Jean_Viento", "Jean", "Жаник"] },
- 19: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "prestig9110", variability_name: ["prestig9110", "Престиж"] },
- 20: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "SoftPanda3", variability_name: ["SoftPanda3", "SoftPanda", "Панда", "Пандочка"] },
- 21: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "SoftPanda3_ng", variability_name: ["SoftPanda3ng", "SoftPandang", "Pandang","Панданг", "Пандочканг"] },
- 22: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "SoftPanda3_c", variability_name: ["SoftPanda3c", "SoftPandac", "Pandac", "Пандас", "Пандочкас" ] },
- 23: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Solyanka", variability_name: ["Solyanka", "Soniaka", "Soni4ka"] },
- 24: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Steinyasha", variability_name: ["Steinyasha", "Stein", "Штейн"] },
- 25: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "VessAy", variability_name: ["VessAy"] },
- 26: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "VessAyR", variability_name: ["VessAyR", "Грэг"] },
- 27: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "WiCry", variability_name: ["WiCry", "Вай"] },
- 28: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Ytka_sorry_t9", variability_name: ["Ytka_sorry_t9", "Ytka", "Утка", "Уточка"] }
+const totem_base_1 = {
+ 1: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "3opurTo", variability_name: ["3opurTo"] },
+ 2: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "AMFIBIYA", variability_name: ["AMFIBIYA", "АМФИБИЯ"] },
+ 3: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "BaXy", variability_name: ["BaXy", "Бакси"] },
+ 4: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Maid BaXy", variability_name: ["Maid BaXy", "Горничная Бакси"] },
+ 5: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Bivrat", variability_name: ["Bivrat", "Биврат"] },
+ 6: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Blackirita", variability_name: ["Blackirita", "Блэки"] },
+ 7: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Blackiritacup", variability_name: ["Blackiritacup", "Блэки Купальник"] },
+ 8: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Blackiritang", variability_name: ["Blackiritang", "Блэкинг"] },
+ 9: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Blackirite", variability_name: ["Blackirite", "Срань Господня"] },
+ 10: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "BlackPirat", variability_name: ["BlackPirat", "Пиратик", "Пират", "Чёрный Пират"] },
+ 11: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "ChancellorIkseew", variability_name: ["ChancellorIkseew", "Канцлер"] },
+ 12: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "ClintFlames", variability_name: ["ClintFlames", "Clint", "Клинт"] },
+ 13: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Cytrynid", variability_name: ["Cytrynid", "Lemonid", "Desert Cytrynid", "Цитринид", "Пустынный Цитринид", "Лемонид", "Пустынный Лемонид"] },
+ 14: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Daesael", variability_name: ["Daesael"] },
+ 15: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Dalandis", variability_name: ["Dalandis", "Даландис"] },
+ 16: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "dooDUDKA", variability_name: ["dooDUDKA", "Dudka", "Dudochka", "Дудка", "Дудочка"] },
+ 17: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "dunno59", variability_name: ["dunno59", "дуно"] },
+ 18: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "dunno59c", variability_name: ["dunno59c"] },
+ 19: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "dunno69", variability_name: ["dunno69"] },
+ 20: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "EagleRu", variability_name: ["EagleRu", "Вождя", "Игл"] },
+ 21: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "EUGENlJUS", variability_name: ["EUGENlJUS", "Евгениюс"] },
+ 22: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Felgur_Tatum", variability_name: ["Felgur_Tatum", "Felgur", "Фелгур Татум", "Фелгур"] },
+ 23: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "G1eb04k0", variability_name: ["G1eb04k0", "Glebo4ko", "Gleb", "Глебочко", "Глеб"] },
+ 24: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "gerhugwsif", variability_name: ["gerhugwsif", "ger", "Гер"] },
+ 25: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Hazquard", variability_name: ["Hazquard", "Хаз"] },
+ 26: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "HuDreY", variability_name: ["HuDreY"] },
+ 27: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "IronCAT_", variability_name: ["IronCAT_", "IronCAT", "Железный Кот"] },
+ 28: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "ItzClandex", variability_name: ["ItzClandex", "Clandex", "Кландекс"] },
+ 29: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Jean_Viento", variability_name: ["Jean_Viento", "Jean", "Жаник"] },
+ 30: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Pr0sTiK", variability_name: ["Prostik", "Jean Old", "Pr0sTiK", "Простик", "Жан Олд"] },
+ 31: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "_JohngeaR_", variability_name: ["_JohngeaR_", "JohngeaR", "John", "Джонгир", "Джон"] },
+ 32: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "K0hNk_Yt", variability_name: ["KohNk_Yt", "K0hNk", "KohNk"] },
+ 33: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Kermitik", variability_name: ["Kermitik", "Kermit", "Кермитик", "Кермит"] },
+ 34: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Kerubifi", variability_name: ["Kerubifi", "Керубифи"] },
+ 35: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Killermax2012", variability_name: ["Killermax2012", "Killermax", "Киллермакс2012", "Киллермакс"] },
+ 36: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "KIPO4", variability_name: ["KIPO4", "Кипа"] },
+};
+const totem_base_2 = {
+ 37: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Krendilek37", variability_name: ["Krendilek37", "Krendilek", "Крендилёк"] },
+ 38: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Krogut", variability_name: ["Krogut", "Крогут"] },
+ 39: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "kurlykepty", variability_name: ["kurlykepty", "Kurlyk", "Курлык"] },
+ 40: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Li_Ora", variability_name: ["Li_Ora", "Лиора"] },
+ 41: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Lucky_Sword", variability_name: ["Lucky_Sword", "Лаки"] },
+ 42: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Lucky_Sword Imperia", variability_name: ["Lucky_Sword Imperia", "Lucky_Swordi", "Лакии", "Лаки Империя"] },
+ 43: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Lus7", variability_name: ["Lus7", "Lu", "Luseven", "Лу", "Лу Семь"] },
+ 44: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Mad_Chiffa", variability_name: ["Mad_Chiffa", "Chiffa", "Безумный Чиффа", "Чиффа"] },
+ 45: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Matychka", variability_name: ["Matychka", "Матюша"] },
+ 46: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "McQyaid", variability_name: ["McQyaid"] },
+ 47: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "_Mekhanit_", variability_name: ["_Mekhanit_", "Mekhanit", "Механит"] },
+ 48: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Melimops", variability_name: ["Melimops"] },
+ 49: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "mirage3000", variability_name: ["mirage3000", "mirage", "Мираж", "Мираж3000"] },
+ 50: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "MissAnnet", variability_name: ["MissAnnet", "Annet", "МиссАннет", "Аннет"] },
+ 51: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Mr_Green25", variability_name: ["Mr_Green25"] },
+ 52: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Niksa_Viento", variability_name: ["Niksa_Viento", "Niksa", "Никса", "Никс"] },
+ 53: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Niksette", variability_name: ["Niksette", "Niksa Old", "Никсетте", "Никса Олд"] },
+ 54: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "OMNIONI", variability_name: ["OMNIONI"] },
+ 55: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Oxana__", variability_name: ["Oxana__", "Oxana", "Оксана"] },
+ 56: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "PD_LEDER", variability_name: ["PD_LEDER"] },
+ 57: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "prestig9110", variability_name: ["prestig9110", "Престиж"] },
+ 58: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Pure_VesseI", variability_name: ["Pure_VesseI"] },
+ 59: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "roy_frost", variability_name: ["roy_frost", "royfrost", "Рой Фрост", "РойФрост"] },
+ 60: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "SabLi", variability_name: ["SabLi", "Сабля"] },
+ 61: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Sefaa", variability_name: ["Sefaa", "Сефа", "Лёва"] },
+ 62: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "SenSid", variability_name: ["SenSid"] },
+ 63: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "SoftPanda3", variability_name: ["SoftPanda3", "SoftPanda", "Panda", "Панда", "Пандочка"] },
+ 64: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "SoftPanda3c", variability_name: ["SoftPanda3c", "SoftPandac", "Pandac", "Пандас", "Пандочкас"] },
+ 65: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "SoftPanda3ng", variability_name: ["SoftPanda3ng", "SoftPandang", "Pandang", "Панданг", "Пандочканг"] },
+ 66: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "SolyankaXD", variability_name: ["SolyankaXD", "Solyanka", "Soniaka", "Soni4ka", "Солянка", "Соничка"] },
+ 67: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Steinyasha", variability_name: ["Steinyasha", "Stein", "Штейн"] },
+ 68: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "UTKNSS", variability_name: ["UTKNSS", "UTKNS", "Утконос"] },
+ 69: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "VessAy", variability_name: ["VessAy"] },
+ 70: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "VessAyR", variability_name: ["VessAyR", "Грэг"] },
+ 71: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Vio", variability_name: ["Vio", "Вио"] },
+ 72: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Vonderan", variability_name: ["Vonderan", "Vonder", "Вондеран", "Вондер"] },
+};
+const totem_base_3 = {
+ 73: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "wanier680", variability_name: ["wanier680", "wanier"] },
+ 74: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "Wapwolf", variability_name: ["Wapwolf", "ВапВульф"] },
+ 75: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "WiCry", variability_name: ["WiCry", "Вай"] },
+ 76: { main: "TOTEM_OF_UNDYING", info_item: "тотем", material_name: "ytka_sorry_t9", variability_name: ["ytka_sorry_t9", "Ytka", "Утка", "Уточка"] },
 };
 const hats_base = {
  1: { main: "CARVED_PUMPKIN", info_item: "вырезаную тыкву", material_name: "Шляпа лучника", variability_name: ["Шляпа лучника"] },
@@ -159,7 +204,9 @@ const base_food_2 = {
 };
 
 module.exports.fixed_slot_minecraft = fixed_slot_minecraft;
-module.exports.totem_base = totem_base;
+module.exports.totem_base_1 = totem_base_1;
+module.exports.totem_base_2 = totem_base_2;
+module.exports.totem_base_3 = totem_base_3;
 module.exports.hats_base = hats_base;
 module.exports.elytra_base = elytra_base;
 module.exports.drinks_base = drinks_base;

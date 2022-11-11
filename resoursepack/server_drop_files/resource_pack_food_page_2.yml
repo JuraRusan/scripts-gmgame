@@ -3,13 +3,6 @@ register_command: false
 open_command:
   - resourсe_pack_food_page_2
 size: 54
-open_requirement:
-  requirements:
-    permission:
-      type: has permission
-      permission: deluxemenus.default.resourсe_pack_food_page_2.ultra
-      deny_commands:
-        - "[message] &8[&bDeluxe&eMenus&8] &7У вас нет разрешения для этого!"
 items:
   item1:
     material: BLACK_STAINED_GLASS_PANE
@@ -81,7 +74,7 @@ items:
       - " "
       - "&b * &7Страница &a2"
   Unique_name_0:
-    material: COOKED_CHICKEN
+    material: COOKED_MUTTON
     slot: 0
     priority: 1
     update: true
@@ -94,10 +87,10 @@ items:
       - "   &b- &7Burrito"
       - " "
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
-        курятину"
+        баринину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
   Unique_name_1:
-    material: COOKED_MUTTON
+    material: COOKED_PORKCHOP
     slot: 1
     priority: 1
     update: true
@@ -110,10 +103,10 @@ items:
       - "   &b- &7Burrito"
       - " "
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
-        баринину"
+        свинину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
   Unique_name_2:
-    material: COOKED_PORKCHOP
+    material: COOKED_RABBIT
     slot: 2
     priority: 1
     update: true
@@ -126,27 +119,11 @@ items:
       - "   &b- &7Burrito"
       - " "
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
-        свинину"
-      - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_3:
-    material: COOKED_RABBIT
-    slot: 3
-    priority: 1
-    update: true
-    hide_attributes: true
-    display_name: "&bБурито"
-    lore:
-      - " "
-      - "&b * &7Вариативность названий:"
-      - "   &b- &7Бурито"
-      - "   &b- &7Burrito"
-      - " "
-      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
         крольчатину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_4:
+  Unique_name_3:
     material: COOKED_BEEF
-    slot: 4
+    slot: 3
     priority: 1
     update: true
     hide_attributes: true
@@ -159,8 +136,24 @@ items:
       - " "
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aстейк"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_5:
+  Unique_name_4:
     material: COOKED_CHICKEN
+    slot: 4
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bХотдог"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7Хотдог"
+      - "   &b- &7Hotdog"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
+        курятину"
+      - "&r&4[ ! ] &7на соответствующее название из списка"
+  Unique_name_5:
+    material: COOKED_MUTTON
     slot: 5
     priority: 1
     update: true
@@ -173,10 +166,10 @@ items:
       - "   &b- &7Hotdog"
       - " "
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
-        курятину"
+        баринину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
   Unique_name_6:
-    material: COOKED_MUTTON
+    material: COOKED_PORKCHOP
     slot: 6
     priority: 1
     update: true
@@ -189,10 +182,10 @@ items:
       - "   &b- &7Hotdog"
       - " "
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
-        баринину"
+        свинину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
   Unique_name_7:
-    material: COOKED_PORKCHOP
+    material: COOKED_RABBIT
     slot: 7
     priority: 1
     update: true
@@ -205,27 +198,11 @@ items:
       - "   &b- &7Hotdog"
       - " "
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
-        свинину"
-      - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_8:
-    material: COOKED_RABBIT
-    slot: 8
-    priority: 1
-    update: true
-    hide_attributes: true
-    display_name: "&bХотдог"
-    lore:
-      - " "
-      - "&b * &7Вариативность названий:"
-      - "   &b- &7Хотдог"
-      - "   &b- &7Hotdog"
-      - " "
-      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
         крольчатину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_9:
+  Unique_name_8:
     material: COOKED_BEEF
-    slot: 9
+    slot: 8
     priority: 1
     update: true
     hide_attributes: true
@@ -238,8 +215,24 @@ items:
       - " "
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aстейк"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_10:
+  Unique_name_9:
     material: COOKED_CHICKEN
+    slot: 9
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bПицца"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7Пицца"
+      - "   &b- &7Pizza"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
+        курятину"
+      - "&r&4[ ! ] &7на соответствующее название из списка"
+  Unique_name_10:
+    material: COOKED_MUTTON
     slot: 10
     priority: 1
     update: true
@@ -252,10 +245,10 @@ items:
       - "   &b- &7Pizza"
       - " "
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
-        курятину"
+        баринину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
   Unique_name_11:
-    material: COOKED_MUTTON
+    material: COOKED_PORKCHOP
     slot: 11
     priority: 1
     update: true
@@ -268,10 +261,10 @@ items:
       - "   &b- &7Pizza"
       - " "
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
-        баринину"
+        свинину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
   Unique_name_12:
-    material: COOKED_PORKCHOP
+    material: COOKED_RABBIT
     slot: 12
     priority: 1
     update: true
@@ -284,27 +277,11 @@ items:
       - "   &b- &7Pizza"
       - " "
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
-        свинину"
-      - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_13:
-    material: COOKED_RABBIT
-    slot: 13
-    priority: 1
-    update: true
-    hide_attributes: true
-    display_name: "&bПицца"
-    lore:
-      - " "
-      - "&b * &7Вариативность названий:"
-      - "   &b- &7Пицца"
-      - "   &b- &7Pizza"
-      - " "
-      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
         крольчатину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_14:
+  Unique_name_13:
     material: COOKED_BEEF
-    slot: 14
+    slot: 13
     priority: 1
     update: true
     hide_attributes: true
@@ -317,8 +294,24 @@ items:
       - " "
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aстейк"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_15:
+  Unique_name_14:
     material: COOKED_CHICKEN
+    slot: 14
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bСосиска"
+    lore:
+      - " "
+      - "&b * &7Вариативность названий:"
+      - "   &b- &7Сосиска"
+      - "   &b- &7Sausage"
+      - " "
+      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
+        курятину"
+      - "&r&4[ ! ] &7на соответствующее название из списка"
+  Unique_name_15:
+    material: COOKED_MUTTON
     slot: 15
     priority: 1
     update: true
@@ -331,10 +324,10 @@ items:
       - "   &b- &7Sausage"
       - " "
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
-        курятину"
+        баринину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
   Unique_name_16:
-    material: COOKED_MUTTON
+    material: COOKED_PORKCHOP
     slot: 16
     priority: 1
     update: true
@@ -347,27 +340,11 @@ items:
       - "   &b- &7Sausage"
       - " "
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
-        баринину"
-      - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_17:
-    material: COOKED_PORKCHOP
-    slot: 17
-    priority: 1
-    update: true
-    hide_attributes: true
-    display_name: "&bСосиска"
-    lore:
-      - " "
-      - "&b * &7Вариативность названий:"
-      - "   &b- &7Сосиска"
-      - "   &b- &7Sausage"
-      - " "
-      - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
         свинину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_18:
+  Unique_name_17:
     material: COOKED_RABBIT
-    slot: 18
+    slot: 17
     priority: 1
     update: true
     hide_attributes: true
@@ -381,9 +358,9 @@ items:
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
         крольчатину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_19:
+  Unique_name_18:
     material: COOKED_BEEF
-    slot: 19
+    slot: 18
     priority: 1
     update: true
     hide_attributes: true
@@ -396,9 +373,9 @@ items:
       - " "
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aстейк"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_20:
+  Unique_name_19:
     material: COOKED_CHICKEN
-    slot: 20
+    slot: 19
     priority: 1
     update: true
     hide_attributes: true
@@ -412,9 +389,9 @@ items:
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
         курятину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_21:
+  Unique_name_20:
     material: COOKED_MUTTON
-    slot: 21
+    slot: 20
     priority: 1
     update: true
     hide_attributes: true
@@ -428,9 +405,9 @@ items:
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
         баринину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_22:
+  Unique_name_21:
     material: COOKED_PORKCHOP
-    slot: 22
+    slot: 21
     priority: 1
     update: true
     hide_attributes: true
@@ -444,9 +421,9 @@ items:
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
         свинину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_23:
+  Unique_name_22:
     material: COOKED_RABBIT
-    slot: 23
+    slot: 22
     priority: 1
     update: true
     hide_attributes: true
@@ -460,9 +437,9 @@ items:
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
         крольчатину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_24:
+  Unique_name_23:
     material: COOKED_CHICKEN
-    slot: 24
+    slot: 23
     priority: 1
     update: true
     hide_attributes: true
@@ -476,9 +453,9 @@ items:
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aжареную
         курятину"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_25:
+  Unique_name_24:
     material: PUMPKIN_PIE
-    slot: 25
+    slot: 24
     priority: 1
     update: true
     hide_attributes: true
@@ -492,9 +469,9 @@ items:
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aтыквенный
         пирог"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_26:
+  Unique_name_25:
     material: PUMPKIN_PIE
-    slot: 26
+    slot: 25
     priority: 1
     update: true
     hide_attributes: true
@@ -508,9 +485,9 @@ items:
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aтыквенный
         пирог"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_27:
+  Unique_name_26:
     material: PUMPKIN_PIE
-    slot: 27
+    slot: 26
     priority: 1
     update: true
     hide_attributes: true
@@ -524,9 +501,9 @@ items:
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aтыквенный
         пирог"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_28:
+  Unique_name_27:
     material: MUSHROOM_STEW
-    slot: 28
+    slot: 27
     priority: 1
     update: true
     hide_attributes: true
@@ -540,9 +517,9 @@ items:
       - "&r&4[ ! ] &7Для получения скина, Вам нужно переименовать &aтушённые
         грибы"
       - "&r&4[ ! ] &7на соответствующее название из списка"
-  Unique_name_29:
+  Unique_name_28:
     material: MUSHROOM_STEW
-    slot: 29
+    slot: 28
     priority: 1
     update: true
     hide_attributes: true

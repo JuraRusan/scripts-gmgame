@@ -1,0 +1,19 @@
+menu_title: "Магазин"
+register_command: true
+open_command:
+  - shops
+size: 27
+items:
+  "1":
+    material: DEEPSLATE_DIAMOND_ORE
+    slot: 11
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bРуда"
+    left_click_commands:
+      - "[openguimenu] shops_ore "
+    right_click_commands:
+      - "[openguimenu] shops_ore "
+    middle_click_commands:
+      - "[openguimenu] shops_ore "

@@ -1,0 +1,2011 @@
+menu_title: Руды
+register_command: false
+open_command:
+  - shops_ore
+size: 54
+items:
+  item1:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 36
+    hide_attributes: true
+    display_name: " "
+  item2:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 37
+    hide_attributes: true
+    display_name: " "
+  item3:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 38
+    hide_attributes: true
+    display_name: " "
+  item4:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 39
+    hide_attributes: true
+    display_name: " "
+  item5:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 40
+    hide_attributes: true
+    display_name: " "
+  item6:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 41
+    hide_attributes: true
+    display_name: " "
+  item7:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 42
+    hide_attributes: true
+    display_name: " "
+  item8:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 43
+    hide_attributes: true
+    display_name: " "
+  item9:
+    material: BLACK_STAINED_GLASS_PANE
+    slot: 44
+    hide_attributes: true
+    display_name: " "
+  previous:
+    material: SPECTRAL_ARROW
+    slot: 47
+    priority: 1
+    update: true
+    display_name: "&bНазад"
+    left_click_commands:
+      - "[refresh]"
+      - "[openguimenu] main_shops"
+    right_click_commands:
+      - "[refresh]"
+      - "[openguimenu] main_shops"
+    middle_click_commands:
+      - "[refresh]"
+      - "[openguimenu] main_shops"
+  current:
+    material: SUNFLOWER
+    slot: 49
+    priority: 1
+    update: true
+    display_name: "&bТекущая страница"
+    lore:
+      - " "
+      - "&b * &7Страница &a1"
+  Unique_name_0:
+    material: COAL_ORE
+    slot: 0
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bУгольная руда"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a0.028$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a1.76$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a0.025$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a1.60$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.028
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 1.76
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: COAL_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: COAL_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.028"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:coal_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &acoal_ore&7 в количестве 1 за &a0.028$"
+    shift_left_click_commands:
+      - "[takemoney] 1.76"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:coal_ore 64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &acoal_ore&7 в количестве 64 за &a1.76$"
+    right_click_commands:
+      - "[givemoney] 0.025"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:coal_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &acoal_ore&7 в количестве 1 за &a0.025$"
+    shift_right_click_commands:
+      - "[givemoney] 1.60"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:coal_ore 64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &acoal_ore&7 в количестве 64 за &a1.60$"
+  Unique_name_1:
+    material: DEEPSLATE_COAL_ORE
+    slot: 1
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bУгленосный глубинный сланец"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a0.028$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a1.76$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a0.025$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a1.60$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.028
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 1.76
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DEEPSLATE_COAL_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DEEPSLATE_COAL_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.028"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_coal_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adeepslate_coal_ore&7 в количестве 1 за &a0.028$"
+    shift_left_click_commands:
+      - "[takemoney] 1.76"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_coal_ore 64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adeepslate_coal_ore&7 в количестве 64 за &a1.76$"
+    right_click_commands:
+      - "[givemoney] 0.025"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_coal_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adeepslate_coal_ore&7 в количестве 1 за &a0.025$"
+    shift_right_click_commands:
+      - "[givemoney] 1.60"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_coal_ore 64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adeepslate_coal_ore&7 в количестве 64 за &a1.60$"
+  Unique_name_2:
+    material: IRON_ORE
+    slot: 2
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bЖелезная руда"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a0.028$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a1.76$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a0.025$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a1.60$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.028
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 1.76
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: IRON_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: IRON_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.028"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:iron_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &airon_ore&7 в количестве 1 за &a0.028$"
+    shift_left_click_commands:
+      - "[takemoney] 1.76"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:iron_ore 64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &airon_ore&7 в количестве 64 за &a1.76$"
+    right_click_commands:
+      - "[givemoney] 0.025"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:iron_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &airon_ore&7 в количестве 1 за &a0.025$"
+    shift_right_click_commands:
+      - "[givemoney] 1.60"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:iron_ore 64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &airon_ore&7 в количестве 64 за &a1.60$"
+  Unique_name_3:
+    material: DEEPSLATE_IRON_ORE
+    slot: 3
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bЖелезоносный глубинный сланец"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a0.028$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a1.76$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a0.025$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a1.60$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.028
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 1.76
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DEEPSLATE_IRON_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DEEPSLATE_IRON_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.028"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_iron_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adeepslate_iron_ore&7 в количестве 1 за &a0.028$"
+    shift_left_click_commands:
+      - "[takemoney] 1.76"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_iron_ore 64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adeepslate_iron_ore&7 в количестве 64 за &a1.76$"
+    right_click_commands:
+      - "[givemoney] 0.025"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_iron_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adeepslate_iron_ore&7 в количестве 1 за &a0.025$"
+    shift_right_click_commands:
+      - "[givemoney] 1.60"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_iron_ore 64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adeepslate_iron_ore&7 в количестве 64 за &a1.60$"
+  Unique_name_4:
+    material: COPPER_ORE
+    slot: 4
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bМедная руда"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a0.055$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a3.52$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a0.05$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a3.20$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.055
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 3.52
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: COPPER_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: COPPER_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.055"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:copper_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &acopper_ore&7 в количестве 1 за &a0.055$"
+    shift_left_click_commands:
+      - "[takemoney] 3.52"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:copper_ore 64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &acopper_ore&7 в количестве 64 за &a3.52$"
+    right_click_commands:
+      - "[givemoney] 0.05"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:copper_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &acopper_ore&7 в количестве 1 за &a0.05$"
+    shift_right_click_commands:
+      - "[givemoney] 3.20"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:copper_ore 64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &acopper_ore&7 в количестве 64 за &a3.20$"
+  Unique_name_5:
+    material: DEEPSLATE_COPPER_ORE
+    slot: 5
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bМеденосный глубинный сланец"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a0.055$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a3.52$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a0.05$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a3.20$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.055
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 3.52
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DEEPSLATE_COPPER_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DEEPSLATE_COPPER_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.055"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_copper_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adeepslate_copper_ore&7 в количестве 1 за &a0.055$"
+    shift_left_click_commands:
+      - "[takemoney] 3.52"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_copper_ore
+        64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adeepslate_copper_ore&7 в количестве 64 за &a3.52$"
+    right_click_commands:
+      - "[givemoney] 0.05"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_copper_ore
+        1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adeepslate_copper_ore&7 в количестве 1 за &a0.05$"
+    shift_right_click_commands:
+      - "[givemoney] 3.20"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_copper_ore
+        64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adeepslate_copper_ore&7 в количестве 64 за &a3.20$"
+  Unique_name_6:
+    material: REDSTONE_ORE
+    slot: 6
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bРедстоуновая руда"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a0.055$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a3.52$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a0.05$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a3.20$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.055
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 3.52
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: REDSTONE_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: REDSTONE_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.055"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:redstone_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &aredstone_ore&7 в количестве 1 за &a0.055$"
+    shift_left_click_commands:
+      - "[takemoney] 3.52"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:redstone_ore 64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &aredstone_ore&7 в количестве 64 за &a3.52$"
+    right_click_commands:
+      - "[givemoney] 0.05"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:redstone_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &aredstone_ore&7 в количестве 1 за &a0.05$"
+    shift_right_click_commands:
+      - "[givemoney] 3.20"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:redstone_ore 64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &aredstone_ore&7 в количестве 64 за &a3.20$"
+  Unique_name_7:
+    material: DEEPSLATE_REDSTONE_ORE
+    slot: 7
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bРедстоуноносный глубинный сланец"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a0.055$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a3.52$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a0.05$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a3.20$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.055
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 3.52
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DEEPSLATE_REDSTONE_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DEEPSLATE_REDSTONE_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.055"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_redstone_ore
+        1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adeepslate_redstone_ore&7 в количестве 1 за &a0.055$"
+    shift_left_click_commands:
+      - "[takemoney] 3.52"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_redstone_ore
+        64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adeepslate_redstone_ore&7 в количестве 64 за &a3.52$"
+    right_click_commands:
+      - "[givemoney] 0.05"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name%
+        minecraft:deepslate_redstone_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adeepslate_redstone_ore&7 в количестве 1 за &a0.05$"
+    shift_right_click_commands:
+      - "[givemoney] 3.20"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name%
+        minecraft:deepslate_redstone_ore 64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adeepslate_redstone_ore&7 в количестве 64 за &a3.20$"
+  Unique_name_8:
+    material: GOLD_ORE
+    slot: 8
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bЗолотая руда"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a0.11$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a7.04$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a0.10$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a6.40$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.11
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 7.04
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: GOLD_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: GOLD_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.11"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:gold_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &agold_ore&7 в количестве 1 за &a0.11$"
+    shift_left_click_commands:
+      - "[takemoney] 7.04"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:gold_ore 64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &agold_ore&7 в количестве 64 за &a7.04$"
+    right_click_commands:
+      - "[givemoney] 0.10"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:gold_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &agold_ore&7 в количестве 1 за &a0.10$"
+    shift_right_click_commands:
+      - "[givemoney] 6.40"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:gold_ore 64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &agold_ore&7 в количестве 64 за &a6.40$"
+  Unique_name_9:
+    material: DEEPSLATE_GOLD_ORE
+    slot: 9
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bЗолотоносный глубинный сланец"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a0.11$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a7.04$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a0.10$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a6.40$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.11
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 7.04
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DEEPSLATE_GOLD_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DEEPSLATE_GOLD_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.11"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_gold_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adeepslate_gold_ore&7 в количестве 1 за &a0.11$"
+    shift_left_click_commands:
+      - "[takemoney] 7.04"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_gold_ore 64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adeepslate_gold_ore&7 в количестве 64 за &a7.04$"
+    right_click_commands:
+      - "[givemoney] 0.10"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_gold_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adeepslate_gold_ore&7 в количестве 1 за &a0.10$"
+    shift_right_click_commands:
+      - "[givemoney] 6.40"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_gold_ore 64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adeepslate_gold_ore&7 в количестве 64 за &a6.40$"
+  Unique_name_10:
+    material: LAPIS_ORE
+    slot: 10
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bЛазуритовая руда"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a0.275$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a17.60$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a0.25$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a16.00$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.275
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 17.6
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: LAPIS_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: LAPIS_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.275"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:lapis_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &alapis_ore&7 в количестве 1 за &a0.275$"
+    shift_left_click_commands:
+      - "[takemoney] 17.60"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:lapis_ore 64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &alapis_ore&7 в количестве 64 за &a17.60$"
+    right_click_commands:
+      - "[givemoney] 0.25"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:lapis_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &alapis_ore&7 в количестве 1 за &a0.25$"
+    shift_right_click_commands:
+      - "[givemoney] 16.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:lapis_ore 64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &alapis_ore&7 в количестве 64 за &a16.00$"
+  Unique_name_11:
+    material: DEEPSLATE_LAPIS_ORE
+    slot: 11
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bЛазуритоносный глубинный сланец"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a0.275$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a17.60$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a0.25$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a16.00$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.275
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 17.6
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DEEPSLATE_LAPIS_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DEEPSLATE_LAPIS_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.275"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_lapis_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adeepslate_lapis_ore&7 в количестве 1 за &a0.275$"
+    shift_left_click_commands:
+      - "[takemoney] 17.60"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_lapis_ore 64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adeepslate_lapis_ore&7 в количестве 64 за &a17.60$"
+    right_click_commands:
+      - "[givemoney] 0.25"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_lapis_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adeepslate_lapis_ore&7 в количестве 1 за &a0.25$"
+    shift_right_click_commands:
+      - "[givemoney] 16.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_lapis_ore
+        64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adeepslate_lapis_ore&7 в количестве 64 за &a16.00$"
+  Unique_name_12:
+    material: DIAMOND_ORE
+    slot: 12
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bАлмазная руда"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a1.10$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a70.40$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a1.00$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a64.00$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 1.1
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 70.4
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DIAMOND_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DIAMOND_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 1.10"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:diamond_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adiamond_ore&7 в количестве 1 за &a1.10$"
+    shift_left_click_commands:
+      - "[takemoney] 70.40"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:diamond_ore 64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adiamond_ore&7 в количестве 64 за &a70.40$"
+    right_click_commands:
+      - "[givemoney] 1.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:diamond_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adiamond_ore&7 в количестве 1 за &a1.00$"
+    shift_right_click_commands:
+      - "[givemoney] 64.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:diamond_ore 64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adiamond_ore&7 в количестве 64 за &a64.00$"
+  Unique_name_13:
+    material: DEEPSLATE_DIAMOND_ORE
+    slot: 13
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bАлмазоносный глубинный сланец"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a1.10$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a70.40$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a1.00$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a64.00$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 1.1
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 70.4
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DEEPSLATE_DIAMOND_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DEEPSLATE_DIAMOND_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 1.10"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_diamond_ore
+        1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adeepslate_diamond_ore&7 в количестве 1 за &a1.10$"
+    shift_left_click_commands:
+      - "[takemoney] 70.40"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_diamond_ore
+        64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adeepslate_diamond_ore&7 в количестве 64 за &a70.40$"
+    right_click_commands:
+      - "[givemoney] 1.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_diamond_ore
+        1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adeepslate_diamond_ore&7 в количестве 1 за &a1.00$"
+    shift_right_click_commands:
+      - "[givemoney] 64.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_diamond_ore
+        64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adeepslate_diamond_ore&7 в количестве 64 за &a64.00$"
+  Unique_name_14:
+    material: EMERALD_ORE
+    slot: 14
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bИзумрудная руда"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a2.20$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a140.80$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a2.00$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a128.00$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 2.2
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 140.8
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: EMERALD_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: EMERALD_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 2.20"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:emerald_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &aemerald_ore&7 в количестве 1 за &a2.20$"
+    shift_left_click_commands:
+      - "[takemoney] 140.80"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:emerald_ore 64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &aemerald_ore&7 в количестве 64 за &a140.80$"
+    right_click_commands:
+      - "[givemoney] 2.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:emerald_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &aemerald_ore&7 в количестве 1 за &a2.00$"
+    shift_right_click_commands:
+      - "[givemoney] 128.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:emerald_ore 64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &aemerald_ore&7 в количестве 64 за &a128.00$"
+  Unique_name_15:
+    material: DEEPSLATE_EMERALD_ORE
+    slot: 15
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bИзумрудоносный глубинный сланец"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a2.20$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a140.80$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a2.00$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a128.00$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 2.2
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 140.8
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DEEPSLATE_EMERALD_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: DEEPSLATE_EMERALD_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 2.20"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_emerald_ore
+        1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adeepslate_emerald_ore&7 в количестве 1 за &a2.20$"
+    shift_left_click_commands:
+      - "[takemoney] 140.80"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_emerald_ore
+        64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &adeepslate_emerald_ore&7 в количестве 64 за &a140.80$"
+    right_click_commands:
+      - "[givemoney] 2.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_emerald_ore
+        1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adeepslate_emerald_ore&7 в количестве 1 за &a2.00$"
+    shift_right_click_commands:
+      - "[givemoney] 128.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_emerald_ore
+        64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &adeepslate_emerald_ore&7 в количестве 64 за &a128.00$"
+  Unique_name_16:
+    material: NETHER_QUARTZ_ORE
+    slot: 16
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bНезер-кварцевая руда"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a0.055$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a3.52$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a0.05$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a3.20$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.055
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 3.52
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: NETHER_QUARTZ_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: NETHER_QUARTZ_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.055"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:nether_quartz_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &anether_quartz_ore&7 в количестве 1 за &a0.055$"
+    shift_left_click_commands:
+      - "[takemoney] 3.52"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:nether_quartz_ore 64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &anether_quartz_ore&7 в количестве 64 за &a3.52$"
+    right_click_commands:
+      - "[givemoney] 0.05"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:nether_quartz_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &anether_quartz_ore&7 в количестве 1 за &a0.05$"
+    shift_right_click_commands:
+      - "[givemoney] 3.20"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:nether_quartz_ore 64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &anether_quartz_ore&7 в количестве 64 за &a3.20$"
+  Unique_name_17:
+    material: NETHER_GOLD_ORE
+    slot: 17
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bНезерская золотая руда"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a0.11$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a7.04$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a0.10$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a6.40$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.11
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 7.04
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: NETHER_GOLD_ORE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: NETHER_GOLD_ORE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.11"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:nether_gold_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &anether_gold_ore&7 в количестве 1 за &a0.11$"
+    shift_left_click_commands:
+      - "[takemoney] 7.04"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:nether_gold_ore 64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &anether_gold_ore&7 в количестве 64 за &a7.04$"
+    right_click_commands:
+      - "[givemoney] 0.10"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:nether_gold_ore 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &anether_gold_ore&7 в количестве 1 за &a0.10$"
+    shift_right_click_commands:
+      - "[givemoney] 6.40"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:nether_gold_ore 64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &anether_gold_ore&7 в количестве 64 за &a6.40$"
+  Unique_name_18:
+    material: ANCIENT_DEBRIS
+    slot: 18
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bДревние обломки"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a2.75$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a176.00$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a2.50$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a160.00$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 2.75
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 176
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: ANCIENT_DEBRIS
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: ANCIENT_DEBRIS
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 2.75"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:ancient_debris 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &aancient_debris&7 в количестве 1 за &a2.75$"
+    shift_left_click_commands:
+      - "[takemoney] 176.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:ancient_debris 64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &aancient_debris&7 в количестве 64 за &a176.00$"
+    right_click_commands:
+      - "[givemoney] 2.50"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:ancient_debris 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &aancient_debris&7 в количестве 1 за &a2.50$"
+    shift_right_click_commands:
+      - "[givemoney] 160.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:ancient_debris 64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &aancient_debris&7 в количестве 64 за &a160.00$"
+  Unique_name_19:
+    material: GILDED_BLACKSTONE
+    slot: 19
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bЗолочёный чернит"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a1.65$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a105.60$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a1.50$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a96.00$"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
+        стака"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
+        стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 1.65
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 105.6
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: GILDED_BLACKSTONE
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: GILDED_BLACKSTONE
+          amount: 64
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+              предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 1.65"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:gilded_blackstone 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &agilded_blackstone&7 в количестве 1 за &a1.65$"
+    shift_left_click_commands:
+      - "[takemoney] 105.60"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:gilded_blackstone 64"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар &agilded_blackstone&7 в количестве 64 за &a105.60$"
+    right_click_commands:
+      - "[givemoney] 1.50"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:gilded_blackstone 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &agilded_blackstone&7 в количестве 1 за &a1.50$"
+    shift_right_click_commands:
+      - "[givemoney] 96.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[console] minecraft:clear %player_name% minecraft:gilded_blackstone 64"
+      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &agilded_blackstone&7 в количестве 64 за &a96.00$"

@@ -5,17 +5,6 @@
     "resourсe_pack_food_page_2"
   ],
   "size": 54,
-  "open_requirement": {
-    "requirements": {
-      "permission": {
-        "type": "has permission",
-        "permission": "deluxemenus.default.resourсe_pack_food_page_2.ultra",
-        "deny_commands": [
-          "[message] &8[&bDeluxe&eMenus&8] &7У вас нет разрешения для этого!"
-        ]
-      }
-    }
-  },
   "items": {
     "item1": {
       "material": "BLACK_STAINED_GLASS_PANE",
