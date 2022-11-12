@@ -112,7 +112,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
             "[refresh]",
             "[message] &bМагазин &9| &7Вы успешно продали этот товар!",
             `[console] minecraft:clear %player_name% minecraft:${itemShopsName.console_name} 64`,
-            `[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал товар &a${itemShopsName.console_name}&7 в количестве 64 за &a${amountStackFormat}$`
+            `[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал товар &a${itemShopsName.console_name}&7 в количестве 64 за &a${amountStackFormat}$`
         ],
     }
     i++;
