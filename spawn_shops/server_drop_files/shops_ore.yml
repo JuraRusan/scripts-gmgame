@@ -4,51 +4,18 @@ open_command:
   - shops_ore
 size: 54
 items:
-  item1:
+  filler_item:
     material: BLACK_STAINED_GLASS_PANE
-    slot: 36
-    hide_attributes: true
-    display_name: " "
-  item2:
-    material: BLACK_STAINED_GLASS_PANE
-    slot: 37
-    hide_attributes: true
-    display_name: " "
-  item3:
-    material: BLACK_STAINED_GLASS_PANE
-    slot: 38
-    hide_attributes: true
-    display_name: " "
-  item4:
-    material: BLACK_STAINED_GLASS_PANE
-    slot: 39
-    hide_attributes: true
-    display_name: " "
-  item5:
-    material: BLACK_STAINED_GLASS_PANE
-    slot: 40
-    hide_attributes: true
-    display_name: " "
-  item6:
-    material: BLACK_STAINED_GLASS_PANE
-    slot: 41
-    hide_attributes: true
-    display_name: " "
-  item7:
-    material: BLACK_STAINED_GLASS_PANE
-    slot: 42
-    hide_attributes: true
-    display_name: " "
-  item8:
-    material: BLACK_STAINED_GLASS_PANE
-    slot: 43
-    hide_attributes: true
-    display_name: " "
-  item9:
-    material: BLACK_STAINED_GLASS_PANE
-    slot: 44
-    hide_attributes: true
-    display_name: " "
+    slots:
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
   previous:
     material: SPECTRAL_ARROW
     slot: 47
@@ -167,7 +134,7 @@ items:
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:coal_ore 64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &acoal_ore&7 в количестве 64 за &a1.60$"
   Unique_name_1:
     material: DEEPSLATE_COAL_ORE
@@ -263,7 +230,7 @@ items:
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:deepslate_coal_ore 64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &adeepslate_coal_ore&7 в количестве 64 за &a1.60$"
   Unique_name_2:
     material: IRON_ORE
@@ -359,7 +326,7 @@ items:
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:iron_ore 64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &airon_ore&7 в количестве 64 за &a1.60$"
   Unique_name_3:
     material: DEEPSLATE_IRON_ORE
@@ -455,7 +422,7 @@ items:
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:deepslate_iron_ore 64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &adeepslate_iron_ore&7 в количестве 64 за &a1.60$"
   Unique_name_4:
     material: COPPER_ORE
@@ -551,7 +518,7 @@ items:
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:copper_ore 64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &acopper_ore&7 в количестве 64 за &a3.20$"
   Unique_name_5:
     material: DEEPSLATE_COPPER_ORE
@@ -650,7 +617,7 @@ items:
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:deepslate_copper_ore
         64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &adeepslate_copper_ore&7 в количестве 64 за &a3.20$"
   Unique_name_6:
     material: REDSTONE_ORE
@@ -746,7 +713,7 @@ items:
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:redstone_ore 64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &aredstone_ore&7 в количестве 64 за &a3.20$"
   Unique_name_7:
     material: DEEPSLATE_REDSTONE_ORE
@@ -846,7 +813,7 @@ items:
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name%
         minecraft:deepslate_redstone_ore 64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &adeepslate_redstone_ore&7 в количестве 64 за &a3.20$"
   Unique_name_8:
     material: GOLD_ORE
@@ -942,7 +909,7 @@ items:
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:gold_ore 64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &agold_ore&7 в количестве 64 за &a6.40$"
   Unique_name_9:
     material: DEEPSLATE_GOLD_ORE
@@ -1038,7 +1005,7 @@ items:
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:deepslate_gold_ore 64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &adeepslate_gold_ore&7 в количестве 64 за &a6.40$"
   Unique_name_10:
     material: LAPIS_ORE
@@ -1134,7 +1101,7 @@ items:
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:lapis_ore 64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &alapis_ore&7 в количестве 64 за &a16.00$"
   Unique_name_11:
     material: DEEPSLATE_LAPIS_ORE
@@ -1231,7 +1198,7 @@ items:
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:deepslate_lapis_ore
         64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &adeepslate_lapis_ore&7 в количестве 64 за &a16.00$"
   Unique_name_12:
     material: DIAMOND_ORE
@@ -1327,7 +1294,7 @@ items:
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:diamond_ore 64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &adiamond_ore&7 в количестве 64 за &a64.00$"
   Unique_name_13:
     material: DEEPSLATE_DIAMOND_ORE
@@ -1427,7 +1394,7 @@ items:
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:deepslate_diamond_ore
         64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &adeepslate_diamond_ore&7 в количестве 64 за &a64.00$"
   Unique_name_14:
     material: EMERALD_ORE
@@ -1523,7 +1490,7 @@ items:
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:emerald_ore 64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &aemerald_ore&7 в количестве 64 за &a128.00$"
   Unique_name_15:
     material: DEEPSLATE_EMERALD_ORE
@@ -1623,7 +1590,7 @@ items:
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:deepslate_emerald_ore
         64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &adeepslate_emerald_ore&7 в количестве 64 за &a128.00$"
   Unique_name_16:
     material: NETHER_QUARTZ_ORE
@@ -1719,7 +1686,7 @@ items:
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:nether_quartz_ore 64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &anether_quartz_ore&7 в количестве 64 за &a3.20$"
   Unique_name_17:
     material: NETHER_GOLD_ORE
@@ -1815,7 +1782,7 @@ items:
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:nether_gold_ore 64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &anether_gold_ore&7 в количестве 64 за &a6.40$"
   Unique_name_18:
     material: ANCIENT_DEBRIS
@@ -1911,7 +1878,7 @@ items:
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:ancient_debris 64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &aancient_debris&7 в количестве 64 за &a160.00$"
   Unique_name_19:
     material: GILDED_BLACKSTONE
@@ -1922,10 +1889,10 @@ items:
     display_name: "&bЗолочёный чернит"
     lore:
       - " "
-      - "&b * &7Игрок покупает - цена за 1 единицу: &a1.65$"
-      - "&b * &7Игрок покупает - цена за 1 стак: &a105.60$"
-      - "&b * &7Игрок продает - цена за 1 единицу: &a1.50$"
-      - "&b * &7Игрок продает - цена за 1 стак: &a96.00$"
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a1.375$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a88.00$"
+      - "&b * &7Игрок продает - цена за 1 единицу: &a1.25$"
+      - "&b * &7Игрок продает - цена за 1 стак: &a80.00$"
       - " "
       - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
       - " "
@@ -1937,7 +1904,7 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 1.65
+          amount: 1.375
           deny_commands:
             - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
               этого предмета!"
@@ -1952,7 +1919,7 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 105.6
+          amount: 88
           deny_commands:
             - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
               этого предмета!"
@@ -1982,30 +1949,30 @@ items:
             - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
               предметов для продажи!"
     left_click_commands:
-      - "[takemoney] 1.65"
+      - "[takemoney] 1.375"
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name% minecraft:gilded_blackstone 1"
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар &agilded_blackstone&7 в количестве 1 за &a1.65$"
+        товар &agilded_blackstone&7 в количестве 1 за &a1.375$"
     shift_left_click_commands:
-      - "[takemoney] 105.60"
+      - "[takemoney] 88.00"
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name% minecraft:gilded_blackstone 64"
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар &agilded_blackstone&7 в количестве 64 за &a105.60$"
+        товар &agilded_blackstone&7 в количестве 64 за &a88.00$"
     right_click_commands:
-      - "[givemoney] 1.50"
+      - "[givemoney] 1.25"
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:gilded_blackstone 1"
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
-        товар &agilded_blackstone&7 в количестве 1 за &a1.50$"
+        товар &agilded_blackstone&7 в количестве 1 за &a1.25$"
     shift_right_click_commands:
-      - "[givemoney] 96.00"
+      - "[givemoney] 80.00"
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:gilded_blackstone 64"
-      - "[console] staffmsg &&bМагазин &9| &7Игрок %player_name% успешно сдал
-        товар &agilded_blackstone&7 в количестве 64 за &a96.00$"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
+        товар &agilded_blackstone&7 в количестве 64 за &a80.00$"

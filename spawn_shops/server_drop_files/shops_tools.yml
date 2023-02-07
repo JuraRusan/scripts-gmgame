@@ -1,0 +1,1617 @@
+menu_title: Инструменты
+register_command: false
+open_command:
+  - shops_tools
+size: 54
+items:
+  filler_item:
+    material: BLACK_STAINED_GLASS_PANE
+    slots:
+      - 36
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+      - 44
+  previous:
+    material: SPECTRAL_ARROW
+    slot: 47
+    priority: 1
+    update: true
+    display_name: "&bНазад"
+    left_click_commands:
+      - "[refresh]"
+      - "[openguimenu] main_shops"
+    right_click_commands:
+      - "[refresh]"
+      - "[openguimenu] main_shops"
+    middle_click_commands:
+      - "[refresh]"
+      - "[openguimenu] main_shops"
+  current:
+    material: SUNFLOWER
+    slot: 49
+    priority: 1
+    update: true
+    display_name: "&bТекущая страница"
+    lore:
+      - " "
+      - "&b * &7Страница &a1"
+  Unique_name_0:
+    material: NETHERITE_PICKAXE
+    slot: 0
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовая кирка"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a150.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Эффективность 5"
+      - "   &b- &7Починка"
+      - "   &b- &7Шёлковое касание"
+      - "   &b- &7Прочность 4"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 150
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 150.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_pickaxe{Enchantments:[{id:efficiency,lvl:5},{id:men\
+        ding,lvl:1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:4}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_pickaxe{Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl\
+        :1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
+        &a150.00$"
+  Unique_name_1:
+    material: NETHERITE_PICKAXE
+    slot: 1
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовая кирка"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a300.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Эффективность 5"
+      - "   &b- &7Починка"
+      - "   &b- &7Удача 4"
+      - "   &b- &7Прочность 4"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 300
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 300.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_pickaxe{Enchantments:[{id:efficiency,lvl:5},{id:men\
+        ding,lvl:1},{id:fortune,lvl:4},{id:unbreaking,lvl:4}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_pickaxe{Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl\
+        :1},{id:fortune,lvl:4},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
+        &a300.00$"
+  Unique_name_2:
+    material: NETHERITE_AXE
+    slot: 2
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовый топор"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a150.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Эффективность 5"
+      - "   &b- &7Починка"
+      - "   &b- &7Шёлковое касание"
+      - "   &b- &7Прочность 4"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 150
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 150.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_axe{Enchantments:[{id:efficiency,lvl:5},{id:mending\
+        ,lvl:1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:4}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_axe{Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl:1},\
+        {id:silk_touch,lvl:1},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
+        &a150.00$"
+  Unique_name_3:
+    material: NETHERITE_AXE
+    slot: 3
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовый топор"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a300.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Эффективность 5"
+      - "   &b- &7Починка"
+      - "   &b- &7Удача 4"
+      - "   &b- &7Прочность 4"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 300
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 300.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_axe{Enchantments:[{id:efficiency,lvl:5},{id:mending\
+        ,lvl:1},{id:fortune,lvl:4},{id:unbreaking,lvl:4}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_axe{Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl:1},\
+        {id:fortune,lvl:4},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
+        &a300.00$"
+  Unique_name_4:
+    material: NETHERITE_SHOVEL
+    slot: 4
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовая лопата"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a150.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Эффективность 5"
+      - "   &b- &7Починка"
+      - "   &b- &7Шёлковое касание"
+      - "   &b- &7Прочность 4"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 150
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 150.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_shovel{Enchantments:[{id:efficiency,lvl:5},{id:mend\
+        ing,lvl:1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:4}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_shovel{Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl:\
+        1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
+        &a150.00$"
+  Unique_name_5:
+    material: NETHERITE_SHOVEL
+    slot: 5
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовая лопата"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a300.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Эффективность 5"
+      - "   &b- &7Починка"
+      - "   &b- &7Удача 4"
+      - "   &b- &7Прочность 4"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 300
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 300.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_shovel{Enchantments:[{id:efficiency,lvl:5},{id:mend\
+        ing,lvl:1},{id:fortune,lvl:4},{id:unbreaking,lvl:4}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_shovel{Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl:\
+        1},{id:fortune,lvl:4},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
+        &a300.00$"
+  Unique_name_6:
+    material: NETHERITE_HOE
+    slot: 6
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовая мотыга"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a150.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Эффективность 5"
+      - "   &b- &7Починка"
+      - "   &b- &7Шёлковое касание"
+      - "   &b- &7Прочность 4"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 150
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 150.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_hoe{Enchantments:[{id:efficiency,lvl:5},{id:mending\
+        ,lvl:1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:4}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_hoe{Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl:1},\
+        {id:silk_touch,lvl:1},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
+        &a150.00$"
+  Unique_name_7:
+    material: NETHERITE_HOE
+    slot: 7
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовая мотыга"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a300.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Эффективность 5"
+      - "   &b- &7Починка"
+      - "   &b- &7Удача 4"
+      - "   &b- &7Прочность 4"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 300
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 300.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_hoe{Enchantments:[{id:efficiency,lvl:5},{id:mending\
+        ,lvl:1},{id:fortune,lvl:4},{id:unbreaking,lvl:4}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_hoe{Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl:1},\
+        {id:fortune,lvl:4},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
+        &a300.00$"
+  Unique_name_8:
+    material: NETHERITE_SWORD
+    slot: 8
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовый меч"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a350.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Прочность 4"
+      - "   &b- &7Разящий клинок 3"
+      - "   &b- &7Добыча 3"
+      - "   &b- &7Заговор огня 2"
+      - "   &b- &7Небесная кара 6"
+      - "   &b- &7Отдача 2"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 350
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 350.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaki\
+        ng,lvl:4},{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2}\
+        ,{id:smite,lvl:6},{id:knockback,lvl:2}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
+        },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2},{id:smi\
+        te,lvl:6},{id:knockback,lvl:2}]}&7 в количестве 1 за &a350.00$"
+  Unique_name_9:
+    material: NETHERITE_SWORD
+    slot: 9
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовый меч"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a350.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Прочность 4"
+      - "   &b- &7Разящий клинок 3"
+      - "   &b- &7Добыча 3"
+      - "   &b- &7Заговор огня 2"
+      - "   &b- &7Небесная кара 6"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 350
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 350.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaki\
+        ng,lvl:4},{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2}\
+        ,{id:smite,lvl:6}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
+        },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2},{id:smi\
+        te,lvl:6}]}&7 в количестве 1 за &a350.00$"
+  Unique_name_10:
+    material: NETHERITE_SWORD
+    slot: 10
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовый меч"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a350.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Прочность 4"
+      - "   &b- &7Разящий клинок 3"
+      - "   &b- &7Добыча 3"
+      - "   &b- &7Небесная кара 6"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 350
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 350.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaki\
+        ng,lvl:4},{id:sweeping,lvl:3},{id:looting,lvl:3},{id:smite,lvl:6}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
+        },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:smite,lvl:6}]}&7 в
+        количестве 1 за &a350.00$"
+  Unique_name_11:
+    material: NETHERITE_SWORD
+    slot: 11
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовый меч"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a350.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Прочность 4"
+      - "   &b- &7Разящий клинок 3"
+      - "   &b- &7Добыча 3"
+      - "   &b- &7Небесная кара 6"
+      - "   &b- &7Отдача 2"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 350
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 350.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaki\
+        ng,lvl:4},{id:sweeping,lvl:3},{id:looting,lvl:3},{id:smite,lvl:6},{id:k\
+        nockback,lvl:2}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
+        },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:smite,lvl:6},{id:knockback\
+        ,lvl:2}]}&7 в количестве 1 за &a350.00$"
+  Unique_name_12:
+    material: NETHERITE_SWORD
+    slot: 12
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовый меч"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a350.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Прочность 4"
+      - "   &b- &7Разящий клинок 3"
+      - "   &b- &7Добыча 3"
+      - "   &b- &7Заговор огня 2"
+      - "   &b- &7Острота 6"
+      - "   &b- &7Отдача 2"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 350
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 350.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaki\
+        ng,lvl:4},{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2}\
+        ,{id:sharpness,lvl:6},{id:knockback,lvl:2}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
+        },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2},{id:sha\
+        rpness,lvl:6},{id:knockback,lvl:2}]}&7 в количестве 1 за &a350.00$"
+  Unique_name_13:
+    material: NETHERITE_SWORD
+    slot: 13
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовый меч"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a350.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Прочность 4"
+      - "   &b- &7Разящий клинок 3"
+      - "   &b- &7Добыча 3"
+      - "   &b- &7Заговор огня 2"
+      - "   &b- &7Острота 6"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 350
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 350.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaki\
+        ng,lvl:4},{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2}\
+        ,{id:sharpness,lvl:6}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
+        },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2},{id:sha\
+        rpness,lvl:6}]}&7 в количестве 1 за &a350.00$"
+  Unique_name_14:
+    material: NETHERITE_SWORD
+    slot: 14
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовый меч"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a350.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Прочность 4"
+      - "   &b- &7Разящий клинок 3"
+      - "   &b- &7Добыча 3"
+      - "   &b- &7Острота 6"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 350
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 350.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaki\
+        ng,lvl:4},{id:sweeping,lvl:3},{id:looting,lvl:3},{id:sharpness,lvl:6}]}
+        1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
+        },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:sharpness,lvl:6}]}&7 в
+        количестве 1 за &a350.00$"
+  Unique_name_15:
+    material: NETHERITE_SWORD
+    slot: 15
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовый меч"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a350.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Прочность 4"
+      - "   &b- &7Разящий клинок 3"
+      - "   &b- &7Добыча 3"
+      - "   &b- &7Острота 6"
+      - "   &b- &7Отдача 2"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 350
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 350.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaki\
+        ng,lvl:4},{id:sweeping,lvl:3},{id:looting,lvl:3},{id:sharpness,lvl:6},{\
+        id:knockback,lvl:2}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
+        },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:sharpness,lvl:6},{id:knock\
+        back,lvl:2}]}&7 в количестве 1 за &a350.00$"
+  Unique_name_16:
+    material: NETHERITE_SWORD
+    slot: 16
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовый меч"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a350.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Прочность 4"
+      - "   &b- &7Разящий клинок 3"
+      - "   &b- &7Добыча 3"
+      - "   &b- &7Заговор огня 2"
+      - "   &b- &7Бич членистоногих 6"
+      - "   &b- &7Отдача 2"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 350
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 350.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaki\
+        ng,lvl:4},{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2}\
+        ,{id:bane_of_arthropods,lvl:6},{id:knockback,lvl:2}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
+        },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2},{id:ban\
+        e_of_arthropods,lvl:6},{id:knockback,lvl:2}]}&7 в количестве 1 за
+        &a350.00$"
+  Unique_name_17:
+    material: NETHERITE_SWORD
+    slot: 17
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовый меч"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a350.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Прочность 4"
+      - "   &b- &7Разящий клинок 3"
+      - "   &b- &7Добыча 3"
+      - "   &b- &7Заговор огня 2"
+      - "   &b- &7Бич членистоногих 6"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 350
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 350.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaki\
+        ng,lvl:4},{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2}\
+        ,{id:bane_of_arthropods,lvl:6}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
+        },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2},{id:ban\
+        e_of_arthropods,lvl:6}]}&7 в количестве 1 за &a350.00$"
+  Unique_name_18:
+    material: NETHERITE_SWORD
+    slot: 18
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовый меч"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a350.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Прочность 4"
+      - "   &b- &7Разящий клинок 3"
+      - "   &b- &7Добыча 3"
+      - "   &b- &7Бич членистоногих 6"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 350
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 350.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaki\
+        ng,lvl:4},{id:sweeping,lvl:3},{id:looting,lvl:3},{id:bane_of_arthropods\
+        ,lvl:6}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
+        },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:bane_of_arthropods,lvl:6}]\
+        }&7 в количестве 1 за &a350.00$"
+  Unique_name_19:
+    material: NETHERITE_SWORD
+    slot: 19
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНезеритовый меч"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a350.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Прочность 4"
+      - "   &b- &7Разящий клинок 3"
+      - "   &b- &7Добыча 3"
+      - "   &b- &7Бич членистоногих 6"
+      - "   &b- &7Отдача 2"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 350
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 350.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:netherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaki\
+        ng,lvl:4},{id:sweeping,lvl:3},{id:looting,lvl:3},{id:bane_of_arthropods\
+        ,lvl:6},{id:knockback,lvl:2}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
+        },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:bane_of_arthropods,lvl:6},\
+        {id:knockback,lvl:2}]}&7 в количестве 1 за &a350.00$"
+  Unique_name_20:
+    material: BOW
+    slot: 20
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bЛук"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a300.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Воспламенение"
+      - "   &b- &7Починка"
+      - "   &b- &7Сила 6"
+      - "   &b- &7Откидывание 2"
+      - "   &b- &7Прочность 4"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 300
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 300.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:bow{Enchantments:[{id:flame,lvl:1},{id:mending,lvl:1},{id:pow\
+        er,lvl:6},{id:punch,lvl:2},{id:unbreaking,lvl:4}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &abow{Enchantments:[{id:flame,lvl:1},{id:mending,lvl:1},{id:power,lvl:6\
+        },{id:punch,lvl:2},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
+        &a300.00$"
+  Unique_name_21:
+    material: BOW
+    slot: 21
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bЛук"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a300.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Воспламенение"
+      - "   &b- &7Бесконечность"
+      - "   &b- &7Сила 6"
+      - "   &b- &7Откидывание 2"
+      - "   &b- &7Прочность 4"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 300
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 300.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:bow{Enchantments:[{id:flame,lvl:1},{id:infinity,lvl:1},{id:po\
+        wer,lvl:6},{id:punch,lvl:2},{id:unbreaking,lvl:4}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &abow{Enchantments:[{id:flame,lvl:1},{id:infinity,lvl:1},{id:power,lvl:\
+        6},{id:punch,lvl:2},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
+        &a300.00$"
+  Unique_name_22:
+    material: BOW
+    slot: 22
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bЛук"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a300.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Воспламенение"
+      - "   &b- &7Починка"
+      - "   &b- &7Сила 6"
+      - "   &b- &7Прочность 4"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 300
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 300.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:bow{Enchantments:[{id:flame,lvl:1},{id:mending,lvl:1},{id:pow\
+        er,lvl:6},{id:unbreaking,lvl:4}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &abow{Enchantments:[{id:flame,lvl:1},{id:mending,lvl:1},{id:power,lvl:6\
+        },{id:unbreaking,lvl:4}]}&7 в количестве 1 за &a300.00$"
+  Unique_name_23:
+    material: BOW
+    slot: 23
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bЛук"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a300.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Воспламенение"
+      - "   &b- &7Бесконечность"
+      - "   &b- &7Сила 6"
+      - "   &b- &7Прочность 4"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 300
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 300.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:bow{Enchantments:[{id:flame,lvl:1},{id:infinity,lvl:1},{id:po\
+        wer,lvl:6},{id:unbreaking,lvl:4}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &abow{Enchantments:[{id:flame,lvl:1},{id:infinity,lvl:1},{id:power,lvl:\
+        6},{id:unbreaking,lvl:4}]}&7 в количестве 1 за &a300.00$"
+  Unique_name_24:
+    material: CROSSBOW
+    slot: 24
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bАрбалет"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a300.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Пронзающая стрела 5"
+      - "   &b- &7Быстрая перезарядка 4"
+      - "   &b- &7Прочность 4"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 300
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 300.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:crossbow{Enchantments:[{id:mending,lvl:1},{id:piercing,lvl:5}\
+        ,{id:quick_charge,lvl:4},{id:unbreaking,lvl:4}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &acrossbow{Enchantments:[{id:mending,lvl:1},{id:piercing,lvl:5},{id:qui\
+        ck_charge,lvl:4},{id:unbreaking,lvl:4}]}&7 в количестве 1 за &a300.00$"
+  Unique_name_25:
+    material: CROSSBOW
+    slot: 25
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bАрбалет"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a300.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Тройной выстрел"
+      - "   &b- &7Быстрая перезарядка 4"
+      - "   &b- &7Прочность 4"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 300
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 300.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:crossbow{Enchantments:[{id:mending,lvl:1},{id:multishot,lvl:1\
+        },{id:quick_charge,lvl:4},{id:unbreaking,lvl:4}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &acrossbow{Enchantments:[{id:mending,lvl:1},{id:multishot,lvl:1},{id:qu\
+        ick_charge,lvl:4},{id:unbreaking,lvl:4}]}&7 в количестве 1 за &a300.00$"
+  Unique_name_26:
+    material: TRIDENT
+    slot: 26
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bТрезубец"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a300.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Тягун 3"
+      - "   &b- &7Прочность 4"
+      - "   &b- &7Пронзатель 6"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 300
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 300.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:trident{Enchantments:[{id:mending,lvl:1},{id:riptide,lvl:3},{\
+        id:impaling,lvl:6},{id:unbreaking,lvl:4}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &atrident{Enchantments:[{id:mending,lvl:1},{id:riptide,lvl:3},{id:impal\
+        ing,lvl:6},{id:unbreaking,lvl:4}]}&7 в количестве 1 за &a300.00$"
+  Unique_name_27:
+    material: FISHING_ROD
+    slot: 27
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bУдочка"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a300.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Приманка 4"
+      - "   &b- &7Прочность 4"
+      - "   &b- &7Везучий рыбак 4"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 300
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 300.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:fishing_rod{Enchantments:[{id:mending,lvl:1},{id:lure,lvl:4},\
+        {id:luck_of_the_sea,lvl:4},{id:unbreaking,lvl:4}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &afishing_rod{Enchantments:[{id:mending,lvl:1},{id:lure,lvl:4},{id:luck\
+        _of_the_sea,lvl:4},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
+        &a300.00$"
+  Unique_name_28:
+    material: SHEARS
+    slot: 28
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bНожницы"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a300.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Эффективность 5"
+      - "   &b- &7Прочность 5"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 300
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 300.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:shears{Enchantments:[{id:mending,lvl:1},{id:efficiency,lvl:5}\
+        ,{id:unbreaking,lvl:5}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &ashears{Enchantments:[{id:mending,lvl:1},{id:efficiency,lvl:5},{id:unb\
+        reaking,lvl:5}]}&7 в количестве 1 за &a300.00$"
+  Unique_name_29:
+    material: SHIELD
+    slot: 29
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bЩит"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a300.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Прочность 5"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 300
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 300.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:shield{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:5}\
+        ]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &ashield{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:5}]}&7 в
+        количестве 1 за &a300.00$"
+  Unique_name_30:
+    material: FLINT_AND_STEEL
+    slot: 30
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&bОгниво"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a300.00$"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Прочность 5"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 300
+          deny_commands:
+            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+              этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
+              этого предмета"
+    left_click_commands:
+      - "[takemoney] 300.00"
+      - "[refresh]"
+      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name%
+        minecraft:flint_and_steel{Enchantments:[{id:mending,lvl:1},{id:unbreaki\
+        ng,lvl:5}]} 1"
+      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
+        товар
+        &aflint_and_steel{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:5\
+        }]}&7 в количестве 1 за &a300.00$"

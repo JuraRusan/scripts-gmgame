@@ -1,8 +1,8 @@
 {
-  "menu_title": "Руды",
+  "menu_title": "Незеритовые поножи",
   "register_command": false,
   "open_command": [
-    "shops_ore"
+    "shops_netherite_leggings"
   ],
   "size": 54,
   "items": {

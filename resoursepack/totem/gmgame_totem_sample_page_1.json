@@ -6,59 +6,19 @@
   ],
   "size": 54,
   "items": {
-    "item1": {
+    "filler_item": {
       "material": "BLACK_STAINED_GLASS_PANE",
-      "slot": 36,
-      "hide_attributes": true,
-      "display_name": " "
-    },
-    "item2": {
-      "material": "BLACK_STAINED_GLASS_PANE",
-      "slot": 37,
-      "hide_attributes": true,
-      "display_name": " "
-    },
-    "item3": {
-      "material": "BLACK_STAINED_GLASS_PANE",
-      "slot": 38,
-      "hide_attributes": true,
-      "display_name": " "
-    },
-    "item4": {
-      "material": "BLACK_STAINED_GLASS_PANE",
-      "slot": 39,
-      "hide_attributes": true,
-      "display_name": " "
-    },
-    "item5": {
-      "material": "BLACK_STAINED_GLASS_PANE",
-      "slot": 40,
-      "hide_attributes": true,
-      "display_name": " "
-    },
-    "item6": {
-      "material": "BLACK_STAINED_GLASS_PANE",
-      "slot": 41,
-      "hide_attributes": true,
-      "display_name": " "
-    },
-    "item7": {
-      "material": "BLACK_STAINED_GLASS_PANE",
-      "slot": 42,
-      "hide_attributes": true,
-      "display_name": " "
-    },
-    "item8": {
-      "material": "BLACK_STAINED_GLASS_PANE",
-      "slot": 43,
-      "hide_attributes": true,
-      "display_name": " "
-    },
-    "item9": {
-      "material": "BLACK_STAINED_GLASS_PANE",
-      "slot": 44,
-      "hide_attributes": true,
-      "display_name": " "
+      "slots": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
     },
     "next": {
       "material": "ARROW",

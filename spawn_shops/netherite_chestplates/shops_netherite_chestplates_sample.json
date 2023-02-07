@@ -1,8 +1,8 @@
 {
-  "menu_title": "Руды",
+  "menu_title": "Незеритовые нагрудники",
   "register_command": false,
   "open_command": [
-    "shops_ore"
+    "shops_netherite_chestplates"
   ],
   "size": 54,
   "items": {

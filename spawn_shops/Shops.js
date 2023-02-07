@@ -20,7 +20,7 @@ const ore_base = {
  17: { material: "NETHER_QUARTZ_ORE", console_name: "nether_quartz_ore", name: "Незер-кварцевая руда", amount: 0.05 },
  18: { material: "NETHER_GOLD_ORE", console_name: "nether_gold_ore", name: "Незерская золотая руда", amount: 0.1 },
  19: { material: "ANCIENT_DEBRIS", console_name: "ancient_debris", name: "Древние обломки", amount: 2.5 },
- 20: { material: "GILDED_BLACKSTONE", console_name: "gilded_blackstone", name: "Золочёный чернит", amount: 1.5 }
+ 20: { material: "GILDED_BLACKSTONE", console_name: "gilded_blackstone", name: "Золочёный чернит", amount: 1.25 }
 };
 
 const item_vanilla_base = {
@@ -30,7 +30,7 @@ const item_vanilla_base = {
 
 const item_creative_no_sell_base = {
  1: { material: "BUDDING_AMETHYST", console_name: "budding_amethyst", name: "Цветущий аметист", amount: 280 },
- 2: { material: "LIGHT", console_name: "light", name: "Свет", amount: 48 }
+ 2: { material: "LIGHT", console_name: "light", name: "Свет", amount: 12 }
 }
 
 const tools_base = {
@@ -112,14 +112,14 @@ const netherite_leggings_base = {
 }
 
 const netherite_boots_base = {
- 1: { material: "NETHERITE_BOOTS", console_name: "netherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_falling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:protection,lvl:5},{id:unbreaking,lvl:4}]}", name: "Незеритовые поножи", amount: 600, enchantments: ["Подводная ходьба 3", "Невесомость 5", "Скорость души 3", "Починка", "Защита 5", "Прочность 4"] },
- 2: { material: "NETHERITE_BOOTS", console_name: "netherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_falling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:protection,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}", name: "Незеритовые поножи", amount: 600, enchantments: ["Подводная ходьба 3", "Невесомость 5", "Скорость души 3", "Починка", "Защита 5", "Прочность 4", "Шипы 3"] },
- 3: { material: "NETHERITE_BOOTS", console_name: "netherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_falling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:projectile_protection,lvl:5},{id:unbreaking,lvl:4}]}", name: "Незеритовые поножи", amount: 600, enchantments: ["Подводная ходьба 3", "Невесомость 5", "Скорость души 3", "Починка", "Защита от снарядов 5", "Прочность 4"] },
- 4: { material: "NETHERITE_BOOTS", console_name: "netherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_falling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:projectile_protection,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}", name: "Незеритовые поножи", amount: 600, enchantments: ["Подводная ходьба 3", "Невесомость 5", "Скорость души 3", "Починка", "Защита от снарядов 5", "Прочность 4", "Шипы 3"] },
- 5: { material: "NETHERITE_BOOTS", console_name: "netherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_falling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:fire_protection,lvl:5},{id:unbreaking,lvl:4}]}", name: "Незеритовые поножи", amount: 600, enchantments: ["Подводная ходьба 3", "Невесомость 5", "Скорость души 3", "Починка", "Огнеупорность 5", "Прочность 4"] },
- 6: { material: "NETHERITE_BOOTS", console_name: "netherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_falling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:fire_protection,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}", name: "Незеритовые поножи", amount: 600, enchantments: ["Подводная ходьба 3", "Невесомость 5", "Скорость души 3", "Починка", "Огнеупорность 5", "Прочность 4", "Шипы 3"] },
- 7: { material: "NETHERITE_BOOTS", console_name: "netherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_falling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:blast_protection,lvl:5},{id:unbreaking,lvl:4}]}", name: "Незеритовые поножи", amount: 600, enchantments: ["Подводная ходьба 3", "Невесомость 5", "Скорость души 3", "Починка", "Взрывоустойчивость 5", "Прочность 4"] },
- 8: { material: "NETHERITE_BOOTS", console_name: "netherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_falling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:blast_protection,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}", name: "Незеритовые поножи", amount: 600, enchantments: ["Подводная ходьба 3", "Невесомость 5", "Скорость души 3", "Починка", "Взрывоустойчивость 5", "Прочность 4", "Шипы 3"] }
+ 1: { material: "NETHERITE_BOOTS", console_name: "netherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_falling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:protection,lvl:5},{id:unbreaking,lvl:4}]}", name: "Незеритовые ботинки", amount: 600, enchantments: ["Подводная ходьба 3", "Невесомость 5", "Скорость души 3", "Починка", "Защита 5", "Прочность 4"] },
+ 2: { material: "NETHERITE_BOOTS", console_name: "netherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_falling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:protection,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}", name: "Незеритовые ботинки", amount: 600, enchantments: ["Подводная ходьба 3", "Невесомость 5", "Скорость души 3", "Починка", "Защита 5", "Прочность 4", "Шипы 3"] },
+ 3: { material: "NETHERITE_BOOTS", console_name: "netherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_falling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:projectile_protection,lvl:5},{id:unbreaking,lvl:4}]}", name: "Незеритовые ботинки", amount: 600, enchantments: ["Подводная ходьба 3", "Невесомость 5", "Скорость души 3", "Починка", "Защита от снарядов 5", "Прочность 4"] },
+ 4: { material: "NETHERITE_BOOTS", console_name: "netherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_falling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:projectile_protection,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}", name: "Незеритовые ботинки", amount: 600, enchantments: ["Подводная ходьба 3", "Невесомость 5", "Скорость души 3", "Починка", "Защита от снарядов 5", "Прочность 4", "Шипы 3"] },
+ 5: { material: "NETHERITE_BOOTS", console_name: "netherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_falling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:fire_protection,lvl:5},{id:unbreaking,lvl:4}]}", name: "Незеритовые ботинки", amount: 600, enchantments: ["Подводная ходьба 3", "Невесомость 5", "Скорость души 3", "Починка", "Огнеупорность 5", "Прочность 4"] },
+ 6: { material: "NETHERITE_BOOTS", console_name: "netherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_falling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:fire_protection,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}", name: "Незеритовые ботинки", amount: 600, enchantments: ["Подводная ходьба 3", "Невесомость 5", "Скорость души 3", "Починка", "Огнеупорность 5", "Прочность 4", "Шипы 3"] },
+ 7: { material: "NETHERITE_BOOTS", console_name: "netherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_falling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:blast_protection,lvl:5},{id:unbreaking,lvl:4}]}", name: "Незеритовые ботинки", amount: 600, enchantments: ["Подводная ходьба 3", "Невесомость 5", "Скорость души 3", "Починка", "Взрывоустойчивость 5", "Прочность 4"] },
+ 8: { material: "NETHERITE_BOOTS", console_name: "netherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_falling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:blast_protection,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}", name: "Незеритовые ботинки", amount: 600, enchantments: ["Подводная ходьба 3", "Невесомость 5", "Скорость души 3", "Починка", "Взрывоустойчивость 5", "Прочность 4", "Шипы 3"] }
 }
 
 module.exports.fixed_slot_minecraft = fixed_slot_minecraft;

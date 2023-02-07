@@ -1,8 +1,8 @@
 {
-  "menu_title": "Руды",
+  "menu_title": "Черепашьи панцири",
   "register_command": false,
   "open_command": [
-    "shops_ore"
+    "shops_turtle_helmets"
   ],
   "size": 54,
   "items": {
