@@ -1,14 +1,14 @@
 const YAML = require('yaml');
 const fs = require('fs-extra');
-let { fixed_slot_minecraft, netherite_boots_base } = require('../Shops.js');
-let template = require('./shops_netherite_boots_sample.json');
+let { fixed_slot_minecraft, tools_base } = require('../Shops.js');
+let template = require('./shops_tools_sample.json');
 
-const itemKeys = Object.keys(netherite_boots_base);
+const itemKeys = Object.keys(tools_base);
 let i = 0;
 
 const res = itemKeys.reduce((acc, curr, index) => {
     const slot = fixed_slot_minecraft[i];
-    const itemShopsName = netherite_boots_base[curr];
+    const itemShopsName = tools_base[curr];
 
     const amountFormat = Intl.NumberFormat('en-US', { minimumFractionDigits: 2 }).format(itemShopsName.amount);
 
@@ -62,4 +62,4 @@ const res = itemKeys.reduce((acc, curr, index) => {
 
 template.items = { ...template.items, ...res }
 
-fs.writeFileSync('./spawn_shops/server_drop_files/shops_netherite_boots.yml', YAML.stringify(template));
+fs.writeFileSync('./src/spawn_shops/server_drop_files/shops_tools.yml', YAML.stringify(template));

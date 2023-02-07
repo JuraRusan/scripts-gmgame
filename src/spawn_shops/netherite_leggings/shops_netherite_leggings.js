@@ -1,14 +1,14 @@
 const YAML = require('yaml');
 const fs = require('fs-extra');
-let { fixed_slot_minecraft, netherite_chestplate_base } = require('../Shops.js');
-let template = require('./shops_netherite_chestplates_sample.json');
+let { fixed_slot_minecraft, netherite_leggings_base } = require('../Shops.js');
+let template = require('./shops_netherite_leggings_sample.json');
 
-const itemKeys = Object.keys(netherite_chestplate_base);
+const itemKeys = Object.keys(netherite_leggings_base);
 let i = 0;
 
 const res = itemKeys.reduce((acc, curr, index) => {
     const slot = fixed_slot_minecraft[i];
-    const itemShopsName = netherite_chestplate_base[curr];
+    const itemShopsName = netherite_leggings_base[curr];
 
     const amountFormat = Intl.NumberFormat('en-US', { minimumFractionDigits: 2 }).format(itemShopsName.amount);
 
@@ -62,4 +62,4 @@ const res = itemKeys.reduce((acc, curr, index) => {
 
 template.items = { ...template.items, ...res }
 
-fs.writeFileSync('./spawn_shops/server_drop_files/shops_netherite_chestplates.yml', YAML.stringify(template));
+fs.writeFileSync('./src/spawn_shops/server_drop_files/shops_netherite_leggings.yml', YAML.stringify(template));
