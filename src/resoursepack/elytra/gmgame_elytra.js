@@ -34,4 +34,4 @@ const res = itemKeys.reduce((acc, curr, index) => {
 
 template.items = { ...template.items, ...res }
 
-fs.writeFileSync('./src/resoursepack/server_drop_files/resource_pack_elytra.yml', YAML.stringify(template));
+fs.writeFileSync('./server_drop_files/resoursepack/resource_pack_elytra.yml', YAML.stringify(template));

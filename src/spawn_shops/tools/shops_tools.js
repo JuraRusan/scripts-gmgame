@@ -62,4 +62,4 @@ const res = itemKeys.reduce((acc, curr, index) => {
 
 template.items = { ...template.items, ...res }
 
-fs.writeFileSync('./src/spawn_shops/server_drop_files/shops_tools.yml', YAML.stringify(template));
+fs.writeFileSync('./server_drop_files/spawn_shops/shops_tools.yml', YAML.stringify(template));
