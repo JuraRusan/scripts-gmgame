@@ -43,7 +43,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
                     type: "has item",
                     material: "AIR",
                     amount: 1,
-                    deny_commands: ["[message] &bМагазин &9| &7Нет необходимого места для покупки этого предмета"]
+                    deny_commands: ["[message] &bМагазин &9| &7Нет необходимого места для покупки этого предмета!"]
                 }
             }
         },
