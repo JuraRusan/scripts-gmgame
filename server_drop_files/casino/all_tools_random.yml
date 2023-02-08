@@ -42,7 +42,7 @@ items:
           deny_commands:
             - "[message] &bКазино &9| &7Нет необходимого места в инвентаре!"
     left_click_commands:
-      - "[takemoney] 50"
+      - "[takemoney] 50.00"
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
       - "[console] <chance=10> cmi give %player_name%
@@ -112,7 +112,7 @@ items:
           deny_commands:
             - "[message] &bКазино &9| &7Нет необходимого места в инвентаре!"
     left_click_commands:
-      - "[takemoney] 50"
+      - "[takemoney] 50.00"
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
       - "[console] <chance=10> cmi give %player_name%
@@ -179,7 +179,7 @@ items:
           deny_commands:
             - "[message] &bКазино &9| &7Нет необходимого места в инвентаре!"
     left_click_commands:
-      - "[takemoney] 50"
+      - "[takemoney] 50.00"
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
       - "[console] <chance=10> cmi give %player_name%
@@ -246,7 +246,7 @@ items:
           deny_commands:
             - "[message] &bКазино &9| &7Нет необходимого места в инвентаре!"
     left_click_commands:
-      - "[takemoney] 50"
+      - "[takemoney] 50.00"
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
       - "[console] <chance=10> cmi give %player_name%

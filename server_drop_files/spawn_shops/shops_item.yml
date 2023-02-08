@@ -50,16 +50,12 @@ items:
     lore:
       - " "
       - "&b * &7Игрок покупает - цена за 1 единицу: &a192.50$"
-      - "&b * &7Игрок покупает - цена за 1 стак: &a12,320.00$"
       - "&b * &7Игрок продает - цена за 1 единицу: &a175.00$"
-      - "&b * &7Игрок продает - цена за 1 стак: &a11,200.00$"
       - " "
       - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
       - " "
-      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
-        стака"
-      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
-        стака"
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать"
     left_click_requirement:
       requirements:
         balance_check:
@@ -75,36 +71,12 @@ items:
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
               этого предмета!"
-    shift_left_click_requirement:
-      requirements:
-        balance_check:
-          type: has money
-          amount: .nan
-          deny_commands:
-            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
-              этого предмета!"
-        item_check_slot:
-          type: has item
-          material: AIR
-          amount: 64
-          deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
           type: has item
           material: ENCHANTED_GOLDEN_APPLE
           amount: 1
-          deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
-              предметов для продажи!"
-    shift_right_click_requirement:
-      requirements:
-        item_check:
-          type: has item
-          material: ENCHANTED_GOLDEN_APPLE
-          amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
               предметов для продажи!"
@@ -116,14 +88,6 @@ items:
         1"
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар &aenchanted_golden_apple&7 в количестве 1 за &a192.50$"
-    shift_left_click_commands:
-      - "[takemoney] 12,320.00"
-      - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
-      - "[console] minecraft:give %player_name% minecraft:enchanted_golden_apple
-        64"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар &aenchanted_golden_apple&7 в количестве 64 за &a12,320.00$"
     right_click_commands:
       - "[givemoney] 175.00"
       - "[refresh]"
@@ -132,14 +96,6 @@ items:
         minecraft:enchanted_golden_apple 1"
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &aenchanted_golden_apple&7 в количестве 1 за &a175.00$"
-    shift_right_click_commands:
-      - "[givemoney] 11,200.00"
-      - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
-      - "[console] minecraft:clear %player_name%
-        minecraft:enchanted_golden_apple 64"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
-        товар &aenchanted_golden_apple&7 в количестве 64 за &a11,200.00$"
   Unique_name_1:
     material: HEART_OF_THE_SEA
     slot: 1
@@ -150,16 +106,12 @@ items:
     lore:
       - " "
       - "&b * &7Игрок покупает - цена за 1 единицу: &a27.50$"
-      - "&b * &7Игрок покупает - цена за 1 стак: &a1,760.00$"
       - "&b * &7Игрок продает - цена за 1 единицу: &a25.00$"
-      - "&b * &7Игрок продает - цена за 1 стак: &a1,600.00$"
       - " "
       - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
       - " "
-      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
-        стака"
-      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1
-        стака"
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать"
     left_click_requirement:
       requirements:
         balance_check:
@@ -175,36 +127,12 @@ items:
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
               этого предмета!"
-    shift_left_click_requirement:
-      requirements:
-        balance_check:
-          type: has money
-          amount: .nan
-          deny_commands:
-            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
-              этого предмета!"
-        item_check_slot:
-          type: has item
-          material: AIR
-          amount: 64
-          deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
           type: has item
           material: HEART_OF_THE_SEA
           amount: 1
-          deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
-              предметов для продажи!"
-    shift_right_click_requirement:
-      requirements:
-        item_check:
-          type: has item
-          material: HEART_OF_THE_SEA
-          amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
               предметов для продажи!"
@@ -215,13 +143,6 @@ items:
       - "[console] minecraft:give %player_name% minecraft:heart_of_the_sea 1"
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар &aheart_of_the_sea&7 в количестве 1 за &a27.50$"
-    shift_left_click_commands:
-      - "[takemoney] 1,760.00"
-      - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
-      - "[console] minecraft:give %player_name% minecraft:heart_of_the_sea 64"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар &aheart_of_the_sea&7 в количестве 64 за &a1,760.00$"
     right_click_commands:
       - "[givemoney] 25.00"
       - "[refresh]"
@@ -229,13 +150,6 @@ items:
       - "[console] minecraft:clear %player_name% minecraft:heart_of_the_sea 1"
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
         товар &aheart_of_the_sea&7 в количестве 1 за &a25.00$"
-    shift_right_click_commands:
-      - "[givemoney] 1,600.00"
-      - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
-      - "[console] minecraft:clear %player_name% minecraft:heart_of_the_sea 64"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
-        товар &aheart_of_the_sea&7 в количестве 64 за &a1,600.00$"
   Unique_name_2:
     material: BUDDING_AMETHYST
     slot: 2
@@ -246,12 +160,10 @@ items:
     lore:
       - " "
       - "&b * &7Игрок покупает - цена за 1 единицу: &a280.00$"
-      - "&b * &7Игрок покупает - цена за 1 стак: &a17,920.00$"
       - " "
       - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
       - " "
-      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
-        стака"
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
     left_click_requirement:
       requirements:
         balance_check:
@@ -267,21 +179,6 @@ items:
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
               этого предмета!"
-    shift_left_click_requirement:
-      requirements:
-        balance_check:
-          type: has money
-          amount: .nan
-          deny_commands:
-            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
-              этого предмета!"
-        item_check_slot:
-          type: has item
-          material: AIR
-          amount: 64
-          deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета!"
     left_click_commands:
       - "[takemoney] 280.00"
       - "[refresh]"
@@ -289,13 +186,6 @@ items:
       - "[console] minecraft:give %player_name% minecraft:budding_amethyst 1"
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар &abudding_amethyst&7 в количестве 1 за &a280.00$"
-    shift_left_click_commands:
-      - "[takemoney] 17,920.00"
-      - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
-      - "[console] minecraft:give %player_name% minecraft:budding_amethyst 64"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар &abudding_amethyst&7 в количестве 64 за &a17,920.00$"
   Unique_name_3:
     material: LIGHT
     slot: 3
@@ -306,12 +196,10 @@ items:
     lore:
       - " "
       - "&b * &7Игрок покупает - цена за 1 единицу: &a8.00$"
-      - "&b * &7Игрок покупает - цена за 1 стак: &a512.00$"
       - " "
       - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
       - " "
-      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1
-        стака"
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
     left_click_requirement:
       requirements:
         balance_check:
@@ -327,21 +215,6 @@ items:
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
               этого предмета!"
-    shift_left_click_requirement:
-      requirements:
-        balance_check:
-          type: has money
-          amount: 512
-          deny_commands:
-            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
-              этого предмета!"
-        item_check_slot:
-          type: has item
-          material: AIR
-          amount: 64
-          deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета!"
     left_click_commands:
       - "[takemoney] 8.00"
       - "[refresh]"
@@ -349,10 +222,3 @@ items:
       - "[console] minecraft:give %player_name% minecraft:light 1"
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар &alight&7 в количестве 1 за &a8.00$"
-    shift_left_click_commands:
-      - "[takemoney] 512.00"
-      - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
-      - "[console] minecraft:give %player_name% minecraft:light 64"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар &alight&7 в количестве 64 за &a512.00$"
