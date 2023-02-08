@@ -87,7 +87,7 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_leggings{Enchantments:[{id:mending,lvl:1},{id:protection,lv\
-        l:5},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Починка, Защита 5,
+        l:5},{id:unbreaking,lvl:4}]}&7 с зачарованием&a Починка, Защита 5,
         Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_1:
     material: NETHERITE_LEGGINGS
@@ -137,7 +137,7 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_leggings{Enchantments:[{id:mending,lvl:1},{id:protection,lv\
-        l:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием:&a
+        l:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием&a
         Починка, Защита 5, Прочность 4, Шипы 3&7 в количестве 1 за &a600.00$"
   Unique_name_2:
     material: NETHERITE_LEGGINGS
@@ -186,7 +186,7 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_leggings{Enchantments:[{id:mending,lvl:1},{id:projectile_pr\
-        otection,lvl:5},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Починка,
+        otection,lvl:5},{id:unbreaking,lvl:4}]}&7 с зачарованием&a Починка,
         Защита от снарядов 5, Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_3:
     material: NETHERITE_LEGGINGS
@@ -237,7 +237,7 @@ items:
         товар
         &anetherite_leggings{Enchantments:[{id:mending,lvl:1},{id:projectile_pr\
         otection,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с
-        зачарованием:&a Починка, Защита от снарядов 5, Прочность 4, Шипы 3&7 в
+        зачарованием&a Починка, Защита от снарядов 5, Прочность 4, Шипы 3&7 в
         количестве 1 за &a600.00$"
   Unique_name_4:
     material: NETHERITE_LEGGINGS
@@ -286,7 +286,7 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_leggings{Enchantments:[{id:mending,lvl:1},{id:fire_protecti\
-        on,lvl:5},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Починка,
+        on,lvl:5},{id:unbreaking,lvl:4}]}&7 с зачарованием&a Починка,
         Огнеупорность 5, Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_5:
     material: NETHERITE_LEGGINGS
@@ -336,7 +336,7 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_leggings{Enchantments:[{id:mending,lvl:1},{id:fire_protecti\
-        on,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием:&a
+        on,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием&a
         Починка, Огнеупорность 5, Прочность 4, Шипы 3&7 в количестве 1 за
         &a600.00$"
   Unique_name_6:
@@ -386,7 +386,7 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_leggings{Enchantments:[{id:mending,lvl:1},{id:blast_protect\
-        ion,lvl:5},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Починка,
+        ion,lvl:5},{id:unbreaking,lvl:4}]}&7 с зачарованием&a Починка,
         Взрывоустойчивость 5, Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_7:
     material: NETHERITE_LEGGINGS
@@ -436,6 +436,6 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_leggings{Enchantments:[{id:mending,lvl:1},{id:blast_protect\
-        ion,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием:&a
+        ion,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием&a
         Починка, Взрывоустойчивость 5, Прочность 4, Шипы 3&7 в количестве 1 за
         &a600.00$"

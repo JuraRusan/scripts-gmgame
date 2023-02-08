@@ -23,7 +23,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
             " ",
             `&b * &7Сумма ставки: &a${amountFormat}$`,
             `&b * &7Выигрыш может составить &a${itemShopsName.rate_victory_ru}$`,
-            `&b * &7&mУникальный приз &r&a${itemShopsName.token_ru}`,
+            `&b * &7&mУникальный приз&r &a${itemShopsName.token_ru}`,
             " ",
             "&b * &7Ваш баланс: &a%xconomy_balance_formatted%",
             " ",
@@ -33,7 +33,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
             requirements: {
                 balance_check: {
                     type: "has money",
-                    amount: +amountFormat,
+                    amount: amountFormat,
                     deny_commands: ["[message] &bКазино &9| &7У Вас недостаточно средств для создания ставки!"]
                 },
                 item_check_slot: {
@@ -53,7 +53,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
             "[message] &bКазино &9| &7Выигрыш через 2 <delay=20>",
             "[message] &bКазино &9| &7Выигрыш через 1 <delay=40>",
             `[console] money take %player_name% ${itemShopsName.rate_victory} <delay=60>`,
-            `[console] minecraft:give %player_name% minecraft:${token_code} ${itemShopsName.token} <delay=60>`,
+            `[console] cmi give %player_name% minecraft:${token_code} ${itemShopsName.token} <delay=60>`,
             `[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку &a${amountFormat} <delay=60>`]
     }
     i++;

@@ -91,7 +91,7 @@ items:
         товар
         &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
         1},{id:respiration,lvl:4},{id:protection,lvl:5},{id:unbreaking,lvl:4}]}\
-        &7 с зачарованием:&a Починка, Подводник, Подводное дыхание 4, Защита 5,
+        &7 с зачарованием&a Починка, Подводник, Подводное дыхание 4, Защита 5,
         Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_1:
     material: TURTLE_HELMET
@@ -145,7 +145,7 @@ items:
         товар
         &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
         1},{id:respiration,lvl:4},{id:protection,lvl:5},{id:unbreaking,lvl:4},{\
-        id:thorns,lvl:3}]}&7 с зачарованием:&a Починка, Подводник, Подводное
+        id:thorns,lvl:3}]}&7 с зачарованием&a Починка, Подводник, Подводное
         дыхание 4, Защита 5, Прочность 4, Шипы 3&7 в количестве 1 за &a600.00$"
   Unique_name_2:
     material: TURTLE_HELMET
@@ -198,7 +198,7 @@ items:
         товар
         &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
         1},{id:respiration,lvl:4},{id:projectile_protection,lvl:5},{id:unbreaki\
-        ng,lvl:4}]}&7 с зачарованием:&a Починка, Подводник, Подводное дыхание 4,
+        ng,lvl:4}]}&7 с зачарованием&a Починка, Подводник, Подводное дыхание 4,
         Защита от снарядов 5, Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_3:
     material: TURTLE_HELMET
@@ -252,7 +252,7 @@ items:
         товар
         &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
         1},{id:respiration,lvl:4},{id:projectile_protection,lvl:5},{id:unbreaki\
-        ng,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием:&a Починка, Подводник,
+        ng,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием&a Починка, Подводник,
         Подводное дыхание 4, Защита от снарядов 5, Прочность 4, Шипы 3&7 в
         количестве 1 за &a600.00$"
   Unique_name_4:
@@ -306,7 +306,7 @@ items:
         товар
         &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
         1},{id:respiration,lvl:4},{id:fire_protection,lvl:5},{id:unbreaking,lvl\
-        :4}]}&7 с зачарованием:&a Починка, Подводник, Подводное дыхание 4,
+        :4}]}&7 с зачарованием&a Починка, Подводник, Подводное дыхание 4,
         Огнеупорность 5, Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_5:
     material: TURTLE_HELMET
@@ -360,9 +360,9 @@ items:
         товар
         &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
         1},{id:respiration,lvl:4},{id:fire_protection,lvl:5},{id:unbreaking,lvl\
-        :4},{id:thorns,lvl:3}]}&7 с зачарованием:&a Починка, Подводник,
-        Подводное дыхание 4, Огнеупорность 5, Прочность 4, Шипы 3&7 в количестве
-        1 за &a600.00$"
+        :4},{id:thorns,lvl:3}]}&7 с зачарованием&a Починка, Подводник, Подводное
+        дыхание 4, Огнеупорность 5, Прочность 4, Шипы 3&7 в количестве 1 за
+        &a600.00$"
   Unique_name_6:
     material: TURTLE_HELMET
     slot: 6
@@ -414,7 +414,7 @@ items:
         товар
         &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
         1},{id:respiration,lvl:4},{id:blast_protection,lvl:5},{id:unbreaking,lv\
-        l:4}]}&7 с зачарованием:&a Починка, Подводник, Подводное дыхание 4,
+        l:4}]}&7 с зачарованием&a Починка, Подводник, Подводное дыхание 4,
         Взрывоустойчивость 5, Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_7:
     material: TURTLE_HELMET
@@ -468,6 +468,6 @@ items:
         товар
         &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
         1},{id:respiration,lvl:4},{id:blast_protection,lvl:5},{id:unbreaking,lv\
-        l:4},{id:thorns,lvl:3}]}&7 с зачарованием:&a Починка, Подводник,
+        l:4},{id:thorns,lvl:3}]}&7 с зачарованием&a Починка, Подводник,
         Подводное дыхание 4, Взрывоустойчивость 5, Прочность 4, Шипы 3&7 в
         количестве 1 за &a600.00$"

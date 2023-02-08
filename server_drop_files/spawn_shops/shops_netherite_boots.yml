@@ -92,7 +92,7 @@ items:
         товар
         &anetherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_fa\
         lling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:protection,lv\
-        l:5},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Подводная ходьба 3,
+        l:5},{id:unbreaking,lvl:4}]}&7 с зачарованием&a Подводная ходьба 3,
         Невесомость 5, Скорость души 3, Починка, Защита 5, Прочность 4&7 в
         количестве 1 за &a600.00$"
   Unique_name_1:
@@ -148,7 +148,7 @@ items:
         товар
         &anetherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_fa\
         lling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:protection,lv\
-        l:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием:&a
+        l:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием&a
         Подводная ходьба 3, Невесомость 5, Скорость души 3, Починка, Защита 5,
         Прочность 4, Шипы 3&7 в количестве 1 за &a600.00$"
   Unique_name_2:
@@ -203,7 +203,7 @@ items:
         товар
         &anetherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_fa\
         lling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:projectile_pr\
-        otection,lvl:5},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Подводная
+        otection,lvl:5},{id:unbreaking,lvl:4}]}&7 с зачарованием&a Подводная
         ходьба 3, Невесомость 5, Скорость души 3, Починка, Защита от снарядов 5,
         Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_3:
@@ -260,7 +260,7 @@ items:
         &anetherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_fa\
         lling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:projectile_pr\
         otection,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с
-        зачарованием:&a Подводная ходьба 3, Невесомость 5, Скорость души 3,
+        зачарованием&a Подводная ходьба 3, Невесомость 5, Скорость души 3,
         Починка, Защита от снарядов 5, Прочность 4, Шипы 3&7 в количестве 1 за
         &a600.00$"
   Unique_name_4:
@@ -315,9 +315,9 @@ items:
         товар
         &anetherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_fa\
         lling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:fire_protecti\
-        on,lvl:5},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Подводная ходьба
-        3, Невесомость 5, Скорость души 3, Починка, Огнеупорность 5, Прочность
-        4&7 в количестве 1 за &a600.00$"
+        on,lvl:5},{id:unbreaking,lvl:4}]}&7 с зачарованием&a Подводная ходьба 3,
+        Невесомость 5, Скорость души 3, Починка, Огнеупорность 5, Прочность 4&7
+        в количестве 1 за &a600.00$"
   Unique_name_5:
     material: NETHERITE_BOOTS
     slot: 5
@@ -371,7 +371,7 @@ items:
         товар
         &anetherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_fa\
         lling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:fire_protecti\
-        on,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием:&a
+        on,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием&a
         Подводная ходьба 3, Невесомость 5, Скорость души 3, Починка,
         Огнеупорность 5, Прочность 4, Шипы 3&7 в количестве 1 за &a600.00$"
   Unique_name_6:
@@ -426,7 +426,7 @@ items:
         товар
         &anetherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_fa\
         lling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:blast_protect\
-        ion,lvl:5},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Подводная ходьба
+        ion,lvl:5},{id:unbreaking,lvl:4}]}&7 с зачарованием&a Подводная ходьба
         3, Невесомость 5, Скорость души 3, Починка, Взрывоустойчивость 5,
         Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_7:
@@ -482,6 +482,6 @@ items:
         товар
         &anetherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_fa\
         lling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:blast_protect\
-        ion,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием:&a
+        ion,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием&a
         Подводная ходьба 3, Невесомость 5, Скорость души 3, Починка,
         Взрывоустойчивость 5, Прочность 4, Шипы 3&7 в количестве 1 за &a600.00$"

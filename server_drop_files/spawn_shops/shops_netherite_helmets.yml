@@ -91,7 +91,7 @@ items:
         товар
         &anetherite_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,l\
         vl:1},{id:respiration,lvl:4},{id:protection,lvl:5},{id:unbreaking,lvl:4\
-        }]}&7 с зачарованием:&a Починка, Подводник, Подводное дыхание 4, Защита
+        }]}&7 с зачарованием&a Починка, Подводник, Подводное дыхание 4, Защита
         5, Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_1:
     material: NETHERITE_HELMET
@@ -145,7 +145,7 @@ items:
         товар
         &anetherite_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,l\
         vl:1},{id:respiration,lvl:4},{id:protection,lvl:5},{id:unbreaking,lvl:4\
-        },{id:thorns,lvl:3}]}&7 с зачарованием:&a Починка, Подводник, Подводное
+        },{id:thorns,lvl:3}]}&7 с зачарованием&a Починка, Подводник, Подводное
         дыхание 4, Защита 5, Прочность 4, Шипы 3&7 в количестве 1 за &a600.00$"
   Unique_name_2:
     material: NETHERITE_HELMET
@@ -198,7 +198,7 @@ items:
         товар
         &anetherite_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,l\
         vl:1},{id:respiration,lvl:4},{id:projectile_protection,lvl:5},{id:unbre\
-        aking,lvl:4}]}&7 с зачарованием:&a Починка, Подводник, Подводное дыхание
+        aking,lvl:4}]}&7 с зачарованием&a Починка, Подводник, Подводное дыхание
         4, Защита от снарядов 5, Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_3:
     material: NETHERITE_HELMET
@@ -252,7 +252,7 @@ items:
         товар
         &anetherite_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,l\
         vl:1},{id:respiration,lvl:4},{id:projectile_protection,lvl:5},{id:unbre\
-        aking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием:&a Починка, Подводник,
+        aking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием&a Починка, Подводник,
         Подводное дыхание 4, Защита от снарядов 5, Прочность 4, Шипы 3&7 в
         количестве 1 за &a600.00$"
   Unique_name_4:
@@ -306,7 +306,7 @@ items:
         товар
         &anetherite_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,l\
         vl:1},{id:respiration,lvl:4},{id:fire_protection,lvl:5},{id:unbreaking,\
-        lvl:4}]}&7 с зачарованием:&a Починка, Подводник, Подводное дыхание 4,
+        lvl:4}]}&7 с зачарованием&a Починка, Подводник, Подводное дыхание 4,
         Огнеупорность 5, Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_5:
     material: NETHERITE_HELMET
@@ -360,7 +360,7 @@ items:
         товар
         &anetherite_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,l\
         vl:1},{id:respiration,lvl:4},{id:fire_protection,lvl:5},{id:unbreaking,\
-        lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием:&a Починка, Подводник,
+        lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием&a Починка, Подводник,
         Подводное дыхание 4, Огнеупорность 5, Прочность 4, Шипы 3&7 в количестве
         1 за &a600.00$"
   Unique_name_6:
@@ -414,7 +414,7 @@ items:
         товар
         &anetherite_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,l\
         vl:1},{id:respiration,lvl:4},{id:blast_protection,lvl:5},{id:unbreaking\
-        ,lvl:4}]}&7 с зачарованием:&a Починка, Подводник, Подводное дыхание 4,
+        ,lvl:4}]}&7 с зачарованием&a Починка, Подводник, Подводное дыхание 4,
         Взрывоустойчивость 5, Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_7:
     material: NETHERITE_HELMET
@@ -468,6 +468,6 @@ items:
         товар
         &anetherite_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,l\
         vl:1},{id:respiration,lvl:4},{id:blast_protection,lvl:5},{id:unbreaking\
-        ,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием:&a Починка, Подводник,
+        ,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием&a Починка, Подводник,
         Подводное дыхание 4, Взрывоустойчивость 5, Прочность 4, Шипы 3&7 в
         количестве 1 за &a600.00$"

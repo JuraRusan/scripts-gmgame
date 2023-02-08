@@ -16,7 +16,7 @@ items:
       - "&b * &7Игрок покупает - цена ставки: &a50.00$"
       - "&b * &7Выигрыш может составить &aУдочка"
       - "&b * &7Шанс выигрыша &a10%"
-      - "&b * &7&mУникальный приз &r&a0 - 1"
+      - "&b * &7&mУникальный приз&r &a0 - 1"
       - " "
       - "&b * &7Зачарования:"
       - "   &b- &7Приманка 1 - 4"
@@ -45,11 +45,11 @@ items:
       - "[takemoney] 50.00"
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
-      - "[console] <chance=10> minecraft:give %player_name%
+      - "[console] <chance=10> cmi give %player_name%
         minecraft:fishing_rod{Enchantments:[{id:mending,lvl:1},{id:lure,lvl:%ra\
         nd/1-4%},{id:luck_of_the_sea,lvl:%rand/1-5%},{id:unbreaking,lvl:%rand/1\
         -6%}]} 1"
-      - "[console] minecraft:give %player_name%
+      - "[console] cmi give %player_name%
         minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
         предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
         \",\"italic\":false}]','[{\"text\":\"
@@ -73,8 +73,8 @@ items:
         товар
         &afishing_rod{Enchantments:[{id:mending,lvl:1},{id:lure,lvl:%rand/1-4%}\
         ,{id:luck_of_the_sea,lvl:%rand/1-5%},{id:unbreaking,lvl:%rand/1-6%}]}&7
-        с зачарованием:&a Приманка 1 - 4, Починка, Везучий рыбак 1 - 5,
-        Прочность 1 - 5&7 в количестве 1 за &a50.00$"
+        с зачарованием&a Приманка 1 - 4, Починка, Везучий рыбак 1 - 5, Прочность
+        1 - 5&7 в количестве 1 за &a50.00$"
   Unique_name_16:
     material: SHEARS
     slot: 16
@@ -87,7 +87,7 @@ items:
       - "&b * &7Игрок покупает - цена ставки: &a50.00$"
       - "&b * &7Выигрыш может составить &aНожницы"
       - "&b * &7Шанс выигрыша &a10%"
-      - "&b * &7&mУникальный приз &r&a0 - 1"
+      - "&b * &7&mУникальный приз&r &a0 - 1"
       - " "
       - "&b * &7Зачарования:"
       - "   &b- &7Эффективность 1 - 6"
@@ -115,10 +115,10 @@ items:
       - "[takemoney] 50.00"
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
-      - "[console] <chance=10> minecraft:give %player_name%
+      - "[console] <chance=10> cmi give %player_name%
         minecraft:shears{Enchantments:[{id:mending,lvl:1},{id:efficiency,lvl:%r\
         and/1-6%},{id:unbreaking,lvl:%rand/1-7%}]} 1"
-      - "[console] minecraft:give %player_name%
+      - "[console] cmi give %player_name%
         minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
         предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
         \",\"italic\":false}]','[{\"text\":\"
@@ -141,7 +141,7 @@ items:
       - "[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на
         товар
         &ashears{Enchantments:[{id:mending,lvl:1},{id:efficiency,lvl:%rand/1-6%\
-        },{id:unbreaking,lvl:%rand/1-7%}]}&7 с зачарованием:&a Эффективность 1 -
+        },{id:unbreaking,lvl:%rand/1-7%}]}&7 с зачарованием&a Эффективность 1 -
         6, Починка, Прочность 1 - 7&7 в количестве 1 за &a50.00$"
   Unique_name_20:
     material: SHIELD
@@ -155,7 +155,7 @@ items:
       - "&b * &7Игрок покупает - цена ставки: &a50.00$"
       - "&b * &7Выигрыш может составить &aЩит"
       - "&b * &7Шанс выигрыша &a10%"
-      - "&b * &7&mУникальный приз &r&a0 - 1"
+      - "&b * &7&mУникальный приз&r &a0 - 1"
       - " "
       - "&b * &7Зачарования:"
       - "   &b- &7Починка"
@@ -182,10 +182,10 @@ items:
       - "[takemoney] 50.00"
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
-      - "[console] <chance=10> minecraft:give %player_name%
+      - "[console] <chance=10> cmi give %player_name%
         minecraft:shield{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:%r\
         and/1-6%}]} 1"
-      - "[console] minecraft:give %player_name%
+      - "[console] cmi give %player_name%
         minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
         предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
         \",\"italic\":false}]','[{\"text\":\"
@@ -208,7 +208,7 @@ items:
       - "[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на
         товар
         &ashield{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:%rand/1-6%\
-        }]}&7 с зачарованием:&a Починка, Прочность 1 - 6&7 в количестве 1 за
+        }]}&7 с зачарованием&a Починка, Прочность 1 - 6&7 в количестве 1 за
         &a50.00$"
   Unique_name_24:
     material: FLINT_AND_STEEL
@@ -222,7 +222,7 @@ items:
       - "&b * &7Игрок покупает - цена ставки: &a50.00$"
       - "&b * &7Выигрыш может составить &aОгниво"
       - "&b * &7Шанс выигрыша &a10%"
-      - "&b * &7&mУникальный приз &r&a0 - 1"
+      - "&b * &7&mУникальный приз&r &a0 - 1"
       - " "
       - "&b * &7Зачарования:"
       - "   &b- &7Починка"
@@ -249,10 +249,10 @@ items:
       - "[takemoney] 50.00"
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
-      - "[console] <chance=10> minecraft:give %player_name%
+      - "[console] <chance=10> cmi give %player_name%
         minecraft:flint_and_steel{Enchantments:[{id:mending,lvl:1},{id:unbreaki\
         ng,lvl:%rand/1-6%}]} 1"
-      - "[console] minecraft:give %player_name%
+      - "[console] cmi give %player_name%
         minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
         предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
         \",\"italic\":false}]','[{\"text\":\"
@@ -275,5 +275,5 @@ items:
       - "[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на
         товар
         &aflint_and_steel{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:%\
-        rand/1-6%}]}&7 с зачарованием:&a Починка, Прочность 1 - 6&7 в количестве
+        rand/1-6%}]}&7 с зачарованием&a Починка, Прочность 1 - 6&7 в количестве
         1 за &a50.00$"

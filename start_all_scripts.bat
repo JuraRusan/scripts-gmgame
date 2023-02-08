@@ -1,11 +1,11 @@
-node ./src/resoursepack/totem/gmgame_totem_page_1.js 
-node ./src/resoursepack/totem/gmgame_totem_page_2.js 
-node ./src/resoursepack/totem/gmgame_totem_page_3.js 
-node ./src/resoursepack/hats/gmgame_hats.js
-node ./src/resoursepack/elytra/gmgame_elytra.js
-node ./src/resoursepack/drinks/gmgame_drinks.js
-node ./src/resoursepack/food/gmgame_food_page_1.js
-node ./src/resoursepack/food/gmgame_food_page_2.js
+node ./src/resource_pack/totem/gmgame_totem_page_1.js 
+node ./src/resource_pack/totem/gmgame_totem_page_2.js 
+node ./src/resource_pack/totem/gmgame_totem_page_3.js 
+node ./src/resource_pack/hats/gmgame_hats.js
+node ./src/resource_pack/elytra/gmgame_elytra.js
+node ./src/resource_pack/drinks/gmgame_drinks.js
+node ./src/resource_pack/food/gmgame_food_page_1.js
+node ./src/resource_pack/food/gmgame_food_page_2.js
 
 node ./src/spawn_shops/ore/shops_ore.js
 node ./src/spawn_shops/item/shops_item.js

@@ -24,7 +24,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
             `&b * &7Игрок покупает - цена ставки: &a${amountFormat}$`,
             `&b * &7Выигрыш может составить &a${itemShopsName.name}`,
             "&b * &7Шанс выигрыша &a10%",
-            `&b * &7&mУникальный приз &r&a${itemShopsName.token_ru}`,
+            `&b * &7&mУникальный приз&r &a${itemShopsName.token_ru}`,
             " ",
             "&b * &7Зачарования:",
             ...itemShopsName.enchantments.map(x => "   &b- &7" + x),
@@ -52,9 +52,9 @@ const res = itemKeys.reduce((acc, curr, index) => {
             `[takemoney] ${amountFormat}`,
             "[refresh]",
             "[message] &bКазино &9| &7Вы сыграли в ставку!",
-            `[console] <chance=10> minecraft:give %player_name% minecraft:${itemShopsName.console_name} 1`,
-            `[console] minecraft:give %player_name% minecraft:${token_code} ${itemShopsName.token}`,
-            `[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на товар &a${itemShopsName.console_name}&7 с зачарованием:&a${(itemShopsName.enchantments.map(x => " " + x))}&7 в количестве 1 за &a${amountFormat}$`
+            `[console] <chance=10> cmi give %player_name% minecraft:${itemShopsName.console_name} 1`,
+            `[console] cmi give %player_name% minecraft:${token_code} ${itemShopsName.token}`,
+            `[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на товар &a${itemShopsName.console_name}&7 с зачарованием&a${(itemShopsName.enchantments.map(x => " " + x))}&7 в количестве 1 за &a${amountFormat}$`
         ]
     }
     i++;

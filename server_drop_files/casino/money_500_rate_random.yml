@@ -15,7 +15,7 @@ items:
       - " "
       - "&b * &7Сумма ставки: &a500.00$"
       - "&b * &7Выигрыш может составить &a0 - 750$"
-      - "&b * &7&mУникальный приз &r&a0 - 6"
+      - "&b * &7&mУникальный приз&r &a0 - 6"
       - " "
       - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
       - " "
@@ -43,7 +43,7 @@ items:
       - "[message] &bКазино &9| &7Выигрыш через 2 <delay=20>"
       - "[message] &bКазино &9| &7Выигрыш через 1 <delay=40>"
       - "[console] money take %player_name% %rand/0-750% <delay=60>"
-      - "[console] minecraft:give %player_name%
+      - "[console] cmi give %player_name%
         minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
         предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
         \",\"italic\":false}]','[{\"text\":\"

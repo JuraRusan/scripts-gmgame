@@ -33,4 +33,4 @@ const res = itemKeys.reduce((acc, curr, index) => {
 
 template.items = { ...template.items, ...res }
 
-fs.writeFileSync('./server_drop_files/resoursepack/resource_pack_food_page_1.yml', YAML.stringify(template));
+fs.writeFileSync('./server_drop_files/resource_pack/resource_pack_food_page_1.yml', YAML.stringify(template));
