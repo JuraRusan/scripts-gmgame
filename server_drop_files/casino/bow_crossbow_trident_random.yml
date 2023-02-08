@@ -1,0 +1,573 @@
+menu_title: Казино
+register_command: false
+open_command:
+  - shops_bow_crossbow_trident_random
+size: 36
+items:
+  Unique_name_11:
+    material: BOW
+    slot: 11
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bЛук"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена ставки: &a50.00$"
+      - "&b * &7Выигрыш может составить &aЛук"
+      - "&b * &7Шанс выигрыша &a10%"
+      - "&b * &7&mУникальный приз &r&a0 - 1"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Воспламенение"
+      - "   &b- &7Починка"
+      - "   &b- &7Сила 1 - 6"
+      - "   &b- &7Откидывание 1 - 3"
+      - "   &b- &7Прочность 1 - 5"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 50
+          deny_commands:
+            - "[message] &bКазино &9| &7У Вас недостаточно средств для создания
+              ставки!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bКазино &9| &7Нет необходимого места!"
+    left_click_commands:
+      - "[takemoney] 50.00"
+      - "[refresh]"
+      - "[message] &bКазино &9| &7Вы сыграли в ставку!"
+      - "[console] <chance=10> minecraft:give %player_name%
+        minecraft:bow{Enchantments:[{id:flame,lvl:1},{id:mending,lvl:1},{id:pow\
+        er,lvl:%rand/1-6%},{id:punch,lvl:%rand/1-3%},{id:unbreaking,lvl:%rand/1\
+        -5%}]} 1"
+      - "[console] minecraft:give %player_name%
+        minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
+        предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
+        \",\"italic\":false}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"Токен предмет защищен от
+        подделки\",\"color\":\"gray\"},{\"text\":\"\",\"color\":\"dark_purple\",\
+        \"italic\":false}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"и предназначенный только
+        для\",\"italic\":true,\"color\":\"gray\"}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"gray\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" использования в казино для того что
+        бы...\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','\
+        [{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\
+        \":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"Но это совсем другая
+        история...\",\"color\":\"gray\"}]']},Enchantments:[{id:unbreaking,lvl:1\
+        0}],HideFlags:1} %rand/0-1%"
+      - "[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на
+        товар
+        &abow{Enchantments:[{id:flame,lvl:1},{id:mending,lvl:1},{id:power,lvl:%\
+        rand/1-6%},{id:punch,lvl:%rand/1-3%},{id:unbreaking,lvl:%rand/1-5%}]}&7
+        с зачарованием:&a Воспламенение, Починка, Сила 1 - 6, Откидывание 1 - 3,
+        Прочность 1 - 5&7 в количестве 1 за &a50.00$"
+  Unique_name_12:
+    material: BOW
+    slot: 12
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bЛук"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена ставки: &a50.00$"
+      - "&b * &7Выигрыш может составить &aЛук"
+      - "&b * &7Шанс выигрыша &a10%"
+      - "&b * &7&mУникальный приз &r&a0 - 1"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Воспламенение"
+      - "   &b- &7Бесконечность"
+      - "   &b- &7Сила 1 - 6"
+      - "   &b- &7Откидывание 1 - 3"
+      - "   &b- &7Прочность 1 - 5"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 50
+          deny_commands:
+            - "[message] &bКазино &9| &7У Вас недостаточно средств для создания
+              ставки!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bКазино &9| &7Нет необходимого места!"
+    left_click_commands:
+      - "[takemoney] 50.00"
+      - "[refresh]"
+      - "[message] &bКазино &9| &7Вы сыграли в ставку!"
+      - "[console] <chance=10> minecraft:give %player_name%
+        minecraft:bow{Enchantments:[{id:flame,lvl:1},{id:infinity,lvl:1},{id:po\
+        wer,lvl:%rand/1-6%},{id:punch,lvl:%rand/1-3%},{id:unbreaking,lvl:%rand/\
+        1-5%}]} 1"
+      - "[console] minecraft:give %player_name%
+        minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
+        предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
+        \",\"italic\":false}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"Токен предмет защищен от
+        подделки\",\"color\":\"gray\"},{\"text\":\"\",\"color\":\"dark_purple\",\
+        \"italic\":false}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"и предназначенный только
+        для\",\"italic\":true,\"color\":\"gray\"}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"gray\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" использования в казино для того что
+        бы...\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','\
+        [{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\
+        \":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"Но это совсем другая
+        история...\",\"color\":\"gray\"}]']},Enchantments:[{id:unbreaking,lvl:1\
+        0}],HideFlags:1} %rand/0-1%"
+      - "[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на
+        товар
+        &abow{Enchantments:[{id:flame,lvl:1},{id:infinity,lvl:1},{id:power,lvl:\
+        %rand/1-6%},{id:punch,lvl:%rand/1-3%},{id:unbreaking,lvl:%rand/1-5%}]}&7
+        с зачарованием:&a Воспламенение, Бесконечность, Сила 1 - 6, Откидывание
+        1 - 3, Прочность 1 - 5&7 в количестве 1 за &a50.00$"
+  Unique_name_14:
+    material: BOW
+    slot: 14
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bЛук"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена ставки: &a50.00$"
+      - "&b * &7Выигрыш может составить &aЛук"
+      - "&b * &7Шанс выигрыша &a10%"
+      - "&b * &7&mУникальный приз &r&a0 - 1"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Сила 1 - 6"
+      - "   &b- &7Откидывание 1 - 3"
+      - "   &b- &7Прочность 1 - 5"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 50
+          deny_commands:
+            - "[message] &bКазино &9| &7У Вас недостаточно средств для создания
+              ставки!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bКазино &9| &7Нет необходимого места!"
+    left_click_commands:
+      - "[takemoney] 50.00"
+      - "[refresh]"
+      - "[message] &bКазино &9| &7Вы сыграли в ставку!"
+      - "[console] <chance=10> minecraft:give %player_name%
+        minecraft:bow{Enchantments:[{id:mending,lvl:1},{id:power,lvl:%rand/1-6%\
+        },{id:punch,lvl:%rand/1-3%},{id:unbreaking,lvl:%rand/1-5%}]} 1"
+      - "[console] minecraft:give %player_name%
+        minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
+        предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
+        \",\"italic\":false}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"Токен предмет защищен от
+        подделки\",\"color\":\"gray\"},{\"text\":\"\",\"color\":\"dark_purple\",\
+        \"italic\":false}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"и предназначенный только
+        для\",\"italic\":true,\"color\":\"gray\"}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"gray\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" использования в казино для того что
+        бы...\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','\
+        [{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\
+        \":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"Но это совсем другая
+        история...\",\"color\":\"gray\"}]']},Enchantments:[{id:unbreaking,lvl:1\
+        0}],HideFlags:1} %rand/0-1%"
+      - "[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на
+        товар
+        &abow{Enchantments:[{id:mending,lvl:1},{id:power,lvl:%rand/1-6%},{id:pu\
+        nch,lvl:%rand/1-3%},{id:unbreaking,lvl:%rand/1-5%}]}&7 с зачарованием:&a
+        Починка, Сила 1 - 6, Откидывание 1 - 3, Прочность 1 - 5&7 в количестве 1
+        за &a50.00$"
+  Unique_name_15:
+    material: BOW
+    slot: 15
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bЛук"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена ставки: &a50.00$"
+      - "&b * &7Выигрыш может составить &aЛук"
+      - "&b * &7Шанс выигрыша &a10%"
+      - "&b * &7&mУникальный приз &r&a0 - 1"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Бесконечность"
+      - "   &b- &7Сила 1 - 6"
+      - "   &b- &7Откидывание 1 - 3"
+      - "   &b- &7Прочность 1 - 5"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 50
+          deny_commands:
+            - "[message] &bКазино &9| &7У Вас недостаточно средств для создания
+              ставки!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bКазино &9| &7Нет необходимого места!"
+    left_click_commands:
+      - "[takemoney] 50.00"
+      - "[refresh]"
+      - "[message] &bКазино &9| &7Вы сыграли в ставку!"
+      - "[console] <chance=10> minecraft:give %player_name%
+        minecraft:bow{Enchantments:[{id:infinity,lvl:1},{id:power,lvl:%rand/1-6\
+        %},{id:punch,lvl:%rand/1-3%},{id:unbreaking,lvl:%rand/1-5%}]} 1"
+      - "[console] minecraft:give %player_name%
+        minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
+        предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
+        \",\"italic\":false}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"Токен предмет защищен от
+        подделки\",\"color\":\"gray\"},{\"text\":\"\",\"color\":\"dark_purple\",\
+        \"italic\":false}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"и предназначенный только
+        для\",\"italic\":true,\"color\":\"gray\"}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"gray\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" использования в казино для того что
+        бы...\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','\
+        [{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\
+        \":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"Но это совсем другая
+        история...\",\"color\":\"gray\"}]']},Enchantments:[{id:unbreaking,lvl:1\
+        0}],HideFlags:1} %rand/0-1%"
+      - "[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на
+        товар
+        &abow{Enchantments:[{id:infinity,lvl:1},{id:power,lvl:%rand/1-6%},{id:p\
+        unch,lvl:%rand/1-3%},{id:unbreaking,lvl:%rand/1-5%}]}&7 с
+        зачарованием:&a Бесконечность, Сила 1 - 6, Откидывание 1 - 3, Прочность
+        1 - 5&7 в количестве 1 за &a50.00$"
+  Unique_name_19:
+    material: CROSSBOW
+    slot: 19
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bАрбалет"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена ставки: &a50.00$"
+      - "&b * &7Выигрыш может составить &aАрбалет"
+      - "&b * &7Шанс выигрыша &a10%"
+      - "&b * &7&mУникальный приз &r&a0 - 1"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Пронзающая стрела 1 - 5"
+      - "   &b- &7Быстрая перезарядка 1 - 4"
+      - "   &b- &7Прочность 1 - 5"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 50
+          deny_commands:
+            - "[message] &bКазино &9| &7У Вас недостаточно средств для создания
+              ставки!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bКазино &9| &7Нет необходимого места!"
+    left_click_commands:
+      - "[takemoney] 50.00"
+      - "[refresh]"
+      - "[message] &bКазино &9| &7Вы сыграли в ставку!"
+      - "[console] <chance=10> minecraft:give %player_name%
+        minecraft:crossbow{Enchantments:[{id:mending,lvl:1},{id:piercing,lvl:%r\
+        and/1-5%},{id:quick_charge,lvl:%rand/1-4%},{id:unbreaking,lvl:%rand/1-5\
+        %}]} 1"
+      - "[console] minecraft:give %player_name%
+        minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
+        предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
+        \",\"italic\":false}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"Токен предмет защищен от
+        подделки\",\"color\":\"gray\"},{\"text\":\"\",\"color\":\"dark_purple\",\
+        \"italic\":false}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"и предназначенный только
+        для\",\"italic\":true,\"color\":\"gray\"}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"gray\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" использования в казино для того что
+        бы...\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','\
+        [{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\
+        \":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"Но это совсем другая
+        история...\",\"color\":\"gray\"}]']},Enchantments:[{id:unbreaking,lvl:1\
+        0}],HideFlags:1} %rand/0-1%"
+      - "[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на
+        товар
+        &acrossbow{Enchantments:[{id:mending,lvl:1},{id:piercing,lvl:%rand/1-5%\
+        },{id:quick_charge,lvl:%rand/1-4%},{id:unbreaking,lvl:%rand/1-5%}]}&7 с
+        зачарованием:&a Починка, Пронзающая стрела 1 - 5, Быстрая перезарядка 1
+        - 4, Прочность 1 - 5&7 в количестве 1 за &a50.00$"
+  Unique_name_20:
+    material: CROSSBOW
+    slot: 20
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bАрбалет"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена ставки: &a50.00$"
+      - "&b * &7Выигрыш может составить &aАрбалет"
+      - "&b * &7Шанс выигрыша &a10%"
+      - "&b * &7&mУникальный приз &r&a0 - 1"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Тройной выстрел"
+      - "   &b- &7Быстрая перезарядка 1 - 4"
+      - "   &b- &7Прочность 1 - 5"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 50
+          deny_commands:
+            - "[message] &bКазино &9| &7У Вас недостаточно средств для создания
+              ставки!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bКазино &9| &7Нет необходимого места!"
+    left_click_commands:
+      - "[takemoney] 50.00"
+      - "[refresh]"
+      - "[message] &bКазино &9| &7Вы сыграли в ставку!"
+      - "[console] <chance=10> minecraft:give %player_name%
+        minecraft:crossbow{Enchantments:[{id:mending,lvl:1},{id:multishot,lvl:1\
+        },{id:quick_charge,lvl:%rand/1-4%},{id:unbreaking,lvl:%rand/1-5%}]} 1"
+      - "[console] minecraft:give %player_name%
+        minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
+        предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
+        \",\"italic\":false}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"Токен предмет защищен от
+        подделки\",\"color\":\"gray\"},{\"text\":\"\",\"color\":\"dark_purple\",\
+        \"italic\":false}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"и предназначенный только
+        для\",\"italic\":true,\"color\":\"gray\"}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"gray\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" использования в казино для того что
+        бы...\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','\
+        [{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\
+        \":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"Но это совсем другая
+        история...\",\"color\":\"gray\"}]']},Enchantments:[{id:unbreaking,lvl:1\
+        0}],HideFlags:1} %rand/0-1%"
+      - "[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на
+        товар
+        &acrossbow{Enchantments:[{id:mending,lvl:1},{id:multishot,lvl:1},{id:qu\
+        ick_charge,lvl:%rand/1-4%},{id:unbreaking,lvl:%rand/1-5%}]}&7 с
+        зачарованием:&a Починка, Тройной выстрел, Быстрая перезарядка 1 - 4,
+        Прочность 1 - 5&7 в количестве 1 за &a50.00$"
+  Unique_name_24:
+    material: TRIDENT
+    slot: 24
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bТрезубец"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена ставки: &a50.00$"
+      - "&b * &7Выигрыш может составить &aТрезубец"
+      - "&b * &7Шанс выигрыша &a10%"
+      - "&b * &7&mУникальный приз &r&a0 - 1"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Тягун 1 - 4"
+      - "   &b- &7Пронзатель 1 - 6"
+      - "   &b- &7Прочность 1 - 5"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 50
+          deny_commands:
+            - "[message] &bКазино &9| &7У Вас недостаточно средств для создания
+              ставки!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bКазино &9| &7Нет необходимого места!"
+    left_click_commands:
+      - "[takemoney] 50.00"
+      - "[refresh]"
+      - "[message] &bКазино &9| &7Вы сыграли в ставку!"
+      - "[console] <chance=10> minecraft:give %player_name%
+        minecraft:trident{Enchantments:[{id:mending,lvl:1},{id:riptide,lvl:%ran\
+        d/1-4%},{id:impaling,lvl:%rand/1-6%},{id:unbreaking,lvl:%rand/1-5%}]} 1"
+      - "[console] minecraft:give %player_name%
+        minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
+        предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
+        \",\"italic\":false}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"Токен предмет защищен от
+        подделки\",\"color\":\"gray\"},{\"text\":\"\",\"color\":\"dark_purple\",\
+        \"italic\":false}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"и предназначенный только
+        для\",\"italic\":true,\"color\":\"gray\"}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"gray\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" использования в казино для того что
+        бы...\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','\
+        [{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\
+        \":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"Но это совсем другая
+        история...\",\"color\":\"gray\"}]']},Enchantments:[{id:unbreaking,lvl:1\
+        0}],HideFlags:1} %rand/0-1%"
+      - "[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на
+        товар
+        &atrident{Enchantments:[{id:mending,lvl:1},{id:riptide,lvl:%rand/1-4%},\
+        {id:impaling,lvl:%rand/1-6%},{id:unbreaking,lvl:%rand/1-5%}]}&7 с
+        зачарованием:&a Починка, Тягун 1 - 4, Пронзатель 1 - 6, Прочность 1 -
+        5&7 в количестве 1 за &a50.00$"
+  Unique_name_25:
+    material: TRIDENT
+    slot: 25
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&bТрезубец"
+    lore:
+      - " "
+      - "&b * &7Игрок покупает - цена ставки: &a50.00$"
+      - "&b * &7Выигрыш может составить &aТрезубец"
+      - "&b * &7Шанс выигрыша &a10%"
+      - "&b * &7&mУникальный приз &r&a0 - 1"
+      - " "
+      - "&b * &7Зачарования:"
+      - "   &b- &7Починка"
+      - "   &b- &7Верность 1 - 4"
+      - "   &b- &7Пронзатель 1 - 6"
+      - "   &b- &7Прочность 1 - 5"
+      - "   &b- &7Громовержец"
+      - " "
+      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 50
+          deny_commands:
+            - "[message] &bКазино &9| &7У Вас недостаточно средств для создания
+              ставки!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &bКазино &9| &7Нет необходимого места!"
+    left_click_commands:
+      - "[takemoney] 50.00"
+      - "[refresh]"
+      - "[message] &bКазино &9| &7Вы сыграли в ставку!"
+      - "[console] <chance=10> minecraft:give %player_name%
+        minecraft:trident{Enchantments:[{id:mending,lvl:1},{id:loyalty,lvl:%ran\
+        d/1-4%},{id:impaling,lvl:%rand/1-6%},{id:unbreaking,lvl:%rand/1-5%},{id\
+        :channeling,lvl:1}]} 1"
+      - "[console] minecraft:give %player_name%
+        minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
+        предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
+        \",\"italic\":false}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"Токен предмет защищен от
+        подделки\",\"color\":\"gray\"},{\"text\":\"\",\"color\":\"dark_purple\",\
+        \"italic\":false}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"и предназначенный только
+        для\",\"italic\":true,\"color\":\"gray\"}]','[{\"text\":\"
+        \",\"italic\":true,\"color\":\"gray\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" использования в казино для того что
+        бы...\"},{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','\
+        [{\"text\":\"\",\"italic\":false,\"color\":\"dark_purple\"}]','[{\"text\
+        \":\"
+        \",\"italic\":true,\"color\":\"green\"},{\"text\":\"*\",\"color\":\"aqua\
+        \"},{\"text\":\" \"},{\"text\":\"Но это совсем другая
+        история...\",\"color\":\"gray\"}]']},Enchantments:[{id:unbreaking,lvl:1\
+        0}],HideFlags:1} %rand/0-1%"
+      - "[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на
+        товар
+        &atrident{Enchantments:[{id:mending,lvl:1},{id:loyalty,lvl:%rand/1-4%},\
+        {id:impaling,lvl:%rand/1-6%},{id:unbreaking,lvl:%rand/1-5%},{id:channel\
+        ing,lvl:1}]}&7 с зачарованием:&a Починка, Верность 1 - 4, Пронзатель 1 -
+        6, Прочность 1 - 5, Громовержец&7 в количестве 1 за &a50.00$"

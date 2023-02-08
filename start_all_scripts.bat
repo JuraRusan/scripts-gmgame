@@ -20,3 +20,5 @@ node ./src/casino/netherite_pickaxe_random/netherite_pickaxe_random.js
 node ./src/casino/netherite_hoe_random/netherite_hoe_random.js
 node ./src/casino/netherite_axe_random/netherite_axe_random.js
 node ./src/casino/netherite_shovel_random/netherite_shovel_random.js
+node ./src/casino/bow_crossbow_trident_random/bow_crossbow_trident_random.js
+node ./src/casino/all_tools_random/all_tools_random.js
