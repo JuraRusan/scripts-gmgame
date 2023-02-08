@@ -10,6 +10,9 @@ items:
     priority: 1
     update: true
     hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
     display_name: "&bМонеты"
     lore:
       - " "
@@ -35,14 +38,14 @@ items:
           deny_commands:
             - "[message] &bКазино &9| &7Нет необходимого места в инвентаре!"
     left_click_commands:
-      - "[takemoney] 500.00"
+      - "[takemoney] 500"
       - "[refresh]"
       - "[close]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
       - "[message] &bКазино &9| &7Выигрыш через 3"
       - "[message] &bКазино &9| &7Выигрыш через 2 <delay=20>"
       - "[message] &bКазино &9| &7Выигрыш через 1 <delay=40>"
-      - "[console] money take %player_name% %rand/0-750% <delay=60>"
+      - "[console] cmi money give %player_name% %rand/0-750% <delay=60>"
       - "[console] cmi give %player_name%
         minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
         предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\

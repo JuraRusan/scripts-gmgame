@@ -1,6 +1,6 @@
 const fixed_slot_one = [10, 16, 20, 24, 22];
 const fixed_slot_two = [11, 12, 14, 15, 19, 20, 24, 25];
-const fixed_slot_three = [10, 16, 20, 24];
+const fixed_slot_three = [11, 15, 21, 23];
 const fixed_slot_four = [13];
 
 const token_code = `paper{display:{Name:'[{"text":"Уникальный токен предмет","italic":true,"color":"#3399ff"}]',Lore:['[{"text":"","italic":false}]','[{"text":" ","italic":true,"color":"green"},{"text":"*","color":"aqua"},{"text":" "},{"text":"Токен предмет защищен от подделки","color":"gray"},{"text":"","color":"dark_purple","italic":false}]','[{"text":" ","italic":true,"color":"green"},{"text":"*","color":"aqua"},{"text":" "},{"text":"и предназначенный только для","italic":true,"color":"gray"}]','[{"text":" ","italic":true,"color":"gray"},{"text":"*","color":"aqua"},{"text":" использования в казино для того что бы..."},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"","italic":false,"color":"dark_purple"}]','[{"text":" ","italic":true,"color":"green"},{"text":"*","color":"aqua"},{"text":" "},{"text":"Но это совсем другая история...","color":"gray"}]']},Enchantments:[{id:unbreaking,lvl:10}],HideFlags:1}`;

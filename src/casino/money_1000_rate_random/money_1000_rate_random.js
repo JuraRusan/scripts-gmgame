@@ -18,6 +18,8 @@ const res = itemKeys.reduce((acc, curr, index) => {
         priority: 1,
         update: true,
         hide_attributes: true,
+        hide_enchantments: true,
+        enchantments: ['MENDING;1'],
         display_name: `&b${itemShopsName.name}`,
         lore: [
             " ",
@@ -33,7 +35,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
             requirements: {
                 balance_check: {
                     type: "has money",
-                    amount: amountFormat,
+                    amount: itemShopsName.rate_price,
                     deny_commands: ["[message] &bКазино &9| &7У Вас недостаточно средств для создания ставки!"]
                 },
                 item_check_slot: {
@@ -45,14 +47,14 @@ const res = itemKeys.reduce((acc, curr, index) => {
             }
         },
         left_click_commands: [
-            `[takemoney] ${amountFormat}`,
+            `[takemoney] ${itemShopsName.rate_price}`,
             "[refresh]",
             "[close]",
             "[message] &bКазино &9| &7Вы сыграли в ставку!",
             "[message] &bКазино &9| &7Выигрыш через 3",
             "[message] &bКазино &9| &7Выигрыш через 2 <delay=20>",
             "[message] &bКазино &9| &7Выигрыш через 1 <delay=40>",
-            `[console] money take %player_name% ${itemShopsName.rate_victory} <delay=60>`,
+            `[console] cmi money give %player_name% ${itemShopsName.rate_victory} <delay=60>`,
             `[console] cmi give %player_name% minecraft:${token_code} ${itemShopsName.token} <delay=60>`,
             `[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку &a${amountFormat} <delay=60>`]
     }

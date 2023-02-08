@@ -4,9 +4,9 @@ open_command:
   - shops_all_tools_random
 size: 36
 items:
-  Unique_name_10:
+  Unique_name_11:
     material: FISHING_ROD
-    slot: 10
+    slot: 11
     priority: 1
     update: true
     hide_attributes: true
@@ -42,7 +42,7 @@ items:
           deny_commands:
             - "[message] &bКазино &9| &7Нет необходимого места в инвентаре!"
     left_click_commands:
-      - "[takemoney] 50.00"
+      - "[takemoney] 50"
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
       - "[console] <chance=10> cmi give %player_name%
@@ -75,9 +75,9 @@ items:
         ,{id:luck_of_the_sea,lvl:%rand/1-5%},{id:unbreaking,lvl:%rand/1-6%}]}&7
         с зачарованием&a Приманка 1 - 4, Починка, Везучий рыбак 1 - 5, Прочность
         1 - 5&7 в количестве 1 за &a50.00$"
-  Unique_name_16:
+  Unique_name_15:
     material: SHEARS
-    slot: 16
+    slot: 15
     priority: 1
     update: true
     hide_attributes: true
@@ -112,7 +112,7 @@ items:
           deny_commands:
             - "[message] &bКазино &9| &7Нет необходимого места в инвентаре!"
     left_click_commands:
-      - "[takemoney] 50.00"
+      - "[takemoney] 50"
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
       - "[console] <chance=10> cmi give %player_name%
@@ -143,9 +143,9 @@ items:
         &ashears{Enchantments:[{id:mending,lvl:1},{id:efficiency,lvl:%rand/1-6%\
         },{id:unbreaking,lvl:%rand/1-7%}]}&7 с зачарованием&a Эффективность 1 -
         6, Починка, Прочность 1 - 7&7 в количестве 1 за &a50.00$"
-  Unique_name_20:
+  Unique_name_21:
     material: SHIELD
-    slot: 20
+    slot: 21
     priority: 1
     update: true
     hide_attributes: true
@@ -179,7 +179,7 @@ items:
           deny_commands:
             - "[message] &bКазино &9| &7Нет необходимого места в инвентаре!"
     left_click_commands:
-      - "[takemoney] 50.00"
+      - "[takemoney] 50"
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
       - "[console] <chance=10> cmi give %player_name%
@@ -210,9 +210,9 @@ items:
         &ashield{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:%rand/1-6%\
         }]}&7 с зачарованием&a Починка, Прочность 1 - 6&7 в количестве 1 за
         &a50.00$"
-  Unique_name_24:
+  Unique_name_23:
     material: FLINT_AND_STEEL
-    slot: 24
+    slot: 23
     priority: 1
     update: true
     hide_attributes: true
@@ -246,7 +246,7 @@ items:
           deny_commands:
             - "[message] &bКазино &9| &7Нет необходимого места в инвентаре!"
     left_click_commands:
-      - "[takemoney] 50.00"
+      - "[takemoney] 50"
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
       - "[console] <chance=10> cmi give %player_name%

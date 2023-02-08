@@ -37,7 +37,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
             requirements: {
                 balance_check: {
                     type: "has money",
-                    amount: +amountFormat,
+                    amount: itemShopsName.rate_price,
                     deny_commands: ["[message] &bКазино &9| &7У Вас недостаточно средств для создания ставки!"]
                 },
                 item_check_slot: {
@@ -49,7 +49,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
             }
         },
         left_click_commands: [
-            `[takemoney] ${amountFormat}`,
+            `[takemoney] ${itemShopsName.rate_price}`,
             "[refresh]",
             "[message] &bКазино &9| &7Вы сыграли в ставку!",
             `[console] <chance=10> cmi give %player_name% minecraft:${itemShopsName.console_name} 1`,
