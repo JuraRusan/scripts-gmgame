@@ -1,0 +1,54 @@
+{
+  "menu_title": "Предметы",
+  "register_command": false,
+  "open_command": [
+    "shops_item"
+  ],
+  "size": 54,
+  "items": {
+    "filler_item": {
+      "material": "BLACK_STAINED_GLASS_PANE",
+      "slots": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    "previous": {
+      "material": "SPECTRAL_ARROW",
+      "slot": 47,
+      "priority": 1,
+      "update": true,
+      "display_name": "&bНазад",
+      "left_click_commands": [
+        "[refresh]",
+        "[openguimenu] main_shops"
+      ],
+      "right_click_commands": [
+        "[refresh]",
+        "[openguimenu] main_shops"
+      ],
+      "middle_click_commands": [
+        "[refresh]",
+        "[openguimenu] main_shops"
+      ]
+    },
+    "current": {
+      "material": "SUNFLOWER",
+      "slot": 49,
+      "priority": 1,
+      "update": true,
+      "display_name": "&bТекущая страница",
+      "lore": [
+        " ",
+        "&b * &7Страница &a1"
+      ]
+    }
+  }
+}

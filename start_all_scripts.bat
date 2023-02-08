@@ -8,6 +8,7 @@ node ./src/resoursepack/food/gmgame_food_page_1.js
 node ./src/resoursepack/food/gmgame_food_page_2.js
 
 node ./src/spawn_shops/ore/shops_ore.js
+node ./src/spawn_shops/item/shops_item.js
 node ./src/spawn_shops/tools/shops_tools.js
 node ./src/spawn_shops/turtle_helmets/shops_turtle_helmets.js
 node ./src/spawn_shops/netherite_helmets/shops_netherite_helmets.js
