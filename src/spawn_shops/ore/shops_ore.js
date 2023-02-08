@@ -41,7 +41,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
                 balance_check: {
                     type: "has money",
                     amount: +amountSellFormat,
-                    deny_commands: ["[message] &bМагазин &9| &7У вас недостаточно средств для покупки этого предмета!"]
+                    deny_commands: ["[message] &bМагазин &9| &7У Вас недостаточно средств для покупки этого предмета!"]
                 },
                 item_check_slot: {
                     type: "has item",
@@ -56,7 +56,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
                 balance_check: {
                     type: "has money",
                     amount: +amountStackSellFormat,
-                    deny_commands: ["[message] &bМагазин &9| &7У вас недостаточно средств для покупки этого предмета!"]
+                    deny_commands: ["[message] &bМагазин &9| &7У Вас недостаточно средств для покупки этого предмета!"]
                 },
                 item_check_slot: {
                     type: "has item",

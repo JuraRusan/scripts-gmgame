@@ -69,7 +69,7 @@ items:
           type: has money
           amount: 150
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -77,7 +77,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 150.00"
       - "[refresh]"
@@ -88,8 +88,9 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_pickaxe{Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl\
-        :1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
-        &a150.00$"
+        :1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a
+        Эффективность 5, Починка, Шёлковое касание, Прочность 4&7 в количестве 1
+        за &a150.00$"
   Unique_name_1:
     material: NETHERITE_PICKAXE
     slot: 1
@@ -119,7 +120,7 @@ items:
           type: has money
           amount: 300
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -127,7 +128,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 300.00"
       - "[refresh]"
@@ -138,7 +139,8 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_pickaxe{Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl\
-        :1},{id:fortune,lvl:4},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
+        :1},{id:fortune,lvl:4},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a
+        Эффективность 5, Починка, Удача 4, Прочность 4&7 в количестве 1 за
         &a300.00$"
   Unique_name_2:
     material: NETHERITE_AXE
@@ -169,7 +171,7 @@ items:
           type: has money
           amount: 150
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -177,7 +179,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 150.00"
       - "[refresh]"
@@ -188,8 +190,9 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_axe{Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl:1},\
-        {id:silk_touch,lvl:1},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
-        &a150.00$"
+        {id:silk_touch,lvl:1},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a
+        Эффективность 5, Починка, Шёлковое касание, Прочность 4&7 в количестве 1
+        за &a150.00$"
   Unique_name_3:
     material: NETHERITE_AXE
     slot: 3
@@ -219,7 +222,7 @@ items:
           type: has money
           amount: 300
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -227,7 +230,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 300.00"
       - "[refresh]"
@@ -238,7 +241,8 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_axe{Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl:1},\
-        {id:fortune,lvl:4},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
+        {id:fortune,lvl:4},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a
+        Эффективность 5, Починка, Удача 4, Прочность 4&7 в количестве 1 за
         &a300.00$"
   Unique_name_4:
     material: NETHERITE_SHOVEL
@@ -269,7 +273,7 @@ items:
           type: has money
           amount: 150
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -277,7 +281,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 150.00"
       - "[refresh]"
@@ -288,8 +292,9 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_shovel{Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl:\
-        1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
-        &a150.00$"
+        1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a
+        Эффективность 5, Починка, Шёлковое касание, Прочность 4&7 в количестве 1
+        за &a150.00$"
   Unique_name_5:
     material: NETHERITE_SHOVEL
     slot: 5
@@ -319,7 +324,7 @@ items:
           type: has money
           amount: 300
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -327,7 +332,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 300.00"
       - "[refresh]"
@@ -338,7 +343,8 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_shovel{Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl:\
-        1},{id:fortune,lvl:4},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
+        1},{id:fortune,lvl:4},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a
+        Эффективность 5, Починка, Удача 4, Прочность 4&7 в количестве 1 за
         &a300.00$"
   Unique_name_6:
     material: NETHERITE_HOE
@@ -369,7 +375,7 @@ items:
           type: has money
           amount: 150
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -377,7 +383,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 150.00"
       - "[refresh]"
@@ -388,8 +394,9 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_hoe{Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl:1},\
-        {id:silk_touch,lvl:1},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
-        &a150.00$"
+        {id:silk_touch,lvl:1},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a
+        Эффективность 5, Починка, Шёлковое касание, Прочность 4&7 в количестве 1
+        за &a150.00$"
   Unique_name_7:
     material: NETHERITE_HOE
     slot: 7
@@ -419,7 +426,7 @@ items:
           type: has money
           amount: 300
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -427,7 +434,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 300.00"
       - "[refresh]"
@@ -438,7 +445,8 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_hoe{Enchantments:[{id:efficiency,lvl:5},{id:mending,lvl:1},\
-        {id:fortune,lvl:4},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
+        {id:fortune,lvl:4},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a
+        Эффективность 5, Починка, Удача 4, Прочность 4&7 в количестве 1 за
         &a300.00$"
   Unique_name_8:
     material: NETHERITE_SWORD
@@ -472,7 +480,7 @@ items:
           type: has money
           amount: 350
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -480,7 +488,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 350.00"
       - "[refresh]"
@@ -493,7 +501,9 @@ items:
         товар
         &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
         },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2},{id:smi\
-        te,lvl:6},{id:knockback,lvl:2}]}&7 в количестве 1 за &a350.00$"
+        te,lvl:6},{id:knockback,lvl:2}]}&7 с зачарованием:&a Починка, Прочность
+        4, Разящий клинок 3, Добыча 3, Заговор огня 2, Небесная кара 6, Отдача
+        2&7 в количестве 1 за &a350.00$"
   Unique_name_9:
     material: NETHERITE_SWORD
     slot: 9
@@ -525,7 +535,7 @@ items:
           type: has money
           amount: 350
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -533,7 +543,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 350.00"
       - "[refresh]"
@@ -546,7 +556,8 @@ items:
         товар
         &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
         },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2},{id:smi\
-        te,lvl:6}]}&7 в количестве 1 за &a350.00$"
+        te,lvl:6}]}&7 с зачарованием:&a Починка, Прочность 4, Разящий клинок 3,
+        Добыча 3, Заговор огня 2, Небесная кара 6&7 в количестве 1 за &a350.00$"
   Unique_name_10:
     material: NETHERITE_SWORD
     slot: 10
@@ -577,7 +588,7 @@ items:
           type: has money
           amount: 350
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -585,7 +596,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 350.00"
       - "[refresh]"
@@ -596,8 +607,9 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
-        },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:smite,lvl:6}]}&7 в
-        количестве 1 за &a350.00$"
+        },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:smite,lvl:6}]}&7 с
+        зачарованием:&a Починка, Прочность 4, Разящий клинок 3, Добыча 3,
+        Небесная кара 6&7 в количестве 1 за &a350.00$"
   Unique_name_11:
     material: NETHERITE_SWORD
     slot: 11
@@ -629,7 +641,7 @@ items:
           type: has money
           amount: 350
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -637,7 +649,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 350.00"
       - "[refresh]"
@@ -650,7 +662,8 @@ items:
         товар
         &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
         },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:smite,lvl:6},{id:knockback\
-        ,lvl:2}]}&7 в количестве 1 за &a350.00$"
+        ,lvl:2}]}&7 с зачарованием:&a Починка, Прочность 4, Разящий клинок 3,
+        Добыча 3, Небесная кара 6, Отдача 2&7 в количестве 1 за &a350.00$"
   Unique_name_12:
     material: NETHERITE_SWORD
     slot: 12
@@ -683,7 +696,7 @@ items:
           type: has money
           amount: 350
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -691,7 +704,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 350.00"
       - "[refresh]"
@@ -704,7 +717,9 @@ items:
         товар
         &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
         },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2},{id:sha\
-        rpness,lvl:6},{id:knockback,lvl:2}]}&7 в количестве 1 за &a350.00$"
+        rpness,lvl:6},{id:knockback,lvl:2}]}&7 с зачарованием:&a Починка,
+        Прочность 4, Разящий клинок 3, Добыча 3, Заговор огня 2, Острота 6,
+        Отдача 2&7 в количестве 1 за &a350.00$"
   Unique_name_13:
     material: NETHERITE_SWORD
     slot: 13
@@ -736,7 +751,7 @@ items:
           type: has money
           amount: 350
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -744,7 +759,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 350.00"
       - "[refresh]"
@@ -757,7 +772,8 @@ items:
         товар
         &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
         },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2},{id:sha\
-        rpness,lvl:6}]}&7 в количестве 1 за &a350.00$"
+        rpness,lvl:6}]}&7 с зачарованием:&a Починка, Прочность 4, Разящий клинок
+        3, Добыча 3, Заговор огня 2, Острота 6&7 в количестве 1 за &a350.00$"
   Unique_name_14:
     material: NETHERITE_SWORD
     slot: 14
@@ -788,7 +804,7 @@ items:
           type: has money
           amount: 350
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -796,7 +812,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 350.00"
       - "[refresh]"
@@ -808,8 +824,9 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
-        },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:sharpness,lvl:6}]}&7 в
-        количестве 1 за &a350.00$"
+        },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:sharpness,lvl:6}]}&7 с
+        зачарованием:&a Починка, Прочность 4, Разящий клинок 3, Добыча 3,
+        Острота 6&7 в количестве 1 за &a350.00$"
   Unique_name_15:
     material: NETHERITE_SWORD
     slot: 15
@@ -841,7 +858,7 @@ items:
           type: has money
           amount: 350
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -849,7 +866,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 350.00"
       - "[refresh]"
@@ -862,7 +879,8 @@ items:
         товар
         &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
         },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:sharpness,lvl:6},{id:knock\
-        back,lvl:2}]}&7 в количестве 1 за &a350.00$"
+        back,lvl:2}]}&7 с зачарованием:&a Починка, Прочность 4, Разящий клинок
+        3, Добыча 3, Острота 6, Отдача 2&7 в количестве 1 за &a350.00$"
   Unique_name_16:
     material: NETHERITE_SWORD
     slot: 16
@@ -895,7 +913,7 @@ items:
           type: has money
           amount: 350
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -903,7 +921,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 350.00"
       - "[refresh]"
@@ -916,8 +934,9 @@ items:
         товар
         &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
         },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2},{id:ban\
-        e_of_arthropods,lvl:6},{id:knockback,lvl:2}]}&7 в количестве 1 за
-        &a350.00$"
+        e_of_arthropods,lvl:6},{id:knockback,lvl:2}]}&7 с зачарованием:&a
+        Починка, Прочность 4, Разящий клинок 3, Добыча 3, Заговор огня 2, Бич
+        членистоногих 6, Отдача 2&7 в количестве 1 за &a350.00$"
   Unique_name_17:
     material: NETHERITE_SWORD
     slot: 17
@@ -949,7 +968,7 @@ items:
           type: has money
           amount: 350
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -957,7 +976,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 350.00"
       - "[refresh]"
@@ -970,7 +989,9 @@ items:
         товар
         &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
         },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:fire_aspect,lvl:2},{id:ban\
-        e_of_arthropods,lvl:6}]}&7 в количестве 1 за &a350.00$"
+        e_of_arthropods,lvl:6}]}&7 с зачарованием:&a Починка, Прочность 4,
+        Разящий клинок 3, Добыча 3, Заговор огня 2, Бич членистоногих 6&7 в
+        количестве 1 за &a350.00$"
   Unique_name_18:
     material: NETHERITE_SWORD
     slot: 18
@@ -1001,7 +1022,7 @@ items:
           type: has money
           amount: 350
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1009,7 +1030,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 350.00"
       - "[refresh]"
@@ -1022,7 +1043,8 @@ items:
         товар
         &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
         },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:bane_of_arthropods,lvl:6}]\
-        }&7 в количестве 1 за &a350.00$"
+        }&7 с зачарованием:&a Починка, Прочность 4, Разящий клинок 3, Добыча 3,
+        Бич членистоногих 6&7 в количестве 1 за &a350.00$"
   Unique_name_19:
     material: NETHERITE_SWORD
     slot: 19
@@ -1054,7 +1076,7 @@ items:
           type: has money
           amount: 350
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1062,7 +1084,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 350.00"
       - "[refresh]"
@@ -1075,7 +1097,9 @@ items:
         товар
         &anetherite_sword{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:4\
         },{id:sweeping,lvl:3},{id:looting,lvl:3},{id:bane_of_arthropods,lvl:6},\
-        {id:knockback,lvl:2}]}&7 в количестве 1 за &a350.00$"
+        {id:knockback,lvl:2}]}&7 с зачарованием:&a Починка, Прочность 4, Разящий
+        клинок 3, Добыча 3, Бич членистоногих 6, Отдача 2&7 в количестве 1 за
+        &a350.00$"
   Unique_name_20:
     material: BOW
     slot: 20
@@ -1106,7 +1130,7 @@ items:
           type: has money
           amount: 300
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1114,7 +1138,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 300.00"
       - "[refresh]"
@@ -1125,8 +1149,9 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &abow{Enchantments:[{id:flame,lvl:1},{id:mending,lvl:1},{id:power,lvl:6\
-        },{id:punch,lvl:2},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
-        &a300.00$"
+        },{id:punch,lvl:2},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a
+        Воспламенение, Починка, Сила 6, Откидывание 2, Прочность 4&7 в
+        количестве 1 за &a300.00$"
   Unique_name_21:
     material: BOW
     slot: 21
@@ -1157,7 +1182,7 @@ items:
           type: has money
           amount: 300
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1165,7 +1190,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 300.00"
       - "[refresh]"
@@ -1176,8 +1201,9 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &abow{Enchantments:[{id:flame,lvl:1},{id:infinity,lvl:1},{id:power,lvl:\
-        6},{id:punch,lvl:2},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
-        &a300.00$"
+        6},{id:punch,lvl:2},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a
+        Воспламенение, Бесконечность, Сила 6, Откидывание 2, Прочность 4&7 в
+        количестве 1 за &a300.00$"
   Unique_name_22:
     material: BOW
     slot: 22
@@ -1207,7 +1233,7 @@ items:
           type: has money
           amount: 300
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1215,7 +1241,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 300.00"
       - "[refresh]"
@@ -1226,7 +1252,8 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &abow{Enchantments:[{id:flame,lvl:1},{id:mending,lvl:1},{id:power,lvl:6\
-        },{id:unbreaking,lvl:4}]}&7 в количестве 1 за &a300.00$"
+        },{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Воспламенение, Починка,
+        Сила 6, Прочность 4&7 в количестве 1 за &a300.00$"
   Unique_name_23:
     material: BOW
     slot: 23
@@ -1256,7 +1283,7 @@ items:
           type: has money
           amount: 300
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1264,7 +1291,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 300.00"
       - "[refresh]"
@@ -1275,7 +1302,8 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &abow{Enchantments:[{id:flame,lvl:1},{id:infinity,lvl:1},{id:power,lvl:\
-        6},{id:unbreaking,lvl:4}]}&7 в количестве 1 за &a300.00$"
+        6},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Воспламенение,
+        Бесконечность, Сила 6, Прочность 4&7 в количестве 1 за &a300.00$"
   Unique_name_24:
     material: CROSSBOW
     slot: 24
@@ -1305,7 +1333,7 @@ items:
           type: has money
           amount: 300
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1313,7 +1341,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 300.00"
       - "[refresh]"
@@ -1324,7 +1352,9 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &acrossbow{Enchantments:[{id:mending,lvl:1},{id:piercing,lvl:5},{id:qui\
-        ck_charge,lvl:4},{id:unbreaking,lvl:4}]}&7 в количестве 1 за &a300.00$"
+        ck_charge,lvl:4},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Починка,
+        Пронзающая стрела 5, Быстрая перезарядка 4, Прочность 4&7 в количестве 1
+        за &a300.00$"
   Unique_name_25:
     material: CROSSBOW
     slot: 25
@@ -1354,7 +1384,7 @@ items:
           type: has money
           amount: 300
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1362,7 +1392,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 300.00"
       - "[refresh]"
@@ -1373,7 +1403,9 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &acrossbow{Enchantments:[{id:mending,lvl:1},{id:multishot,lvl:1},{id:qu\
-        ick_charge,lvl:4},{id:unbreaking,lvl:4}]}&7 в количестве 1 за &a300.00$"
+        ick_charge,lvl:4},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Починка,
+        Тройной выстрел, Быстрая перезарядка 4, Прочность 4&7 в количестве 1 за
+        &a300.00$"
   Unique_name_26:
     material: TRIDENT
     slot: 26
@@ -1403,7 +1435,7 @@ items:
           type: has money
           amount: 300
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1411,7 +1443,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 300.00"
       - "[refresh]"
@@ -1422,7 +1454,8 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &atrident{Enchantments:[{id:mending,lvl:1},{id:riptide,lvl:3},{id:impal\
-        ing,lvl:6},{id:unbreaking,lvl:4}]}&7 в количестве 1 за &a300.00$"
+        ing,lvl:6},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Починка, Тягун 3,
+        Прочность 4, Пронзатель 6&7 в количестве 1 за &a300.00$"
   Unique_name_27:
     material: FISHING_ROD
     slot: 27
@@ -1452,7 +1485,7 @@ items:
           type: has money
           amount: 300
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1460,7 +1493,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 300.00"
       - "[refresh]"
@@ -1471,8 +1504,8 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &afishing_rod{Enchantments:[{id:mending,lvl:1},{id:lure,lvl:4},{id:luck\
-        _of_the_sea,lvl:4},{id:unbreaking,lvl:4}]}&7 в количестве 1 за
-        &a300.00$"
+        _of_the_sea,lvl:4},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Починка,
+        Приманка 4, Прочность 4, Везучий рыбак 4&7 в количестве 1 за &a300.00$"
   Unique_name_28:
     material: SHEARS
     slot: 28
@@ -1501,7 +1534,7 @@ items:
           type: has money
           amount: 300
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1509,7 +1542,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 300.00"
       - "[refresh]"
@@ -1520,7 +1553,8 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &ashears{Enchantments:[{id:mending,lvl:1},{id:efficiency,lvl:5},{id:unb\
-        reaking,lvl:5}]}&7 в количестве 1 за &a300.00$"
+        reaking,lvl:5}]}&7 с зачарованием:&a Починка, Эффективность 5, Прочность
+        5&7 в количестве 1 за &a300.00$"
   Unique_name_29:
     material: SHIELD
     slot: 29
@@ -1548,7 +1582,7 @@ items:
           type: has money
           amount: 300
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1556,7 +1590,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 300.00"
       - "[refresh]"
@@ -1566,8 +1600,8 @@ items:
         ]} 1"
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
-        &ashield{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:5}]}&7 в
-        количестве 1 за &a300.00$"
+        &ashield{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:5}]}&7 с
+        зачарованием:&a Починка, Прочность 5&7 в количестве 1 за &a300.00$"
   Unique_name_30:
     material: FLINT_AND_STEEL
     slot: 30
@@ -1595,7 +1629,7 @@ items:
           type: has money
           amount: 300
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1603,7 +1637,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 300.00"
       - "[refresh]"
@@ -1614,4 +1648,5 @@ items:
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
         товар
         &aflint_and_steel{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:5\
-        }]}&7 в количестве 1 за &a300.00$"
+        }]}&7 с зачарованием:&a Починка, Прочность 5&7 в количестве 1 за
+        &a300.00$"

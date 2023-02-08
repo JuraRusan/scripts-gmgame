@@ -1,20 +1,20 @@
 menu_title: Казино
 register_command: false
 open_command:
-  - shops_netherite_pickaxe_random
+  - shops_netherite_hoe_random
 size: 36
 items:
   Unique_name_10:
-    material: NETHERITE_PICKAXE
+    material: NETHERITE_HOE
     slot: 10
     priority: 1
     update: true
     hide_attributes: true
-    display_name: "&bНезеритовая кирка"
+    display_name: "&bНезеритовая мотыга"
     lore:
       - " "
       - "&b * &7Игрок покупает - цена ставки: &a50.00$"
-      - "&b * &7Выигрыш может составить &aНезеритовая кирка"
+      - "&b * &7Выигрыш может составить &aНезеритовая мотыга"
       - "&b * &7Шанс выигрыша &a10%"
       - "&b * &7&mУникальный приз &r&a0 - 1"
       - " "
@@ -46,9 +46,9 @@ items:
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
       - "[console] <chance=10> minecraft:give %player_name%
-        minecraft:netherite_pickaxe{Enchantments:[{id:efficiency,lvl:%rand/1-6%\
-        },{id:mending,lvl:1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:%rand/1-5\
-        %}]} 1"
+        minecraft:netherite_hoe{Enchantments:[{id:efficiency,lvl:%rand/1-6%},{i\
+        d:mending,lvl:1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:%rand/1-5%}]}
+        1"
       - "[console] minecraft:give %player_name%
         minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
         предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
@@ -71,21 +71,21 @@ items:
         0}],HideFlags:1} %rand/0-1%"
       - "[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на
         товар
-        &anetherite_pickaxe{Enchantments:[{id:efficiency,lvl:%rand/1-6%},{id:me\
-        nding,lvl:1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:%rand/1-5%}]}&7 с
+        &anetherite_hoe{Enchantments:[{id:efficiency,lvl:%rand/1-6%},{id:mendin\
+        g,lvl:1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:%rand/1-5%}]}&7 с
         зачарованием:&a Эффективность 1 - 6, Починка, Шёлковое касание,
         Прочность 1 - 5&7 в количестве 1 за &a50.00$"
   Unique_name_16:
-    material: NETHERITE_PICKAXE
+    material: NETHERITE_HOE
     slot: 16
     priority: 1
     update: true
     hide_attributes: true
-    display_name: "&bНезеритовая кирка"
+    display_name: "&bНезеритовая мотыга"
     lore:
       - " "
       - "&b * &7Игрок покупает - цена ставки: &a50.00$"
-      - "&b * &7Выигрыш может составить &aНезеритовая кирка"
+      - "&b * &7Выигрыш может составить &aНезеритовая мотыга"
       - "&b * &7Шанс выигрыша &a10%"
       - "&b * &7&mУникальный приз &r&a0 - 1"
       - " "
@@ -117,9 +117,9 @@ items:
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
       - "[console] <chance=10> minecraft:give %player_name%
-        minecraft:netherite_pickaxe{Enchantments:[{id:efficiency,lvl:%rand/1-6%\
-        },{id:mending,lvl:1},{id:fortune,lvl:%rand/1-4%},{id:unbreaking,lvl:%ra\
-        nd/1-5%}]} 1"
+        minecraft:netherite_hoe{Enchantments:[{id:efficiency,lvl:%rand/1-6%},{i\
+        d:mending,lvl:1},{id:fortune,lvl:%rand/1-4%},{id:unbreaking,lvl:%rand/1\
+        -5%}]} 1"
       - "[console] minecraft:give %player_name%
         minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
         предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
@@ -142,21 +142,21 @@ items:
         0}],HideFlags:1} %rand/0-1%"
       - "[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на
         товар
-        &anetherite_pickaxe{Enchantments:[{id:efficiency,lvl:%rand/1-6%},{id:me\
-        nding,lvl:1},{id:fortune,lvl:%rand/1-4%},{id:unbreaking,lvl:%rand/1-5%}\
-        ]}&7 с зачарованием:&a Эффективность 1 - 6, Починка, Удача 1 - 4,
-        Прочность 1 - 5&7 в количестве 1 за &a50.00$"
+        &anetherite_hoe{Enchantments:[{id:efficiency,lvl:%rand/1-6%},{id:mendin\
+        g,lvl:1},{id:fortune,lvl:%rand/1-4%},{id:unbreaking,lvl:%rand/1-5%}]}&7
+        с зачарованием:&a Эффективность 1 - 6, Починка, Удача 1 - 4, Прочность 1
+        - 5&7 в количестве 1 за &a50.00$"
   Unique_name_20:
-    material: NETHERITE_PICKAXE
+    material: NETHERITE_HOE
     slot: 20
     priority: 1
     update: true
     hide_attributes: true
-    display_name: "&bНезеритовая кирка"
+    display_name: "&bНезеритовая мотыга"
     lore:
       - " "
       - "&b * &7Игрок покупает - цена ставки: &a250.00$"
-      - "&b * &7Выигрыш может составить &aНезеритовая кирка"
+      - "&b * &7Выигрыш может составить &aНезеритовая мотыга"
       - "&b * &7Шанс выигрыша &a10%"
       - "&b * &7&mУникальный приз &r&a0 - 5"
       - " "
@@ -188,9 +188,9 @@ items:
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
       - "[console] <chance=10> minecraft:give %player_name%
-        minecraft:netherite_pickaxe{Enchantments:[{id:efficiency,lvl:%rand/1-8%\
-        },{id:mending,lvl:1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:%rand/1-5\
-        %}]} 1"
+        minecraft:netherite_hoe{Enchantments:[{id:efficiency,lvl:%rand/1-8%},{i\
+        d:mending,lvl:1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:%rand/1-5%}]}
+        1"
       - "[console] minecraft:give %player_name%
         minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
         предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
@@ -213,21 +213,21 @@ items:
         0}],HideFlags:1} %rand/0-5%"
       - "[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на
         товар
-        &anetherite_pickaxe{Enchantments:[{id:efficiency,lvl:%rand/1-8%},{id:me\
-        nding,lvl:1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:%rand/1-5%}]}&7 с
+        &anetherite_hoe{Enchantments:[{id:efficiency,lvl:%rand/1-8%},{id:mendin\
+        g,lvl:1},{id:silk_touch,lvl:1},{id:unbreaking,lvl:%rand/1-5%}]}&7 с
         зачарованием:&a Эффективность 1 - 8, Починка, Шёлковое касание,
         Прочность 1 - 5&7 в количестве 1 за &a250.00$"
   Unique_name_24:
-    material: NETHERITE_PICKAXE
+    material: NETHERITE_HOE
     slot: 24
     priority: 1
     update: true
     hide_attributes: true
-    display_name: "&bНезеритовая кирка"
+    display_name: "&bНезеритовая мотыга"
     lore:
       - " "
       - "&b * &7Игрок покупает - цена ставки: &a250.00$"
-      - "&b * &7Выигрыш может составить &aНезеритовая кирка"
+      - "&b * &7Выигрыш может составить &aНезеритовая мотыга"
       - "&b * &7Шанс выигрыша &a10%"
       - "&b * &7&mУникальный приз &r&a0 - 5"
       - " "
@@ -259,9 +259,9 @@ items:
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
       - "[console] <chance=10> minecraft:give %player_name%
-        minecraft:netherite_pickaxe{Enchantments:[{id:efficiency,lvl:%rand/1-8%\
-        },{id:mending,lvl:1},{id:fortune,lvl:%rand/1-4%},{id:unbreaking,lvl:%ra\
-        nd/1-5%}]} 1"
+        minecraft:netherite_hoe{Enchantments:[{id:efficiency,lvl:%rand/1-8%},{i\
+        d:mending,lvl:1},{id:fortune,lvl:%rand/1-4%},{id:unbreaking,lvl:%rand/1\
+        -5%}]} 1"
       - "[console] minecraft:give %player_name%
         minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
         предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
@@ -284,21 +284,21 @@ items:
         0}],HideFlags:1} %rand/0-5%"
       - "[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на
         товар
-        &anetherite_pickaxe{Enchantments:[{id:efficiency,lvl:%rand/1-8%},{id:me\
-        nding,lvl:1},{id:fortune,lvl:%rand/1-4%},{id:unbreaking,lvl:%rand/1-5%}\
-        ]}&7 с зачарованием:&a Эффективность 1 - 8, Починка, Удача 1 - 4,
-        Прочность 1 - 5&7 в количестве 1 за &a250.00$"
+        &anetherite_hoe{Enchantments:[{id:efficiency,lvl:%rand/1-8%},{id:mendin\
+        g,lvl:1},{id:fortune,lvl:%rand/1-4%},{id:unbreaking,lvl:%rand/1-5%}]}&7
+        с зачарованием:&a Эффективность 1 - 8, Починка, Удача 1 - 4, Прочность 1
+        - 5&7 в количестве 1 за &a250.00$"
   Unique_name_22:
-    material: NETHERITE_PICKAXE
+    material: NETHERITE_HOE
     slot: 22
     priority: 1
     update: true
     hide_attributes: true
-    display_name: "&bНезеритовая кирка"
+    display_name: "&bНезеритовая мотыга"
     lore:
       - " "
       - "&b * &7Игрок покупает - цена ставки: &a225.00$"
-      - "&b * &7Выигрыш может составить &aНезеритовая кирка"
+      - "&b * &7Выигрыш может составить &aНезеритовая мотыга"
       - "&b * &7Шанс выигрыша &a10%"
       - "&b * &7&mУникальный приз &r&a0 - 4"
       - " "
@@ -329,8 +329,8 @@ items:
       - "[refresh]"
       - "[message] &bКазино &9| &7Вы сыграли в ставку!"
       - "[console] <chance=10> minecraft:give %player_name%
-        minecraft:netherite_pickaxe{Enchantments:[{id:efficiency,lvl:%rand/1-8%\
-        },{id:mending,lvl:1},{id:unbreaking,lvl:%rand/1-5%}]} 1"
+        minecraft:netherite_hoe{Enchantments:[{id:efficiency,lvl:%rand/1-8%},{i\
+        d:mending,lvl:1},{id:unbreaking,lvl:%rand/1-5%}]} 1"
       - "[console] minecraft:give %player_name%
         minecraft:paper{display:{Name:'[{\"text\":\"Уникальный токен
         предмет\",\"italic\":true,\"color\":\"#3399ff\"}]',Lore:['[{\"text\":\"\
@@ -353,7 +353,7 @@ items:
         0}],HideFlags:1} %rand/0-4%"
       - "[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на
         товар
-        &anetherite_pickaxe{Enchantments:[{id:efficiency,lvl:%rand/1-8%},{id:me\
-        nding,lvl:1},{id:unbreaking,lvl:%rand/1-5%}]}&7 с зачарованием:&a
+        &anetherite_hoe{Enchantments:[{id:efficiency,lvl:%rand/1-8%},{id:mendin\
+        g,lvl:1},{id:unbreaking,lvl:%rand/1-5%}]}&7 с зачарованием:&a
         Эффективность 1 - 8, Починка, Прочность 1 - 5&7 в количестве 1 за
         &a225.00$"

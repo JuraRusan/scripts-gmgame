@@ -30,7 +30,7 @@ const item_vanilla_base = {
 
 const item_creative_no_sell_base = {
  1: { material: "BUDDING_AMETHYST", console_name: "budding_amethyst", name: "Цветущий аметист", amount: 280 },
- 2: { material: "LIGHT", console_name: "light", name: "Свет", amount: 12 }
+ 2: { material: "LIGHT", console_name: "light", name: "Свет", amount: 8 }
 }
 
 const tools_base = {

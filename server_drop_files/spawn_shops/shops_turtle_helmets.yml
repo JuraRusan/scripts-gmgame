@@ -70,7 +70,7 @@ items:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -78,7 +78,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
@@ -91,7 +91,8 @@ items:
         товар
         &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
         1},{id:respiration,lvl:4},{id:protection,lvl:5},{id:unbreaking,lvl:4}]}\
-        &7 в количестве 1 за &a600.00$"
+        &7 с зачарованием:&a Починка, Подводник, Подводное дыхание 4, Защита 5,
+        Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_1:
     material: TURTLE_HELMET
     slot: 1
@@ -123,7 +124,7 @@ items:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -131,7 +132,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
@@ -144,7 +145,8 @@ items:
         товар
         &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
         1},{id:respiration,lvl:4},{id:protection,lvl:5},{id:unbreaking,lvl:4},{\
-        id:thorns,lvl:3}]}&7 в количестве 1 за &a600.00$"
+        id:thorns,lvl:3}]}&7 с зачарованием:&a Починка, Подводник, Подводное
+        дыхание 4, Защита 5, Прочность 4, Шипы 3&7 в количестве 1 за &a600.00$"
   Unique_name_2:
     material: TURTLE_HELMET
     slot: 2
@@ -175,7 +177,7 @@ items:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -183,7 +185,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
@@ -196,7 +198,8 @@ items:
         товар
         &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
         1},{id:respiration,lvl:4},{id:projectile_protection,lvl:5},{id:unbreaki\
-        ng,lvl:4}]}&7 в количестве 1 за &a600.00$"
+        ng,lvl:4}]}&7 с зачарованием:&a Починка, Подводник, Подводное дыхание 4,
+        Защита от снарядов 5, Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_3:
     material: TURTLE_HELMET
     slot: 3
@@ -228,7 +231,7 @@ items:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -236,7 +239,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
@@ -249,7 +252,9 @@ items:
         товар
         &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
         1},{id:respiration,lvl:4},{id:projectile_protection,lvl:5},{id:unbreaki\
-        ng,lvl:4},{id:thorns,lvl:3}]}&7 в количестве 1 за &a600.00$"
+        ng,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием:&a Починка, Подводник,
+        Подводное дыхание 4, Защита от снарядов 5, Прочность 4, Шипы 3&7 в
+        количестве 1 за &a600.00$"
   Unique_name_4:
     material: TURTLE_HELMET
     slot: 4
@@ -280,7 +285,7 @@ items:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -288,7 +293,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
@@ -301,7 +306,8 @@ items:
         товар
         &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
         1},{id:respiration,lvl:4},{id:fire_protection,lvl:5},{id:unbreaking,lvl\
-        :4}]}&7 в количестве 1 за &a600.00$"
+        :4}]}&7 с зачарованием:&a Починка, Подводник, Подводное дыхание 4,
+        Огнеупорность 5, Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_5:
     material: TURTLE_HELMET
     slot: 5
@@ -333,7 +339,7 @@ items:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -341,7 +347,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
@@ -354,7 +360,9 @@ items:
         товар
         &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
         1},{id:respiration,lvl:4},{id:fire_protection,lvl:5},{id:unbreaking,lvl\
-        :4},{id:thorns,lvl:3}]}&7 в количестве 1 за &a600.00$"
+        :4},{id:thorns,lvl:3}]}&7 с зачарованием:&a Починка, Подводник,
+        Подводное дыхание 4, Огнеупорность 5, Прочность 4, Шипы 3&7 в количестве
+        1 за &a600.00$"
   Unique_name_6:
     material: TURTLE_HELMET
     slot: 6
@@ -385,7 +393,7 @@ items:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -393,7 +401,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
@@ -406,7 +414,8 @@ items:
         товар
         &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
         1},{id:respiration,lvl:4},{id:blast_protection,lvl:5},{id:unbreaking,lv\
-        l:4}]}&7 в количестве 1 за &a600.00$"
+        l:4}]}&7 с зачарованием:&a Починка, Подводник, Подводное дыхание 4,
+        Взрывоустойчивость 5, Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_7:
     material: TURTLE_HELMET
     slot: 7
@@ -438,7 +447,7 @@ items:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -446,7 +455,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
@@ -459,4 +468,6 @@ items:
         товар
         &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
         1},{id:respiration,lvl:4},{id:blast_protection,lvl:5},{id:unbreaking,lv\
-        l:4},{id:thorns,lvl:3}]}&7 в количестве 1 за &a600.00$"
+        l:4},{id:thorns,lvl:3}]}&7 с зачарованием:&a Починка, Подводник,
+        Подводное дыхание 4, Взрывоустойчивость 5, Прочность 4, Шипы 3&7 в
+        количестве 1 за &a600.00$"

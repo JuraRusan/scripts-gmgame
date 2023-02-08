@@ -66,7 +66,7 @@ items:
           type: has money
           amount: 0.028
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -74,14 +74,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 1.76
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -89,7 +89,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -162,7 +162,7 @@ items:
           type: has money
           amount: 0.028
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -170,14 +170,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 1.76
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -185,7 +185,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -258,7 +258,7 @@ items:
           type: has money
           amount: 0.028
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -266,14 +266,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 1.76
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -281,7 +281,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -354,7 +354,7 @@ items:
           type: has money
           amount: 0.028
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -362,14 +362,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 1.76
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -377,7 +377,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -450,7 +450,7 @@ items:
           type: has money
           amount: 0.055
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -458,14 +458,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 3.52
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -473,7 +473,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -546,7 +546,7 @@ items:
           type: has money
           amount: 0.055
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -554,14 +554,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 3.52
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -569,7 +569,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -645,7 +645,7 @@ items:
           type: has money
           amount: 0.055
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -653,14 +653,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 3.52
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -668,7 +668,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -741,7 +741,7 @@ items:
           type: has money
           amount: 0.055
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -749,14 +749,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 3.52
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -764,7 +764,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -841,7 +841,7 @@ items:
           type: has money
           amount: 0.11
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -849,14 +849,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 7.04
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -864,7 +864,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -937,7 +937,7 @@ items:
           type: has money
           amount: 0.11
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -945,14 +945,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 7.04
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -960,7 +960,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -1033,7 +1033,7 @@ items:
           type: has money
           amount: 0.275
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1041,14 +1041,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 17.6
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1056,7 +1056,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -1129,7 +1129,7 @@ items:
           type: has money
           amount: 0.275
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1137,14 +1137,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 17.6
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1152,7 +1152,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -1226,7 +1226,7 @@ items:
           type: has money
           amount: 1.1
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1234,14 +1234,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 70.4
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1249,7 +1249,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -1322,7 +1322,7 @@ items:
           type: has money
           amount: 1.1
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1330,14 +1330,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 70.4
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1345,7 +1345,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -1422,7 +1422,7 @@ items:
           type: has money
           amount: 2.2
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1430,14 +1430,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 140.8
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1445,7 +1445,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -1518,7 +1518,7 @@ items:
           type: has money
           amount: 2.2
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1526,14 +1526,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 140.8
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1541,7 +1541,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -1618,7 +1618,7 @@ items:
           type: has money
           amount: 0.055
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1626,14 +1626,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 3.52
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1641,7 +1641,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -1714,7 +1714,7 @@ items:
           type: has money
           amount: 0.11
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1722,14 +1722,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 7.04
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1737,7 +1737,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -1810,7 +1810,7 @@ items:
           type: has money
           amount: 2.75
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1818,14 +1818,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 176
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1833,7 +1833,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -1906,7 +1906,7 @@ items:
           type: has money
           amount: 1.375
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1914,14 +1914,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 88
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -1929,7 +1929,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:

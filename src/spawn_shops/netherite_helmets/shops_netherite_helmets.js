@@ -37,7 +37,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
                 balance_check: {
                     type: "has money",
                     amount: +amountFormat,
-                    deny_commands: ["[message] &bМагазин &9| &7У вас недостаточно средств для покупки этого предмета!"]
+                    deny_commands: ["[message] &bМагазин &9| &7У Вас недостаточно средств для покупки этого предмета!"]
                 },
                 item_check_slot: {
                     type: "has item",
@@ -52,7 +52,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
             "[refresh]",
             "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!",
             `[console] minecraft:give %player_name% minecraft:${itemShopsName.console_name} 1`,
-            `[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел товар &a${itemShopsName.console_name}&7 в количестве 1 за &a${amountFormat}$`
+            `[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел товар &a${itemShopsName.console_name}&7 с зачарованием:&a${(itemShopsName.enchantments.map(x => " " + x))}&7 в количестве 1 за &a${amountFormat}$`
         ],
     }
     i++;

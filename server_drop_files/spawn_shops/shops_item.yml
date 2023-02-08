@@ -66,7 +66,7 @@ items:
           type: has money
           amount: 192.5
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -74,14 +74,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: .nan
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -89,7 +89,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -166,7 +166,7 @@ items:
           type: has money
           amount: 27.5
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -174,14 +174,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: .nan
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -189,7 +189,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -258,7 +258,7 @@ items:
           type: has money
           amount: 280
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -266,14 +266,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: .nan
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -281,7 +281,7 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 280.00"
       - "[refresh]"
@@ -305,8 +305,8 @@ items:
     display_name: "&bСвет"
     lore:
       - " "
-      - "&b * &7Игрок покупает - цена за 1 единицу: &a12.00$"
-      - "&b * &7Игрок покупает - цена за 1 стак: &a768.00$"
+      - "&b * &7Игрок покупает - цена за 1 единицу: &a8.00$"
+      - "&b * &7Игрок покупает - цена за 1 стак: &a512.00$"
       - " "
       - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
       - " "
@@ -316,9 +316,9 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 12
+          amount: 8
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -326,14 +326,14 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     shift_left_click_requirement:
       requirements:
         balance_check:
           type: has money
-          amount: 768
+          amount: 512
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -341,18 +341,18 @@ items:
           amount: 64
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
-      - "[takemoney] 12.00"
+      - "[takemoney] 8.00"
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name% minecraft:light 1"
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар &alight&7 в количестве 1 за &a12.00$"
+        товар &alight&7 в количестве 1 за &a8.00$"
     shift_left_click_commands:
-      - "[takemoney] 768.00"
+      - "[takemoney] 512.00"
       - "[refresh]"
       - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name% minecraft:light 64"
       - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар &alight&7 в количестве 64 за &a768.00$"
+        товар &alight&7 в количестве 64 за &a512.00$"

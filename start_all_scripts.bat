@@ -17,3 +17,6 @@ node ./src/spawn_shops/netherite_leggings/shops_netherite_leggings.js
 node ./src/spawn_shops/netherite_boots/shops_netherite_boots.js
 
 node ./src/casino/netherite_pickaxe_random/netherite_pickaxe_random.js
+node ./src/casino/netherite_hoe_random/netherite_hoe_random.js
+node ./src/casino/netherite_axe_random/netherite_axe_random.js
+node ./src/casino/netherite_shovel_random/netherite_shovel_random.js

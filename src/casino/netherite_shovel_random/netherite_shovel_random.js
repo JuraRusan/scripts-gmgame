@@ -1,14 +1,14 @@
 const YAML = require('yaml');
 const fs = require('fs-extra');
-let { fixed_slot_one, token_code, netherite_pickaxe_random_base } = require('../Casino.js');
-let template = require('./netherite_pickaxe_random_sample.json');
+let { fixed_slot_one, token_code, netherite_shovel_random_base } = require('../Casino.js');
+let template = require('./netherite_shovel_random_sample.json');
 
-const itemKeys = Object.keys(netherite_pickaxe_random_base);
+const itemKeys = Object.keys(netherite_shovel_random_base);
 let i = 0;
 
 const res = itemKeys.reduce((acc, curr, index) => {
     const slot = fixed_slot_one[i];
-    const itemShopsName = netherite_pickaxe_random_base[curr];
+    const itemShopsName = netherite_shovel_random_base[curr];
 
     const amountFormat = Intl.NumberFormat('en-US', { minimumFractionDigits: 2 }).format(itemShopsName.rate_price);
 
@@ -64,4 +64,4 @@ const res = itemKeys.reduce((acc, curr, index) => {
 
 template.items = { ...template.items, ...res }
 
-fs.writeFileSync('./server_drop_files/casino/netherite_pickaxe_random.yml', YAML.stringify(template));
+fs.writeFileSync('./server_drop_files/casino/netherite_shovel_random.yml', YAML.stringify(template));

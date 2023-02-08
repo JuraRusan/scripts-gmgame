@@ -71,7 +71,7 @@ items:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -79,7 +79,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
@@ -92,7 +92,9 @@ items:
         товар
         &anetherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_fa\
         lling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:protection,lv\
-        l:5},{id:unbreaking,lvl:4}]}&7 в количестве 1 за &a600.00$"
+        l:5},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Подводная ходьба 3,
+        Невесомость 5, Скорость души 3, Починка, Защита 5, Прочность 4&7 в
+        количестве 1 за &a600.00$"
   Unique_name_1:
     material: NETHERITE_BOOTS
     slot: 1
@@ -125,7 +127,7 @@ items:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -133,7 +135,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
@@ -146,8 +148,9 @@ items:
         товар
         &anetherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_fa\
         lling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:protection,lv\
-        l:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 в количестве 1 за
-        &a600.00$"
+        l:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием:&a
+        Подводная ходьба 3, Невесомость 5, Скорость души 3, Починка, Защита 5,
+        Прочность 4, Шипы 3&7 в количестве 1 за &a600.00$"
   Unique_name_2:
     material: NETHERITE_BOOTS
     slot: 2
@@ -179,7 +182,7 @@ items:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -187,7 +190,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
@@ -200,7 +203,9 @@ items:
         товар
         &anetherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_fa\
         lling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:projectile_pr\
-        otection,lvl:5},{id:unbreaking,lvl:4}]}&7 в количестве 1 за &a600.00$"
+        otection,lvl:5},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Подводная
+        ходьба 3, Невесомость 5, Скорость души 3, Починка, Защита от снарядов 5,
+        Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_3:
     material: NETHERITE_BOOTS
     slot: 3
@@ -233,7 +238,7 @@ items:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -241,7 +246,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
@@ -254,8 +259,10 @@ items:
         товар
         &anetherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_fa\
         lling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:projectile_pr\
-        otection,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 в количестве
-        1 за &a600.00$"
+        otection,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с
+        зачарованием:&a Подводная ходьба 3, Невесомость 5, Скорость души 3,
+        Починка, Защита от снарядов 5, Прочность 4, Шипы 3&7 в количестве 1 за
+        &a600.00$"
   Unique_name_4:
     material: NETHERITE_BOOTS
     slot: 4
@@ -287,7 +294,7 @@ items:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -295,7 +302,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
@@ -308,7 +315,9 @@ items:
         товар
         &anetherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_fa\
         lling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:fire_protecti\
-        on,lvl:5},{id:unbreaking,lvl:4}]}&7 в количестве 1 за &a600.00$"
+        on,lvl:5},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Подводная ходьба
+        3, Невесомость 5, Скорость души 3, Починка, Огнеупорность 5, Прочность
+        4&7 в количестве 1 за &a600.00$"
   Unique_name_5:
     material: NETHERITE_BOOTS
     slot: 5
@@ -341,7 +350,7 @@ items:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -349,7 +358,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
@@ -362,8 +371,9 @@ items:
         товар
         &anetherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_fa\
         lling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:fire_protecti\
-        on,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 в количестве 1 за
-        &a600.00$"
+        on,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием:&a
+        Подводная ходьба 3, Невесомость 5, Скорость души 3, Починка,
+        Огнеупорность 5, Прочность 4, Шипы 3&7 в количестве 1 за &a600.00$"
   Unique_name_6:
     material: NETHERITE_BOOTS
     slot: 6
@@ -395,7 +405,7 @@ items:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -403,7 +413,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
@@ -416,7 +426,9 @@ items:
         товар
         &anetherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_fa\
         lling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:blast_protect\
-        ion,lvl:5},{id:unbreaking,lvl:4}]}&7 в количестве 1 за &a600.00$"
+        ion,lvl:5},{id:unbreaking,lvl:4}]}&7 с зачарованием:&a Подводная ходьба
+        3, Невесомость 5, Скорость души 3, Починка, Взрывоустойчивость 5,
+        Прочность 4&7 в количестве 1 за &a600.00$"
   Unique_name_7:
     material: NETHERITE_BOOTS
     slot: 7
@@ -449,7 +461,7 @@ items:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У вас недостаточно средств для покупки
+            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
               этого предмета!"
         item_check_slot:
           type: has item
@@ -457,7 +469,7 @@ items:
           amount: 1
           deny_commands:
             - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета"
+              этого предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
@@ -470,5 +482,6 @@ items:
         товар
         &anetherite_boots{Enchantments:[{id:depth_strider,lvl:3},{id:feather_fa\
         lling,lvl:5},{id:soul_speed,lvl:3},{id:mending,lvl:1},{id:blast_protect\
-        ion,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 в количестве 1 за
-        &a600.00$"
+        ion,lvl:5},{id:unbreaking,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием:&a
+        Подводная ходьба 3, Невесомость 5, Скорость души 3, Починка,
+        Взрывоустойчивость 5, Прочность 4, Шипы 3&7 в количестве 1 за &a600.00$"
