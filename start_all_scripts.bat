@@ -22,3 +22,13 @@ node ./src/casino/netherite_axe_random/netherite_axe_random.js
 node ./src/casino/netherite_shovel_random/netherite_shovel_random.js
 node ./src/casino/bow_crossbow_trident_random/bow_crossbow_trident_random.js
 node ./src/casino/all_tools_random/all_tools_random.js
+node ./src/casino/money_10_rate_random/money_10_rate_random.js
+node ./src/casino/money_25_rate_random/money_25_rate_random.js
+node ./src/casino/money_50_rate_random/money_50_rate_random.js
+node ./src/casino/money_75_rate_random/money_75_rate_random.js
+node ./src/casino/money_100_rate_random/money_100_rate_random.js
+node ./src/casino/money_250_rate_random/money_250_rate_random.js
+node ./src/casino/money_500_rate_random/money_500_rate_random.js
+node ./src/casino/money_750_rate_random/money_750_rate_random.js
+node ./src/casino/money_1000_rate_random/money_1000_rate_random.js
+node ./src/casino/money_1500_rate_random/money_1500_rate_random.js

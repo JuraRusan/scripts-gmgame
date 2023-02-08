@@ -1,14 +1,14 @@
 const YAML = require('yaml');
 const fs = require('fs-extra');
-let { fixed_slot_two, token_code, bow_crossbow_trident_random_base } = require('../Casino.js');
-let template = require('./bow_crossbow_trident_random_sample.json');
+let { fixed_slot_four, token_code, money_250_rate_random } = require('../Casino.js');
+let template = require('./money_250_rate_random_sample.json');
 
-const itemKeys = Object.keys(bow_crossbow_trident_random_base);
+const itemKeys = Object.keys(money_250_rate_random);
 let i = 0;
 
 const res = itemKeys.reduce((acc, curr, index) => {
-    const slot = fixed_slot_two[i];
-    const itemShopsName = bow_crossbow_trident_random_base[curr];
+    const slot = fixed_slot_four[i];
+    const itemShopsName = money_250_rate_random[curr];
 
     const amountFormat = Intl.NumberFormat('en-US', { minimumFractionDigits: 2 }).format(itemShopsName.rate_price);
 
@@ -21,13 +21,9 @@ const res = itemKeys.reduce((acc, curr, index) => {
         display_name: `&b${itemShopsName.name}`,
         lore: [
             " ",
-            `&b * &7Игрок покупает - цена ставки: &a${amountFormat}$`,
-            `&b * &7Выигрыш может составить &a${itemShopsName.name}`,
-            "&b * &7Шанс выигрыша &a10%",
+            `&b * &7Сумма ставки: &a${amountFormat}$`,
+            `&b * &7Выигрыш может составить &a${itemShopsName.rate_victory_ru}$`,
             `&b * &7&mУникальный приз &r&a${itemShopsName.token_ru}`,
-            " ",
-            "&b * &7Зачарования:",
-            ...itemShopsName.enchantments.map(x => "   &b- &7" + x),
             " ",
             "&b * &7Ваш баланс: &a%xconomy_balance_formatted%",
             " ",
@@ -51,11 +47,14 @@ const res = itemKeys.reduce((acc, curr, index) => {
         left_click_commands: [
             `[takemoney] ${amountFormat}`,
             "[refresh]",
+            "[close]",
             "[message] &bКазино &9| &7Вы сыграли в ставку!",
-            `[console] <chance=10> minecraft:give %player_name% minecraft:${itemShopsName.console_name} 1`,
-            `[console] minecraft:give %player_name% minecraft:${token_code} ${itemShopsName.token}`,
-            `[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на товар &a${itemShopsName.console_name}&7 с зачарованием:&a${(itemShopsName.enchantments.map(x => " " + x))}&7 в количестве 1 за &a${amountFormat}$`
-        ]
+            "[message] &bКазино &9| &7Выигрыш через 3",
+            "[message] &bКазино &9| &7Выигрыш через 2 <delay=20>",
+            "[message] &bКазино &9| &7Выигрыш через 1 <delay=40>",
+            `[console] money take %player_name% ${itemShopsName.rate_victory} <delay=60>`,
+            `[console] minecraft:give %player_name% minecraft:${token_code} ${itemShopsName.token} <delay=60>`,
+            `[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку &a${amountFormat} <delay=60>`]
     }
     i++;
 
@@ -64,4 +63,4 @@ const res = itemKeys.reduce((acc, curr, index) => {
 
 template.items = { ...template.items, ...res }
 
-fs.writeFileSync('./server_drop_files/casino/bow_crossbow_trident_random.yml', YAML.stringify(template));
+fs.writeFileSync('./server_drop_files/casino/money_250_rate_random.yml', YAML.stringify(template));

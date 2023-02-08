@@ -1,5 +1,7 @@
 const fixed_slot_one = [10, 16, 20, 24, 22];
 const fixed_slot_two = [11, 12, 14, 15, 19, 20, 24, 25];
+const fixed_slot_three = [10, 16, 20, 24];
+const fixed_slot_four = [13];
 
 const token_code = `paper{display:{Name:'[{"text":"Уникальный токен предмет","italic":true,"color":"#3399ff"}]',Lore:['[{"text":"","italic":false}]','[{"text":" ","italic":true,"color":"green"},{"text":"*","color":"aqua"},{"text":" "},{"text":"Токен предмет защищен от подделки","color":"gray"},{"text":"","color":"dark_purple","italic":false}]','[{"text":" ","italic":true,"color":"green"},{"text":"*","color":"aqua"},{"text":" "},{"text":"и предназначенный только для","italic":true,"color":"gray"}]','[{"text":" ","italic":true,"color":"gray"},{"text":"*","color":"aqua"},{"text":" использования в казино для того что бы..."},{"text":"","italic":false,"color":"dark_purple"}]','[{"text":"","italic":false,"color":"dark_purple"}]','[{"text":" ","italic":true,"color":"green"},{"text":"*","color":"aqua"},{"text":" "},{"text":"Но это совсем другая история...","color":"gray"}]']},Enchantments:[{id:unbreaking,lvl:10}],HideFlags:1}`;
 
@@ -53,8 +55,50 @@ const all_tools_random_base = {
  4: { material: "FLINT_AND_STEEL", name: "Огниво", rate_price: 50, token: "%rand/0-1%", token_ru: "0 - 1", enchantments: ["Починка", "Прочность 1 - 6"], console_name: "flint_and_steel{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:%rand/1-6%}]}" }
 };
 
+const money_10_rate_random = {
+ 1: { material: "PAPER", name: "Монеты", rate_price: 10, rate_victory: "%rand/0-15%", rate_victory_ru: "0 - 15", token: "%rand/0-1%", token_ru: "0 - 1" }
+};
+
+const money_25_rate_random = {
+ 1: { material: "PAPER", name: "Монеты", rate_price: 25, rate_victory: "%rand/0-35%", rate_victory_ru: "0 - 35", token: "%rand/0-1%", token_ru: "0 - 1" }
+};
+
+const money_50_rate_random = {
+ 1: { material: "PAPER", name: "Монеты", rate_price: 50, rate_victory: "%rand/0-75%", rate_victory_ru: "0 - 75", token: "%rand/0-2%", token_ru: "0 - 2" }
+};
+
+const money_75_rate_random = {
+ 1: { material: "PAPER", name: "Монеты", rate_price: 75, rate_victory: "%rand/0-100%", rate_victory_ru: "0 - 100", token: "%rand/0-2%", token_ru: "0 - 2" }
+};
+
+const money_100_rate_random = {
+ 1: { material: "PAPER", name: "Монеты", rate_price: 100, rate_victory: "%rand/0-150%", rate_victory_ru: "0 - 150", token: "%rand/0-4%", token_ru: "0 - 4" }
+};
+
+const money_250_rate_random = {
+ 1: { material: "PAPER", name: "Монеты", rate_price: 250, rate_victory: "%rand/0-375%", rate_victory_ru: "0 - 375", token: "%rand/0-5%", token_ru: "0 - 5" }
+};
+
+const money_500_rate_random = {
+ 1: { material: "PAPER", name: "Монеты", rate_price: 500, rate_victory: "%rand/0-750%", rate_victory_ru: "0 - 750", token: "%rand/0-6%", token_ru: "0 - 6" }
+};
+
+const money_750_rate_random = {
+ 1: { material: "PAPER", name: "Монеты", rate_price: 750, rate_victory: "%rand/0-1125%", rate_victory_ru: "0 - 1125", token: "%rand/0-10%", token_ru: "0 - 10" }
+};
+
+const money_1000_rate_random = {
+ 1: { material: "PAPER", name: "Монеты", rate_price: 1000, rate_victory: "%rand/0-1500%", rate_victory_ru: "0 - 1500", token: "%rand/0-14%", token_ru: "0 - 14" }
+};
+
+const money_1500_rate_random = {
+ 1: { material: "PAPER", name: "Монеты", rate_price: 1500, rate_victory: "%rand/0-2250%", rate_victory_ru: "0 - 2250", token: "%rand/0-16%", token_ru: "0 - 16" }
+};
+
 module.exports.fixed_slot_one = fixed_slot_one;
 module.exports.fixed_slot_two = fixed_slot_two;
+module.exports.fixed_slot_three = fixed_slot_three;
+module.exports.fixed_slot_four = fixed_slot_four;
 module.exports.token_code = token_code;
 module.exports.netherite_pickaxe_random_base = netherite_pickaxe_random_base;
 module.exports.netherite_shovel_random_base = netherite_shovel_random_base;
@@ -62,3 +106,13 @@ module.exports.netherite_axe_random_base = netherite_axe_random_base;
 module.exports.netherite_hoe_random_base = netherite_hoe_random_base;
 module.exports.bow_crossbow_trident_random_base = bow_crossbow_trident_random_base;
 module.exports.all_tools_random_base = all_tools_random_base;
+module.exports.money_10_rate_random = money_10_rate_random;
+module.exports.money_25_rate_random = money_25_rate_random;
+module.exports.money_50_rate_random = money_50_rate_random;
+module.exports.money_75_rate_random = money_75_rate_random;
+module.exports.money_100_rate_random = money_100_rate_random;
+module.exports.money_250_rate_random = money_250_rate_random;
+module.exports.money_500_rate_random = money_500_rate_random;
+module.exports.money_750_rate_random = money_750_rate_random;
+module.exports.money_1000_rate_random = money_1000_rate_random;
+module.exports.money_1500_rate_random = money_1500_rate_random;

@@ -1,13 +1,13 @@
 const YAML = require('yaml');
 const fs = require('fs-extra');
-let { fixed_slot_one, token_code, all_tools_random_base } = require('../Casino.js');
+let { fixed_slot_three, token_code, all_tools_random_base } = require('../Casino.js');
 let template = require('./all_tools_random_sample.json');
 
 const itemKeys = Object.keys(all_tools_random_base);
 let i = 0;
 
 const res = itemKeys.reduce((acc, curr, index) => {
-    const slot = fixed_slot_one[i];
+    const slot = fixed_slot_three[i];
     const itemShopsName = all_tools_random_base[curr];
 
     const amountFormat = Intl.NumberFormat('en-US', { minimumFractionDigits: 2 }).format(itemShopsName.rate_price);
@@ -44,7 +44,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
                     type: "has item",
                     material: "AIR",
                     amount: 1,
-                    deny_commands: ["[message] &bКазино &9| &7Нет необходимого места!"]
+                    deny_commands: ["[message] &bКазино &9| &7Нет необходимого места в инвентаре!"]
                 }
             }
         },

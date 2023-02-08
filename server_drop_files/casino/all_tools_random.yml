@@ -40,7 +40,7 @@ items:
           material: AIR
           amount: 1
           deny_commands:
-            - "[message] &bКазино &9| &7Нет необходимого места!"
+            - "[message] &bКазино &9| &7Нет необходимого места в инвентаре!"
     left_click_commands:
       - "[takemoney] 50.00"
       - "[refresh]"
@@ -110,7 +110,7 @@ items:
           material: AIR
           amount: 1
           deny_commands:
-            - "[message] &bКазино &9| &7Нет необходимого места!"
+            - "[message] &bКазино &9| &7Нет необходимого места в инвентаре!"
     left_click_commands:
       - "[takemoney] 50.00"
       - "[refresh]"
@@ -177,7 +177,7 @@ items:
           material: AIR
           amount: 1
           deny_commands:
-            - "[message] &bКазино &9| &7Нет необходимого места!"
+            - "[message] &bКазино &9| &7Нет необходимого места в инвентаре!"
     left_click_commands:
       - "[takemoney] 50.00"
       - "[refresh]"
@@ -244,7 +244,7 @@ items:
           material: AIR
           amount: 1
           deny_commands:
-            - "[message] &bКазино &9| &7Нет необходимого места!"
+            - "[message] &bКазино &9| &7Нет необходимого места в инвентаре!"
     left_click_commands:
       - "[takemoney] 50.00"
       - "[refresh]"
