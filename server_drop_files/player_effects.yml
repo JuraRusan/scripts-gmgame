@@ -1,0 +1,402 @@
+menu_title: Еффекты игрока
+register_command: true
+open_command:
+  - player_effect
+size: 36
+update_interval: 1
+items:
+  id_1_something_is_interfering_slot_10:
+    material: HEART_OF_THE_SEA
+    slot: 10
+    priority: 0
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.2.style.server.gmgame
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.3.style.server.gmgame
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.4.style.server.gmgame
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.5.style.server.gmgame
+  id_1_switched_off_slot_10:
+    material: OBSIDIAN
+    slot: 10
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    lore:
+      - " "
+      - "&b * &7Ухххх  описание строка 1"
+      - "&b * &7Ухххх  описание строка 2"
+      - "&b * &7Ухххх  описание строка 3"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: "!has permission"
+          permission: particles.custom.player.effects.1.style.server.gmgame
+    left_click_commands:
+      - "[console] lp user %player_name% permission set
+        particles.custom.player.effects.1.style.server.gmgame"
+      - "[console] ppo %player_name% add heart beam"
+      - "[message]&bЕффекты &9| &7Вы успешно включили себе частицы!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+  id_1_switched_on_slot_10:
+    material: OBSIDIAN
+    slot: 10
+    priority: 2
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fНазвание частиц [false/&btrue&f]"
+    lore:
+      - " "
+      - "&b * &7Ухххх  описание строка 1"
+      - "&b * &7Ухххх  описание строка 2"
+      - "&b * &7Ухххх  описание строка 3"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.1.style.server.gmgame
+    left_click_commands:
+      - "[console] lp user %player_name% permission unset
+        particles.custom.player.effects.1.style.server.gmgame"
+      - "[console] ppo %player_name% remove 1"
+      - "[message]&bЕффекты &9| &7Вы успешно выключили себе частицы!"
+      - "[sound] BLOCK_NOTE_BLOCK_CHIME"
+      - "[refresh]"
+  id_2_something_is_interfering_slot_11:
+    material: HEART_OF_THE_SEA
+    slot: 11
+    priority: 0
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.1.style.server.gmgame
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.3.style.server.gmgame
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.4.style.server.gmgame
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.5.style.server.gmgame
+  id_2_switched_off_slot_11:
+    material: OBSIDIAN
+    slot: 11
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    lore:
+      - " "
+      - "&b * &7Ухххх  описание строка 1"
+      - "&b * &7Ухххх  описание строка 2"
+      - "&b * &7Ухххх  описание строка 3"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: "!has permission"
+          permission: particles.custom.player.effects.2.style.server.gmgame
+    left_click_commands:
+      - "[console] lp user %player_name% permission set
+        particles.custom.player.effects.2.style.server.gmgame"
+      - "[console] ppo %player_name% add heart batman"
+      - "[message]&bЕффекты &9| &7Вы успешно включили себе частицы!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+  id_2_switched_on_slot_11:
+    material: OBSIDIAN
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fНазвание частиц [false/&btrue&f]"
+    lore:
+      - " "
+      - "&b * &7Ухххх  описание строка 1"
+      - "&b * &7Ухххх  описание строка 2"
+      - "&b * &7Ухххх  описание строка 3"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.2.style.server.gmgame
+    left_click_commands:
+      - "[console] lp user %player_name% permission unset
+        particles.custom.player.effects.2.style.server.gmgame"
+      - "[console] ppo %player_name% remove 1"
+      - "[message]&bЕффекты &9| &7Вы успешно выключили себе частицы!"
+      - "[sound] BLOCK_NOTE_BLOCK_CHIME"
+      - "[refresh]"
+  id_3_something_is_interfering_slot_12:
+    material: HEART_OF_THE_SEA
+    slot: 12
+    priority: 0
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.1.style.server.gmgame
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.2.style.server.gmgame
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.4.style.server.gmgame
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.5.style.server.gmgame
+  id_3_switched_off_slot_12:
+    material: OBSIDIAN
+    slot: 12
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    lore:
+      - " "
+      - "&b * &7Ухххх  описание строка 1"
+      - "&b * &7Ухххх  описание строка 2"
+      - "&b * &7Ухххх  описание строка 3"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: "!has permission"
+          permission: particles.custom.player.effects.3.style.server.gmgame
+    left_click_commands:
+      - "[console] lp user %player_name% permission set
+        particles.custom.player.effects.3.style.server.gmgame"
+      - "[console] ppo %player_name% add heart companion"
+      - "[message]&bЕффекты &9| &7Вы успешно включили себе частицы!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+  id_3_switched_on_slot_12:
+    material: OBSIDIAN
+    slot: 12
+    priority: 2
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fНазвание частиц [false/&btrue&f]"
+    lore:
+      - " "
+      - "&b * &7Ухххх  описание строка 1"
+      - "&b * &7Ухххх  описание строка 2"
+      - "&b * &7Ухххх  описание строка 3"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.3.style.server.gmgame
+    left_click_commands:
+      - "[console] lp user %player_name% permission unset
+        particles.custom.player.effects.3.style.server.gmgame"
+      - "[console] ppo %player_name% remove 1"
+      - "[message]&bЕффекты &9| &7Вы успешно выключили себе частицы!"
+      - "[sound] BLOCK_NOTE_BLOCK_CHIME"
+      - "[refresh]"
+  id_4_something_is_interfering_slot_13:
+    material: HEART_OF_THE_SEA
+    slot: 13
+    priority: 0
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.1.style.server.gmgame
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.2.style.server.gmgame
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.3.style.server.gmgame
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.5.style.server.gmgame
+  id_4_switched_off_slot_13:
+    material: OBSIDIAN
+    slot: 13
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    lore:
+      - " "
+      - "&b * &7Ухххх  описание строка 1"
+      - "&b * &7Ухххх  описание строка 2"
+      - "&b * &7Ухххх  описание строка 3"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: "!has permission"
+          permission: particles.custom.player.effects.4.style.server.gmgame
+    left_click_commands:
+      - "[console] lp user %player_name% permission set
+        particles.custom.player.effects.4.style.server.gmgame"
+      - "[console] ppo %player_name% add heart cube"
+      - "[message]&bЕффекты &9| &7Вы успешно включили себе частицы!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+  id_4_switched_on_slot_13:
+    material: OBSIDIAN
+    slot: 13
+    priority: 2
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fНазвание частиц [false/&btrue&f]"
+    lore:
+      - " "
+      - "&b * &7Ухххх  описание строка 1"
+      - "&b * &7Ухххх  описание строка 2"
+      - "&b * &7Ухххх  описание строка 3"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.4.style.server.gmgame
+    left_click_commands:
+      - "[console] lp user %player_name% permission unset
+        particles.custom.player.effects.4.style.server.gmgame"
+      - "[console] ppo %player_name% remove 1"
+      - "[message]&bЕффекты &9| &7Вы успешно выключили себе частицы!"
+      - "[sound] BLOCK_NOTE_BLOCK_CHIME"
+      - "[refresh]"
+  id_5_something_is_interfering_slot_14:
+    material: HEART_OF_THE_SEA
+    slot: 14
+    priority: 0
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.1.style.server.gmgame
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.2.style.server.gmgame
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.3.style.server.gmgame
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.4.style.server.gmgame
+  id_5_switched_off_slot_14:
+    material: OBSIDIAN
+    slot: 14
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    lore:
+      - " "
+      - "&b * &7Ухххх  описание строка 1"
+      - "&b * &7Ухххх  описание строка 2"
+      - "&b * &7Ухххх  описание строка 3"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: "!has permission"
+          permission: particles.custom.player.effects.5.style.server.gmgame
+    left_click_commands:
+      - "[console] lp user %player_name% permission set
+        particles.custom.player.effects.5.style.server.gmgame"
+      - "[console] ppo %player_name% add heart halo"
+      - "[message]&bЕффекты &9| &7Вы успешно включили себе частицы!"
+      - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
+      - "[refresh]"
+  id_5_switched_on_slot_14:
+    material: OBSIDIAN
+    slot: 14
+    priority: 2
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fНазвание частиц [false/&btrue&f]"
+    lore:
+      - " "
+      - "&b * &7Ухххх  описание строка 1"
+      - "&b * &7Ухххх  описание строка 2"
+      - "&b * &7Ухххх  описание строка 3"
+      - " "
+      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.5.style.server.gmgame
+    left_click_commands:
+      - "[console] lp user %player_name% permission unset
+        particles.custom.player.effects.5.style.server.gmgame"
+      - "[console] ppo %player_name% remove 1"
+      - "[message]&bЕффекты &9| &7Вы успешно выключили себе частицы!"
+      - "[sound] BLOCK_NOTE_BLOCK_CHIME"
+      - "[refresh]"

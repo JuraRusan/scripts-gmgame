@@ -49,7 +49,7 @@ const bow_crossbow_trident_random_base = {
 };
 
 const all_tools_random_base = {
- 1: { material: "FISHING_ROD", name: "Удочка", rate_price: 50, token: "%rand/0-1%", token_ru: "0 - 1", enchantments: ["Приманка 1 - 4", "Починка", "Везучий рыбак 1 - 5", "Прочность 1 - 5"], console_name: "fishing_rod{Enchantments:[{id:mending,lvl:1},{id:lure,lvl:%rand/1-4%},{id:luck_of_the_sea,lvl:%rand/1-5%},{id:unbreaking,lvl:%rand/1-6%}]}" },
+ 1: { material: "FISHING_ROD", name: "Удочка", rate_price: 50, token: "%rand/0-1%", token_ru: "0 - 1", enchantments: ["Приманка 1 - 4", "Починка", "Везучий рыбак 1 - 5", "Прочность 1 - 6"], console_name: "fishing_rod{Enchantments:[{id:mending,lvl:1},{id:lure,lvl:%rand/1-4%},{id:luck_of_the_sea,lvl:%rand/1-5%},{id:unbreaking,lvl:%rand/1-6%}]}" },
  2: { material: "SHEARS", name: "Ножницы", rate_price: 50, token: "%rand/0-1%", token_ru: "0 - 1", enchantments: ["Эффективность 1 - 6", "Починка", "Прочность 1 - 7"], console_name: "shears{Enchantments:[{id:mending,lvl:1},{id:efficiency,lvl:%rand/1-6%},{id:unbreaking,lvl:%rand/1-7%}]}" },
  3: { material: "SHIELD", name: "Щит", rate_price: 50, token: "%rand/0-1%", token_ru: "0 - 1", enchantments: ["Починка", "Прочность 1 - 6"], console_name: "shield{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:%rand/1-6%}]}" },
  4: { material: "FLINT_AND_STEEL", name: "Огниво", rate_price: 50, token: "%rand/0-1%", token_ru: "0 - 1", enchantments: ["Починка", "Прочность 1 - 6"], console_name: "flint_and_steel{Enchantments:[{id:mending,lvl:1},{id:unbreaking,lvl:%rand/1-6%}]}" }
