@@ -6,6 +6,8 @@ let template = require('./effects_sample.json');
 const itemKeys = Object.keys(effect_base);
 let i = 0;
 
+var step = 1;
+
 const res = itemKeys.reduce((acc, curr, index) => {
     const slot = effect_slot_minecraft[i];
     const idMapList = idMap[i];
@@ -73,7 +75,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         ],
     }
 
-    acc[`id_${idMapList}_something_is_interfering_1_slot_${slot}`] = {
+    acc[`id_${idMapList}_something_is_interfering_${step++}_slot_${slot}`] = {
         material: somethingIsInterfering,
         slot: slot,
         priority: 1, /* Внимание !!! */ 
@@ -92,7 +94,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         }
     };
 
-    acc[`id_${idMapList}_something_is_interfering_2_slot_${slot}`] = {
+    acc[`id_${idMapList}_something_is_interfering_${step++}_slot_${slot}`] = {
         material: somethingIsInterfering,
         slot: slot,
         priority: 2,
@@ -111,7 +113,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         }
     };
 
-    acc[`id_${idMapList}_something_is_interfering_3_slot_${slot}`] = {
+    acc[`id_${idMapList}_something_is_interfering_${step++}_slot_${slot}`] = {
         material: somethingIsInterfering,
         slot: slot,
         priority: 3,
@@ -130,7 +132,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         }
     };
     
-    acc[`id_${idMapList}_something_is_interfering_4_slot_${slot}`] = {
+    acc[`id_${idMapList}_something_is_interfering_${step++}_slot_${slot}`] = {
         material: somethingIsInterfering,
         slot: slot,
         priority: 4,
@@ -149,7 +151,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         }
     };
 
-    acc[`id_${idMapList}_something_is_interfering_5_slot_${slot}`] = {
+    acc[`id_${idMapList}_something_is_interfering_${step++}_slot_${slot}`] = {
         material: somethingIsInterfering,
         slot: slot,
         priority: 5,
@@ -168,7 +170,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         }
     };
 
-    acc[`id_${idMapList}_something_is_interfering_6_slot_${slot}`] = {
+    acc[`id_${idMapList}_something_is_interfering_${step++}_slot_${slot}`] = {
         material: somethingIsInterfering,
         slot: slot,
         priority: 6,
@@ -187,7 +189,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         }
     };
 
-    acc[`id_${idMapList}_something_is_interfering_7_slot_${slot}`] = {
+    acc[`id_${idMapList}_something_is_interfering_${step++}_slot_${slot}`] = {
         material: somethingIsInterfering,
         slot: slot,
         priority: 7,
@@ -206,7 +208,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         }
     };
 
-    acc[`id_${idMapList}_something_is_interfering_8_slot_${slot}`] = {
+    acc[`id_${idMapList}_something_is_interfering_${step++}_slot_${slot}`] = {
         material: somethingIsInterfering,
         slot: slot,
         priority: 8,
@@ -225,7 +227,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         }
     };
 
-    acc[`id_${idMapList}_something_is_interfering_9_slot_${slot}`] = {
+    acc[`id_${idMapList}_something_is_interfering_${step++}_slot_${slot}`] = {
         material: somethingIsInterfering,
         slot: slot,
         priority: 9,
@@ -244,7 +246,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         }
     };
 
-    acc[`id_${idMapList}_something_is_interfering_10_slot_${slot}`] = {
+    acc[`id_${idMapList}_something_is_interfering_${step++}_slot_${slot}`] = {
         material: somethingIsInterfering,
         slot: slot,
         priority: 10,
@@ -263,7 +265,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         }
     };
 
-    acc[`id_${idMapList}_something_is_interfering_11_slot_${slot}`] = {
+    acc[`id_${idMapList}_something_is_interfering_${step++}_slot_${slot}`] = {
         material: somethingIsInterfering,
         slot: slot,
         priority: 11,
@@ -282,7 +284,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         }
     };
 
-    acc[`id_${idMapList}_something_is_interfering_12_slot_${slot}`] = {
+    acc[`id_${idMapList}_something_is_interfering_${step++}_slot_${slot}`] = {
         material: somethingIsInterfering,
         slot: slot,
         priority: 12,
@@ -301,7 +303,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         }
     };
 
-    acc[`id_${idMapList}_something_is_interfering_13_slot_${slot}`] = {
+    acc[`id_${idMapList}_something_is_interfering_${step++}_slot_${slot}`] = {
         material: somethingIsInterfering,
         slot: slot,
         priority: 13,
@@ -320,7 +322,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         }
     };
 
-    acc[`id_${idMapList}_something_is_interfering_14_slot_${slot}`] = {
+    acc[`id_${idMapList}_something_is_interfering_${step++}_slot_${slot}`] = {
         material: somethingIsInterfering,
         slot: slot,
         priority: 14,
@@ -339,7 +341,8 @@ const res = itemKeys.reduce((acc, curr, index) => {
         }
     };
 
-    i++;
+    i++; 
+    step = 1;
 
     return acc;
 }, {})

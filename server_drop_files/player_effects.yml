@@ -134,7 +134,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.6.style.server.gmgame
   id_1_something_is_interfering_6_slot_10:
     material: HEART_OF_THE_SEA
     slot: 10
@@ -149,7 +149,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.7.style.server.gmgame
   id_1_something_is_interfering_7_slot_10:
     material: HEART_OF_THE_SEA
     slot: 10
@@ -164,7 +164,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.8.style.server.gmgame
   id_1_something_is_interfering_8_slot_10:
     material: HEART_OF_THE_SEA
     slot: 10
@@ -179,7 +179,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.9.style.server.gmgame
   id_1_something_is_interfering_9_slot_10:
     material: HEART_OF_THE_SEA
     slot: 10
@@ -194,7 +194,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.10.style.server.gmgame
   id_1_something_is_interfering_10_slot_10:
     material: HEART_OF_THE_SEA
     slot: 10
@@ -209,7 +209,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.11.style.server.gmgame
   id_1_something_is_interfering_11_slot_10:
     material: HEART_OF_THE_SEA
     slot: 10
@@ -224,7 +224,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.12.style.server.gmgame
   id_1_something_is_interfering_12_slot_10:
     material: HEART_OF_THE_SEA
     slot: 10
@@ -239,7 +239,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.13.style.server.gmgame
   id_1_something_is_interfering_13_slot_10:
     material: HEART_OF_THE_SEA
     slot: 10
@@ -254,7 +254,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.14.style.server.gmgame
   id_1_something_is_interfering_14_slot_10:
     material: HEART_OF_THE_SEA
     slot: 10
@@ -399,7 +399,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.6.style.server.gmgame
   id_2_something_is_interfering_6_slot_11:
     material: HEART_OF_THE_SEA
     slot: 11
@@ -414,7 +414,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.7.style.server.gmgame
   id_2_something_is_interfering_7_slot_11:
     material: HEART_OF_THE_SEA
     slot: 11
@@ -429,7 +429,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.8.style.server.gmgame
   id_2_something_is_interfering_8_slot_11:
     material: HEART_OF_THE_SEA
     slot: 11
@@ -444,7 +444,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.9.style.server.gmgame
   id_2_something_is_interfering_9_slot_11:
     material: HEART_OF_THE_SEA
     slot: 11
@@ -459,7 +459,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.10.style.server.gmgame
   id_2_something_is_interfering_10_slot_11:
     material: HEART_OF_THE_SEA
     slot: 11
@@ -474,7 +474,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.11.style.server.gmgame
   id_2_something_is_interfering_11_slot_11:
     material: HEART_OF_THE_SEA
     slot: 11
@@ -489,7 +489,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.12.style.server.gmgame
   id_2_something_is_interfering_12_slot_11:
     material: HEART_OF_THE_SEA
     slot: 11
@@ -504,7 +504,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.13.style.server.gmgame
   id_2_something_is_interfering_13_slot_11:
     material: HEART_OF_THE_SEA
     slot: 11
@@ -519,7 +519,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.14.style.server.gmgame
   id_2_something_is_interfering_14_slot_11:
     material: HEART_OF_THE_SEA
     slot: 11
@@ -664,7 +664,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.6.style.server.gmgame
   id_3_something_is_interfering_6_slot_12:
     material: HEART_OF_THE_SEA
     slot: 12
@@ -679,7 +679,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.7.style.server.gmgame
   id_3_something_is_interfering_7_slot_12:
     material: HEART_OF_THE_SEA
     slot: 12
@@ -694,7 +694,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.8.style.server.gmgame
   id_3_something_is_interfering_8_slot_12:
     material: HEART_OF_THE_SEA
     slot: 12
@@ -709,7 +709,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.9.style.server.gmgame
   id_3_something_is_interfering_9_slot_12:
     material: HEART_OF_THE_SEA
     slot: 12
@@ -724,7 +724,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.10.style.server.gmgame
   id_3_something_is_interfering_10_slot_12:
     material: HEART_OF_THE_SEA
     slot: 12
@@ -739,7 +739,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.11.style.server.gmgame
   id_3_something_is_interfering_11_slot_12:
     material: HEART_OF_THE_SEA
     slot: 12
@@ -754,7 +754,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.12.style.server.gmgame
   id_3_something_is_interfering_12_slot_12:
     material: HEART_OF_THE_SEA
     slot: 12
@@ -769,7 +769,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.13.style.server.gmgame
   id_3_something_is_interfering_13_slot_12:
     material: HEART_OF_THE_SEA
     slot: 12
@@ -784,7 +784,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.14.style.server.gmgame
   id_3_something_is_interfering_14_slot_12:
     material: HEART_OF_THE_SEA
     slot: 12
@@ -929,7 +929,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.6.style.server.gmgame
   id_4_something_is_interfering_6_slot_13:
     material: HEART_OF_THE_SEA
     slot: 13
@@ -944,7 +944,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.7.style.server.gmgame
   id_4_something_is_interfering_7_slot_13:
     material: HEART_OF_THE_SEA
     slot: 13
@@ -959,7 +959,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.8.style.server.gmgame
   id_4_something_is_interfering_8_slot_13:
     material: HEART_OF_THE_SEA
     slot: 13
@@ -974,7 +974,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.9.style.server.gmgame
   id_4_something_is_interfering_9_slot_13:
     material: HEART_OF_THE_SEA
     slot: 13
@@ -989,7 +989,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.10.style.server.gmgame
   id_4_something_is_interfering_10_slot_13:
     material: HEART_OF_THE_SEA
     slot: 13
@@ -1004,7 +1004,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.11.style.server.gmgame
   id_4_something_is_interfering_11_slot_13:
     material: HEART_OF_THE_SEA
     slot: 13
@@ -1019,7 +1019,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.12.style.server.gmgame
   id_4_something_is_interfering_12_slot_13:
     material: HEART_OF_THE_SEA
     slot: 13
@@ -1034,7 +1034,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.13.style.server.gmgame
   id_4_something_is_interfering_13_slot_13:
     material: HEART_OF_THE_SEA
     slot: 13
@@ -1049,7 +1049,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.14.style.server.gmgame
   id_4_something_is_interfering_14_slot_13:
     material: HEART_OF_THE_SEA
     slot: 13
@@ -1194,7 +1194,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.6.style.server.gmgame
   id_5_something_is_interfering_6_slot_14:
     material: HEART_OF_THE_SEA
     slot: 14
@@ -1209,7 +1209,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.7.style.server.gmgame
   id_5_something_is_interfering_7_slot_14:
     material: HEART_OF_THE_SEA
     slot: 14
@@ -1224,7 +1224,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.8.style.server.gmgame
   id_5_something_is_interfering_8_slot_14:
     material: HEART_OF_THE_SEA
     slot: 14
@@ -1239,7 +1239,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.9.style.server.gmgame
   id_5_something_is_interfering_9_slot_14:
     material: HEART_OF_THE_SEA
     slot: 14
@@ -1254,7 +1254,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.10.style.server.gmgame
   id_5_something_is_interfering_10_slot_14:
     material: HEART_OF_THE_SEA
     slot: 14
@@ -1269,7 +1269,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.11.style.server.gmgame
   id_5_something_is_interfering_11_slot_14:
     material: HEART_OF_THE_SEA
     slot: 14
@@ -1284,7 +1284,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.12.style.server.gmgame
   id_5_something_is_interfering_12_slot_14:
     material: HEART_OF_THE_SEA
     slot: 14
@@ -1299,7 +1299,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.13.style.server.gmgame
   id_5_something_is_interfering_13_slot_14:
     material: HEART_OF_THE_SEA
     slot: 14
@@ -1314,7 +1314,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.undefined.style.server.gmgame
+          permission: particles.custom.player.effects.14.style.server.gmgame
   id_5_something_is_interfering_14_slot_14:
     material: HEART_OF_THE_SEA
     slot: 14
