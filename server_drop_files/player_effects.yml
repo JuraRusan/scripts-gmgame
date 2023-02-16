@@ -5,34 +5,10 @@ open_command:
 size: 36
 update_interval: 1
 items:
-  id_1_something_is_interfering_slot_10:
-    material: HEART_OF_THE_SEA
-    slot: 10
-    priority: 0
-    update: true
-    hide_attributes: true
-    hide_enchantments: true
-    enchantments:
-      - MENDING;1
-    display_name: "&fВключены другие частицы"
-    view_requirement:
-      requirements:
-        permission_check:
-          type: has permission
-          permission: particles.custom.player.effects.2.style.server.gmgame
-        permission_check:
-          type: has permission
-          permission: particles.custom.player.effects.3.style.server.gmgame
-        permission_check:
-          type: has permission
-          permission: particles.custom.player.effects.4.style.server.gmgame
-        permission_check:
-          type: has permission
-          permission: particles.custom.player.effects.5.style.server.gmgame
   id_1_switched_off_slot_10:
     material: OBSIDIAN
     slot: 10
-    priority: 1
+    priority: 200
     update: true
     hide_attributes: true
     display_name: "&fНазвание частиц [&bfalse&f/true]"
@@ -58,7 +34,7 @@ items:
   id_1_switched_on_slot_10:
     material: OBSIDIAN
     slot: 10
-    priority: 2
+    priority: 0
     update: true
     hide_attributes: true
     hide_enchantments: true
@@ -84,10 +60,10 @@ items:
       - "[message]&bЕффекты &9| &7Вы успешно выключили себе частицы!"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
-  id_2_something_is_interfering_slot_11:
+  id_1_something_is_interfering_1_slot_10:
     material: HEART_OF_THE_SEA
-    slot: 11
-    priority: 0
+    slot: 10
+    priority: 1
     update: true
     hide_attributes: true
     hide_enchantments: true
@@ -98,20 +74,206 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.1.style.server.gmgame
+          permission: particles.custom.player.effects.2.style.server.gmgame
+  id_1_something_is_interfering_2_slot_10:
+    material: HEART_OF_THE_SEA
+    slot: 10
+    priority: 2
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
         permission_check:
           type: has permission
           permission: particles.custom.player.effects.3.style.server.gmgame
+  id_1_something_is_interfering_3_slot_10:
+    material: HEART_OF_THE_SEA
+    slot: 10
+    priority: 3
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
         permission_check:
           type: has permission
           permission: particles.custom.player.effects.4.style.server.gmgame
+  id_1_something_is_interfering_4_slot_10:
+    material: HEART_OF_THE_SEA
+    slot: 10
+    priority: 4
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
         permission_check:
           type: has permission
           permission: particles.custom.player.effects.5.style.server.gmgame
+  id_1_something_is_interfering_5_slot_10:
+    material: HEART_OF_THE_SEA
+    slot: 10
+    priority: 5
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_1_something_is_interfering_6_slot_10:
+    material: HEART_OF_THE_SEA
+    slot: 10
+    priority: 6
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_1_something_is_interfering_7_slot_10:
+    material: HEART_OF_THE_SEA
+    slot: 10
+    priority: 7
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_1_something_is_interfering_8_slot_10:
+    material: HEART_OF_THE_SEA
+    slot: 10
+    priority: 8
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_1_something_is_interfering_9_slot_10:
+    material: HEART_OF_THE_SEA
+    slot: 10
+    priority: 9
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_1_something_is_interfering_10_slot_10:
+    material: HEART_OF_THE_SEA
+    slot: 10
+    priority: 10
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_1_something_is_interfering_11_slot_10:
+    material: HEART_OF_THE_SEA
+    slot: 10
+    priority: 11
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_1_something_is_interfering_12_slot_10:
+    material: HEART_OF_THE_SEA
+    slot: 10
+    priority: 12
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_1_something_is_interfering_13_slot_10:
+    material: HEART_OF_THE_SEA
+    slot: 10
+    priority: 13
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_1_something_is_interfering_14_slot_10:
+    material: HEART_OF_THE_SEA
+    slot: 10
+    priority: 14
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
   id_2_switched_off_slot_11:
     material: OBSIDIAN
     slot: 11
-    priority: 1
+    priority: 200
     update: true
     hide_attributes: true
     display_name: "&fНазвание частиц [&bfalse&f/true]"
@@ -137,7 +299,7 @@ items:
   id_2_switched_on_slot_11:
     material: OBSIDIAN
     slot: 11
-    priority: 2
+    priority: 0
     update: true
     hide_attributes: true
     hide_enchantments: true
@@ -163,10 +325,10 @@ items:
       - "[message]&bЕффекты &9| &7Вы успешно выключили себе частицы!"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
-  id_3_something_is_interfering_slot_12:
+  id_2_something_is_interfering_1_slot_11:
     material: HEART_OF_THE_SEA
-    slot: 12
-    priority: 0
+    slot: 11
+    priority: 1
     update: true
     hide_attributes: true
     hide_enchantments: true
@@ -178,19 +340,205 @@ items:
         permission_check:
           type: has permission
           permission: particles.custom.player.effects.1.style.server.gmgame
+  id_2_something_is_interfering_2_slot_11:
+    material: HEART_OF_THE_SEA
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.2.style.server.gmgame
+          permission: particles.custom.player.effects.3.style.server.gmgame
+  id_2_something_is_interfering_3_slot_11:
+    material: HEART_OF_THE_SEA
+    slot: 11
+    priority: 3
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
         permission_check:
           type: has permission
           permission: particles.custom.player.effects.4.style.server.gmgame
+  id_2_something_is_interfering_4_slot_11:
+    material: HEART_OF_THE_SEA
+    slot: 11
+    priority: 4
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
         permission_check:
           type: has permission
           permission: particles.custom.player.effects.5.style.server.gmgame
+  id_2_something_is_interfering_5_slot_11:
+    material: HEART_OF_THE_SEA
+    slot: 11
+    priority: 5
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_2_something_is_interfering_6_slot_11:
+    material: HEART_OF_THE_SEA
+    slot: 11
+    priority: 6
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_2_something_is_interfering_7_slot_11:
+    material: HEART_OF_THE_SEA
+    slot: 11
+    priority: 7
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_2_something_is_interfering_8_slot_11:
+    material: HEART_OF_THE_SEA
+    slot: 11
+    priority: 8
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_2_something_is_interfering_9_slot_11:
+    material: HEART_OF_THE_SEA
+    slot: 11
+    priority: 9
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_2_something_is_interfering_10_slot_11:
+    material: HEART_OF_THE_SEA
+    slot: 11
+    priority: 10
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_2_something_is_interfering_11_slot_11:
+    material: HEART_OF_THE_SEA
+    slot: 11
+    priority: 11
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_2_something_is_interfering_12_slot_11:
+    material: HEART_OF_THE_SEA
+    slot: 11
+    priority: 12
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_2_something_is_interfering_13_slot_11:
+    material: HEART_OF_THE_SEA
+    slot: 11
+    priority: 13
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_2_something_is_interfering_14_slot_11:
+    material: HEART_OF_THE_SEA
+    slot: 11
+    priority: 14
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
   id_3_switched_off_slot_12:
     material: OBSIDIAN
     slot: 12
-    priority: 1
+    priority: 200
     update: true
     hide_attributes: true
     display_name: "&fНазвание частиц [&bfalse&f/true]"
@@ -216,7 +564,7 @@ items:
   id_3_switched_on_slot_12:
     material: OBSIDIAN
     slot: 12
-    priority: 2
+    priority: 0
     update: true
     hide_attributes: true
     hide_enchantments: true
@@ -242,10 +590,10 @@ items:
       - "[message]&bЕффекты &9| &7Вы успешно выключили себе частицы!"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
-  id_4_something_is_interfering_slot_13:
+  id_3_something_is_interfering_1_slot_12:
     material: HEART_OF_THE_SEA
-    slot: 13
-    priority: 0
+    slot: 12
+    priority: 1
     update: true
     hide_attributes: true
     hide_enchantments: true
@@ -257,19 +605,205 @@ items:
         permission_check:
           type: has permission
           permission: particles.custom.player.effects.1.style.server.gmgame
+  id_3_something_is_interfering_2_slot_12:
+    material: HEART_OF_THE_SEA
+    slot: 12
+    priority: 2
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
         permission_check:
           type: has permission
           permission: particles.custom.player.effects.2.style.server.gmgame
+  id_3_something_is_interfering_3_slot_12:
+    material: HEART_OF_THE_SEA
+    slot: 12
+    priority: 3
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.3.style.server.gmgame
+          permission: particles.custom.player.effects.4.style.server.gmgame
+  id_3_something_is_interfering_4_slot_12:
+    material: HEART_OF_THE_SEA
+    slot: 12
+    priority: 4
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
         permission_check:
           type: has permission
           permission: particles.custom.player.effects.5.style.server.gmgame
+  id_3_something_is_interfering_5_slot_12:
+    material: HEART_OF_THE_SEA
+    slot: 12
+    priority: 5
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_3_something_is_interfering_6_slot_12:
+    material: HEART_OF_THE_SEA
+    slot: 12
+    priority: 6
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_3_something_is_interfering_7_slot_12:
+    material: HEART_OF_THE_SEA
+    slot: 12
+    priority: 7
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_3_something_is_interfering_8_slot_12:
+    material: HEART_OF_THE_SEA
+    slot: 12
+    priority: 8
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_3_something_is_interfering_9_slot_12:
+    material: HEART_OF_THE_SEA
+    slot: 12
+    priority: 9
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_3_something_is_interfering_10_slot_12:
+    material: HEART_OF_THE_SEA
+    slot: 12
+    priority: 10
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_3_something_is_interfering_11_slot_12:
+    material: HEART_OF_THE_SEA
+    slot: 12
+    priority: 11
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_3_something_is_interfering_12_slot_12:
+    material: HEART_OF_THE_SEA
+    slot: 12
+    priority: 12
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_3_something_is_interfering_13_slot_12:
+    material: HEART_OF_THE_SEA
+    slot: 12
+    priority: 13
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_3_something_is_interfering_14_slot_12:
+    material: HEART_OF_THE_SEA
+    slot: 12
+    priority: 14
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
   id_4_switched_off_slot_13:
     material: OBSIDIAN
     slot: 13
-    priority: 1
+    priority: 200
     update: true
     hide_attributes: true
     display_name: "&fНазвание частиц [&bfalse&f/true]"
@@ -295,7 +829,7 @@ items:
   id_4_switched_on_slot_13:
     material: OBSIDIAN
     slot: 13
-    priority: 2
+    priority: 0
     update: true
     hide_attributes: true
     hide_enchantments: true
@@ -321,10 +855,10 @@ items:
       - "[message]&bЕффекты &9| &7Вы успешно выключили себе частицы!"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
-  id_5_something_is_interfering_slot_14:
+  id_4_something_is_interfering_1_slot_13:
     material: HEART_OF_THE_SEA
-    slot: 14
-    priority: 0
+    slot: 13
+    priority: 1
     update: true
     hide_attributes: true
     hide_enchantments: true
@@ -336,19 +870,205 @@ items:
         permission_check:
           type: has permission
           permission: particles.custom.player.effects.1.style.server.gmgame
+  id_4_something_is_interfering_2_slot_13:
+    material: HEART_OF_THE_SEA
+    slot: 13
+    priority: 2
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
         permission_check:
           type: has permission
           permission: particles.custom.player.effects.2.style.server.gmgame
+  id_4_something_is_interfering_3_slot_13:
+    material: HEART_OF_THE_SEA
+    slot: 13
+    priority: 3
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
         permission_check:
           type: has permission
           permission: particles.custom.player.effects.3.style.server.gmgame
+  id_4_something_is_interfering_4_slot_13:
+    material: HEART_OF_THE_SEA
+    slot: 13
+    priority: 4
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
         permission_check:
           type: has permission
-          permission: particles.custom.player.effects.4.style.server.gmgame
+          permission: particles.custom.player.effects.5.style.server.gmgame
+  id_4_something_is_interfering_5_slot_13:
+    material: HEART_OF_THE_SEA
+    slot: 13
+    priority: 5
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_4_something_is_interfering_6_slot_13:
+    material: HEART_OF_THE_SEA
+    slot: 13
+    priority: 6
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_4_something_is_interfering_7_slot_13:
+    material: HEART_OF_THE_SEA
+    slot: 13
+    priority: 7
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_4_something_is_interfering_8_slot_13:
+    material: HEART_OF_THE_SEA
+    slot: 13
+    priority: 8
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_4_something_is_interfering_9_slot_13:
+    material: HEART_OF_THE_SEA
+    slot: 13
+    priority: 9
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_4_something_is_interfering_10_slot_13:
+    material: HEART_OF_THE_SEA
+    slot: 13
+    priority: 10
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_4_something_is_interfering_11_slot_13:
+    material: HEART_OF_THE_SEA
+    slot: 13
+    priority: 11
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_4_something_is_interfering_12_slot_13:
+    material: HEART_OF_THE_SEA
+    slot: 13
+    priority: 12
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_4_something_is_interfering_13_slot_13:
+    material: HEART_OF_THE_SEA
+    slot: 13
+    priority: 13
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_4_something_is_interfering_14_slot_13:
+    material: HEART_OF_THE_SEA
+    slot: 13
+    priority: 14
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
   id_5_switched_off_slot_14:
     material: OBSIDIAN
     slot: 14
-    priority: 1
+    priority: 200
     update: true
     hide_attributes: true
     display_name: "&fНазвание частиц [&bfalse&f/true]"
@@ -374,7 +1094,7 @@ items:
   id_5_switched_on_slot_14:
     material: OBSIDIAN
     slot: 14
-    priority: 2
+    priority: 0
     update: true
     hide_attributes: true
     hide_enchantments: true
@@ -400,3 +1120,213 @@ items:
       - "[message]&bЕффекты &9| &7Вы успешно выключили себе частицы!"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
+  id_5_something_is_interfering_1_slot_14:
+    material: HEART_OF_THE_SEA
+    slot: 14
+    priority: 1
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.1.style.server.gmgame
+  id_5_something_is_interfering_2_slot_14:
+    material: HEART_OF_THE_SEA
+    slot: 14
+    priority: 2
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.2.style.server.gmgame
+  id_5_something_is_interfering_3_slot_14:
+    material: HEART_OF_THE_SEA
+    slot: 14
+    priority: 3
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.3.style.server.gmgame
+  id_5_something_is_interfering_4_slot_14:
+    material: HEART_OF_THE_SEA
+    slot: 14
+    priority: 4
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.4.style.server.gmgame
+  id_5_something_is_interfering_5_slot_14:
+    material: HEART_OF_THE_SEA
+    slot: 14
+    priority: 5
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_5_something_is_interfering_6_slot_14:
+    material: HEART_OF_THE_SEA
+    slot: 14
+    priority: 6
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_5_something_is_interfering_7_slot_14:
+    material: HEART_OF_THE_SEA
+    slot: 14
+    priority: 7
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_5_something_is_interfering_8_slot_14:
+    material: HEART_OF_THE_SEA
+    slot: 14
+    priority: 8
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_5_something_is_interfering_9_slot_14:
+    material: HEART_OF_THE_SEA
+    slot: 14
+    priority: 9
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_5_something_is_interfering_10_slot_14:
+    material: HEART_OF_THE_SEA
+    slot: 14
+    priority: 10
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_5_something_is_interfering_11_slot_14:
+    material: HEART_OF_THE_SEA
+    slot: 14
+    priority: 11
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_5_something_is_interfering_12_slot_14:
+    material: HEART_OF_THE_SEA
+    slot: 14
+    priority: 12
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_5_something_is_interfering_13_slot_14:
+    material: HEART_OF_THE_SEA
+    slot: 14
+    priority: 13
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame
+  id_5_something_is_interfering_14_slot_14:
+    material: HEART_OF_THE_SEA
+    slot: 14
+    priority: 14
+    update: true
+    hide_attributes: true
+    hide_enchantments: true
+    enchantments:
+      - MENDING;1
+    display_name: "&fВключены другие частицы"
+    view_requirement:
+      requirements:
+        permission_check:
+          type: has permission
+          permission: particles.custom.player.effects.undefined.style.server.gmgame

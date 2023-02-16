@@ -10,30 +10,11 @@ const res = itemKeys.reduce((acc, curr, index) => {
     const slot = effect_slot_minecraft[i];
     const idMapList = idMap[i];
     const itemEffects = effect_base[curr];
-
-    acc[`id_${idMapList}_something_is_interfering_slot_${slot}`] = {
-        material: somethingIsInterfering,
-        slot: slot,
-        priority: 0,
-        update: true,
-        hide_attributes: true,
-        hide_enchantments: true,
-        enchantments: ['MENDING;1'],
-        display_name: "&fВключены другие частицы",
-        view_requirement: {
-            requirements: {
-                permission_check:{
-                    type: "has permission",
-                    permission: "particles.custom.player.effects..style.server.gmgame"
-                }
-            }
-        }
-    };
-
+    
     acc[`id_${idMapList}_switched_off_slot_${slot}`] = {
         material: itemEffects.display_material,
         slot: slot,
-        priority: 1,
+        priority: 200,
         update: true,
         hide_attributes: true,
         display_name: `&f${itemEffects.name_style} [&bfalse&f/true]`,
@@ -63,7 +44,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
     acc[`id_${idMapList}_switched_on_slot_${slot}`] = {
         material: itemEffects.display_material,
         slot: slot,
-        priority: 2,
+        priority: 0,
         update: true,
         hide_attributes: true,
         hide_enchantments: true,
@@ -91,6 +72,272 @@ const res = itemKeys.reduce((acc, curr, index) => {
             "[refresh]",
         ],
     }
+
+    acc[`id_${idMapList}_something_is_interfering_1_slot_${slot}`] = {
+        material: somethingIsInterfering,
+        slot: slot,
+        priority: 1, /* Внимание !!! */ 
+        update: true,
+        hide_attributes: true,
+        hide_enchantments: true,
+        enchantments: ['MENDING;1'],
+        display_name: "&fВключены другие частицы",
+        view_requirement: {
+            requirements: {
+                permission_check:{
+                    type: "has permission",
+                    permission: `particles.custom.player.effects.${itemEffects.active_1}.style.server.gmgame`
+                }
+            }
+        }
+    };
+
+    acc[`id_${idMapList}_something_is_interfering_2_slot_${slot}`] = {
+        material: somethingIsInterfering,
+        slot: slot,
+        priority: 2,
+        update: true,
+        hide_attributes: true,
+        hide_enchantments: true,
+        enchantments: ['MENDING;1'],
+        display_name: "&fВключены другие частицы",
+        view_requirement: {
+            requirements: {
+                permission_check:{
+                    type: "has permission",
+                    permission: `particles.custom.player.effects.${itemEffects.active_2}.style.server.gmgame`
+                }
+            }
+        }
+    };
+
+    acc[`id_${idMapList}_something_is_interfering_3_slot_${slot}`] = {
+        material: somethingIsInterfering,
+        slot: slot,
+        priority: 3,
+        update: true,
+        hide_attributes: true,
+        hide_enchantments: true,
+        enchantments: ['MENDING;1'],
+        display_name: "&fВключены другие частицы",
+        view_requirement: {
+            requirements: {
+                permission_check:{
+                    type: "has permission",
+                    permission: `particles.custom.player.effects.${itemEffects.active_3}.style.server.gmgame`
+                }
+            }
+        }
+    };
+    
+    acc[`id_${idMapList}_something_is_interfering_4_slot_${slot}`] = {
+        material: somethingIsInterfering,
+        slot: slot,
+        priority: 4,
+        update: true,
+        hide_attributes: true,
+        hide_enchantments: true,
+        enchantments: ['MENDING;1'],
+        display_name: "&fВключены другие частицы",
+        view_requirement: {
+            requirements: {
+                permission_check:{
+                    type: "has permission",
+                    permission: `particles.custom.player.effects.${itemEffects.active_4}.style.server.gmgame`
+                }
+            }
+        }
+    };
+
+    acc[`id_${idMapList}_something_is_interfering_5_slot_${slot}`] = {
+        material: somethingIsInterfering,
+        slot: slot,
+        priority: 5,
+        update: true,
+        hide_attributes: true,
+        hide_enchantments: true,
+        enchantments: ['MENDING;1'],
+        display_name: "&fВключены другие частицы",
+        view_requirement: {
+            requirements: {
+                permission_check:{
+                    type: "has permission",
+                    permission: `particles.custom.player.effects.${itemEffects.active_5}.style.server.gmgame`
+                }
+            }
+        }
+    };
+
+    acc[`id_${idMapList}_something_is_interfering_6_slot_${slot}`] = {
+        material: somethingIsInterfering,
+        slot: slot,
+        priority: 6,
+        update: true,
+        hide_attributes: true,
+        hide_enchantments: true,
+        enchantments: ['MENDING;1'],
+        display_name: "&fВключены другие частицы",
+        view_requirement: {
+            requirements: {
+                permission_check:{
+                    type: "has permission",
+                    permission: `particles.custom.player.effects.${itemEffects.active_6}.style.server.gmgame`
+                }
+            }
+        }
+    };
+
+    acc[`id_${idMapList}_something_is_interfering_7_slot_${slot}`] = {
+        material: somethingIsInterfering,
+        slot: slot,
+        priority: 7,
+        update: true,
+        hide_attributes: true,
+        hide_enchantments: true,
+        enchantments: ['MENDING;1'],
+        display_name: "&fВключены другие частицы",
+        view_requirement: {
+            requirements: {
+                permission_check:{
+                    type: "has permission",
+                    permission: `particles.custom.player.effects.${itemEffects.active_7}.style.server.gmgame`
+                }
+            }
+        }
+    };
+
+    acc[`id_${idMapList}_something_is_interfering_8_slot_${slot}`] = {
+        material: somethingIsInterfering,
+        slot: slot,
+        priority: 8,
+        update: true,
+        hide_attributes: true,
+        hide_enchantments: true,
+        enchantments: ['MENDING;1'],
+        display_name: "&fВключены другие частицы",
+        view_requirement: {
+            requirements: {
+                permission_check:{
+                    type: "has permission",
+                    permission: `particles.custom.player.effects.${itemEffects.active_8}.style.server.gmgame`
+                }
+            }
+        }
+    };
+
+    acc[`id_${idMapList}_something_is_interfering_9_slot_${slot}`] = {
+        material: somethingIsInterfering,
+        slot: slot,
+        priority: 9,
+        update: true,
+        hide_attributes: true,
+        hide_enchantments: true,
+        enchantments: ['MENDING;1'],
+        display_name: "&fВключены другие частицы",
+        view_requirement: {
+            requirements: {
+                permission_check:{
+                    type: "has permission",
+                    permission: `particles.custom.player.effects.${itemEffects.active_9}.style.server.gmgame`
+                }
+            }
+        }
+    };
+
+    acc[`id_${idMapList}_something_is_interfering_10_slot_${slot}`] = {
+        material: somethingIsInterfering,
+        slot: slot,
+        priority: 10,
+        update: true,
+        hide_attributes: true,
+        hide_enchantments: true,
+        enchantments: ['MENDING;1'],
+        display_name: "&fВключены другие частицы",
+        view_requirement: {
+            requirements: {
+                permission_check:{
+                    type: "has permission",
+                    permission: `particles.custom.player.effects.${itemEffects.active_10}.style.server.gmgame`
+                }
+            }
+        }
+    };
+
+    acc[`id_${idMapList}_something_is_interfering_11_slot_${slot}`] = {
+        material: somethingIsInterfering,
+        slot: slot,
+        priority: 11,
+        update: true,
+        hide_attributes: true,
+        hide_enchantments: true,
+        enchantments: ['MENDING;1'],
+        display_name: "&fВключены другие частицы",
+        view_requirement: {
+            requirements: {
+                permission_check:{
+                    type: "has permission",
+                    permission: `particles.custom.player.effects.${itemEffects.active_11}.style.server.gmgame`
+                }
+            }
+        }
+    };
+
+    acc[`id_${idMapList}_something_is_interfering_12_slot_${slot}`] = {
+        material: somethingIsInterfering,
+        slot: slot,
+        priority: 12,
+        update: true,
+        hide_attributes: true,
+        hide_enchantments: true,
+        enchantments: ['MENDING;1'],
+        display_name: "&fВключены другие частицы",
+        view_requirement: {
+            requirements: {
+                permission_check:{
+                    type: "has permission",
+                    permission: `particles.custom.player.effects.${itemEffects.active_12}.style.server.gmgame`
+                }
+            }
+        }
+    };
+
+    acc[`id_${idMapList}_something_is_interfering_13_slot_${slot}`] = {
+        material: somethingIsInterfering,
+        slot: slot,
+        priority: 13,
+        update: true,
+        hide_attributes: true,
+        hide_enchantments: true,
+        enchantments: ['MENDING;1'],
+        display_name: "&fВключены другие частицы",
+        view_requirement: {
+            requirements: {
+                permission_check:{
+                    type: "has permission",
+                    permission: `particles.custom.player.effects.${itemEffects.active_13}.style.server.gmgame`
+                }
+            }
+        }
+    };
+
+    acc[`id_${idMapList}_something_is_interfering_14_slot_${slot}`] = {
+        material: somethingIsInterfering,
+        slot: slot,
+        priority: 14,
+        update: true,
+        hide_attributes: true,
+        hide_enchantments: true,
+        enchantments: ['MENDING;1'],
+        display_name: "&fВключены другие частицы",
+        view_requirement: {
+            requirements: {
+                permission_check:{
+                    type: "has permission",
+                    permission: `particles.custom.player.effects.${itemEffects.active_14}.style.server.gmgame`
+                }
+            }
+        }
+    };
 
     i++;
 
