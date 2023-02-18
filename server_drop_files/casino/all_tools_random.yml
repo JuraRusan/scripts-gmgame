@@ -22,7 +22,7 @@ items:
       - "   &b- &7Приманка 1 - 4"
       - "   &b- &7Починка"
       - "   &b- &7Везучий рыбак 1 - 5"
-      - "   &b- &7Прочность 1 - 5"
+      - "   &b- &7Прочность 1 - 6"
       - " "
       - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
       - " "
@@ -74,7 +74,7 @@ items:
         &afishing_rod{Enchantments:[{id:mending,lvl:1},{id:lure,lvl:%rand/1-4%}\
         ,{id:luck_of_the_sea,lvl:%rand/1-5%},{id:unbreaking,lvl:%rand/1-6%}]}&7
         с зачарованием&a Приманка 1 - 4, Починка, Везучий рыбак 1 - 5, Прочность
-        1 - 5&7 в количестве 1 за &a50.00$"
+        1 - 6&7 в количестве 1 за &a50.00$"
   Unique_name_15:
     material: SHEARS
     slot: 15

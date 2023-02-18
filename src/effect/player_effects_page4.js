@@ -1,18 +1,18 @@
 const YAML = require('yaml');
 const fs = require('fs-extra');
-let { effect_slot_minecraft, effect_base, idMap, somethingIsInterfering } = require('./Effects.js');
-let template = require('./effects_sample.json');
+let { effect_slot_minecraft, effect_base_page4, idPage4, idMap, somethingIsInterfering, visibleMaterial, invisibleMaterial } = require('./Effects.js');
+let template = require('./effects_sample_page4.json');
 
-const itemKeys = Object.keys(effect_base);
+const itemKeys = Object.keys(effect_base_page4);
 let i = 0;
 
 const res = itemKeys.reduce((acc, curr, index) => {
     const slot = effect_slot_minecraft[i];
-    const idMapList = idMap[i];
-    const itemEffects = effect_base[curr];
+    const idMapList = idPage4[i];
+    const itemEffects = effect_base_page4[curr];
     
-    acc[`id_${idMapList}_switched_off_slot_${slot}`] = {
-        material: itemEffects.display_material,
+    acc[`id_particles_${idMapList}_switched_off_slot_${slot}`] = {
+        material: visibleMaterial,
         slot: slot,
         priority: 200,
         update: true,
@@ -21,6 +21,9 @@ const res = itemKeys.reduce((acc, curr, index) => {
         lore: [
             " ",
             ...itemEffects.lore.map(x => "&b * &7" + x),
+            " ",
+            `&b * &7Применяется к: &a${itemEffects.to}`,
+            `&b * &7Майнкрафт айди: &a${itemEffects.plugin_eff}`,
             " ",
             "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать",
         ],
@@ -41,8 +44,8 @@ const res = itemKeys.reduce((acc, curr, index) => {
         ],
     }
 
-    acc[`id_${idMapList}_switched_on_slot_${slot}`] = {
-        material: itemEffects.display_material,
+    acc[`id_particles_${idMapList}_switched_on_slot_${slot}`] = {
+        material: invisibleMaterial,
         slot: slot,
         priority: 0,
         update: true,
@@ -53,6 +56,9 @@ const res = itemKeys.reduce((acc, curr, index) => {
         lore: [
             " ",
             ...itemEffects.lore.map(x => "&b * &7" + x),
+            " ",
+            `&b * &7Применяется к: &a${itemEffects.to}`,
+            `&b * &7Майнкрафт айди: &a${itemEffects.plugin_eff}`,
             " ",
             "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы выбрать",
         ],
@@ -75,7 +81,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
 
     for (step = 1; step < idMap.length + 1; step++) {
 
-        acc[`id_${idMapList}_something_is_interfering_${step}_slot_${slot}`] = {
+        acc[`id_particles_${idMapList}_something_is_interfering_${step}_slot_${slot}`] = {
             material: somethingIsInterfering,
             slot: slot,
             priority: step,  
@@ -102,4 +108,4 @@ const res = itemKeys.reduce((acc, curr, index) => {
 
 template.items = { ...template.items, ...res }
 
-fs.writeFileSync('./server_drop_files/player_effects.yml', YAML.stringify(template));
+fs.writeFileSync('./server_drop_files/player_effect/player_effect_page4.yml', YAML.stringify(template));

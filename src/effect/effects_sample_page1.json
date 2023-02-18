@@ -1,0 +1,55 @@
+{
+  "menu_title": "Еффекты игрока (1/5)",
+  "register_command": true,
+  "open_command": [
+    "player_effect"
+  ],
+  "size": 54,
+  "update_interval": 1,
+  "items": {
+    "filler_item": {
+      "material": "BLACK_STAINED_GLASS_PANE",
+      "slots": [
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    "next": {
+      "material": "ARROW",
+      "slot": 51,
+      "priority": 1,
+      "update": true,
+      "display_name": "&bСледующая страница",
+      "left_click_commands": [
+        "[refresh]",
+        "[openguimenu] player_effect_page2"
+      ],
+      "right_click_commands": [
+        "[refresh]",
+        "[openguimenu] player_effect_page2"
+      ],
+      "middle_click_commands": [
+        "[refresh]",
+        "[openguimenu] player_effect_page2"
+      ]
+    },
+    "current": {
+      "material": "SUNFLOWER",
+      "slot": 49,
+      "priority": 1,
+      "update": true,
+      "display_name": "&bТекущая страница",
+      "lore": [
+        " ",
+        "&b * &7Страница &a1"
+      ]
+    }
+  }
+}
