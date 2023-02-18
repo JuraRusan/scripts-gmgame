@@ -17,7 +17,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         priority: 200,
         update: true,
         hide_attributes: true,
-        display_name: `&f${itemEffects.name_style} [&bfalse&f/true]`,
+        display_name: `&fСтиль #${idMapList} [false/&btrue&f]`,
         lore: [
             " ",
             ...itemEffects.lore.map(x => "&b * &7" + x),
@@ -52,7 +52,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         hide_attributes: true,
         hide_enchantments: true,
         enchantments: ['MENDING;1'],
-        display_name: `&f${itemEffects.name_style} [false/&btrue&f]`,
+        display_name: `&fСтиль #${idMapList} [false/&btrue&f]`,
         lore: [
             " ",
             ...itemEffects.lore.map(x => "&b * &7" + x),

@@ -47,7 +47,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #1 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -78,7 +78,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #1 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -2191,7 +2191,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #2 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -2222,7 +2222,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #2 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -4335,7 +4335,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #3 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -4366,7 +4366,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #3 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -6479,7 +6479,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #4 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -6510,7 +6510,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #4 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -8623,7 +8623,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #5 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -8654,7 +8654,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #5 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -10767,7 +10767,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #6 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -10798,7 +10798,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #6 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -12911,7 +12911,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #7 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -12942,7 +12942,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #7 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -15055,7 +15055,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #8 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -15086,7 +15086,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #8 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -17199,7 +17199,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #9 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -17230,7 +17230,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #9 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -19343,7 +19343,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #10 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -19374,7 +19374,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #10 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -21487,7 +21487,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #11 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -21518,7 +21518,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #11 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -23631,7 +23631,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #12 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -23662,7 +23662,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #12 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -25775,7 +25775,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #13 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -25806,7 +25806,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #13 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -27919,7 +27919,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #14 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -27950,7 +27950,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #14 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -30063,7 +30063,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #15 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -30094,7 +30094,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #15 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -32207,7 +32207,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #16 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -32238,7 +32238,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #16 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -34351,7 +34351,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #17 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -34382,7 +34382,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #17 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -36495,7 +36495,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #18 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -36526,7 +36526,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #18 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -38639,7 +38639,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #19 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -38670,7 +38670,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #19 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -40783,7 +40783,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #20 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -40814,7 +40814,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #20 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -42927,7 +42927,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #21 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -42958,7 +42958,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #21 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -45071,7 +45071,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #22 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -45102,7 +45102,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #22 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -47215,7 +47215,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #23 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -47246,7 +47246,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #23 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -49359,7 +49359,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #24 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -49390,7 +49390,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #24 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -51503,7 +51503,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #25 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -51534,7 +51534,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #25 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -53647,7 +53647,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #26 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -53678,7 +53678,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #26 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -55791,7 +55791,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #27 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -55822,7 +55822,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #27 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -57935,7 +57935,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #28 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -57966,7 +57966,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #28 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -60079,7 +60079,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #29 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -60110,7 +60110,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #29 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -62223,7 +62223,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #30 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -62254,7 +62254,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #30 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -64367,7 +64367,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #31 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -64398,7 +64398,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #31 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -66511,7 +66511,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #32 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -66542,7 +66542,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #32 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -68655,7 +68655,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #33 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -68686,7 +68686,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #33 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -70799,7 +70799,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #34 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -70830,7 +70830,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #34 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -72943,7 +72943,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #35 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -72974,7 +72974,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #35 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -75087,7 +75087,7 @@ items:
     priority: 2000
     update: true
     hide_attributes: true
-    display_name: "&fНазвание частиц [&bfalse&f/true]"
+    display_name: "&fСтиль #36 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
@@ -75118,7 +75118,7 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&fНазвание частиц [false/&btrue&f]"
+    display_name: "&fСтиль #36 [false/&btrue&f]"
     lore:
       - " "
       - "&b * &7Ухххх  описание строка 1"
