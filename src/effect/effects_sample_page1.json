@@ -1,5 +1,5 @@
 {
-  "menu_title": "Еффекты игрока (1/5)",
+  "menu_title": "Еффекты игрока (1/6)",
   "register_command": true,
   "open_command": [
     "player_effect"

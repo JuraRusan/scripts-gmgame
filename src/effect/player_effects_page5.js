@@ -14,7 +14,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
     acc[`id_particles_${idMapList}_switched_off_slot_${slot}`] = {
         material: visibleMaterial,
         slot: slot,
-        priority: 200,
+        priority: 2000,
         update: true,
         hide_attributes: true,
         display_name: `&fСтиль #${idMapList} [false/&btrue&f]`,

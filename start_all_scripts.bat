@@ -38,3 +38,4 @@ node ./src/effect/player_effects_page2.js
 node ./src/effect/player_effects_page3.js
 node ./src/effect/player_effects_page4.js
 node ./src/effect/player_effects_page5.js
+node ./src/effect/player_effects_page6.js

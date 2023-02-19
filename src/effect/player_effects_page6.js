@@ -1,16 +1,16 @@
 const YAML = require('yaml');
 const fs = require('fs-extra');
-let { effect_slot_minecraft, effect_base_page4, idPage4, idMap, somethingIsInterfering, visibleMaterial, invisibleMaterial } = require('./Effects.js');
-let template = require('./effects_sample_page4.json');
+let { effect_slot_minecraft, effect_base_page6, idPage6, idMap, somethingIsInterfering, visibleMaterial, invisibleMaterial } = require('./Effects.js');
+let template = require('./effects_sample_page6.json');
 
-const itemKeys = Object.keys(effect_base_page4);
+const itemKeys = Object.keys(effect_base_page6);
 let i = 0;
 
 const res = itemKeys.reduce((acc, curr, index) => {
     const slot = effect_slot_minecraft[i];
-    const idMapList = idPage4[i];
-    const itemEffects = effect_base_page4[curr];
-    
+    const idMapList = idPage6[i];
+    const itemEffects = effect_base_page6[curr];
+
     acc[`id_particles_${idMapList}_switched_off_slot_${slot}`] = {
         material: visibleMaterial,
         slot: slot,
@@ -84,7 +84,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
         acc[`id_particles_${idMapList}_something_is_interfering_${step}_slot_${slot}`] = {
             material: somethingIsInterfering,
             slot: slot,
-            priority: step,  
+            priority: step,
             update: true,
             hide_attributes: true,
             hide_enchantments: true,
@@ -92,7 +92,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
             display_name: "&fВключены другие частицы",
             view_requirement: {
                 requirements: {
-                    permission_check:{
+                    permission_check: {
                         type: "has permission",
                         permission: `particles.custom.player.effects.${step}.style.server.gmgame`
                     }
@@ -101,11 +101,11 @@ const res = itemKeys.reduce((acc, curr, index) => {
         };
     };
 
-    i++; 
+    i++;
 
     return acc;
 }, {})
 
 template.items = { ...template.items, ...res }
 
-fs.writeFileSync('./server_drop_files/player_effect/player_effect_page4.yml', YAML.stringify(template));
+fs.writeFileSync('./server_drop_files/player_effect/player_effect_page6.yml', YAML.stringify(template));
