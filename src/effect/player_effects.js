@@ -1,26 +1,24 @@
 const YAML = require('yaml');
 const fs = require('fs-extra');
-let { effect_slot_minecraft, effect_base_page4, idPage4, idMap, somethingIsInterfering, visibleMaterial, invisibleMaterial } = require('./Effects.js');
-let template = require('./effects_sample_page4.json');
+let { effect_slot_minecraft, effect_base, idMap, somethingIsInterfering, visibleMaterial, invisibleMaterial } = require('./Effects.js');
+let template = require('./effects_sample.json');
 
-const itemKeys = Object.keys(effect_base_page4);
+const itemKeys = Object.keys(effect_base);
 let i = 0;
 
 const res = itemKeys.reduce((acc, curr, index) => {
     const slot = effect_slot_minecraft[i];
-    const idMapList = idPage4[i];
-    const itemEffects = effect_base_page4[curr];
+    const idMapList = idMap[i];
+    const itemEffects = effect_base[curr];
     
     acc[`id_particles_${idMapList}_switched_off_slot_${slot}`] = {
         material: visibleMaterial,
         slot: slot,
-        priority: 2000,
+        priority: 200,
         update: true,
         hide_attributes: true,
-        display_name: `&fСтиль #${idMapList} [false/&btrue&f]`,
+        display_name: `&fСтиль #${idMapList} [&bfalse/&ftrue]`,
         lore: [
-            " ",
-            ...itemEffects.lore.map(x => "&b * &7" + x),
             " ",
             `&b * &7Применяется к: &a${itemEffects.to}`,
             `&b * &7Майнкрафт айди: &a${itemEffects.plugin_eff}`,
@@ -54,8 +52,6 @@ const res = itemKeys.reduce((acc, curr, index) => {
         enchantments: ['MENDING;1'],
         display_name: `&fСтиль #${idMapList} [false/&btrue&f]`,
         lore: [
-            " ",
-            ...itemEffects.lore.map(x => "&b * &7" + x),
             " ",
             `&b * &7Применяется к: &a${itemEffects.to}`,
             `&b * &7Майнкрафт айди: &a${itemEffects.plugin_eff}`,
@@ -108,4 +104,4 @@ const res = itemKeys.reduce((acc, curr, index) => {
 
 template.items = { ...template.items, ...res }
 
-fs.writeFileSync('./server_drop_files/player_effect/player_effect_page4.yml', YAML.stringify(template));
+fs.writeFileSync('./server_drop_files/player_effect/player_effect.yml', YAML.stringify(template));

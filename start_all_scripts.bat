@@ -33,9 +33,4 @@ node ./src/casino/money_750_rate_random/money_750_rate_random.js
 node ./src/casino/money_1000_rate_random/money_1000_rate_random.js
 node ./src/casino/money_1500_rate_random/money_1500_rate_random.js
 
-node ./src/effect/player_effects_page1.js
-node ./src/effect/player_effects_page2.js
-node ./src/effect/player_effects_page3.js
-node ./src/effect/player_effects_page4.js
-node ./src/effect/player_effects_page5.js
-node ./src/effect/player_effects_page6.js
+node ./src/effect/player_effects.js
