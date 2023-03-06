@@ -2,7 +2,7 @@
   "menu_title": "Незеритовые нагрудники",
   "register_command": false,
   "open_command": [
-    "shops_netherite_chestplates"
+    "deluxe_menu_shops_netherite_chestplates"
   ],
   "size": 54,
   "items": {

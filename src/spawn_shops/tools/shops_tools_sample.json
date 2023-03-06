@@ -2,7 +2,7 @@
   "menu_title": "Инструменты",
   "register_command": false,
   "open_command": [
-    "shops_tools"
+    "deluxe_menu_shops_tools"
   ],
   "size": 54,
   "items": {

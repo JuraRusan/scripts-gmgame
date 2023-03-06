@@ -2,7 +2,7 @@
   "menu_title": "Напитки",
   "register_command": false,
   "open_command": [
-    "resourсe_pack_drinks"
+    "deluxe_menu_resourсe_pack_drinks"
   ],
   "size": 54,
   "items": {

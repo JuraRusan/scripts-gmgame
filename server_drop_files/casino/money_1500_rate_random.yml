@@ -1,7 +1,7 @@
 menu_title: Казино
 register_command: false
 open_command:
-  - shops_money_1500_rate_random
+  - deluxe_menu_shops_money_1500_rate_random
 size: 27
 items:
   Unique_name_13:

@@ -1,7 +1,7 @@
 menu_title: Незеритовые ботинки
 register_command: false
 open_command:
-  - shops_netherite_boots
+  - deluxe_menu_shops_netherite_boots
 size: 54
 items:
   filler_item:

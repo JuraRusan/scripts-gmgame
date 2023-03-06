@@ -2,7 +2,7 @@
   "menu_title": "Черепашьи панцири",
   "register_command": false,
   "open_command": [
-    "shops_turtle_helmets"
+    "deluxe_menu_shops_turtle_helmets"
   ],
   "size": 54,
   "items": {

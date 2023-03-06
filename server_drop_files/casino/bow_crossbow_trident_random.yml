@@ -1,7 +1,7 @@
 menu_title: Казино
 register_command: false
 open_command:
-  - shops_bow_crossbow_trident_random
+  - deluxe_menu_shops_bow_crossbow_trident_random
 size: 36
 items:
   Unique_name_11:

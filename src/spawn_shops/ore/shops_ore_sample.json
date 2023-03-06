@@ -2,7 +2,7 @@
   "menu_title": "Руды",
   "register_command": false,
   "open_command": [
-    "shops_ore"
+    "deluxe_menu_shops_ore"
   ],
   "size": 54,
   "items": {

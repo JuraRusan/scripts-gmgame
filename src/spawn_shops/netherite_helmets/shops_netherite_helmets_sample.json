@@ -2,7 +2,7 @@
   "menu_title": "Незеритовые шлемы",
   "register_command": false,
   "open_command": [
-    "shops_netherite_helmets"
+    "deluxe_menu_shops_netherite_helmets"
   ],
   "size": 54,
   "items": {

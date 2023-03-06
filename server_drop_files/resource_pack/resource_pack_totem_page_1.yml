@@ -1,7 +1,7 @@
 menu_title: Тотемы
 register_command: false
 open_command:
-  - resourсe_pack_totem_page_1
+  - deluxe_menu_resourсe_pack_totem_page_1
 size: 54
 items:
   filler_item:

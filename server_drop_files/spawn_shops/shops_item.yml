@@ -1,7 +1,7 @@
 menu_title: Предметы
 register_command: false
 open_command:
-  - shops_item
+  - deluxe_menu_shops_item
 size: 54
 items:
   filler_item:

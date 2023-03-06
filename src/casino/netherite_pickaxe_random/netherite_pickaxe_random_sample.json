@@ -2,7 +2,7 @@
   "menu_title": "Казино",
   "register_command": false,
   "open_command": [
-    "shops_netherite_pickaxe_random"
+    "deluxe_menu_shops_netherite_pickaxe_random"
   ],
   "size": 36,
   "items": {}

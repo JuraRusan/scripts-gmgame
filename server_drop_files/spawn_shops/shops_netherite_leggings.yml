@@ -1,7 +1,7 @@
 menu_title: Незеритовые поножи
 register_command: false
 open_command:
-  - shops_netherite_leggings
+  - deluxe_menu_shops_netherite_leggings
 size: 54
 items:
   filler_item:

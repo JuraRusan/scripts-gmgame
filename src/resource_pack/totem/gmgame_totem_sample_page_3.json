@@ -2,7 +2,7 @@
   "menu_title": "Тотемы",
   "register_command": false,
   "open_command": [
-    "resourсe_pack_totem_page_3"
+    "deluxe_menu_resourсe_pack_totem_page_3"
   ],
   "size": 54,
   "items": {
@@ -47,7 +47,7 @@
       "display_name": "&bТекущая страница",
       "lore": [
         " ",
-        "&b * &7Страница &a1"
+        "&b * &7Страница &a3"
       ]
     }
   }

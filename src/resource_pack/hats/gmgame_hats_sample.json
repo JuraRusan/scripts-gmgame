@@ -2,7 +2,7 @@
   "menu_title": "Шляпы",
   "register_command": false,
   "open_command": [
-    "resourсe_pack_hats"
+    "deluxe_menu_resourсe_pack_hats"
   ],
   "size": 54,
   "items": {
