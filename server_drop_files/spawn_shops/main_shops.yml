@@ -1,5 +1,5 @@
 menu_title: "Магазин"
-register_command: true
+register_command: false
 open_command:
   - deluxe_menu_shops
 size: 36
@@ -17,7 +17,7 @@ items:
     priority: 1
     update: true
     hide_attributes: true
-    display_name: "&bРуда"
+    display_name: "&bРуды"
     left_click_commands:
       - "[openguimenu] shops_ore"
     right_click_commands:
