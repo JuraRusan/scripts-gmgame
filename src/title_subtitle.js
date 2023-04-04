@@ -1,3 +1,9 @@
+import {dockerGMGame} from "./DockerUUID";
+import {dockerRes} from "./DockerUUID";
+import {dockerFarm} from "./DockerUUID";
+import {dockerCreative} from "./DockerUUID";
+import {dockerLobby} from "./DockerUUID";
+
 const {exec} = require('node:child_process');
 
 function sleep(ms) {
@@ -20,13 +26,6 @@ const cmdRestart4 = '{\\"text\\":\\"Перезагрузка через 4 сек
 const cmdRestart3 = '{\\"text\\":\\"Перезагрузка через 3 секунды!\\",\\"color\\":\\"#08b7f7\\"}';
 const cmdRestart2 = '{\\"text\\":\\"Перезагрузка через 2 секунды!\\",\\"color\\":\\"#08b7f7\\"}';
 const cmdRestart1 = '{\\"text\\":\\"Перезагрузка через 1 секунду!\\",\\"color\\":\\"#08b7f7\\"}';
-
-const dockerGMGame = '"docker attach 9697d325-5993-4715-9070-74d5cdfc0c9d"';
-const dockerRes = '"docker attach 9697d325-5993-4715-9070-74d5cdfc0c9d"';
-const dockerFarm = '"docker attach 9697d325-5993-4715-9070-74d5cdfc0c9d"';
-const dockerCreative = '"docker attach 9697d325-5993-4715-9070-74d5cdfc0c9d"';
-const dockerLobby = '"docker attach 9697d325-5993-4715-9070-74d5cdfc0c9d"';
-const dockerSkyBlock = '"docker attach 9697d325-5993-4715-9070-74d5cdfc0c9d"';
 
 (async () => {
   // ------ Setting the duration
