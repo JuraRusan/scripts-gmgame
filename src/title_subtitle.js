@@ -30,11 +30,11 @@ const cmdRestart1 = '{\\"text\\":\\"Перезагрузка через 1 сек
 
 (async () => {
   // ------ Setting the duration
-  exec(`echo "title @a @a times 20 100 20" | socat EXEC:${dockerGMGame},pty STDIN`);
-  exec(`echo "title @a @a times 20 100 20" | socat EXEC:${dockerRes},pty STDIN`);
-  exec(`echo "title @a @a times 20 100 20" | socat EXEC:${dockerFarm},pty STDIN`);
-  exec(`echo "title @a @a times 20 100 20" | socat EXEC:${dockerCreative},pty STDIN`);
-  exec(`echo "title @a @a times 20 100 20" | socat EXEC:${dockerLobby},pty STDIN`);
+  exec(`echo "title @a times 20 100 20" | socat EXEC:${dockerGMGame},pty STDIN`);
+  exec(`echo "title @a times 20 100 20" | socat EXEC:${dockerRes},pty STDIN`);
+  exec(`echo "title @a times 20 100 20" | socat EXEC:${dockerFarm},pty STDIN`);
+  exec(`echo "title @a times 20 100 20" | socat EXEC:${dockerCreative},pty STDIN`);
+  exec(`echo "title @a times 20 100 20" | socat EXEC:${dockerLobby},pty STDIN`);
 
 
   // ------ For 60 seconds before restart
