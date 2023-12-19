@@ -5,14 +5,24 @@ const dockerCreative = '"docker attach 2442ba49-76b5-4943-8f5a-3a8eff02e48d"';
 const dockerLobby = '"docker attach ad9e763d-9053-473a-8c1e-89b1cba78094"';
 const dockerSkyBlock = '"docker attach b38d670a-bb20-443d-905b-3e52f7452f3e"';
 
+// const {exec} = require('node:child_process');
+//
+// const Info = 'Вся необходимая информация публикуется в Discord https://discord.com/invite/cAM6tUYEuX Присутствие обязательно!';
+//
+// (async () => {
+//   exec(`echo "cmi broadcast ${Info}" | socat EXEC:${dockerGMGame},pty STDIN`);
+//   exec(`echo "cmi broadcast ${Info}" | socat EXEC:${dockerRes},pty STDIN`);
+//   exec(`echo "cmi broadcast ${Info}" | socat EXEC:${dockerFarm},pty STDIN`);
+//   exec(`echo "cmi broadcast ${Info}" | socat EXEC:${dockerCreative},pty STDIN`);
+//   exec(`echo "cmi broadcast ${Info}" | socat EXEC:${dockerLobby},pty STDIN`);
+// })()
+
 const {exec} = require('node:child_process');
 
-const Info = 'Вся необходимая информация публикуется в Discord https://discord.com/invite/cAM6tUYEuX Присутствие обязательно!';
-
 (async () => {
-  exec(`echo "cmi broadcast ${Info}" | socat EXEC:${dockerGMGame},pty STDIN`);
-  exec(`echo "cmi broadcast ${Info}" | socat EXEC:${dockerRes},pty STDIN`);
-  exec(`echo "cmi broadcast ${Info}" | socat EXEC:${dockerFarm},pty STDIN`);
-  exec(`echo "cmi broadcast ${Info}" | socat EXEC:${dockerCreative},pty STDIN`);
-  exec(`echo "cmi broadcast ${Info}" | socat EXEC:${dockerLobby},pty STDIN`);
+  exec(`echo "cmi schedule BroadcastInfo" | socat EXEC:${dockerGMGame},pty STDIN`);
+  exec(`echo "cmi schedule BroadcastInfo" | socat EXEC:${dockerRes},pty STDIN`);
+  exec(`echo "cmi schedule BroadcastInfo" | socat EXEC:${dockerFarm},pty STDIN`);
+  exec(`echo "cmi schedule BroadcastInfo" | socat EXEC:${dockerCreative},pty STDIN`);
+  exec(`echo "cmi schedule BroadcastInfo" | socat EXEC:${dockerLobby},pty STDIN`);
 })()
