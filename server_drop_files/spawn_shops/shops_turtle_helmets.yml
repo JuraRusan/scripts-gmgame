@@ -4,24 +4,12 @@ open_command:
   - deluxe_menu_shops_turtle_helmets
 size: 54
 items:
-  filler_item:
-    material: BLACK_STAINED_GLASS_PANE
-    slots:
-      - 36
-      - 37
-      - 38
-      - 39
-      - 40
-      - 41
-      - 42
-      - 43
-      - 44
   previous:
     material: SPECTRAL_ARROW
-    slot: 47
+    slot: 49
     priority: 1
     update: true
-    display_name: "&bНазад"
+    display_name: "&#caeaf5  Назад  "
     left_click_commands:
       - "[refresh]"
       - "[openguimenu] main_shops"
@@ -31,15 +19,6 @@ items:
     middle_click_commands:
       - "[refresh]"
       - "[openguimenu] main_shops"
-  current:
-    material: SUNFLOWER
-    slot: 49
-    priority: 1
-    update: true
-    display_name: "&bТекущая страница"
-    lore:
-      - " "
-      - "&b * &7Страница &a1"
   Unique_name_0:
     material: TURTLE_HELMET
     slot: 0
@@ -49,50 +28,50 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&bЧерепаший панцирь"
+    display_name: "&#caeaf5Черепаший панцирь"
     lore:
       - " "
-      - "&b * &7Игрок покупает - цена за 1 единицу: &a600.00$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600.00$"
       - " "
-      - "&b * &7Зачарования:"
-      - "   &b- &7Починка"
-      - "   &b- &7Подводник"
-      - "   &b- &7Подводное дыхание 4"
-      - "   &b- &7Защита 5"
-      - "   &b- &7Прочность 4"
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800- &#caeaf5Починка"
+      - "   &#ccb800- &#caeaf5Подводник"
+      - "   &#ccb800- &#caeaf5Подводное дыхание 4"
+      - "   &#ccb800- &#caeaf5Защита 5"
+      - "   &#ccb800- &#caeaf5Прочность 4"
       - " "
-      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%xconomy_balance_formatted%"
       - " "
-      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+      - "&r&4[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
     left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
+              предмета!"
         item_check_slot:
           type: has item
           material: AIR
           amount: 1
           deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 Нет необходимого места для покупки этого
+              предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name%
         minecraft:turtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affin\
         ity,lvl:1},{id:respiration,lvl:4},{id:protection,lvl:5},{id:unbreaking,\
         lvl:4}]} 1"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар
-        &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
-        1},{id:respiration,lvl:4},{id:protection,lvl:5},{id:unbreaking,lvl:4}]}\
-        &7 с зачарованием&a Починка, Подводник, Подводное дыхание 4, Защита 5,
-        Прочность 4&7 в количестве 1 за &a600.00$"
+      - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
+        {#55ff55}turtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affini\
+        ty,lvl:1},{id:respiration,lvl:4},{id:protection,lvl:5},{id:unbreaking,l\
+        vl:4}]}{#caeaf5} с зачарованием{#55ff55} Починка, Подводник, Подводное
+        дыхание 4, Защита 5, Прочность 4{#caeaf5} в количестве 1 за
+        {#55ff55}600.00$"
   Unique_name_1:
     material: TURTLE_HELMET
     slot: 1
@@ -102,51 +81,51 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&bЧерепаший панцирь"
+    display_name: "&#caeaf5Черепаший панцирь"
     lore:
       - " "
-      - "&b * &7Игрок покупает - цена за 1 единицу: &a600.00$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600.00$"
       - " "
-      - "&b * &7Зачарования:"
-      - "   &b- &7Починка"
-      - "   &b- &7Подводник"
-      - "   &b- &7Подводное дыхание 4"
-      - "   &b- &7Защита 5"
-      - "   &b- &7Прочность 4"
-      - "   &b- &7Шипы 3"
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800- &#caeaf5Починка"
+      - "   &#ccb800- &#caeaf5Подводник"
+      - "   &#ccb800- &#caeaf5Подводное дыхание 4"
+      - "   &#ccb800- &#caeaf5Защита 5"
+      - "   &#ccb800- &#caeaf5Прочность 4"
+      - "   &#ccb800- &#caeaf5Шипы 3"
       - " "
-      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%xconomy_balance_formatted%"
       - " "
-      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+      - "&r&4[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
     left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
+              предмета!"
         item_check_slot:
           type: has item
           material: AIR
           amount: 1
           deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 Нет необходимого места для покупки этого
+              предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name%
         minecraft:turtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affin\
         ity,lvl:1},{id:respiration,lvl:4},{id:protection,lvl:5},{id:unbreaking,\
         lvl:4},{id:thorns,lvl:3}]} 1"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар
-        &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
-        1},{id:respiration,lvl:4},{id:protection,lvl:5},{id:unbreaking,lvl:4},{\
-        id:thorns,lvl:3}]}&7 с зачарованием&a Починка, Подводник, Подводное
-        дыхание 4, Защита 5, Прочность 4, Шипы 3&7 в количестве 1 за &a600.00$"
+      - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
+        {#55ff55}turtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affini\
+        ty,lvl:1},{id:respiration,lvl:4},{id:protection,lvl:5},{id:unbreaking,l\
+        vl:4},{id:thorns,lvl:3}]}{#caeaf5} с зачарованием{#55ff55} Починка,
+        Подводник, Подводное дыхание 4, Защита 5, Прочность 4, Шипы 3{#caeaf5} в
+        количестве 1 за {#55ff55}600.00$"
   Unique_name_2:
     material: TURTLE_HELMET
     slot: 2
@@ -156,50 +135,50 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&bЧерепаший панцирь"
+    display_name: "&#caeaf5Черепаший панцирь"
     lore:
       - " "
-      - "&b * &7Игрок покупает - цена за 1 единицу: &a600.00$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600.00$"
       - " "
-      - "&b * &7Зачарования:"
-      - "   &b- &7Починка"
-      - "   &b- &7Подводник"
-      - "   &b- &7Подводное дыхание 4"
-      - "   &b- &7Защита от снарядов 5"
-      - "   &b- &7Прочность 4"
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800- &#caeaf5Починка"
+      - "   &#ccb800- &#caeaf5Подводник"
+      - "   &#ccb800- &#caeaf5Подводное дыхание 4"
+      - "   &#ccb800- &#caeaf5Защита от снарядов 5"
+      - "   &#ccb800- &#caeaf5Прочность 4"
       - " "
-      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%xconomy_balance_formatted%"
       - " "
-      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+      - "&r&4[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
     left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
+              предмета!"
         item_check_slot:
           type: has item
           material: AIR
           amount: 1
           deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 Нет необходимого места для покупки этого
+              предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name%
         minecraft:turtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affin\
         ity,lvl:1},{id:respiration,lvl:4},{id:projectile_protection,lvl:5},{id:\
         unbreaking,lvl:4}]} 1"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар
-        &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
-        1},{id:respiration,lvl:4},{id:projectile_protection,lvl:5},{id:unbreaki\
-        ng,lvl:4}]}&7 с зачарованием&a Починка, Подводник, Подводное дыхание 4,
-        Защита от снарядов 5, Прочность 4&7 в количестве 1 за &a600.00$"
+      - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
+        {#55ff55}turtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affini\
+        ty,lvl:1},{id:respiration,lvl:4},{id:projectile_protection,lvl:5},{id:u\
+        nbreaking,lvl:4}]}{#caeaf5} с зачарованием{#55ff55} Починка, Подводник,
+        Подводное дыхание 4, Защита от снарядов 5, Прочность 4{#caeaf5} в
+        количестве 1 за {#55ff55}600.00$"
   Unique_name_3:
     material: TURTLE_HELMET
     slot: 3
@@ -209,52 +188,51 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&bЧерепаший панцирь"
+    display_name: "&#caeaf5Черепаший панцирь"
     lore:
       - " "
-      - "&b * &7Игрок покупает - цена за 1 единицу: &a600.00$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600.00$"
       - " "
-      - "&b * &7Зачарования:"
-      - "   &b- &7Починка"
-      - "   &b- &7Подводник"
-      - "   &b- &7Подводное дыхание 4"
-      - "   &b- &7Защита от снарядов 5"
-      - "   &b- &7Прочность 4"
-      - "   &b- &7Шипы 3"
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800- &#caeaf5Починка"
+      - "   &#ccb800- &#caeaf5Подводник"
+      - "   &#ccb800- &#caeaf5Подводное дыхание 4"
+      - "   &#ccb800- &#caeaf5Защита от снарядов 5"
+      - "   &#ccb800- &#caeaf5Прочность 4"
+      - "   &#ccb800- &#caeaf5Шипы 3"
       - " "
-      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%xconomy_balance_formatted%"
       - " "
-      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+      - "&r&4[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
     left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
+              предмета!"
         item_check_slot:
           type: has item
           material: AIR
           amount: 1
           deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 Нет необходимого места для покупки этого
+              предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name%
         minecraft:turtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affin\
         ity,lvl:1},{id:respiration,lvl:4},{id:projectile_protection,lvl:5},{id:\
         unbreaking,lvl:4},{id:thorns,lvl:3}]} 1"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар
-        &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
-        1},{id:respiration,lvl:4},{id:projectile_protection,lvl:5},{id:unbreaki\
-        ng,lvl:4},{id:thorns,lvl:3}]}&7 с зачарованием&a Починка, Подводник,
-        Подводное дыхание 4, Защита от снарядов 5, Прочность 4, Шипы 3&7 в
-        количестве 1 за &a600.00$"
+      - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
+        {#55ff55}turtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affini\
+        ty,lvl:1},{id:respiration,lvl:4},{id:projectile_protection,lvl:5},{id:u\
+        nbreaking,lvl:4},{id:thorns,lvl:3}]}{#caeaf5} с зачарованием{#55ff55}
+        Починка, Подводник, Подводное дыхание 4, Защита от снарядов 5, Прочность
+        4, Шипы 3{#caeaf5} в количестве 1 за {#55ff55}600.00$"
   Unique_name_4:
     material: TURTLE_HELMET
     slot: 4
@@ -264,50 +242,50 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&bЧерепаший панцирь"
+    display_name: "&#caeaf5Черепаший панцирь"
     lore:
       - " "
-      - "&b * &7Игрок покупает - цена за 1 единицу: &a600.00$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600.00$"
       - " "
-      - "&b * &7Зачарования:"
-      - "   &b- &7Починка"
-      - "   &b- &7Подводник"
-      - "   &b- &7Подводное дыхание 4"
-      - "   &b- &7Огнеупорность 5"
-      - "   &b- &7Прочность 4"
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800- &#caeaf5Починка"
+      - "   &#ccb800- &#caeaf5Подводник"
+      - "   &#ccb800- &#caeaf5Подводное дыхание 4"
+      - "   &#ccb800- &#caeaf5Огнеупорность 5"
+      - "   &#ccb800- &#caeaf5Прочность 4"
       - " "
-      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%xconomy_balance_formatted%"
       - " "
-      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+      - "&r&4[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
     left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
+              предмета!"
         item_check_slot:
           type: has item
           material: AIR
           amount: 1
           deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 Нет необходимого места для покупки этого
+              предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name%
         minecraft:turtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affin\
         ity,lvl:1},{id:respiration,lvl:4},{id:fire_protection,lvl:5},{id:unbrea\
         king,lvl:4}]} 1"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар
-        &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
-        1},{id:respiration,lvl:4},{id:fire_protection,lvl:5},{id:unbreaking,lvl\
-        :4}]}&7 с зачарованием&a Починка, Подводник, Подводное дыхание 4,
-        Огнеупорность 5, Прочность 4&7 в количестве 1 за &a600.00$"
+      - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
+        {#55ff55}turtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affini\
+        ty,lvl:1},{id:respiration,lvl:4},{id:fire_protection,lvl:5},{id:unbreak\
+        ing,lvl:4}]}{#caeaf5} с зачарованием{#55ff55} Починка, Подводник,
+        Подводное дыхание 4, Огнеупорность 5, Прочность 4{#caeaf5} в количестве
+        1 за {#55ff55}600.00$"
   Unique_name_5:
     material: TURTLE_HELMET
     slot: 5
@@ -317,52 +295,51 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&bЧерепаший панцирь"
+    display_name: "&#caeaf5Черепаший панцирь"
     lore:
       - " "
-      - "&b * &7Игрок покупает - цена за 1 единицу: &a600.00$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600.00$"
       - " "
-      - "&b * &7Зачарования:"
-      - "   &b- &7Починка"
-      - "   &b- &7Подводник"
-      - "   &b- &7Подводное дыхание 4"
-      - "   &b- &7Огнеупорность 5"
-      - "   &b- &7Прочность 4"
-      - "   &b- &7Шипы 3"
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800- &#caeaf5Починка"
+      - "   &#ccb800- &#caeaf5Подводник"
+      - "   &#ccb800- &#caeaf5Подводное дыхание 4"
+      - "   &#ccb800- &#caeaf5Огнеупорность 5"
+      - "   &#ccb800- &#caeaf5Прочность 4"
+      - "   &#ccb800- &#caeaf5Шипы 3"
       - " "
-      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%xconomy_balance_formatted%"
       - " "
-      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+      - "&r&4[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
     left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
+              предмета!"
         item_check_slot:
           type: has item
           material: AIR
           amount: 1
           deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 Нет необходимого места для покупки этого
+              предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name%
         minecraft:turtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affin\
         ity,lvl:1},{id:respiration,lvl:4},{id:fire_protection,lvl:5},{id:unbrea\
         king,lvl:4},{id:thorns,lvl:3}]} 1"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар
-        &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
-        1},{id:respiration,lvl:4},{id:fire_protection,lvl:5},{id:unbreaking,lvl\
-        :4},{id:thorns,lvl:3}]}&7 с зачарованием&a Починка, Подводник, Подводное
-        дыхание 4, Огнеупорность 5, Прочность 4, Шипы 3&7 в количестве 1 за
-        &a600.00$"
+      - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
+        {#55ff55}turtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affini\
+        ty,lvl:1},{id:respiration,lvl:4},{id:fire_protection,lvl:5},{id:unbreak\
+        ing,lvl:4},{id:thorns,lvl:3}]}{#caeaf5} с зачарованием{#55ff55} Починка,
+        Подводник, Подводное дыхание 4, Огнеупорность 5, Прочность 4, Шипы
+        3{#caeaf5} в количестве 1 за {#55ff55}600.00$"
   Unique_name_6:
     material: TURTLE_HELMET
     slot: 6
@@ -372,50 +349,50 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&bЧерепаший панцирь"
+    display_name: "&#caeaf5Черепаший панцирь"
     lore:
       - " "
-      - "&b * &7Игрок покупает - цена за 1 единицу: &a600.00$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600.00$"
       - " "
-      - "&b * &7Зачарования:"
-      - "   &b- &7Починка"
-      - "   &b- &7Подводник"
-      - "   &b- &7Подводное дыхание 4"
-      - "   &b- &7Взрывоустойчивость 5"
-      - "   &b- &7Прочность 4"
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800- &#caeaf5Починка"
+      - "   &#ccb800- &#caeaf5Подводник"
+      - "   &#ccb800- &#caeaf5Подводное дыхание 4"
+      - "   &#ccb800- &#caeaf5Взрывоустойчивость 5"
+      - "   &#ccb800- &#caeaf5Прочность 4"
       - " "
-      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%xconomy_balance_formatted%"
       - " "
-      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+      - "&r&4[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
     left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
+              предмета!"
         item_check_slot:
           type: has item
           material: AIR
           amount: 1
           deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 Нет необходимого места для покупки этого
+              предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name%
         minecraft:turtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affin\
         ity,lvl:1},{id:respiration,lvl:4},{id:blast_protection,lvl:5},{id:unbre\
         aking,lvl:4}]} 1"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар
-        &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
-        1},{id:respiration,lvl:4},{id:blast_protection,lvl:5},{id:unbreaking,lv\
-        l:4}]}&7 с зачарованием&a Починка, Подводник, Подводное дыхание 4,
-        Взрывоустойчивость 5, Прочность 4&7 в количестве 1 за &a600.00$"
+      - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
+        {#55ff55}turtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affini\
+        ty,lvl:1},{id:respiration,lvl:4},{id:blast_protection,lvl:5},{id:unbrea\
+        king,lvl:4}]}{#caeaf5} с зачарованием{#55ff55} Починка, Подводник,
+        Подводное дыхание 4, Взрывоустойчивость 5, Прочность 4{#caeaf5} в
+        количестве 1 за {#55ff55}600.00$"
   Unique_name_7:
     material: TURTLE_HELMET
     slot: 7
@@ -425,49 +402,48 @@ items:
     hide_enchantments: true
     enchantments:
       - MENDING;1
-    display_name: "&bЧерепаший панцирь"
+    display_name: "&#caeaf5Черепаший панцирь"
     lore:
       - " "
-      - "&b * &7Игрок покупает - цена за 1 единицу: &a600.00$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600.00$"
       - " "
-      - "&b * &7Зачарования:"
-      - "   &b- &7Починка"
-      - "   &b- &7Подводник"
-      - "   &b- &7Подводное дыхание 4"
-      - "   &b- &7Взрывоустойчивость 5"
-      - "   &b- &7Прочность 4"
-      - "   &b- &7Шипы 3"
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800- &#caeaf5Починка"
+      - "   &#ccb800- &#caeaf5Подводник"
+      - "   &#ccb800- &#caeaf5Подводное дыхание 4"
+      - "   &#ccb800- &#caeaf5Взрывоустойчивость 5"
+      - "   &#ccb800- &#caeaf5Прочность 4"
+      - "   &#ccb800- &#caeaf5Шипы 3"
       - " "
-      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%xconomy_balance_formatted%"
       - " "
-      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+      - "&r&4[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
     left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 600
           deny_commands:
-            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
+              предмета!"
         item_check_slot:
           type: has item
           material: AIR
           amount: 1
           deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 Нет необходимого места для покупки этого
+              предмета!"
     left_click_commands:
       - "[takemoney] 600.00"
       - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name%
         minecraft:turtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affin\
         ity,lvl:1},{id:respiration,lvl:4},{id:blast_protection,lvl:5},{id:unbre\
         aking,lvl:4},{id:thorns,lvl:3}]} 1"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар
-        &aturtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affinity,lvl:\
-        1},{id:respiration,lvl:4},{id:blast_protection,lvl:5},{id:unbreaking,lv\
-        l:4},{id:thorns,lvl:3}]}&7 с зачарованием&a Починка, Подводник,
-        Подводное дыхание 4, Взрывоустойчивость 5, Прочность 4, Шипы 3&7 в
-        количестве 1 за &a600.00$"
+      - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
+        {#55ff55}turtle_helmet{Enchantments:[{id:mending,lvl:1},{id:aqua_affini\
+        ty,lvl:1},{id:respiration,lvl:4},{id:blast_protection,lvl:5},{id:unbrea\
+        king,lvl:4},{id:thorns,lvl:3}]}{#caeaf5} с зачарованием{#55ff55}
+        Починка, Подводник, Подводное дыхание 4, Взрывоустойчивость 5, Прочность
+        4, Шипы 3{#caeaf5} в количестве 1 за {#55ff55}600.00$"

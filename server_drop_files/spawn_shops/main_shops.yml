@@ -9,7 +9,7 @@ open_requirement:
       type: has permission
       permission: deluxemenus.default.deluxe_menu_shops.custom.menu.ultra
       deny_commands:
-        - "[message]&bЕффекты &9| &7У вас нет разрешения для этого!"
+        - "[message] &#caeaf5У вас нет разрешения для этого!"
 items:
   "1":
     material: DEEPSLATE_DIAMOND_ORE
@@ -17,7 +17,7 @@ items:
     priority: 1
     update: true
     hide_attributes: true
-    display_name: "&bРуды"
+    display_name: "&#caeaf5  Руды  "
     left_click_commands:
       - "[openguimenu] shops_ore"
     right_click_commands:
@@ -25,12 +25,12 @@ items:
     middle_click_commands:
       - "[openguimenu] shops_ore"
   "2":
-    material: ENCHANTED_GOLDEN_APPLE
+    material: LIGHT
     slot: 13
     priority: 1
     update: true
     hide_attributes: true
-    display_name: "&bПредметы"
+    display_name: "&#caeaf5  Предметы  "
     left_click_commands:
       - "[openguimenu] shops_item"
     right_click_commands:
@@ -46,7 +46,7 @@ items:
     hide_enchantments: true
     enchantments:
       - 'MENDING;1'
-    display_name: "&bИнструменты"
+    display_name: "&#caeaf5  Инструменты  "
     left_click_commands:
       - "[openguimenu] shops_tools"
     right_click_commands:
@@ -62,7 +62,7 @@ items:
     hide_enchantments: true
     enchantments:
       - 'MENDING;1'
-    display_name: "&bЧерепашьи панцири"
+    display_name: "&#caeaf5  Черепашьи панцири  "
     left_click_commands:
       - "[openguimenu] shops_turtle_helmets"
     right_click_commands:
@@ -78,7 +78,7 @@ items:
     hide_enchantments: true
     enchantments:
       - 'MENDING;1'
-    display_name: "&bНезеритовые шлемы"
+    display_name: "&#caeaf5  Незеритовые шлемы  "
     left_click_commands:
       - "[openguimenu] shops_netherite_helmets"
     right_click_commands:
@@ -94,7 +94,7 @@ items:
     hide_enchantments: true
     enchantments:
       - 'MENDING;1'    
-    display_name: "&bНезеритовые нагрудники"
+    display_name: "&#caeaf5  Незеритовые нагрудники  "
     left_click_commands:
       - "[openguimenu] shops_netherite_chestplates"
     right_click_commands:
@@ -110,7 +110,7 @@ items:
     hide_enchantments: true
     enchantments:
       - 'MENDING;1'
-    display_name: "&bНезеритовые поножи"
+    display_name: "&#caeaf5  Незеритовые поножи  "
     left_click_commands:
       - "[openguimenu] shops_netherite_leggings"
     right_click_commands:
@@ -126,7 +126,7 @@ items:
     hide_enchantments: true
     enchantments:
       - 'MENDING;1'
-    display_name: "&bНезеритовые ботинки"
+    display_name: "&#caeaf5  Незеритовые ботинки  "
     left_click_commands:
       - "[openguimenu] shops_netherite_boots"
     right_click_commands:

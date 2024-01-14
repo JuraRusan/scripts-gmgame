@@ -23,31 +23,31 @@ const res = itemKeys.reduce((acc, curr, index) => {
         priority: 1,
         update: true,
         hide_attributes: true,
-        display_name: `&b${itemShopsName.name}`,
+        display_name: `&#caeaf5${itemShopsName.name}`,
         lore: [
             " ",
-            `&b * &7Игрок покупает - цена за 1 единицу: &a${amountSellFormat}$`,
-            `&b * &7Игрок покупает - цена за 1 стак: &a${amountStackSellFormat}$`,
-            `&b * &7Игрок продает - цена за 1 единицу: &a${amountFormat}$`,
-            `&b * &7Игрок продает - цена за 1 стак: &a${amountStackFormat}$`,
+            `&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55${amountSellFormat}$`,
+            `&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff55${amountStackSellFormat}$`,
+            `&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff55${amountFormat}$`,
+            `&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff55${amountStackFormat}$`,
             " ",
-            "&b * &7Ваш баланс: &a%xconomy_balance_formatted%",
+            "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%xconomy_balance_formatted%",
             " ",
-            "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить 1, Shift для 1 стака",
-            "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать 1, Shift для 1 стака"
+            "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака",
+            "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
         ],
         left_click_requirement: {
             requirements: {
                 balance_check: {
                     type: "has money",
                     amount: +amountSellFormat,
-                    deny_commands: ["[message] &bМагазин &9| &7У Вас недостаточно средств для покупки этого предмета!"]
+                    deny_commands: ["[message] &#caeaf5 У Вас недостаточно средств для покупки этого предмета!"]
                 },
                 item_check_slot: {
                     type: "has item",
                     material: "AIR",
                     amount: 1,
-                    deny_commands: ["[message] &bМагазин &9| &7Нет необходимого места для покупки этого предмета!"]
+                    deny_commands: ["[message] &#caeaf5 Нет необходимого места для покупки этого предмета!"]
                 }
             }
         },
@@ -56,13 +56,13 @@ const res = itemKeys.reduce((acc, curr, index) => {
                 balance_check: {
                     type: "has money",
                     amount: +amountStackSellFormat,
-                    deny_commands: ["[message] &bМагазин &9| &7У Вас недостаточно средств для покупки этого предмета!"]
+                    deny_commands: ["[message] &#caeaf5 У Вас недостаточно средств для покупки этого предмета!"]
                 },
                 item_check_slot: {
                     type: "has item",
                     material: "AIR",
                     amount: 64,
-                    deny_commands: ["[message] &bМагазин &9| &7Нет необходимого места для покупки этого предмета!"]
+                    deny_commands: ["[message] &#caeaf5 Нет необходимого места для покупки этого предмета!"]
                 }
             }
         },
@@ -72,7 +72,7 @@ const res = itemKeys.reduce((acc, curr, index) => {
                     type: "has item",
                     material: itemShopsName.material,
                     amount: 1,
-                    deny_commands: ["[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва предметов для продажи!"]
+                    deny_commands: ["[message] &#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"]
                 }
             }
         },
@@ -82,37 +82,37 @@ const res = itemKeys.reduce((acc, curr, index) => {
                     type: "has item",
                     material: itemShopsName.material,
                     amount: 64,
-                    deny_commands: ["[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва предметов для продажи!"]
+                    deny_commands: ["[message] &#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"]
                 }
             }
         },
         left_click_commands: [
             `[takemoney] ${amountSellFormat}`,
             "[refresh]",
-            "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!",
+            "[message] &#caeaf5 Вы успешно приобрели этот товар!",
             `[console] minecraft:give %player_name% minecraft:${itemShopsName.console_name} 1`,
-            `[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел товар &a${itemShopsName.console_name}&7 в количестве 1 за &a${amountSellFormat}$`
+            `[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар {#55ff55}${itemShopsName.console_name}{#caeaf5} в количестве 1 за {#55ff55}${amountSellFormat}$`
         ],
         shift_left_click_commands: [
             `[takemoney] ${amountStackSellFormat}`,
             "[refresh]",
-            "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!",
+            "[message] &#caeaf5 Вы успешно приобрели этот товар!",
             `[console] minecraft:give %player_name% minecraft:${itemShopsName.console_name} 64`,
-            `[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел товар &a${itemShopsName.console_name}&7 в количестве 64 за &a${amountStackSellFormat}$`
+            `[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар {#55ff55}${itemShopsName.console_name}{#caeaf5} в количестве 64 за {#55ff55}${amountStackSellFormat}$`
         ],
         right_click_commands: [
             `[givemoney] ${amountFormat}`,
             "[refresh]",
-            "[message] &bМагазин &9| &7Вы успешно продали этот товар!",
+            "[message] &#caeaf5 Вы успешно продали этот товар!",
             `[console] minecraft:clear %player_name% minecraft:${itemShopsName.console_name} 1`,
-            `[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал товар &a${itemShopsName.console_name}&7 в количестве 1 за &a${amountFormat}$`
+            `[console] staffmsg {#caeaf5} Игрок %player_name% успешно сдал товар {#55ff55}${itemShopsName.console_name}{#caeaf5} в количестве 1 за {#55ff55}${amountFormat}$`
         ],
         shift_right_click_commands: [
             `[givemoney] ${amountStackFormat}`,
             "[refresh]",
-            "[message] &bМагазин &9| &7Вы успешно продали этот товар!",
+            "[message] &#caeaf5 Вы успешно продали этот товар!",
             `[console] minecraft:clear %player_name% minecraft:${itemShopsName.console_name} 64`,
-            `[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал товар &a${itemShopsName.console_name}&7 в количестве 64 за &a${amountStackFormat}$`
+            `[console] staffmsg {#caeaf5} Игрок %player_name% успешно сдал товар {#55ff55}${itemShopsName.console_name}{#caeaf5} в количестве 64 за {#55ff55}${amountStackFormat}$`
         ],
     }
     i++;

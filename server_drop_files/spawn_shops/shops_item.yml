@@ -4,24 +4,12 @@ open_command:
   - deluxe_menu_shops_item
 size: 54
 items:
-  filler_item:
-    material: BLACK_STAINED_GLASS_PANE
-    slots:
-      - 36
-      - 37
-      - 38
-      - 39
-      - 40
-      - 41
-      - 42
-      - 43
-      - 44
   previous:
     material: SPECTRAL_ARROW
-    slot: 47
+    slot: 49
     priority: 1
     update: true
-    display_name: "&bНазад"
+    display_name: "&#caeaf5  Назад  "
     left_click_commands:
       - "[refresh]"
       - "[openguimenu] main_shops"
@@ -31,102 +19,37 @@ items:
     middle_click_commands:
       - "[refresh]"
       - "[openguimenu] main_shops"
-  current:
-    material: SUNFLOWER
-    slot: 49
-    priority: 1
-    update: true
-    display_name: "&bТекущая страница"
-    lore:
-      - " "
-      - "&b * &7Страница &a1"
   Unique_name_0:
-    material: ENCHANTED_GOLDEN_APPLE
+    material: HEART_OF_THE_SEA
     slot: 0
     priority: 1
     update: true
     hide_attributes: true
-    display_name: "&bЗачарованное золотое яблоко"
+    display_name: "&#caeaf5Сердце моря"
     lore:
       - " "
-      - "&b * &7Игрок покупает - цена за 1 единицу: &a192.50$"
-      - "&b * &7Игрок продает - цена за 1 единицу: &a175.00$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff5527.50$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff5525.00$"
       - " "
-      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%xconomy_balance_formatted%"
       - " "
-      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
-      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать"
-    left_click_requirement:
-      requirements:
-        balance_check:
-          type: has money
-          amount: 192.5
-          deny_commands:
-            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
-              этого предмета!"
-        item_check_slot:
-          type: has item
-          material: AIR
-          amount: 1
-          deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета!"
-    right_click_requirement:
-      requirements:
-        item_check:
-          type: has item
-          material: ENCHANTED_GOLDEN_APPLE
-          amount: 1
-          deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
-              предметов для продажи!"
-    left_click_commands:
-      - "[takemoney] 192.50"
-      - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
-      - "[console] minecraft:give %player_name% minecraft:enchanted_golden_apple
-        1"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар &aenchanted_golden_apple&7 в количестве 1 за &a192.50$"
-    right_click_commands:
-      - "[givemoney] 175.00"
-      - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
-      - "[console] minecraft:clear %player_name%
-        minecraft:enchanted_golden_apple 1"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
-        товар &aenchanted_golden_apple&7 в количестве 1 за &a175.00$"
-  Unique_name_1:
-    material: HEART_OF_THE_SEA
-    slot: 1
-    priority: 1
-    update: true
-    hide_attributes: true
-    display_name: "&bСердце моря"
-    lore:
-      - " "
-      - "&b * &7Игрок покупает - цена за 1 единицу: &a27.50$"
-      - "&b * &7Игрок продает - цена за 1 единицу: &a25.00$"
-      - " "
-      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
-      - " "
-      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
-      - "&r&4[ ! ] &7Щелкните правой кнопкой мыши, чтобы продать"
+      - "&r&4[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
+      - "&r&4[ ! ] &#caeaf5Щелкните правой кнопкой мыши, чтобы продать"
     left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 27.5
           deny_commands:
-            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
+              предмета!"
         item_check_slot:
           type: has item
           material: AIR
           amount: 1
           deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 Нет необходимого места для покупки этого
+              предмета!"
     right_click_requirement:
       requirements:
         item_check:
@@ -134,91 +57,129 @@ items:
           material: HEART_OF_THE_SEA
           amount: 1
           deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого предмета, либо кол-ва
+            - "[message] &#caeaf5 Нет необходимого предмета, либо кол-ва
               предметов для продажи!"
     left_click_commands:
       - "[takemoney] 27.50"
       - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name% minecraft:heart_of_the_sea 1"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар &aheart_of_the_sea&7 в количестве 1 за &a27.50$"
+      - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
+        {#55ff55}heart_of_the_sea{#caeaf5} в количестве 1 за {#55ff55}27.50$"
     right_click_commands:
       - "[givemoney] 25.00"
       - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно продали этот товар!"
+      - "[message] &#caeaf5 Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:heart_of_the_sea 1"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно сдал
-        товар &aheart_of_the_sea&7 в количестве 1 за &a25.00$"
-  Unique_name_2:
+      - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно сдал товар
+        {#55ff55}heart_of_the_sea{#caeaf5} в количестве 1 за {#55ff55}25.00$"
+  Unique_name_1:
     material: BUDDING_AMETHYST
-    slot: 2
+    slot: 1
     priority: 1
     update: true
     hide_attributes: true
-    display_name: "&bЦветущий аметист"
+    display_name: "&#caeaf5Цветущий аметист"
     lore:
       - " "
-      - "&b * &7Игрок покупает - цена за 1 единицу: &a280.00$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55280.00$"
       - " "
-      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%xconomy_balance_formatted%"
       - " "
-      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+      - "&r&4[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
     left_click_requirement:
       requirements:
         balance_check:
           type: has money
           amount: 280
           deny_commands:
-            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
+              предмета!"
         item_check_slot:
           type: has item
           material: AIR
           amount: 1
           deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 Нет необходимого места для покупки этого
+              предмета!"
     left_click_commands:
       - "[takemoney] 280.00"
       - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name% minecraft:budding_amethyst 1"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар &abudding_amethyst&7 в количестве 1 за &a280.00$"
-  Unique_name_3:
+      - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
+        {#55ff55}budding_amethyst{#caeaf5} в количестве 1 за {#55ff55}280.00$"
+  Unique_name_2:
     material: LIGHT
-    slot: 3
+    slot: 2
     priority: 1
     update: true
     hide_attributes: true
-    display_name: "&bСвет"
+    display_name: "&#caeaf5Свет"
     lore:
       - " "
-      - "&b * &7Игрок покупает - цена за 1 единицу: &a8.00$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff551.00$"
       - " "
-      - "&b * &7Ваш баланс: &a%xconomy_balance_formatted%"
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%xconomy_balance_formatted%"
       - " "
-      - "&r&4[ ! ] &7Щелкните левой кнопкой мыши, чтобы купить"
+      - "&r&4[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
     left_click_requirement:
       requirements:
         balance_check:
           type: has money
-          amount: 8
+          amount: 1
           deny_commands:
-            - "[message] &bМагазин &9| &7У Вас недостаточно средств для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
+              предмета!"
         item_check_slot:
           type: has item
           material: AIR
           amount: 1
           deny_commands:
-            - "[message] &bМагазин &9| &7Нет необходимого места для покупки
-              этого предмета!"
+            - "[message] &#caeaf5 Нет необходимого места для покупки этого
+              предмета!"
     left_click_commands:
-      - "[takemoney] 8.00"
+      - "[takemoney] 1.00"
       - "[refresh]"
-      - "[message] &bМагазин &9| &7Вы успешно приобрели этот товар!"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name% minecraft:light 1"
-      - "[console] staffmsg &bМагазин &9| &7Игрок %player_name% успешно приобрел
-        товар &alight&7 в количестве 1 за &a8.00$"
+      - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
+        {#55ff55}light{#caeaf5} в количестве 1 за {#55ff55}1.00$"
+  Unique_name_3:
+    material: ENCHANTED_GOLDEN_APPLE
+    slot: 3
+    priority: 1
+    update: true
+    hide_attributes: true
+    display_name: "&#caeaf5Зачарованное золотое яблоко"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55175.00$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%xconomy_balance_formatted%"
+      - " "
+      - "&r&4[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 175
+          deny_commands:
+            - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
+              предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#caeaf5 Нет необходимого места для покупки этого
+              предмета!"
+    left_click_commands:
+      - "[takemoney] 175.00"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
+      - "[console] minecraft:give %player_name% minecraft:enchanted_golden_apple
+        1"
+      - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
+        {#55ff55}enchanted_golden_apple{#caeaf5} в количестве 1 за
+        {#55ff55}175.00$"

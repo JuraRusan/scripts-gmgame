@@ -24,13 +24,14 @@ const ore_base = {
 };
 
 const item_vanilla_base = {
- 1: { material: "ENCHANTED_GOLDEN_APPLE", console_name: "enchanted_golden_apple", name: "Зачарованное золотое яблоко", amount: 175 },
- 2: { material: "HEART_OF_THE_SEA", console_name: "heart_of_the_sea", name: "Сердце моря", amount: 25 }
+//  1: { material: "ENCHANTED_GOLDEN_APPLE", console_name: "enchanted_golden_apple", name: "Зачарованное золотое яблоко", amount: 175 },
+ 1: { material: "HEART_OF_THE_SEA", console_name: "heart_of_the_sea", name: "Сердце моря", amount: 25 }
 }
 
 const item_creative_no_sell_base = {
  1: { material: "BUDDING_AMETHYST", console_name: "budding_amethyst", name: "Цветущий аметист", amount: 280 },
- 2: { material: "LIGHT", console_name: "light", name: "Свет", amount: 8 }
+ 2: { material: "LIGHT", console_name: "light", name: "Свет", amount: 1 },
+ 3: { material: "ENCHANTED_GOLDEN_APPLE", console_name: "enchanted_golden_apple", name: "Зачарованное золотое яблоко", amount: 175 }
 }
 
 const tools_base = {
