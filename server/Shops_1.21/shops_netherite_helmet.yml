@@ -1,7 +1,6 @@
 menu_title: Незеритовые шлемы
+open_command: deluxe_menu_shops_netherite_helmets
 register_command: false
-open_command:
-  - deluxe_menu_shops_netherite_helmets
 size: 54
 items:
   previous:
@@ -19,9 +18,9 @@ items:
     middle_click_commands:
       - "[refresh]"
       - "[openguimenu] main_shops"
-  Unique_name_0:
+  Unique_name_11:
     material: NETHERITE_HELMET
-    slot: 0
+    slot: 11
     update: true
     item_flags:
       - HIDE_ATTRIBUTES
@@ -63,9 +62,9 @@ items:
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_helmet[enchantments={levels:{aqua_affinity:1,mending:1,protection:5,respiration:4,unbreaking:4}}] 1"
       - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,protection:5,respiration:4,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
-  Unique_name_1:
+  Unique_name_12:
     material: NETHERITE_HELMET
-    slot: 1
+    slot: 12
     update: true
     item_flags:
       - HIDE_ATTRIBUTES
@@ -108,9 +107,9 @@ items:
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_helmet[enchantments={levels:{aqua_affinity:1,mending:1,protection:5,respiration:4,unbreaking:4,thorns:3}}] 1"
       - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,protection:5,respiration:4,unbreaking:4,thorns:3{#caeaf5} | 1 -> {#55ff55}600$"
-  Unique_name_2:
+  Unique_name_13:
     material: NETHERITE_HELMET
-    slot: 2
+    slot: 13
     update: true
     item_flags:
       - HIDE_ATTRIBUTES
@@ -152,9 +151,9 @@ items:
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_helmet[enchantments={levels:{aqua_affinity:1,mending:1,projectile_protection:5,respiration:4,unbreaking:4}}] 1"
       - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,projectile_protection:5,respiration:4,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
-  Unique_name_3:
+  Unique_name_14:
     material: NETHERITE_HELMET
-    slot: 3
+    slot: 14
     update: true
     item_flags:
       - HIDE_ATTRIBUTES
@@ -197,9 +196,9 @@ items:
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_helmet[enchantments={levels:{aqua_affinity:1,mending:1,projectile_protection:5,respiration:4,unbreaking:4,thorns:3}}] 1"
       - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,projectile_protection:5,respiration:4,unbreaking:4,thorns:3{#caeaf5} | 1 -> {#55ff55}600$"
-  Unique_name_4:
+  Unique_name_15:
     material: NETHERITE_HELMET
-    slot: 4
+    slot: 15
     update: true
     item_flags:
       - HIDE_ATTRIBUTES
@@ -241,9 +240,9 @@ items:
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_helmet[enchantments={levels:{aqua_affinity:1,mending:1,fire_protection:5,respiration:4,unbreaking:4}}] 1"
       - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,fire_protection:5,respiration:4,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
-  Unique_name_5:
+  Unique_name_21:
     material: NETHERITE_HELMET
-    slot: 5
+    slot: 21
     update: true
     item_flags:
       - HIDE_ATTRIBUTES
@@ -286,9 +285,9 @@ items:
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_helmet[enchantments={levels:{aqua_affinity:1,mending:1,fire_protection:5,respiration:4,unbreaking:4,thorns:3}}] 1"
       - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,fire_protection:5,respiration:4,unbreaking:4,thorns:3{#caeaf5} | 1 -> {#55ff55}600$"
-  Unique_name_6:
+  Unique_name_22:
     material: NETHERITE_HELMET
-    slot: 6
+    slot: 22
     update: true
     item_flags:
       - HIDE_ATTRIBUTES
@@ -330,9 +329,9 @@ items:
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_helmet[enchantments={levels:{aqua_affinity:1,mending:1,blast_protection:5,respiration:4,unbreaking:4}}] 1"
       - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,blast_protection:5,respiration:4,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
-  Unique_name_7:
+  Unique_name_23:
     material: NETHERITE_HELMET
-    slot: 7
+    slot: 23
     update: true
     item_flags:
       - HIDE_ATTRIBUTES
