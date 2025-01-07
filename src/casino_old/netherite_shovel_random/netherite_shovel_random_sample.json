@@ -1,0 +1,9 @@
+{
+  "menu_title": "Казино",
+  "register_command": false,
+  "open_command": [
+    "deluxe_menu_shops_netherite_shovel_random"
+  ],
+  "size": 36,
+  "items": {}
+}

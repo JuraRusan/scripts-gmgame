@@ -1,0 +1,14 @@
+//    "tax_single": {
+//      "material": "EMERALD",
+//      "slot": 36,
+//      "priority": 1,
+//      "update": true,
+//      "display_name": "&#caeaf5  %coinsengine_balance_short_gmcointax%  "
+//    },
+//    "tax_all": {
+//      "material": "DIAMOND",
+//      "slot": 44,
+//      "priority": 1,
+//      "update": true,
+//      "display_name": "&#caeaf5  %coinsengine_server_balance_gmcointaxsingle%  "
+//    }

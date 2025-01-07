@@ -1,0 +1,18 @@
+{
+  "menu_title": "Руды",
+  "register_command": false,
+  "open_command": ["deluxe_menu_shops_ore"],
+  "size": 54,
+  "items": {
+    "previous": {
+      "material": "SPECTRAL_ARROW",
+      "slot": 49,
+      "priority": 1,
+      "update": true,
+      "display_name": "&#caeaf5  Назад  ",
+      "left_click_commands": ["[refresh]", "[openguimenu] main_shops"],
+      "right_click_commands": ["[refresh]", "[openguimenu] main_shops"],
+      "middle_click_commands": ["[refresh]", "[openguimenu] main_shops"]
+    }
+  }
+}
