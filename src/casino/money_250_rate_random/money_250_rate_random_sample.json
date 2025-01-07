@@ -1,9 +1,0 @@
-{
-  "menu_title": "Казино",
-  "register_command": false,
-  "open_command": [
-    "deluxe_menu_shops_money_250_rate_random"
-  ],
-  "size": 27,
-  "items": {}
-}

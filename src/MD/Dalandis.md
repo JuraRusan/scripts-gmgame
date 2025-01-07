@@ -1,2 +1,0 @@
-- `/cmi itemname {#jordyblue}☄ =_= ⛏ < Dalandis > ⛏ =_= ☄`
-- `/cmi itemname {#jordyblue}☄ =_= ❤ < Dalandis > ❤ =_= ☄`
