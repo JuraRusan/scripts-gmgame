@@ -2,6 +2,14 @@
   --blue: #e62e5a; /* обьявления */
   --white: #caeaf5; /* основный текст */
   --yellow: #ccb800; /* Предупреждение */
-  --red: #f42f31; /* ошибка */
-  --green: #55ff55; /* зеленый в магазе */
+  --red: #f42f31; /* ошибка */ 
+  --green: #55ff55; /* зелёный в магазе */
+
+
+  --light_green: #83f28f;
+  --main_world: #f6c25d;
+  --res_world: #6495ed;
+  --farm_world: #ffb6c1;
+  --lobby_world: #00fa9a;
+  --event_world: #fa8072;
 }

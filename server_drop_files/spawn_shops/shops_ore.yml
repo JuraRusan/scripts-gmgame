@@ -1659,10 +1659,10 @@ items:
     display_name: "&#caeaf5Незерская золотая руда"
     lore:
       - " "
-      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.11$"
-      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff557.04$"
-      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.10$"
-      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff556.40$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.083$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff555.28$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.075$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff554.80$"
       - " "
       - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%xconomy_balance_formatted%"
       - " "
@@ -1672,7 +1672,7 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 0.11
+          amount: 0.083
           deny_commands:
             - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
               предмета!"
@@ -1687,7 +1687,7 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 7.04
+          amount: 5.28
           deny_commands:
             - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
               предмета!"
@@ -1717,33 +1717,33 @@ items:
             - "[message] &#caeaf5 Нет необходимого предмета, либо кол-ва
               предметов для продажи!"
     left_click_commands:
-      - "[takemoney] 0.11"
+      - "[takemoney] 0.083"
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name% minecraft:nether_gold_ore 1"
       - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
-        {#55ff55}nether_gold_ore{#caeaf5} в количестве 1 за {#55ff55}0.11$"
+        {#55ff55}nether_gold_ore{#caeaf5} в количестве 1 за {#55ff55}0.083$"
     shift_left_click_commands:
-      - "[takemoney] 7.04"
+      - "[takemoney] 5.28"
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name% minecraft:nether_gold_ore 64"
       - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
-        {#55ff55}nether_gold_ore{#caeaf5} в количестве 64 за {#55ff55}7.04$"
+        {#55ff55}nether_gold_ore{#caeaf5} в количестве 64 за {#55ff55}5.28$"
     right_click_commands:
-      - "[givemoney] 0.10"
+      - "[givemoney] 0.075"
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:nether_gold_ore 1"
       - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно сдал товар
-        {#55ff55}nether_gold_ore{#caeaf5} в количестве 1 за {#55ff55}0.10$"
+        {#55ff55}nether_gold_ore{#caeaf5} в количестве 1 за {#55ff55}0.075$"
     shift_right_click_commands:
-      - "[givemoney] 6.40"
+      - "[givemoney] 4.80"
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:nether_gold_ore 64"
       - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно сдал товар
-        {#55ff55}nether_gold_ore{#caeaf5} в количестве 64 за {#55ff55}6.40$"
+        {#55ff55}nether_gold_ore{#caeaf5} в количестве 64 за {#55ff55}4.80$"
   Unique_name_18:
     material: ANCIENT_DEBRIS
     slot: 18
@@ -1753,10 +1753,10 @@ items:
     display_name: "&#caeaf5Древние обломки"
     lore:
       - " "
-      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff552.75$"
-      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff55176.00$"
-      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff552.50$"
-      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff55160.00$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff551.98$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff55126.72$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff551.80$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff55115.20$"
       - " "
       - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%xconomy_balance_formatted%"
       - " "
@@ -1766,7 +1766,7 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 2.75
+          amount: 1.98
           deny_commands:
             - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
               предмета!"
@@ -1781,7 +1781,7 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 176
+          amount: 126.72
           deny_commands:
             - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
               предмета!"
@@ -1811,33 +1811,33 @@ items:
             - "[message] &#caeaf5 Нет необходимого предмета, либо кол-ва
               предметов для продажи!"
     left_click_commands:
-      - "[takemoney] 2.75"
+      - "[takemoney] 1.98"
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name% minecraft:ancient_debris 1"
       - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
-        {#55ff55}ancient_debris{#caeaf5} в количестве 1 за {#55ff55}2.75$"
+        {#55ff55}ancient_debris{#caeaf5} в количестве 1 за {#55ff55}1.98$"
     shift_left_click_commands:
-      - "[takemoney] 176.00"
+      - "[takemoney] 126.72"
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name% minecraft:ancient_debris 64"
       - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
-        {#55ff55}ancient_debris{#caeaf5} в количестве 64 за {#55ff55}176.00$"
+        {#55ff55}ancient_debris{#caeaf5} в количестве 64 за {#55ff55}126.72$"
     right_click_commands:
-      - "[givemoney] 2.50"
+      - "[givemoney] 1.80"
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:ancient_debris 1"
       - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно сдал товар
-        {#55ff55}ancient_debris{#caeaf5} в количестве 1 за {#55ff55}2.50$"
+        {#55ff55}ancient_debris{#caeaf5} в количестве 1 за {#55ff55}1.80$"
     shift_right_click_commands:
-      - "[givemoney] 160.00"
+      - "[givemoney] 115.20"
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:ancient_debris 64"
       - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно сдал товар
-        {#55ff55}ancient_debris{#caeaf5} в количестве 64 за {#55ff55}160.00$"
+        {#55ff55}ancient_debris{#caeaf5} в количестве 64 за {#55ff55}115.20$"
   Unique_name_19:
     material: GILDED_BLACKSTONE
     slot: 19
@@ -1847,10 +1847,10 @@ items:
     display_name: "&#caeaf5Золочёный чернит"
     lore:
       - " "
-      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff551.375$"
-      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff5588.00$"
-      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff551.25$"
-      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff5580.00$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.44$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff5528.16$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.40$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff5525.60$"
       - " "
       - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%xconomy_balance_formatted%"
       - " "
@@ -1860,7 +1860,7 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 1.375
+          amount: 0.44
           deny_commands:
             - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
               предмета!"
@@ -1875,7 +1875,7 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 88
+          amount: 28.16
           deny_commands:
             - "[message] &#caeaf5 У Вас недостаточно средств для покупки этого
               предмета!"
@@ -1905,30 +1905,30 @@ items:
             - "[message] &#caeaf5 Нет необходимого предмета, либо кол-ва
               предметов для продажи!"
     left_click_commands:
-      - "[takemoney] 1.375"
+      - "[takemoney] 0.44"
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name% minecraft:gilded_blackstone 1"
       - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
-        {#55ff55}gilded_blackstone{#caeaf5} в количестве 1 за {#55ff55}1.375$"
+        {#55ff55}gilded_blackstone{#caeaf5} в количестве 1 за {#55ff55}0.44$"
     shift_left_click_commands:
-      - "[takemoney] 88.00"
+      - "[takemoney] 28.16"
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар!"
       - "[console] minecraft:give %player_name% minecraft:gilded_blackstone 64"
       - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно приобрел товар
-        {#55ff55}gilded_blackstone{#caeaf5} в количестве 64 за {#55ff55}88.00$"
+        {#55ff55}gilded_blackstone{#caeaf5} в количестве 64 за {#55ff55}28.16$"
     right_click_commands:
-      - "[givemoney] 1.25"
+      - "[givemoney] 0.40"
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:gilded_blackstone 1"
       - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно сдал товар
-        {#55ff55}gilded_blackstone{#caeaf5} в количестве 1 за {#55ff55}1.25$"
+        {#55ff55}gilded_blackstone{#caeaf5} в количестве 1 за {#55ff55}0.40$"
     shift_right_click_commands:
-      - "[givemoney] 80.00"
+      - "[givemoney] 25.60"
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно продали этот товар!"
       - "[console] minecraft:clear %player_name% minecraft:gilded_blackstone 64"
       - "[console] staffmsg {#caeaf5} Игрок %player_name% успешно сдал товар
-        {#55ff55}gilded_blackstone{#caeaf5} в количестве 64 за {#55ff55}80.00$"
+        {#55ff55}gilded_blackstone{#caeaf5} в количестве 64 за {#55ff55}25.60$"

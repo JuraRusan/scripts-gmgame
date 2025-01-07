@@ -38,22 +38,34 @@ const res = itemKeys.reduce((acc, curr, index) => {
                 balance_check: {
                     type: "has money",
                     amount: +amountFormat,
-                    deny_commands: ["[message] &bКазино &9| &7У Вас недостаточно средств для создания ставки!"]
+                    deny_commands: [
+                        "[message] &bКазино &9| &7У Вас недостаточно средств для создания ставки!",
+                        "[console] staffmsg &bКазино &9| &7У Вас недостаточно средств для создания ставки!",
+                        "[console] balance %player_name%",
+                        "[close]",
+                    ]
                 },
                 item_check_slot: {
                     type: "has item",
                     material: "AIR",
                     amount: 1,
-                    deny_commands: ["[message] &bКазино &9| &7Нет необходимого места в инвентаре!"]
+                    deny_commands: [
+                        "[message] &bКазино &9| &7Нет необходимого места в инвентаре!",
+                        "[console] staffmsg &bКазино &9| &7Нет необходимого места в инвентаре!",
+                        "[console] balance %player_name%",
+                        "[close]",
+                    ]
                 }
             }
         },
         left_click_commands: [
+            `[console] balance %player_name%`,
             `[takemoney] ${amountFormat}`,
-            "[refresh]",
+            `[console] balance %player_name%`,
+            "[close]",
             "[message] &bКазино &9| &7Вы сыграли в ставку!",
             `[console] <chance=10> cmi give %player_name% minecraft:${itemShopsName.console_name} 1`,
-            `[console] cmi give %player_name% minecraft:${token_code} ${itemShopsName.token}`,
+            // `[console] cmi give %player_name% minecraft:${token_code} ${itemShopsName.token}`,
             `[console] staffmsg &bКазино &9| &7Игрок %player_name% сделал ставку на товар &a${itemShopsName.console_name}&7 с зачарованием&a${(itemShopsName.enchantments.map(x => " " + x))}&7 в количестве 1 за &a${amountFormat}$`
         ]
     }

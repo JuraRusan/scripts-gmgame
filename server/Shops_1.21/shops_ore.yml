@@ -1,0 +1,1856 @@
+menu_title: Руды
+register_command: false
+open_command:
+  - deluxe_menu_shops_ore
+size: 54
+items:
+  previous:
+    material: SPECTRAL_ARROW
+    slot: 49
+    priority: 1
+    update: true
+    display_name: "&#caeaf5  Назад  "
+    left_click_commands:
+      - "[refresh]"
+      - "[openguimenu] main_shops"
+    right_click_commands:
+      - "[refresh]"
+      - "[openguimenu] main_shops"
+    middle_click_commands:
+      - "[refresh]"
+      - "[openguimenu] main_shops"
+  Unique_name_0:
+    material: COAL_ORE
+    slot: 0
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Угольная руда"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.033$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff552.112$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.03$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff551.92$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.033
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 2.112
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: coal_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: coal_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.033"
+      - "[console] gmcointax give %player_name% 0.003 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.003 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-0.033&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:coal_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}coal_ore{#caeaf5} | 1 -> {#55ff55}0.033$"
+    shift_left_click_commands:
+      - "[takemoney] 2.112"
+      - "[console] gmcointax give %player_name% 0.192 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.192 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-2.112&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:coal_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}coal_ore{#caeaf5} | 64 -> {#55ff55}2.112$"
+    right_click_commands:
+      - "[givemoney] 0.03"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+0.03&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:coal_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}coal_ore{#caeaf5} | 1 -> {#55ff55}0.03$"
+    shift_right_click_commands:
+      - "[givemoney] 1.92"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+1.92&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:coal_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}coal_ore{#caeaf5} | 64 -> {#55ff55}1.92$"
+  Unique_name_9:
+    material: DEEPSLATE_COAL_ORE
+    slot: 9
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Угленосный глубинный сланец"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.044$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff552.816$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.04$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff552.56$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.044
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 2.816
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: deepslate_coal_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: deepslate_coal_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.044"
+      - "[console] gmcointax give %player_name% 0.004 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.004 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-0.044&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_coal_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}deepslate_coal_ore{#caeaf5} | 1 -> {#55ff55}0.044$"
+    shift_left_click_commands:
+      - "[takemoney] 2.816"
+      - "[console] gmcointax give %player_name% 0.256 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.256 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-2.816&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_coal_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}deepslate_coal_ore{#caeaf5} | 64 -> {#55ff55}2.816$"
+    right_click_commands:
+      - "[givemoney] 0.04"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+0.04&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_coal_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}deepslate_coal_ore{#caeaf5} | 1 -> {#55ff55}0.04$"
+    shift_right_click_commands:
+      - "[givemoney] 2.56"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+2.56&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_coal_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}deepslate_coal_ore{#caeaf5} | 64 -> {#55ff55}2.56$"
+  Unique_name_1:
+    material: IRON_ORE
+    slot: 1
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Железная руда"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.033$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff552.112$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.03$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff551.92$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.033
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 2.112
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: iron_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: iron_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.033"
+      - "[console] gmcointax give %player_name% 0.003 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.003 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-0.033&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:iron_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}iron_ore{#caeaf5} | 1 -> {#55ff55}0.033$"
+    shift_left_click_commands:
+      - "[takemoney] 2.112"
+      - "[console] gmcointax give %player_name% 0.192 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.192 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-2.112&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:iron_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}iron_ore{#caeaf5} | 64 -> {#55ff55}2.112$"
+    right_click_commands:
+      - "[givemoney] 0.03"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+0.03&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:iron_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}iron_ore{#caeaf5} | 1 -> {#55ff55}0.03$"
+    shift_right_click_commands:
+      - "[givemoney] 1.92"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+1.92&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:iron_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}iron_ore{#caeaf5} | 64 -> {#55ff55}1.92$"
+  Unique_name_10:
+    material: DEEPSLATE_IRON_ORE
+    slot: 10
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Железоносный глубинный сланец"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.044$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff552.816$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.04$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff552.56$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.044
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 2.816
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: deepslate_iron_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: deepslate_iron_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.044"
+      - "[console] gmcointax give %player_name% 0.004 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.004 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-0.044&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_iron_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}deepslate_iron_ore{#caeaf5} | 1 -> {#55ff55}0.044$"
+    shift_left_click_commands:
+      - "[takemoney] 2.816"
+      - "[console] gmcointax give %player_name% 0.256 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.256 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-2.816&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_iron_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}deepslate_iron_ore{#caeaf5} | 64 -> {#55ff55}2.816$"
+    right_click_commands:
+      - "[givemoney] 0.04"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+0.04&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_iron_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}deepslate_iron_ore{#caeaf5} | 1 -> {#55ff55}0.04$"
+    shift_right_click_commands:
+      - "[givemoney] 2.56"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+2.56&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_iron_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}deepslate_iron_ore{#caeaf5} | 64 -> {#55ff55}2.56$"
+  Unique_name_2:
+    material: COPPER_ORE
+    slot: 2
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Медная руда"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.055$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff553.52$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.05$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff553.2$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.055
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 3.52
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: copper_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: copper_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.055"
+      - "[console] gmcointax give %player_name% 0.005 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.005 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-0.055&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:copper_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}copper_ore{#caeaf5} | 1 -> {#55ff55}0.055$"
+    shift_left_click_commands:
+      - "[takemoney] 3.52"
+      - "[console] gmcointax give %player_name% 0.32 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.32 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-3.52&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:copper_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}copper_ore{#caeaf5} | 64 -> {#55ff55}3.52$"
+    right_click_commands:
+      - "[givemoney] 0.05"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+0.05&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:copper_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}copper_ore{#caeaf5} | 1 -> {#55ff55}0.05$"
+    shift_right_click_commands:
+      - "[givemoney] 3.2"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+3.2&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:copper_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}copper_ore{#caeaf5} | 64 -> {#55ff55}3.2$"
+  Unique_name_11:
+    material: DEEPSLATE_COPPER_ORE
+    slot: 11
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Меденосный глубинный сланец"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.066$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff554.224$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.06$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff553.84$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.066
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 4.224
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: deepslate_copper_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: deepslate_copper_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.066"
+      - "[console] gmcointax give %player_name% 0.006 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.006 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-0.066&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_copper_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}deepslate_copper_ore{#caeaf5} | 1 -> {#55ff55}0.066$"
+    shift_left_click_commands:
+      - "[takemoney] 4.224"
+      - "[console] gmcointax give %player_name% 0.384 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.384 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-4.224&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_copper_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}deepslate_copper_ore{#caeaf5} | 64 -> {#55ff55}4.224$"
+    right_click_commands:
+      - "[givemoney] 0.06"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+0.06&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_copper_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}deepslate_copper_ore{#caeaf5} | 1 -> {#55ff55}0.06$"
+    shift_right_click_commands:
+      - "[givemoney] 3.84"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+3.84&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_copper_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}deepslate_copper_ore{#caeaf5} | 64 -> {#55ff55}3.84$"
+  Unique_name_3:
+    material: REDSTONE_ORE
+    slot: 3
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Редстоуновая руда"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.055$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff553.52$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.05$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff553.2$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.055
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 3.52
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: redstone_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: redstone_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.055"
+      - "[console] gmcointax give %player_name% 0.005 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.005 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-0.055&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:redstone_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}redstone_ore{#caeaf5} | 1 -> {#55ff55}0.055$"
+    shift_left_click_commands:
+      - "[takemoney] 3.52"
+      - "[console] gmcointax give %player_name% 0.32 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.32 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-3.52&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:redstone_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}redstone_ore{#caeaf5} | 64 -> {#55ff55}3.52$"
+    right_click_commands:
+      - "[givemoney] 0.05"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+0.05&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:redstone_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}redstone_ore{#caeaf5} | 1 -> {#55ff55}0.05$"
+    shift_right_click_commands:
+      - "[givemoney] 3.2"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+3.2&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:redstone_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}redstone_ore{#caeaf5} | 64 -> {#55ff55}3.2$"
+  Unique_name_12:
+    material: DEEPSLATE_REDSTONE_ORE
+    slot: 12
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Редстоуноносный глубинный сланец"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.066$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff554.224$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.06$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff553.84$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.066
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 4.224
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: deepslate_redstone_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: deepslate_redstone_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.066"
+      - "[console] gmcointax give %player_name% 0.006 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.006 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-0.066&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_redstone_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}deepslate_redstone_ore{#caeaf5} | 1 -> {#55ff55}0.066$"
+    shift_left_click_commands:
+      - "[takemoney] 4.224"
+      - "[console] gmcointax give %player_name% 0.384 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.384 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-4.224&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_redstone_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}deepslate_redstone_ore{#caeaf5} | 64 -> {#55ff55}4.224$"
+    right_click_commands:
+      - "[givemoney] 0.06"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+0.06&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_redstone_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}deepslate_redstone_ore{#caeaf5} | 1 -> {#55ff55}0.06$"
+    shift_right_click_commands:
+      - "[givemoney] 3.84"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+3.84&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_redstone_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}deepslate_redstone_ore{#caeaf5} | 64 -> {#55ff55}3.84$"
+  Unique_name_4:
+    material: GOLD_ORE
+    slot: 4
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Золотая руда"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.11$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff557.04$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.1$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff556.4$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.11
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 7.04
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: gold_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: gold_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.11"
+      - "[console] gmcointax give %player_name% 0.01 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.01 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-0.11&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:gold_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}gold_ore{#caeaf5} | 1 -> {#55ff55}0.11$"
+    shift_left_click_commands:
+      - "[takemoney] 7.04"
+      - "[console] gmcointax give %player_name% 0.64 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.64 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-7.04&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:gold_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}gold_ore{#caeaf5} | 64 -> {#55ff55}7.04$"
+    right_click_commands:
+      - "[givemoney] 0.1"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+0.1&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:gold_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}gold_ore{#caeaf5} | 1 -> {#55ff55}0.1$"
+    shift_right_click_commands:
+      - "[givemoney] 6.4"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+6.4&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:gold_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}gold_ore{#caeaf5} | 64 -> {#55ff55}6.4$"
+  Unique_name_13:
+    material: DEEPSLATE_GOLD_ORE
+    slot: 13
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Золотоносный глубинный сланец"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.121$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff557.744$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.11$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff557.04$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.121
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 7.744
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: deepslate_gold_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: deepslate_gold_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.121"
+      - "[console] gmcointax give %player_name% 0.011 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.011 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-0.121&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_gold_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}deepslate_gold_ore{#caeaf5} | 1 -> {#55ff55}0.121$"
+    shift_left_click_commands:
+      - "[takemoney] 7.744"
+      - "[console] gmcointax give %player_name% 0.704 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.704 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-7.744&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_gold_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}deepslate_gold_ore{#caeaf5} | 64 -> {#55ff55}7.744$"
+    right_click_commands:
+      - "[givemoney] 0.11"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+0.11&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_gold_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}deepslate_gold_ore{#caeaf5} | 1 -> {#55ff55}0.11$"
+    shift_right_click_commands:
+      - "[givemoney] 7.04"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+7.04&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_gold_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}deepslate_gold_ore{#caeaf5} | 64 -> {#55ff55}7.04$"
+  Unique_name_5:
+    material: LAPIS_ORE
+    slot: 5
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Лазуритовая руда"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.275$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff5517.6$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.25$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff5516$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.275
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 17.6
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: lapis_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: lapis_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.275"
+      - "[console] gmcointax give %player_name% 0.025 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.025 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-0.275&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:lapis_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}lapis_ore{#caeaf5} | 1 -> {#55ff55}0.275$"
+    shift_left_click_commands:
+      - "[takemoney] 17.6"
+      - "[console] gmcointax give %player_name% 1.6 -s"
+      - "[console] gmcointaxsingle give prestig9110 1.6 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-17.6&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:lapis_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}lapis_ore{#caeaf5} | 64 -> {#55ff55}17.6$"
+    right_click_commands:
+      - "[givemoney] 0.25"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+0.25&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:lapis_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}lapis_ore{#caeaf5} | 1 -> {#55ff55}0.25$"
+    shift_right_click_commands:
+      - "[givemoney] 16"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+16&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:lapis_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}lapis_ore{#caeaf5} | 64 -> {#55ff55}16$"
+  Unique_name_14:
+    material: DEEPSLATE_LAPIS_ORE
+    slot: 14
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Лазуритоносный глубинный сланец"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.286$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff5518.304$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.26$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff5516.64$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.286
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 18.304
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: deepslate_lapis_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: deepslate_lapis_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.286"
+      - "[console] gmcointax give %player_name% 0.026 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.026 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-0.286&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_lapis_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}deepslate_lapis_ore{#caeaf5} | 1 -> {#55ff55}0.286$"
+    shift_left_click_commands:
+      - "[takemoney] 18.304"
+      - "[console] gmcointax give %player_name% 1.664 -s"
+      - "[console] gmcointaxsingle give prestig9110 1.664 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-18.304&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_lapis_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}deepslate_lapis_ore{#caeaf5} | 64 -> {#55ff55}18.304$"
+    right_click_commands:
+      - "[givemoney] 0.26"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+0.26&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_lapis_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}deepslate_lapis_ore{#caeaf5} | 1 -> {#55ff55}0.26$"
+    shift_right_click_commands:
+      - "[givemoney] 16.64"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+16.64&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_lapis_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}deepslate_lapis_ore{#caeaf5} | 64 -> {#55ff55}16.64$"
+  Unique_name_6:
+    material: EMERALD_ORE
+    slot: 6
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Изумрудная руда"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff552.2$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff55140.8$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff552$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff55128$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 2.2
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 140.8
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: emerald_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: emerald_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 2.2"
+      - "[console] gmcointax give %player_name% 0.2 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.2 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-2.2&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:emerald_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}emerald_ore{#caeaf5} | 1 -> {#55ff55}2.2$"
+    shift_left_click_commands:
+      - "[takemoney] 140.8"
+      - "[console] gmcointax give %player_name% 12.8 -s"
+      - "[console] gmcointaxsingle give prestig9110 12.8 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-140.8&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:emerald_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}emerald_ore{#caeaf5} | 64 -> {#55ff55}140.8$"
+    right_click_commands:
+      - "[givemoney] 2"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+2&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:emerald_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}emerald_ore{#caeaf5} | 1 -> {#55ff55}2$"
+    shift_right_click_commands:
+      - "[givemoney] 128"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+128&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:emerald_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}emerald_ore{#caeaf5} | 64 -> {#55ff55}128$"
+  Unique_name_15:
+    material: DEEPSLATE_EMERALD_ORE
+    slot: 15
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Изумрудоносный глубинный сланец"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff553.3$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff55211.2$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff553$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff55192$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 3.3
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 211.2
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: deepslate_emerald_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: deepslate_emerald_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 3.3"
+      - "[console] gmcointax give %player_name% 0.3 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.3 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-3.3&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_emerald_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}deepslate_emerald_ore{#caeaf5} | 1 -> {#55ff55}3.3$"
+    shift_left_click_commands:
+      - "[takemoney] 211.2"
+      - "[console] gmcointax give %player_name% 19.2 -s"
+      - "[console] gmcointaxsingle give prestig9110 19.2 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-211.2&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_emerald_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}deepslate_emerald_ore{#caeaf5} | 64 -> {#55ff55}211.2$"
+    right_click_commands:
+      - "[givemoney] 3"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+3&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_emerald_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}deepslate_emerald_ore{#caeaf5} | 1 -> {#55ff55}3$"
+    shift_right_click_commands:
+      - "[givemoney] 192"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+192&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_emerald_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}deepslate_emerald_ore{#caeaf5} | 64 -> {#55ff55}192$"
+  Unique_name_7:
+    material: NETHER_QUARTZ_ORE
+    slot: 7
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Незер-кварцевая руда"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.055$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff553.52$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.05$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff553.2$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.055
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 3.52
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: nether_quartz_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: nether_quartz_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.055"
+      - "[console] gmcointax give %player_name% 0.005 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.005 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-0.055&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:nether_quartz_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}nether_quartz_ore{#caeaf5} | 1 -> {#55ff55}0.055$"
+    shift_left_click_commands:
+      - "[takemoney] 3.52"
+      - "[console] gmcointax give %player_name% 0.32 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.32 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-3.52&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:nether_quartz_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}nether_quartz_ore{#caeaf5} | 64 -> {#55ff55}3.52$"
+    right_click_commands:
+      - "[givemoney] 0.05"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+0.05&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:nether_quartz_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}nether_quartz_ore{#caeaf5} | 1 -> {#55ff55}0.05$"
+    shift_right_click_commands:
+      - "[givemoney] 3.2"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+3.2&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:nether_quartz_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}nether_quartz_ore{#caeaf5} | 64 -> {#55ff55}3.2$"
+  Unique_name_16:
+    material: NETHER_GOLD_ORE
+    slot: 16
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Незерская золотая руда"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.077$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff554.928$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.07$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff554.48$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.077
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 4.928
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: nether_gold_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: nether_gold_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.077"
+      - "[console] gmcointax give %player_name% 0.007 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.007 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-0.077&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:nether_gold_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}nether_gold_ore{#caeaf5} | 1 -> {#55ff55}0.077$"
+    shift_left_click_commands:
+      - "[takemoney] 4.928"
+      - "[console] gmcointax give %player_name% 0.448 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.448 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-4.928&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:nether_gold_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}nether_gold_ore{#caeaf5} | 64 -> {#55ff55}4.928$"
+    right_click_commands:
+      - "[givemoney] 0.07"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+0.07&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:nether_gold_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}nether_gold_ore{#caeaf5} | 1 -> {#55ff55}0.07$"
+    shift_right_click_commands:
+      - "[givemoney] 4.48"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+4.48&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:nether_gold_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}nether_gold_ore{#caeaf5} | 64 -> {#55ff55}4.48$"
+  Unique_name_8:
+    material: GILDED_BLACKSTONE
+    slot: 8
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Золочёный чернит"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff550.495$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff5531.68$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff550.45$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff5528.8$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 0.495
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 31.68
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: gilded_blackstone
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: gilded_blackstone
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 0.495"
+      - "[console] gmcointax give %player_name% 0.045 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.045 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-0.495&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:gilded_blackstone 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}gilded_blackstone{#caeaf5} | 1 -> {#55ff55}0.495$"
+    shift_left_click_commands:
+      - "[takemoney] 31.68"
+      - "[console] gmcointax give %player_name% 2.88 -s"
+      - "[console] gmcointaxsingle give prestig9110 2.88 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-31.68&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:gilded_blackstone 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}gilded_blackstone{#caeaf5} | 64 -> {#55ff55}31.68$"
+    right_click_commands:
+      - "[givemoney] 0.45"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+0.45&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:gilded_blackstone 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}gilded_blackstone{#caeaf5} | 1 -> {#55ff55}0.45$"
+    shift_right_click_commands:
+      - "[givemoney] 28.8"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+28.8&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:gilded_blackstone 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}gilded_blackstone{#caeaf5} | 64 -> {#55ff55}28.8$"
+  Unique_name_17:
+    material: ANCIENT_DEBRIS
+    slot: 17
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Древние обломки"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff552.2$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff55140.8$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff552$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff55128$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 2.2
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 140.8
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: ancient_debris
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: ancient_debris
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 2.2"
+      - "[console] gmcointax give %player_name% 0.2 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.2 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-2.2&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:ancient_debris 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}ancient_debris{#caeaf5} | 1 -> {#55ff55}2.2$"
+    shift_left_click_commands:
+      - "[takemoney] 140.8"
+      - "[console] gmcointax give %player_name% 12.8 -s"
+      - "[console] gmcointaxsingle give prestig9110 12.8 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-140.8&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:ancient_debris 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}ancient_debris{#caeaf5} | 64 -> {#55ff55}140.8$"
+    right_click_commands:
+      - "[givemoney] 2"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+2&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:ancient_debris 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}ancient_debris{#caeaf5} | 1 -> {#55ff55}2$"
+    shift_right_click_commands:
+      - "[givemoney] 128"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+128&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:ancient_debris 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}ancient_debris{#caeaf5} | 64 -> {#55ff55}128$"
+  Unique_name_30:
+    material: DIAMOND_ORE
+    slot: 30
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Алмазная руда"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff551.1$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff5570.4$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff551$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff5564$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 1.1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 70.4
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: diamond_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: diamond_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 1.1"
+      - "[console] gmcointax give %player_name% 0.1 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.1 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-1.1&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:diamond_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}diamond_ore{#caeaf5} | 1 -> {#55ff55}1.1$"
+    shift_left_click_commands:
+      - "[takemoney] 70.4"
+      - "[console] gmcointax give %player_name% 6.4 -s"
+      - "[console] gmcointaxsingle give prestig9110 6.4 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-70.4&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:diamond_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}diamond_ore{#caeaf5} | 64 -> {#55ff55}70.4$"
+    right_click_commands:
+      - "[givemoney] 1"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+1&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:diamond_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}diamond_ore{#caeaf5} | 1 -> {#55ff55}1$"
+    shift_right_click_commands:
+      - "[givemoney] 64"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+64&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:diamond_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}diamond_ore{#caeaf5} | 64 -> {#55ff55}64$"
+  Unique_name_32:
+    material: DEEPSLATE_DIAMOND_ORE
+    slot: 32
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Алмазоносный глубинный сланец"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff551.1$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 стак: &#55ff5570.4$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 единицу: &#55ff551$"
+      - "&#ccb800 * &#caeaf5Игрок продает - цена за 1 стак: &#55ff5564$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+      - "&#f42f31[ ! ] &#caeaf5Пкм чтобы продать 1, пкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 1.1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    shift_left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 70.4
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: deepslate_diamond_ore
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    shift_right_click_requirement:
+      requirements:
+        item_check:
+          type: has item
+          material: deepslate_diamond_ore
+          amount: 64
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого предмета, либо кол-ва предметов для продажи!"
+    left_click_commands:
+      - "[takemoney] 1.1"
+      - "[console] gmcointax give %player_name% 0.1 -s"
+      - "[console] gmcointaxsingle give prestig9110 0.1 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-1.1&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_diamond_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}deepslate_diamond_ore{#caeaf5} | 1 -> {#55ff55}1.1$"
+    shift_left_click_commands:
+      - "[takemoney] 70.4"
+      - "[console] gmcointax give %player_name% 6.4 -s"
+      - "[console] gmcointaxsingle give prestig9110 6.4 -s"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-70.4&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:deepslate_diamond_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}deepslate_diamond_ore{#caeaf5} | 64 -> {#55ff55}70.4$"
+    right_click_commands:
+      - "[givemoney] 1"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+1&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_diamond_ore 1"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}deepslate_diamond_ore{#caeaf5} | 1 -> {#55ff55}1$"
+    shift_right_click_commands:
+      - "[givemoney] 64"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+64&#caeaf5)"
+      - "[console] minecraft:clear %player_name% minecraft:deepslate_diamond_ore 64"
+      - "[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}deepslate_diamond_ore{#caeaf5} | 64 -> {#55ff55}64$"
+  Unique_name_31:
+    material: BUDDING_AMETHYST
+    slot: 31
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    display_name: "&#caeaf5Цветущий аметист"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55280$"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%javascript_xconomy_balance_value%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Лкм чтобы купить 1, лкм + shift для 1 стака"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 280
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    left_click_commands:
+      - "[takemoney] 280"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-280&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:budding_amethyst 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}budding_amethyst{#caeaf5} | 1 -> {#55ff55}280$"

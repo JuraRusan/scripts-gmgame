@@ -1,0 +1,54 @@
+open_command: user_symbols
+size: 54
+menu_title: 'Значики'
+register_command: true
+open_requirement:
+  requirements:
+    perm_check:
+      type: has permission
+      permission: user.symbols.menu
+      deny_commands:
+        - '[message] &cУ вас нет доступа'
+
+items:
+  'chat_color_1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMxYzYxZGM3ZjJkMDljYTIwZDc1ZTU5NDU3NzdlNWYwNmQwNjI5MzE4Y2QyNTFhZDhkNGQ5ZTgxZjAwNTE4YyJ9fX0=
+    slot: 20
+    display_name: ' '
+    lore:
+      - ' &#FFB1E0Малиновый '
+      - ''
+      - ' &fИзмените цвет ваших '
+      - ' &fсообщений в чате'
+      - ''
+      - ' &a• Нажмите для выбора '
+      - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta setprefix 10 ⛏'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    - '[close]'
+  'chat_color_reset':
+    material: firework_star
+    slot: 4
+    display_name: ' '
+    lore:
+      - ' &7Сбросить Цвет '
+      - ''
+      - ' &fВерните цвет сообщений '
+      - ' &fк исходному состоянию'
+      - ''
+      - ' &a• Нажмите для сброса '
+      - ''
+    left_click_commands:
+    - '[console] lp user %player_name% meta removesuffix 100'
+    - '[sound] ENTITY_PLAYER_LEVELUP'
+    - '[close]'
+  'close':
+    material: stone_button
+    slot: 49
+    display_name: ' '
+    lore:
+      - '  &cЗакрыть  '
+      - ''
+    left_click_commands:
+    - '[close]'
