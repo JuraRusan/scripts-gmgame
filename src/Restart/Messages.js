@@ -3,12 +3,11 @@ const dockerRes = '"docker attach aa146230-f115-4450-8175-e50a7c12701f"';
 const dockerFarm = '"docker attach 013aaa06-2969-4338-9097-2caae1853916"';
 const dockerCreative = '"docker attach 2442ba49-76b5-4943-8f5a-3a8eff02e48d"';
 const dockerLobby = '"docker attach ad9e763d-9053-473a-8c1e-89b1cba78094"';
-const dockerSkyBlock = '"docker attach b38d670a-bb20-443d-905b-3e52f7452f3e"';
 
-const {exec} = require('node:child_process');
+const { exec } = require("node:child_process");
 
 function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 const cmdRestart60Title = '{\\"text\\":\\"АВТО-РЕСТАРТ\\",\\"color\\":\\"#08b7f7\\"}';
@@ -36,7 +35,6 @@ const cmdRestart1 = '{\\"text\\":\\"Перезагрузка через 1 сек
   exec(`echo "title @a times 20 100 20" | socat EXEC:${dockerCreative},pty STDIN`);
   exec(`echo "title @a times 20 100 20" | socat EXEC:${dockerLobby},pty STDIN`);
 
-
   // ------ For 60 seconds before restart
   exec(`echo "title @a title ${cmdRestart60Title}" | socat EXEC:${dockerGMGame},pty STDIN`);
   exec(`echo "title @a subtitle ${cmdRestart60SubTitle}" | socat EXEC:${dockerGMGame},pty STDIN`);
@@ -52,7 +50,6 @@ const cmdRestart1 = '{\\"text\\":\\"Перезагрузка через 1 сек
   // ---
   exec(`echo "title @a title ${cmdRestart60Title}" | socat EXEC:${dockerLobby},pty STDIN`);
   exec(`echo "title @a subtitle ${cmdRestart60SubTitle}" | socat EXEC:${dockerLobby},pty STDIN`);
-
 
   // ------ For 30 seconds before restart
   await sleep(30000);
@@ -71,7 +68,6 @@ const cmdRestart1 = '{\\"text\\":\\"Перезагрузка через 1 сек
   exec(`echo "title @a title ${cmdRestart30Title}" | socat EXEC:${dockerLobby},pty STDIN`);
   exec(`echo "title @a subtitle ${cmdRestart30SubTitle}" | socat EXEC:${dockerLobby},pty STDIN`);
 
-
   // ------ For 10 seconds before restart
   await sleep(20000);
   exec(`echo "title @a actionbar ${cmdRestart10}" | socat EXEC:${dockerGMGame},pty STDIN`);
@@ -79,7 +75,6 @@ const cmdRestart1 = '{\\"text\\":\\"Перезагрузка через 1 сек
   exec(`echo "title @a actionbar ${cmdRestart10}" | socat EXEC:${dockerFarm},pty STDIN`);
   exec(`echo "title @a actionbar ${cmdRestart10}" | socat EXEC:${dockerCreative},pty STDIN`);
   exec(`echo "title @a actionbar ${cmdRestart10}" | socat EXEC:${dockerLobby},pty STDIN`);
-
 
   // ------ For 9 seconds before restart
   await sleep(1000);
@@ -89,7 +84,6 @@ const cmdRestart1 = '{\\"text\\":\\"Перезагрузка через 1 сек
   exec(`echo "title @a actionbar ${cmdRestart9}" | socat EXEC:${dockerCreative},pty STDIN`);
   exec(`echo "title @a actionbar ${cmdRestart9}" | socat EXEC:${dockerLobby},pty STDIN`);
 
-
   // ------ For 8 seconds before restart
   await sleep(1000);
   exec(`echo "title @a actionbar ${cmdRestart8}" | socat EXEC:${dockerGMGame},pty STDIN`);
@@ -97,7 +91,6 @@ const cmdRestart1 = '{\\"text\\":\\"Перезагрузка через 1 сек
   exec(`echo "title @a actionbar ${cmdRestart8}" | socat EXEC:${dockerFarm},pty STDIN`);
   exec(`echo "title @a actionbar ${cmdRestart8}" | socat EXEC:${dockerCreative},pty STDIN`);
   exec(`echo "title @a actionbar ${cmdRestart8}" | socat EXEC:${dockerLobby},pty STDIN`);
-
 
   // ------ For 7 seconds before restart
   await sleep(1000);
@@ -107,7 +100,6 @@ const cmdRestart1 = '{\\"text\\":\\"Перезагрузка через 1 сек
   exec(`echo "title @a actionbar ${cmdRestart7}" | socat EXEC:${dockerCreative},pty STDIN`);
   exec(`echo "title @a actionbar ${cmdRestart7}" | socat EXEC:${dockerLobby},pty STDIN`);
 
-
   // ------ For 6 seconds before restart
   await sleep(1000);
   exec(`echo "title @a actionbar ${cmdRestart6}" | socat EXEC:${dockerGMGame},pty STDIN`);
@@ -115,7 +107,6 @@ const cmdRestart1 = '{\\"text\\":\\"Перезагрузка через 1 сек
   exec(`echo "title @a actionbar ${cmdRestart6}" | socat EXEC:${dockerFarm},pty STDIN`);
   exec(`echo "title @a actionbar ${cmdRestart6}" | socat EXEC:${dockerCreative},pty STDIN`);
   exec(`echo "title @a actionbar ${cmdRestart6}" | socat EXEC:${dockerLobby},pty STDIN`);
-
 
   // ------ For 5 seconds before restart
   await sleep(1000);
@@ -125,7 +116,6 @@ const cmdRestart1 = '{\\"text\\":\\"Перезагрузка через 1 сек
   exec(`echo "title @a actionbar ${cmdRestart5}" | socat EXEC:${dockerCreative},pty STDIN`);
   exec(`echo "title @a actionbar ${cmdRestart5}" | socat EXEC:${dockerLobby},pty STDIN`);
 
-
   // ------ For 4 seconds before restart
   await sleep(1000);
   exec(`echo "title @a actionbar ${cmdRestart4}" | socat EXEC:${dockerGMGame},pty STDIN`);
@@ -133,7 +123,6 @@ const cmdRestart1 = '{\\"text\\":\\"Перезагрузка через 1 сек
   exec(`echo "title @a actionbar ${cmdRestart4}" | socat EXEC:${dockerFarm},pty STDIN`);
   exec(`echo "title @a actionbar ${cmdRestart4}" | socat EXEC:${dockerCreative},pty STDIN`);
   exec(`echo "title @a actionbar ${cmdRestart4}" | socat EXEC:${dockerLobby},pty STDIN`);
-
 
   // ------ For 3 seconds before restart
   await sleep(1000);
@@ -143,7 +132,6 @@ const cmdRestart1 = '{\\"text\\":\\"Перезагрузка через 1 сек
   exec(`echo "title @a actionbar ${cmdRestart3}" | socat EXEC:${dockerCreative},pty STDIN`);
   exec(`echo "title @a actionbar ${cmdRestart3}" | socat EXEC:${dockerLobby},pty STDIN`);
 
-
   // ------ For 2 seconds before restart
   await sleep(1000);
   exec(`echo "title @a actionbar ${cmdRestart2}" | socat EXEC:${dockerGMGame},pty STDIN`);
@@ -152,7 +140,6 @@ const cmdRestart1 = '{\\"text\\":\\"Перезагрузка через 1 сек
   exec(`echo "title @a actionbar ${cmdRestart2}" | socat EXEC:${dockerCreative},pty STDIN`);
   exec(`echo "title @a actionbar ${cmdRestart2}" | socat EXEC:${dockerLobby},pty STDIN`);
 
-
   // ------ For 1 seconds before restart
   await sleep(1000);
   exec(`echo "title @a actionbar ${cmdRestart1}" | socat EXEC:${dockerGMGame},pty STDIN`);
@@ -160,4 +147,4 @@ const cmdRestart1 = '{\\"text\\":\\"Перезагрузка через 1 сек
   exec(`echo "title @a actionbar ${cmdRestart1}" | socat EXEC:${dockerFarm},pty STDIN`);
   exec(`echo "title @a actionbar ${cmdRestart1}" | socat EXEC:${dockerCreative},pty STDIN`);
   exec(`echo "title @a actionbar ${cmdRestart1}" | socat EXEC:${dockerLobby},pty STDIN`);
-})()
+})();
