@@ -33,36 +33,3 @@ export const yes_sell = [
 ];
 
 export const no_sell = [{ material: "budding_amethyst", name: "Цветущий аметист", amount: 280 }];
-
-// старая цена, пусть будет что бы не забыть
-
-// export const base_ores = [
-//   { material: "COAL_ORE", name: "Угольная руда", amount: 0.025, sale: false },
-//   { material: "DEEPSLATE_COAL_ORE", name: "Угленосный глубинный сланец", amount: 0.025, sale: false },
-//
-//   { material: "IRON_ORE", name: "Железная руда", amount: 0.025, sale: false },
-//   { material: "DEEPSLATE_IRON_ORE", name: "Железоносный глубинный сланец", amount: 0.025, sale: false },
-//
-//   { material: "COPPER_ORE", name: "Медная руда", amount: 0.05, sale: false },
-//   { material: "DEEPSLATE_COPPER_ORE", name: "Меденосный глубинный сланец", amount: 0.05, sale: false },
-//
-//   { material: "REDSTONE_ORE", name: "Редстоуновая руда", amount: 0.05, sale: false },
-//   { material: "DEEPSLATE_REDSTONE_ORE", name: "Редстоуноносный глубинный сланец", amount: 0.05, sale: false },
-//
-//   { material: "GOLD_ORE", name: "Золотая руда", amount: 0.1, sale: false },
-//   { material: "DEEPSLATE_GOLD_ORE", name: "Золотоносный глубинный сланец", amount: 0.1, sale: false },
-//
-//   { material: "LAPIS_ORE", name: "Лазуритовая руда", amount: 0.25, sale: false },
-//   { material: "DEEPSLATE_LAPIS_ORE", name: "Лазуритоносный глубинный сланец", amount: 0.25, sale: false },
-//
-//   { material: "DIAMOND_ORE", name: "Алмазная руда", amount: 1, sale: true },
-//   { material: "DEEPSLATE_DIAMOND_ORE", name: "Алмазоносный глубинный сланец", amount: 1, sale: true },
-//
-//   { material: "EMERALD_ORE", name: "Изумрудная руда", amount: 2, sale: false },
-//   { material: "DEEPSLATE_EMERALD_ORE", name: "Изумрудоносный глубинный сланец", amount: 2, sale: false },
-//
-//   { material: "NETHER_QUARTZ_ORE", name: "Незер-кварцевая руда", amount: 0.045, sale: false },
-//   { material: "NETHER_GOLD_ORE", name: "Незерская золотая руда", amount: 0.07, sale: false },
-//   { material: "GILDED_BLACKSTONE", name: "Золочёный чернит", amount: 0.4, sale: false },
-//   { material: "ANCIENT_DEBRIS", name: "Древние обломки", amount: 1.8, sale: false },
-// ];
