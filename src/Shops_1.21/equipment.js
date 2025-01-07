@@ -3,7 +3,7 @@ import fs from "fs-extra";
 
 import template from "./_sample.json" assert { type: "json" };
 
-import { armors, defaultEnchantments } from "../static.js";
+import { armors, defaultEnchantments } from "./static.js";
 
 armors.map((element) => {
   const itemKeys = Object.keys(element.list);
@@ -35,16 +35,17 @@ armors.map((element) => {
         ...enchantments.map((x) => {
           if (item.enchantments[x] > defaultEnchantments[x].lv) {
             return (
-              "   &#ccb800- &#caeaf5" +
+              "   &#ccb800• &#caeaf5" +
               defaultEnchantments[x].name +
               " " +
               item.enchantments[x] +
+              " " +
               "(&#e6a500v. " +
               defaultEnchantments[x].lv +
               "&#caeaf5)"
             );
           } else {
-            return "   &#ccb800- &#caeaf5" + defaultEnchantments[x].name + " " + item.enchantments[x];
+            return "   &#ccb800• &#caeaf5" + defaultEnchantments[x].name + " " + item.enchantments[x];
           }
         }),
         " ",
@@ -89,5 +90,5 @@ armors.map((element) => {
   result.items = { ...result.items, ...res };
 
   fs.writeFileSync(`./server/Shops_1.21/${element.save}`, YAML.stringify(result, { lineWidth: 0 }));
-  console.log(`Create file ${element.save}`);
+  console.log("\x1b[32m" + `Create file ${element.save}` + "\x1b[0m");
 });

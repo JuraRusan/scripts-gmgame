@@ -1,12 +1,14 @@
 import YAML from "yaml";
 import fs from "fs-extra";
 
-import template from "./ore_sample.json" assert { type: "json" };
+import template from "./_sample.json" assert { type: "json" };
 
-import { yes_sell, no_sell, slots_sell, slots_no_sell } from "./static.js";
+import { no_sell, slots_no_sell, slots_sell, yes_sell } from "./static.js";
 
 const itemKeysYesSell = Object.keys(yes_sell);
 const itemNoKeys = Object.keys(no_sell);
+
+let result = {};
 
 let counterYesSell = 0;
 let counterNoSell = 0;
@@ -208,6 +210,10 @@ const resultNoSell = itemNoKeys.reduce((acc, curr) => {
   return acc;
 }, {});
 
-template.items = { ...template.items, ...resultSell, ...resultNoSell };
+result.menu_title = "Руды";
+result.open_command = "deluxe_menu_shops_ore";
+result = { ...result, ...template };
+result.items = { ...result.items, ...resultSell, ...resultNoSell };
 
 fs.writeFileSync("./server/Shops_1.21/shops_ore.yml", YAML.stringify(template, { lineWidth: -1 }));
+console.log("\x1b[32m" + "Create file shops_ore.yml" + "\x1b[0m");

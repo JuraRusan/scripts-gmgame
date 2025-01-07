@@ -1,13 +1,17 @@
 {
   "menu_title": "Эффекты",
   "register_command": true,
-  "open_command": ["gmgame_arrow_effect"],
+  "open_command": [
+    "gmgame_arrow_effect"
+  ],
   "open_requirement": {
     "requirements": {
       "permission": {
         "type": "has permission",
         "permission": "gmgame.effect.arrow.menu",
-        "deny_commands": ["[message] &#f42f31 Ошибка:&#caeaf5 Вы не можете выполнить данную команду или неверный аргумент!"]
+        "deny_commands": [
+          "[message] &#f42f31 Ошибка:&#caeaf5 Вы не можете выполнить данную команду или неверный аргумент!"
+        ]
       }
     }
   },

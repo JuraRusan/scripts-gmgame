@@ -1,4 +1,4 @@
-menu_title: Еффекты
+menu_title: Эффекты
 register_command: true
 open_command:
   - gmgame_arrow_effect
@@ -33,10 +33,10 @@ items:
       requirements:
         permission_check:
           type: "!has permission"
-          permission: gmgame.effect.arrow.1.server.res
+          permission: gmgame.effect.arrow.1.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.1.server.res"
+        gmgame.effect.arrow.1.server.gmgame"
       - "[console] ppo %player_name% add composter arrows"
       - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
         &#e6a500composter&#caeaf5)"
@@ -64,10 +64,10 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.1.server.res
+          permission: gmgame.effect.arrow.1.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.1.server.res"
+        gmgame.effect.arrow.1.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
       - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
         &#e6a500composter&#caeaf5)"
@@ -89,7 +89,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.1.server.res
+          permission: gmgame.effect.arrow.1.server.gmgame
   id_particles_1_something_is_interfering_2_slot_10:
     material: PINK_PETALS
     slot: 10
@@ -106,7 +106,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.2.server.res
+          permission: gmgame.effect.arrow.2.server.gmgame
   id_particles_1_something_is_interfering_3_slot_10:
     material: PINK_PETALS
     slot: 10
@@ -123,7 +123,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.3.server.res
+          permission: gmgame.effect.arrow.3.server.gmgame
   id_particles_1_something_is_interfering_4_slot_10:
     material: PINK_PETALS
     slot: 10
@@ -140,7 +140,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.4.server.res
+          permission: gmgame.effect.arrow.4.server.gmgame
   id_particles_1_something_is_interfering_5_slot_10:
     material: PINK_PETALS
     slot: 10
@@ -157,7 +157,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.5.server.res
+          permission: gmgame.effect.arrow.5.server.gmgame
   id_particles_1_something_is_interfering_6_slot_10:
     material: PINK_PETALS
     slot: 10
@@ -174,7 +174,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.6.server.res
+          permission: gmgame.effect.arrow.6.server.gmgame
   id_particles_1_something_is_interfering_7_slot_10:
     material: PINK_PETALS
     slot: 10
@@ -191,7 +191,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.7.server.res
+          permission: gmgame.effect.arrow.7.server.gmgame
   id_particles_1_something_is_interfering_8_slot_10:
     material: PINK_PETALS
     slot: 10
@@ -208,7 +208,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.8.server.res
+          permission: gmgame.effect.arrow.8.server.gmgame
   id_particles_1_something_is_interfering_9_slot_10:
     material: PINK_PETALS
     slot: 10
@@ -225,7 +225,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.9.server.res
+          permission: gmgame.effect.arrow.9.server.gmgame
   id_particles_1_something_is_interfering_10_slot_10:
     material: PINK_PETALS
     slot: 10
@@ -242,7 +242,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.10.server.res
+          permission: gmgame.effect.arrow.10.server.gmgame
   id_particles_1_something_is_interfering_11_slot_10:
     material: PINK_PETALS
     slot: 10
@@ -259,7 +259,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.11.server.res
+          permission: gmgame.effect.arrow.11.server.gmgame
   id_particles_1_something_is_interfering_12_slot_10:
     material: PINK_PETALS
     slot: 10
@@ -276,7 +276,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.12.server.res
+          permission: gmgame.effect.arrow.12.server.gmgame
   id_particles_2_switched_off_slot_11:
     material: NETHERITE_SWORD
     slot: 11
@@ -297,10 +297,10 @@ items:
       requirements:
         permission_check:
           type: "!has permission"
-          permission: gmgame.effect.arrow.2.server.res
+          permission: gmgame.effect.arrow.2.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.2.server.res"
+        gmgame.effect.arrow.2.server.gmgame"
       - "[console] ppo %player_name% add enchanted_hit arrows"
       - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
         &#e6a500enchanted_hit&#caeaf5)"
@@ -328,10 +328,10 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.2.server.res
+          permission: gmgame.effect.arrow.2.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.2.server.res"
+        gmgame.effect.arrow.2.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
       - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
         &#e6a500enchanted_hit&#caeaf5)"
@@ -353,7 +353,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.1.server.res
+          permission: gmgame.effect.arrow.1.server.gmgame
   id_particles_2_something_is_interfering_2_slot_11:
     material: PINK_PETALS
     slot: 11
@@ -370,7 +370,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.2.server.res
+          permission: gmgame.effect.arrow.2.server.gmgame
   id_particles_2_something_is_interfering_3_slot_11:
     material: PINK_PETALS
     slot: 11
@@ -387,7 +387,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.3.server.res
+          permission: gmgame.effect.arrow.3.server.gmgame
   id_particles_2_something_is_interfering_4_slot_11:
     material: PINK_PETALS
     slot: 11
@@ -404,7 +404,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.4.server.res
+          permission: gmgame.effect.arrow.4.server.gmgame
   id_particles_2_something_is_interfering_5_slot_11:
     material: PINK_PETALS
     slot: 11
@@ -421,7 +421,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.5.server.res
+          permission: gmgame.effect.arrow.5.server.gmgame
   id_particles_2_something_is_interfering_6_slot_11:
     material: PINK_PETALS
     slot: 11
@@ -438,7 +438,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.6.server.res
+          permission: gmgame.effect.arrow.6.server.gmgame
   id_particles_2_something_is_interfering_7_slot_11:
     material: PINK_PETALS
     slot: 11
@@ -455,7 +455,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.7.server.res
+          permission: gmgame.effect.arrow.7.server.gmgame
   id_particles_2_something_is_interfering_8_slot_11:
     material: PINK_PETALS
     slot: 11
@@ -472,7 +472,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.8.server.res
+          permission: gmgame.effect.arrow.8.server.gmgame
   id_particles_2_something_is_interfering_9_slot_11:
     material: PINK_PETALS
     slot: 11
@@ -489,7 +489,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.9.server.res
+          permission: gmgame.effect.arrow.9.server.gmgame
   id_particles_2_something_is_interfering_10_slot_11:
     material: PINK_PETALS
     slot: 11
@@ -506,7 +506,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.10.server.res
+          permission: gmgame.effect.arrow.10.server.gmgame
   id_particles_2_something_is_interfering_11_slot_11:
     material: PINK_PETALS
     slot: 11
@@ -523,7 +523,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.11.server.res
+          permission: gmgame.effect.arrow.11.server.gmgame
   id_particles_2_something_is_interfering_12_slot_11:
     material: PINK_PETALS
     slot: 11
@@ -540,7 +540,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.12.server.res
+          permission: gmgame.effect.arrow.12.server.gmgame
   id_particles_3_switched_off_slot_12:
     material: ENCHANTING_TABLE
     slot: 12
@@ -561,10 +561,10 @@ items:
       requirements:
         permission_check:
           type: "!has permission"
-          permission: gmgame.effect.arrow.3.server.res
+          permission: gmgame.effect.arrow.3.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.3.server.res"
+        gmgame.effect.arrow.3.server.gmgame"
       - "[console] ppo %player_name% add enchant arrows"
       - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
         &#e6a500enchant&#caeaf5)"
@@ -592,10 +592,10 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.3.server.res
+          permission: gmgame.effect.arrow.3.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.3.server.res"
+        gmgame.effect.arrow.3.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
       - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
         &#e6a500enchant&#caeaf5)"
@@ -617,7 +617,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.1.server.res
+          permission: gmgame.effect.arrow.1.server.gmgame
   id_particles_3_something_is_interfering_2_slot_12:
     material: PINK_PETALS
     slot: 12
@@ -634,7 +634,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.2.server.res
+          permission: gmgame.effect.arrow.2.server.gmgame
   id_particles_3_something_is_interfering_3_slot_12:
     material: PINK_PETALS
     slot: 12
@@ -651,7 +651,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.3.server.res
+          permission: gmgame.effect.arrow.3.server.gmgame
   id_particles_3_something_is_interfering_4_slot_12:
     material: PINK_PETALS
     slot: 12
@@ -668,7 +668,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.4.server.res
+          permission: gmgame.effect.arrow.4.server.gmgame
   id_particles_3_something_is_interfering_5_slot_12:
     material: PINK_PETALS
     slot: 12
@@ -685,7 +685,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.5.server.res
+          permission: gmgame.effect.arrow.5.server.gmgame
   id_particles_3_something_is_interfering_6_slot_12:
     material: PINK_PETALS
     slot: 12
@@ -702,7 +702,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.6.server.res
+          permission: gmgame.effect.arrow.6.server.gmgame
   id_particles_3_something_is_interfering_7_slot_12:
     material: PINK_PETALS
     slot: 12
@@ -719,7 +719,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.7.server.res
+          permission: gmgame.effect.arrow.7.server.gmgame
   id_particles_3_something_is_interfering_8_slot_12:
     material: PINK_PETALS
     slot: 12
@@ -736,7 +736,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.8.server.res
+          permission: gmgame.effect.arrow.8.server.gmgame
   id_particles_3_something_is_interfering_9_slot_12:
     material: PINK_PETALS
     slot: 12
@@ -753,7 +753,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.9.server.res
+          permission: gmgame.effect.arrow.9.server.gmgame
   id_particles_3_something_is_interfering_10_slot_12:
     material: PINK_PETALS
     slot: 12
@@ -770,7 +770,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.10.server.res
+          permission: gmgame.effect.arrow.10.server.gmgame
   id_particles_3_something_is_interfering_11_slot_12:
     material: PINK_PETALS
     slot: 12
@@ -787,7 +787,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.11.server.res
+          permission: gmgame.effect.arrow.11.server.gmgame
   id_particles_3_something_is_interfering_12_slot_12:
     material: PINK_PETALS
     slot: 12
@@ -804,7 +804,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.12.server.res
+          permission: gmgame.effect.arrow.12.server.gmgame
   id_particles_4_switched_off_slot_13:
     material: EXPOSED_COPPER
     slot: 13
@@ -825,10 +825,10 @@ items:
       requirements:
         permission_check:
           type: "!has permission"
-          permission: gmgame.effect.arrow.4.server.res
+          permission: gmgame.effect.arrow.4.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.4.server.res"
+        gmgame.effect.arrow.4.server.gmgame"
       - "[console] ppo %player_name% add scrape arrows"
       - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
         &#e6a500scrape&#caeaf5)"
@@ -856,10 +856,10 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.4.server.res
+          permission: gmgame.effect.arrow.4.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.4.server.res"
+        gmgame.effect.arrow.4.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
       - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
         &#e6a500scrape&#caeaf5)"
@@ -881,7 +881,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.1.server.res
+          permission: gmgame.effect.arrow.1.server.gmgame
   id_particles_4_something_is_interfering_2_slot_13:
     material: PINK_PETALS
     slot: 13
@@ -898,7 +898,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.2.server.res
+          permission: gmgame.effect.arrow.2.server.gmgame
   id_particles_4_something_is_interfering_3_slot_13:
     material: PINK_PETALS
     slot: 13
@@ -915,7 +915,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.3.server.res
+          permission: gmgame.effect.arrow.3.server.gmgame
   id_particles_4_something_is_interfering_4_slot_13:
     material: PINK_PETALS
     slot: 13
@@ -932,7 +932,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.4.server.res
+          permission: gmgame.effect.arrow.4.server.gmgame
   id_particles_4_something_is_interfering_5_slot_13:
     material: PINK_PETALS
     slot: 13
@@ -949,7 +949,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.5.server.res
+          permission: gmgame.effect.arrow.5.server.gmgame
   id_particles_4_something_is_interfering_6_slot_13:
     material: PINK_PETALS
     slot: 13
@@ -966,7 +966,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.6.server.res
+          permission: gmgame.effect.arrow.6.server.gmgame
   id_particles_4_something_is_interfering_7_slot_13:
     material: PINK_PETALS
     slot: 13
@@ -983,7 +983,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.7.server.res
+          permission: gmgame.effect.arrow.7.server.gmgame
   id_particles_4_something_is_interfering_8_slot_13:
     material: PINK_PETALS
     slot: 13
@@ -1000,7 +1000,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.8.server.res
+          permission: gmgame.effect.arrow.8.server.gmgame
   id_particles_4_something_is_interfering_9_slot_13:
     material: PINK_PETALS
     slot: 13
@@ -1017,7 +1017,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.9.server.res
+          permission: gmgame.effect.arrow.9.server.gmgame
   id_particles_4_something_is_interfering_10_slot_13:
     material: PINK_PETALS
     slot: 13
@@ -1034,7 +1034,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.10.server.res
+          permission: gmgame.effect.arrow.10.server.gmgame
   id_particles_4_something_is_interfering_11_slot_13:
     material: PINK_PETALS
     slot: 13
@@ -1051,7 +1051,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.11.server.res
+          permission: gmgame.effect.arrow.11.server.gmgame
   id_particles_4_something_is_interfering_12_slot_13:
     material: PINK_PETALS
     slot: 13
@@ -1068,7 +1068,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.12.server.res
+          permission: gmgame.effect.arrow.12.server.gmgame
   id_particles_5_switched_off_slot_14:
     material: TOTEM_OF_UNDYING
     slot: 14
@@ -1089,10 +1089,10 @@ items:
       requirements:
         permission_check:
           type: "!has permission"
-          permission: gmgame.effect.arrow.5.server.res
+          permission: gmgame.effect.arrow.5.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.5.server.res"
+        gmgame.effect.arrow.5.server.gmgame"
       - "[console] ppo %player_name% add totem_of_undying arrows"
       - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
         &#e6a500totem_of_undying&#caeaf5)"
@@ -1120,10 +1120,10 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.5.server.res
+          permission: gmgame.effect.arrow.5.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.5.server.res"
+        gmgame.effect.arrow.5.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
       - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
         &#e6a500totem_of_undying&#caeaf5)"
@@ -1145,7 +1145,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.1.server.res
+          permission: gmgame.effect.arrow.1.server.gmgame
   id_particles_5_something_is_interfering_2_slot_14:
     material: PINK_PETALS
     slot: 14
@@ -1162,7 +1162,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.2.server.res
+          permission: gmgame.effect.arrow.2.server.gmgame
   id_particles_5_something_is_interfering_3_slot_14:
     material: PINK_PETALS
     slot: 14
@@ -1179,7 +1179,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.3.server.res
+          permission: gmgame.effect.arrow.3.server.gmgame
   id_particles_5_something_is_interfering_4_slot_14:
     material: PINK_PETALS
     slot: 14
@@ -1196,7 +1196,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.4.server.res
+          permission: gmgame.effect.arrow.4.server.gmgame
   id_particles_5_something_is_interfering_5_slot_14:
     material: PINK_PETALS
     slot: 14
@@ -1213,7 +1213,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.5.server.res
+          permission: gmgame.effect.arrow.5.server.gmgame
   id_particles_5_something_is_interfering_6_slot_14:
     material: PINK_PETALS
     slot: 14
@@ -1230,7 +1230,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.6.server.res
+          permission: gmgame.effect.arrow.6.server.gmgame
   id_particles_5_something_is_interfering_7_slot_14:
     material: PINK_PETALS
     slot: 14
@@ -1247,7 +1247,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.7.server.res
+          permission: gmgame.effect.arrow.7.server.gmgame
   id_particles_5_something_is_interfering_8_slot_14:
     material: PINK_PETALS
     slot: 14
@@ -1264,7 +1264,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.8.server.res
+          permission: gmgame.effect.arrow.8.server.gmgame
   id_particles_5_something_is_interfering_9_slot_14:
     material: PINK_PETALS
     slot: 14
@@ -1281,7 +1281,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.9.server.res
+          permission: gmgame.effect.arrow.9.server.gmgame
   id_particles_5_something_is_interfering_10_slot_14:
     material: PINK_PETALS
     slot: 14
@@ -1298,7 +1298,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.10.server.res
+          permission: gmgame.effect.arrow.10.server.gmgame
   id_particles_5_something_is_interfering_11_slot_14:
     material: PINK_PETALS
     slot: 14
@@ -1315,7 +1315,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.11.server.res
+          permission: gmgame.effect.arrow.11.server.gmgame
   id_particles_5_something_is_interfering_12_slot_14:
     material: PINK_PETALS
     slot: 14
@@ -1332,7 +1332,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.12.server.res
+          permission: gmgame.effect.arrow.12.server.gmgame
   id_particles_6_switched_off_slot_15:
     material: SOUL_TORCH
     slot: 15
@@ -1353,10 +1353,10 @@ items:
       requirements:
         permission_check:
           type: "!has permission"
-          permission: gmgame.effect.arrow.6.server.res
+          permission: gmgame.effect.arrow.6.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.6.server.res"
+        gmgame.effect.arrow.6.server.gmgame"
       - "[console] ppo %player_name% add soul_fire_flame arrows"
       - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
         &#e6a500soul_fire_flame&#caeaf5)"
@@ -1384,10 +1384,10 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.6.server.res
+          permission: gmgame.effect.arrow.6.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.6.server.res"
+        gmgame.effect.arrow.6.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
       - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
         &#e6a500soul_fire_flame&#caeaf5)"
@@ -1409,7 +1409,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.1.server.res
+          permission: gmgame.effect.arrow.1.server.gmgame
   id_particles_6_something_is_interfering_2_slot_15:
     material: PINK_PETALS
     slot: 15
@@ -1426,7 +1426,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.2.server.res
+          permission: gmgame.effect.arrow.2.server.gmgame
   id_particles_6_something_is_interfering_3_slot_15:
     material: PINK_PETALS
     slot: 15
@@ -1443,7 +1443,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.3.server.res
+          permission: gmgame.effect.arrow.3.server.gmgame
   id_particles_6_something_is_interfering_4_slot_15:
     material: PINK_PETALS
     slot: 15
@@ -1460,7 +1460,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.4.server.res
+          permission: gmgame.effect.arrow.4.server.gmgame
   id_particles_6_something_is_interfering_5_slot_15:
     material: PINK_PETALS
     slot: 15
@@ -1477,7 +1477,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.5.server.res
+          permission: gmgame.effect.arrow.5.server.gmgame
   id_particles_6_something_is_interfering_6_slot_15:
     material: PINK_PETALS
     slot: 15
@@ -1494,7 +1494,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.6.server.res
+          permission: gmgame.effect.arrow.6.server.gmgame
   id_particles_6_something_is_interfering_7_slot_15:
     material: PINK_PETALS
     slot: 15
@@ -1511,7 +1511,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.7.server.res
+          permission: gmgame.effect.arrow.7.server.gmgame
   id_particles_6_something_is_interfering_8_slot_15:
     material: PINK_PETALS
     slot: 15
@@ -1528,7 +1528,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.8.server.res
+          permission: gmgame.effect.arrow.8.server.gmgame
   id_particles_6_something_is_interfering_9_slot_15:
     material: PINK_PETALS
     slot: 15
@@ -1545,7 +1545,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.9.server.res
+          permission: gmgame.effect.arrow.9.server.gmgame
   id_particles_6_something_is_interfering_10_slot_15:
     material: PINK_PETALS
     slot: 15
@@ -1562,7 +1562,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.10.server.res
+          permission: gmgame.effect.arrow.10.server.gmgame
   id_particles_6_something_is_interfering_11_slot_15:
     material: PINK_PETALS
     slot: 15
@@ -1579,7 +1579,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.11.server.res
+          permission: gmgame.effect.arrow.11.server.gmgame
   id_particles_6_something_is_interfering_12_slot_15:
     material: PINK_PETALS
     slot: 15
@@ -1596,7 +1596,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.12.server.res
+          permission: gmgame.effect.arrow.12.server.gmgame
   id_particles_7_switched_off_slot_16:
     material: TORCH
     slot: 16
@@ -1617,10 +1617,10 @@ items:
       requirements:
         permission_check:
           type: "!has permission"
-          permission: gmgame.effect.arrow.7.server.res
+          permission: gmgame.effect.arrow.7.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.7.server.res"
+        gmgame.effect.arrow.7.server.gmgame"
       - "[console] ppo %player_name% add flame arrows"
       - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
         &#e6a500flame&#caeaf5)"
@@ -1648,10 +1648,10 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.7.server.res
+          permission: gmgame.effect.arrow.7.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.7.server.res"
+        gmgame.effect.arrow.7.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
       - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
         &#e6a500flame&#caeaf5)"
@@ -1673,7 +1673,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.1.server.res
+          permission: gmgame.effect.arrow.1.server.gmgame
   id_particles_7_something_is_interfering_2_slot_16:
     material: PINK_PETALS
     slot: 16
@@ -1690,7 +1690,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.2.server.res
+          permission: gmgame.effect.arrow.2.server.gmgame
   id_particles_7_something_is_interfering_3_slot_16:
     material: PINK_PETALS
     slot: 16
@@ -1707,7 +1707,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.3.server.res
+          permission: gmgame.effect.arrow.3.server.gmgame
   id_particles_7_something_is_interfering_4_slot_16:
     material: PINK_PETALS
     slot: 16
@@ -1724,7 +1724,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.4.server.res
+          permission: gmgame.effect.arrow.4.server.gmgame
   id_particles_7_something_is_interfering_5_slot_16:
     material: PINK_PETALS
     slot: 16
@@ -1741,7 +1741,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.5.server.res
+          permission: gmgame.effect.arrow.5.server.gmgame
   id_particles_7_something_is_interfering_6_slot_16:
     material: PINK_PETALS
     slot: 16
@@ -1758,7 +1758,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.6.server.res
+          permission: gmgame.effect.arrow.6.server.gmgame
   id_particles_7_something_is_interfering_7_slot_16:
     material: PINK_PETALS
     slot: 16
@@ -1775,7 +1775,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.7.server.res
+          permission: gmgame.effect.arrow.7.server.gmgame
   id_particles_7_something_is_interfering_8_slot_16:
     material: PINK_PETALS
     slot: 16
@@ -1792,7 +1792,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.8.server.res
+          permission: gmgame.effect.arrow.8.server.gmgame
   id_particles_7_something_is_interfering_9_slot_16:
     material: PINK_PETALS
     slot: 16
@@ -1809,7 +1809,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.9.server.res
+          permission: gmgame.effect.arrow.9.server.gmgame
   id_particles_7_something_is_interfering_10_slot_16:
     material: PINK_PETALS
     slot: 16
@@ -1826,7 +1826,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.10.server.res
+          permission: gmgame.effect.arrow.10.server.gmgame
   id_particles_7_something_is_interfering_11_slot_16:
     material: PINK_PETALS
     slot: 16
@@ -1843,7 +1843,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.11.server.res
+          permission: gmgame.effect.arrow.11.server.gmgame
   id_particles_7_something_is_interfering_12_slot_16:
     material: PINK_PETALS
     slot: 16
@@ -1860,7 +1860,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.12.server.res
+          permission: gmgame.effect.arrow.12.server.gmgame
   id_particles_8_switched_off_slot_20:
     material: GLOW_INK_SAC
     slot: 20
@@ -1881,10 +1881,10 @@ items:
       requirements:
         permission_check:
           type: "!has permission"
-          permission: gmgame.effect.arrow.8.server.res
+          permission: gmgame.effect.arrow.8.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.8.server.res"
+        gmgame.effect.arrow.8.server.gmgame"
       - "[console] ppo %player_name% add glow arrows"
       - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
         &#e6a500glow&#caeaf5)"
@@ -1912,10 +1912,10 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.8.server.res
+          permission: gmgame.effect.arrow.8.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.8.server.res"
+        gmgame.effect.arrow.8.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
       - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
         &#e6a500glow&#caeaf5)"
@@ -1937,7 +1937,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.1.server.res
+          permission: gmgame.effect.arrow.1.server.gmgame
   id_particles_8_something_is_interfering_2_slot_20:
     material: PINK_PETALS
     slot: 20
@@ -1954,7 +1954,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.2.server.res
+          permission: gmgame.effect.arrow.2.server.gmgame
   id_particles_8_something_is_interfering_3_slot_20:
     material: PINK_PETALS
     slot: 20
@@ -1971,7 +1971,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.3.server.res
+          permission: gmgame.effect.arrow.3.server.gmgame
   id_particles_8_something_is_interfering_4_slot_20:
     material: PINK_PETALS
     slot: 20
@@ -1988,7 +1988,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.4.server.res
+          permission: gmgame.effect.arrow.4.server.gmgame
   id_particles_8_something_is_interfering_5_slot_20:
     material: PINK_PETALS
     slot: 20
@@ -2005,7 +2005,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.5.server.res
+          permission: gmgame.effect.arrow.5.server.gmgame
   id_particles_8_something_is_interfering_6_slot_20:
     material: PINK_PETALS
     slot: 20
@@ -2022,7 +2022,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.6.server.res
+          permission: gmgame.effect.arrow.6.server.gmgame
   id_particles_8_something_is_interfering_7_slot_20:
     material: PINK_PETALS
     slot: 20
@@ -2039,7 +2039,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.7.server.res
+          permission: gmgame.effect.arrow.7.server.gmgame
   id_particles_8_something_is_interfering_8_slot_20:
     material: PINK_PETALS
     slot: 20
@@ -2056,7 +2056,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.8.server.res
+          permission: gmgame.effect.arrow.8.server.gmgame
   id_particles_8_something_is_interfering_9_slot_20:
     material: PINK_PETALS
     slot: 20
@@ -2073,7 +2073,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.9.server.res
+          permission: gmgame.effect.arrow.9.server.gmgame
   id_particles_8_something_is_interfering_10_slot_20:
     material: PINK_PETALS
     slot: 20
@@ -2090,7 +2090,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.10.server.res
+          permission: gmgame.effect.arrow.10.server.gmgame
   id_particles_8_something_is_interfering_11_slot_20:
     material: PINK_PETALS
     slot: 20
@@ -2107,7 +2107,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.11.server.res
+          permission: gmgame.effect.arrow.11.server.gmgame
   id_particles_8_something_is_interfering_12_slot_20:
     material: PINK_PETALS
     slot: 20
@@ -2124,7 +2124,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.12.server.res
+          permission: gmgame.effect.arrow.12.server.gmgame
   id_particles_9_switched_off_slot_21:
     material: POWDER_SNOW_BUCKET
     slot: 21
@@ -2145,10 +2145,10 @@ items:
       requirements:
         permission_check:
           type: "!has permission"
-          permission: gmgame.effect.arrow.9.server.res
+          permission: gmgame.effect.arrow.9.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.9.server.res"
+        gmgame.effect.arrow.9.server.gmgame"
       - "[console] ppo %player_name% add snowflake arrows"
       - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
         &#e6a500snowflake&#caeaf5)"
@@ -2176,10 +2176,10 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.9.server.res
+          permission: gmgame.effect.arrow.9.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.9.server.res"
+        gmgame.effect.arrow.9.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
       - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
         &#e6a500snowflake&#caeaf5)"
@@ -2201,7 +2201,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.1.server.res
+          permission: gmgame.effect.arrow.1.server.gmgame
   id_particles_9_something_is_interfering_2_slot_21:
     material: PINK_PETALS
     slot: 21
@@ -2218,7 +2218,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.2.server.res
+          permission: gmgame.effect.arrow.2.server.gmgame
   id_particles_9_something_is_interfering_3_slot_21:
     material: PINK_PETALS
     slot: 21
@@ -2235,7 +2235,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.3.server.res
+          permission: gmgame.effect.arrow.3.server.gmgame
   id_particles_9_something_is_interfering_4_slot_21:
     material: PINK_PETALS
     slot: 21
@@ -2252,7 +2252,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.4.server.res
+          permission: gmgame.effect.arrow.4.server.gmgame
   id_particles_9_something_is_interfering_5_slot_21:
     material: PINK_PETALS
     slot: 21
@@ -2269,7 +2269,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.5.server.res
+          permission: gmgame.effect.arrow.5.server.gmgame
   id_particles_9_something_is_interfering_6_slot_21:
     material: PINK_PETALS
     slot: 21
@@ -2286,7 +2286,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.6.server.res
+          permission: gmgame.effect.arrow.6.server.gmgame
   id_particles_9_something_is_interfering_7_slot_21:
     material: PINK_PETALS
     slot: 21
@@ -2303,7 +2303,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.7.server.res
+          permission: gmgame.effect.arrow.7.server.gmgame
   id_particles_9_something_is_interfering_8_slot_21:
     material: PINK_PETALS
     slot: 21
@@ -2320,7 +2320,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.8.server.res
+          permission: gmgame.effect.arrow.8.server.gmgame
   id_particles_9_something_is_interfering_9_slot_21:
     material: PINK_PETALS
     slot: 21
@@ -2337,7 +2337,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.9.server.res
+          permission: gmgame.effect.arrow.9.server.gmgame
   id_particles_9_something_is_interfering_10_slot_21:
     material: PINK_PETALS
     slot: 21
@@ -2354,7 +2354,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.10.server.res
+          permission: gmgame.effect.arrow.10.server.gmgame
   id_particles_9_something_is_interfering_11_slot_21:
     material: PINK_PETALS
     slot: 21
@@ -2371,7 +2371,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.11.server.res
+          permission: gmgame.effect.arrow.11.server.gmgame
   id_particles_9_something_is_interfering_12_slot_21:
     material: PINK_PETALS
     slot: 21
@@ -2388,7 +2388,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.12.server.res
+          permission: gmgame.effect.arrow.12.server.gmgame
   id_particles_10_switched_off_slot_22:
     material: CAULDRON
     slot: 22
@@ -2409,10 +2409,10 @@ items:
       requirements:
         permission_check:
           type: "!has permission"
-          permission: gmgame.effect.arrow.10.server.res
+          permission: gmgame.effect.arrow.10.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.10.server.res"
+        gmgame.effect.arrow.10.server.gmgame"
       - "[console] ppo %player_name% add witch arrows"
       - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
         &#e6a500witch&#caeaf5)"
@@ -2440,10 +2440,10 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.10.server.res
+          permission: gmgame.effect.arrow.10.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.10.server.res"
+        gmgame.effect.arrow.10.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
       - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
         &#e6a500witch&#caeaf5)"
@@ -2465,7 +2465,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.1.server.res
+          permission: gmgame.effect.arrow.1.server.gmgame
   id_particles_10_something_is_interfering_2_slot_22:
     material: PINK_PETALS
     slot: 22
@@ -2482,7 +2482,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.2.server.res
+          permission: gmgame.effect.arrow.2.server.gmgame
   id_particles_10_something_is_interfering_3_slot_22:
     material: PINK_PETALS
     slot: 22
@@ -2499,7 +2499,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.3.server.res
+          permission: gmgame.effect.arrow.3.server.gmgame
   id_particles_10_something_is_interfering_4_slot_22:
     material: PINK_PETALS
     slot: 22
@@ -2516,7 +2516,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.4.server.res
+          permission: gmgame.effect.arrow.4.server.gmgame
   id_particles_10_something_is_interfering_5_slot_22:
     material: PINK_PETALS
     slot: 22
@@ -2533,7 +2533,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.5.server.res
+          permission: gmgame.effect.arrow.5.server.gmgame
   id_particles_10_something_is_interfering_6_slot_22:
     material: PINK_PETALS
     slot: 22
@@ -2550,7 +2550,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.6.server.res
+          permission: gmgame.effect.arrow.6.server.gmgame
   id_particles_10_something_is_interfering_7_slot_22:
     material: PINK_PETALS
     slot: 22
@@ -2567,7 +2567,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.7.server.res
+          permission: gmgame.effect.arrow.7.server.gmgame
   id_particles_10_something_is_interfering_8_slot_22:
     material: PINK_PETALS
     slot: 22
@@ -2584,7 +2584,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.8.server.res
+          permission: gmgame.effect.arrow.8.server.gmgame
   id_particles_10_something_is_interfering_9_slot_22:
     material: PINK_PETALS
     slot: 22
@@ -2601,7 +2601,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.9.server.res
+          permission: gmgame.effect.arrow.9.server.gmgame
   id_particles_10_something_is_interfering_10_slot_22:
     material: PINK_PETALS
     slot: 22
@@ -2618,7 +2618,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.10.server.res
+          permission: gmgame.effect.arrow.10.server.gmgame
   id_particles_10_something_is_interfering_11_slot_22:
     material: PINK_PETALS
     slot: 22
@@ -2635,7 +2635,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.11.server.res
+          permission: gmgame.effect.arrow.11.server.gmgame
   id_particles_10_something_is_interfering_12_slot_22:
     material: PINK_PETALS
     slot: 22
@@ -2652,7 +2652,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.12.server.res
+          permission: gmgame.effect.arrow.12.server.gmgame
   id_particles_11_switched_off_slot_23:
     material: COPPER_BLOCK
     slot: 23
@@ -2673,10 +2673,10 @@ items:
       requirements:
         permission_check:
           type: "!has permission"
-          permission: gmgame.effect.arrow.11.server.res
+          permission: gmgame.effect.arrow.11.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.11.server.res"
+        gmgame.effect.arrow.11.server.gmgame"
       - "[console] ppo %player_name% add wax_off arrows"
       - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
         &#e6a500wax_off&#caeaf5)"
@@ -2704,10 +2704,10 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.11.server.res
+          permission: gmgame.effect.arrow.11.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.11.server.res"
+        gmgame.effect.arrow.11.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
       - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
         &#e6a500wax_off&#caeaf5)"
@@ -2729,7 +2729,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.1.server.res
+          permission: gmgame.effect.arrow.1.server.gmgame
   id_particles_11_something_is_interfering_2_slot_23:
     material: PINK_PETALS
     slot: 23
@@ -2746,7 +2746,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.2.server.res
+          permission: gmgame.effect.arrow.2.server.gmgame
   id_particles_11_something_is_interfering_3_slot_23:
     material: PINK_PETALS
     slot: 23
@@ -2763,7 +2763,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.3.server.res
+          permission: gmgame.effect.arrow.3.server.gmgame
   id_particles_11_something_is_interfering_4_slot_23:
     material: PINK_PETALS
     slot: 23
@@ -2780,7 +2780,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.4.server.res
+          permission: gmgame.effect.arrow.4.server.gmgame
   id_particles_11_something_is_interfering_5_slot_23:
     material: PINK_PETALS
     slot: 23
@@ -2797,7 +2797,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.5.server.res
+          permission: gmgame.effect.arrow.5.server.gmgame
   id_particles_11_something_is_interfering_6_slot_23:
     material: PINK_PETALS
     slot: 23
@@ -2814,7 +2814,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.6.server.res
+          permission: gmgame.effect.arrow.6.server.gmgame
   id_particles_11_something_is_interfering_7_slot_23:
     material: PINK_PETALS
     slot: 23
@@ -2831,7 +2831,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.7.server.res
+          permission: gmgame.effect.arrow.7.server.gmgame
   id_particles_11_something_is_interfering_8_slot_23:
     material: PINK_PETALS
     slot: 23
@@ -2848,7 +2848,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.8.server.res
+          permission: gmgame.effect.arrow.8.server.gmgame
   id_particles_11_something_is_interfering_9_slot_23:
     material: PINK_PETALS
     slot: 23
@@ -2865,7 +2865,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.9.server.res
+          permission: gmgame.effect.arrow.9.server.gmgame
   id_particles_11_something_is_interfering_10_slot_23:
     material: PINK_PETALS
     slot: 23
@@ -2882,7 +2882,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.10.server.res
+          permission: gmgame.effect.arrow.10.server.gmgame
   id_particles_11_something_is_interfering_11_slot_23:
     material: PINK_PETALS
     slot: 23
@@ -2899,7 +2899,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.11.server.res
+          permission: gmgame.effect.arrow.11.server.gmgame
   id_particles_11_something_is_interfering_12_slot_23:
     material: PINK_PETALS
     slot: 23
@@ -2916,7 +2916,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.12.server.res
+          permission: gmgame.effect.arrow.12.server.gmgame
   id_particles_12_switched_off_slot_24:
     material: WAXED_COPPER_BULB
     slot: 24
@@ -2937,10 +2937,10 @@ items:
       requirements:
         permission_check:
           type: "!has permission"
-          permission: gmgame.effect.arrow.12.server.res
+          permission: gmgame.effect.arrow.12.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.12.server.res"
+        gmgame.effect.arrow.12.server.gmgame"
       - "[console] ppo %player_name% add wax_on arrows"
       - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
         &#e6a500wax_on&#caeaf5)"
@@ -2968,10 +2968,10 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.12.server.res
+          permission: gmgame.effect.arrow.12.server.gmgame
     left_click_commands:
       - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.12.server.res"
+        gmgame.effect.arrow.12.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
       - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
         &#e6a500wax_on&#caeaf5)"
@@ -2993,7 +2993,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.1.server.res
+          permission: gmgame.effect.arrow.1.server.gmgame
   id_particles_12_something_is_interfering_2_slot_24:
     material: PINK_PETALS
     slot: 24
@@ -3010,7 +3010,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.2.server.res
+          permission: gmgame.effect.arrow.2.server.gmgame
   id_particles_12_something_is_interfering_3_slot_24:
     material: PINK_PETALS
     slot: 24
@@ -3027,7 +3027,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.3.server.res
+          permission: gmgame.effect.arrow.3.server.gmgame
   id_particles_12_something_is_interfering_4_slot_24:
     material: PINK_PETALS
     slot: 24
@@ -3044,7 +3044,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.4.server.res
+          permission: gmgame.effect.arrow.4.server.gmgame
   id_particles_12_something_is_interfering_5_slot_24:
     material: PINK_PETALS
     slot: 24
@@ -3061,7 +3061,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.5.server.res
+          permission: gmgame.effect.arrow.5.server.gmgame
   id_particles_12_something_is_interfering_6_slot_24:
     material: PINK_PETALS
     slot: 24
@@ -3078,7 +3078,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.6.server.res
+          permission: gmgame.effect.arrow.6.server.gmgame
   id_particles_12_something_is_interfering_7_slot_24:
     material: PINK_PETALS
     slot: 24
@@ -3095,7 +3095,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.7.server.res
+          permission: gmgame.effect.arrow.7.server.gmgame
   id_particles_12_something_is_interfering_8_slot_24:
     material: PINK_PETALS
     slot: 24
@@ -3112,7 +3112,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.8.server.res
+          permission: gmgame.effect.arrow.8.server.gmgame
   id_particles_12_something_is_interfering_9_slot_24:
     material: PINK_PETALS
     slot: 24
@@ -3129,7 +3129,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.9.server.res
+          permission: gmgame.effect.arrow.9.server.gmgame
   id_particles_12_something_is_interfering_10_slot_24:
     material: PINK_PETALS
     slot: 24
@@ -3146,7 +3146,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.10.server.res
+          permission: gmgame.effect.arrow.10.server.gmgame
   id_particles_12_something_is_interfering_11_slot_24:
     material: PINK_PETALS
     slot: 24
@@ -3163,7 +3163,7 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.11.server.res
+          permission: gmgame.effect.arrow.11.server.gmgame
   id_particles_12_something_is_interfering_12_slot_24:
     material: PINK_PETALS
     slot: 24
@@ -3180,4 +3180,4 @@ items:
       requirements:
         permission_check:
           type: has permission
-          permission: gmgame.effect.arrow.12.server.res
+          permission: gmgame.effect.arrow.12.server.gmgame
