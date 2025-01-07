@@ -35,7 +35,7 @@
 @REM
 @REM node ./src/effect/player_effects.js
 
-node .\src\Shops_1.21\equipment\equipment.js
-node .\src\Shops_1.21\ores.js
+node .\src\Shops_1.21\Equipment.js
+node .\src\Shops_1.21\Ores.js
 
-node .\src\Effect_arrow_1.21\script.js
+node .\src\Effect_arrow_1.21\Script.js

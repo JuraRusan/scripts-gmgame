@@ -1,9 +1,7 @@
 {
   "menu_title": "Эффекты",
   "register_command": true,
-  "open_command": [
-    "gmgame_arrow_effect"
-  ],
+  "open_command": ["gmgame_arrow_effect"],
   "open_requirement": {
     "requirements": {
       "permission": {
