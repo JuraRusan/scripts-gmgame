@@ -41,3 +41,24 @@ gui_menus:
     file: Casino/casino_item.yml
   casino_equipment:
     file: Casino/casino_equipment.yml
+  # -------------------- Money --------------------
+  casino_money_rate_10:
+    file: Casino/casino_money_rate_10.yml
+  casino_money_rate_25:
+    file: Casino/casino_money_rate_25.yml
+  casino_money_rate_50:
+    file: Casino/casino_money_rate_50.yml
+  casino_money_rate_75:
+    file: Casino/casino_money_rate_75.yml
+  casino_money_rate_100:
+    file: Casino/casino_money_rate_100.yml
+  casino_money_rate_250:
+    file: Casino/casino_money_rate_250.yml
+  casino_money_rate_500:
+    file: Casino/casino_money_rate_500.yml
+  casino_money_rate_750:
+    file: Casino/casino_money_rate_750.yml
+  casino_money_rate_1000:
+    file: Casino/casino_money_rate_1000.yml
+  casino_money_rate_1500:
+    file: Casino/casino_money_rate_1500.yml

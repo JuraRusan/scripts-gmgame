@@ -3,46 +3,47 @@ size: 27
 menu_title: Казино
 register_command: false
 items:
-  material: PAPER
-  slot: 13
-  update: true
-  item_flags:
-    - HIDE_ATTRIBUTES
-    - HIDE_ENCHANTS
-    - HIDE_ADDITIONAL_TOOLTIP
-  enchantments:
-    - MENDING;1
-  display_name: "&#caeaf5Монеты"
-  lore:
-    - " "
-    - "&#ccb800 * &#caeaf5Игрок делает ставку: &#55ff5575$"
-    - "&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff550&#caeaf5-&#55ff55100"
-    - "&#ccb800 * &#caeaf5Уникальный приз: &#55ff550&#caeaf5-&#55ff552"
-    - " "
-    - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
-    - " "
-    - "&#f42f31[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы выбрать"
-  left_click_requirement:
-    requirements:
-      balance_check:
-        type: has money
-        amount: 75
-        deny_commands:
-          - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
-      item_check_slot:
-        type: has item
-        material: AIR
-        amount: 1
-        deny_commands:
-          - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
-  left_click_commands:
-    - "[console] balance %player_name%"
-    - "[takemoney] 75"
-    - "[console] balance %player_name%"
-    - "[message] &#caeaf5 Вы сыграли в ставку! (&#e6a500-75&#caeaf5)"
-    - "[message] &#caeaf5 Выигрыш через 3 <delay=20>"
-    - "[message] &#caeaf5 Выигрыш через 2 <delay=40>"
-    - "[message] &#caeaf5 Выигрыш через 1 <delay=60>"
-    - "[console] gmcoin give %player_name% %cmi_random_0_100% <delay=80>"
-    - "[console] minecraft:give %player_name% minecraft:paper[custom_name='[\"\",{\"text\":\"Уникальный токен предмет\",\"color\":\"#3399ff\"}]',lore=['[\"\",{\"text\":\" \",\"color\":\"gray\"}]','[\"\",{\"text\":\" * \",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"Токен предмет защищен от подделки\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"color\":\"gray\",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false,\"color\":\"gray\"},{\"text\":\"и предназначенный только для\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"использования в казино для того что бы...\",\"color\":\"gray\"}]','[\"\"]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"Но это совсем другая история...\",\"color\":\"gray\"}]'],enchantments={levels:{unbreaking:10},show_in_tooltip:false}] %cmi_random_0_2% <delay=80>"
-    - "[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}75$ <delay=80>"
+  Unique_name_13:
+    material: PAPER
+    slot: 13
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    enchantments:
+      - MENDING;1
+    display_name: "&#caeaf5Монеты"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок делает ставку: &#55ff5575$"
+      - "&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff550&#caeaf5-&#55ff55100"
+      - "&#ccb800 * &#caeaf5Уникальный приз: &#55ff550&#caeaf5-&#55ff552"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы выбрать"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 75
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    left_click_commands:
+      - "[console] balance %player_name%"
+      - "[takemoney] 75"
+      - "[console] balance %player_name%"
+      - "[message] &#caeaf5 Вы сыграли в ставку! (&#e6a500-75&#caeaf5)"
+      - "[message] &#caeaf5 Выигрыш через 3 <delay=20>"
+      - "[message] &#caeaf5 Выигрыш через 2 <delay=40>"
+      - "[message] &#caeaf5 Выигрыш через 1 <delay=60>"
+      - "[console] gmcoin give %player_name% %cmi_random_0_100% <delay=80>"
+      - "[console] minecraft:give %player_name% minecraft:paper[custom_name='[\"\",{\"text\":\"Уникальный токен предмет\",\"color\":\"#3399ff\"}]',lore=['[\"\",{\"text\":\" \",\"color\":\"gray\"}]','[\"\",{\"text\":\" * \",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"Токен предмет защищен от подделки\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"color\":\"gray\",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false,\"color\":\"gray\"},{\"text\":\"и предназначенный только для\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"использования в казино для того что бы...\",\"color\":\"gray\"}]','[\"\"]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"Но это совсем другая история...\",\"color\":\"gray\"}]'],enchantments={levels:{unbreaking:10},show_in_tooltip:false}] %cmi_random_0_2% <delay=80>"
+      - "[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}75$ <delay=80>"

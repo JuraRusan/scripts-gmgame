@@ -60,7 +60,7 @@ money.map((element) => {
   result.open_command = `casino_money_rate_${element.price}_menu`;
   result.size = 27;
   result = { ...result, ...template };
-  result.items = { ...res };
+  result.items["Unique_name_13"] = { ...res };
 
   fs.writeFileSync(`./server/Casino/casino_money_rate_${element.price}.yml`, YAML.stringify(result, { lineWidth: 0 }));
   console.log("\x1b[32m" + `Create file casino_money_rate_${element.price}.yml` + "\x1b[0m");
