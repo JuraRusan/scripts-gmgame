@@ -101,6 +101,7 @@ casino.map((element) => {
   }, {});
 
   result.open_command = element.open_command;
+  result.size = 36;
   result = { ...result, ...template };
   result.items = { ...result.items, ...res };
 
