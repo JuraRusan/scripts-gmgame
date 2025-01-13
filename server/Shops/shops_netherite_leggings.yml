@@ -50,7 +50,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_leggings[enchantments={levels:{mending:1,protection:5,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием{#55ff55}mending:1,protection:5,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием {#55ff55}mending:1,protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_12:
     material: NETHERITE_LEGGINGS
     slot: 12
@@ -92,7 +92,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_leggings[enchantments={levels:{mending:1,protection:5,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием{#55ff55}mending:1,protection:5,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием {#55ff55}mending:1,protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_13:
     material: NETHERITE_LEGGINGS
     slot: 13
@@ -134,7 +134,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_leggings[enchantments={levels:{mending:1,projectile_protection:5,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием{#55ff55}mending:1,projectile_protection:5,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием {#55ff55}mending:1,projectile_protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_14:
     material: NETHERITE_LEGGINGS
     slot: 14
@@ -176,7 +176,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_leggings[enchantments={levels:{mending:1,projectile_protection:5,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием{#55ff55}mending:1,projectile_protection:5,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием {#55ff55}mending:1,projectile_protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_15:
     material: NETHERITE_LEGGINGS
     slot: 15
@@ -218,7 +218,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_leggings[enchantments={levels:{mending:1,fire_protection:5,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием{#55ff55}mending:1,fire_protection:5,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием {#55ff55}mending:1,fire_protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_21:
     material: NETHERITE_LEGGINGS
     slot: 21
@@ -260,7 +260,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_leggings[enchantments={levels:{mending:1,fire_protection:5,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием{#55ff55}mending:1,fire_protection:5,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием {#55ff55}mending:1,fire_protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_22:
     material: NETHERITE_LEGGINGS
     slot: 22
@@ -302,7 +302,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_leggings[enchantments={levels:{mending:1,blast_protection:5,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием{#55ff55}mending:1,blast_protection:5,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием {#55ff55}mending:1,blast_protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_23:
     material: NETHERITE_LEGGINGS
     slot: 23
@@ -344,4 +344,4 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_leggings[enchantments={levels:{mending:1,blast_protection:5,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием{#55ff55}mending:1,blast_protection:5,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием {#55ff55}mending:1,blast_protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"

@@ -51,7 +51,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-150&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_pickaxe[enchantments={levels:{efficiency:5,mending:1,silk_touch:1,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_pickaxe{#caeaf5} с зачарованием{#55ff55}efficiency:5,mending:1,silk_touch:1,unbreaking:4{#caeaf5} | 1 -> {#55ff55}150$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_pickaxe{#caeaf5} с зачарованием {#55ff55}efficiency:5,mending:1,silk_touch:1,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}150$"
   Unique_name_12:
     material: NETHERITE_PICKAXE
     slot: 12
@@ -94,7 +94,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_pickaxe[enchantments={levels:{efficiency:5,mending:1,fortune:4,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_pickaxe{#caeaf5} с зачарованием{#55ff55}efficiency:5,mending:1,fortune:4,unbreaking:4{#caeaf5} | 1 -> {#55ff55}300$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_pickaxe{#caeaf5} с зачарованием {#55ff55}efficiency:5,mending:1,fortune:4,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}300$"
   Unique_name_13:
     material: NETHERITE_AXE
     slot: 13
@@ -137,7 +137,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-150&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_axe[enchantments={levels:{efficiency:5,mending:1,silk_touch:1,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_axe{#caeaf5} с зачарованием{#55ff55}efficiency:5,mending:1,silk_touch:1,unbreaking:4{#caeaf5} | 1 -> {#55ff55}150$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_axe{#caeaf5} с зачарованием {#55ff55}efficiency:5,mending:1,silk_touch:1,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}150$"
   Unique_name_14:
     material: NETHERITE_AXE
     slot: 14
@@ -180,7 +180,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_axe[enchantments={levels:{efficiency:5,mending:1,fortune:4,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_axe{#caeaf5} с зачарованием{#55ff55}efficiency:5,mending:1,fortune:4,unbreaking:4{#caeaf5} | 1 -> {#55ff55}300$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_axe{#caeaf5} с зачарованием {#55ff55}efficiency:5,mending:1,fortune:4,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}300$"
   Unique_name_15:
     material: NETHERITE_SHOVEL
     slot: 15
@@ -223,7 +223,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-150&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_shovel[enchantments={levels:{efficiency:5,mending:1,silk_touch:1,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_shovel{#caeaf5} с зачарованием{#55ff55}efficiency:5,mending:1,silk_touch:1,unbreaking:4{#caeaf5} | 1 -> {#55ff55}150$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_shovel{#caeaf5} с зачарованием {#55ff55}efficiency:5,mending:1,silk_touch:1,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}150$"
   Unique_name_21:
     material: NETHERITE_SHOVEL
     slot: 21
@@ -266,7 +266,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_shovel[enchantments={levels:{efficiency:5,mending:1,fortune:4,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_shovel{#caeaf5} с зачарованием{#55ff55}efficiency:5,mending:1,fortune:4,unbreaking:4{#caeaf5} | 1 -> {#55ff55}300$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_shovel{#caeaf5} с зачарованием {#55ff55}efficiency:5,mending:1,fortune:4,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}300$"
   Unique_name_22:
     material: NETHERITE_HOE
     slot: 22
@@ -309,7 +309,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-150&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_hoe[enchantments={levels:{efficiency:5,mending:1,silk_touch:1,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_hoe{#caeaf5} с зачарованием{#55ff55}efficiency:5,mending:1,silk_touch:1,unbreaking:4{#caeaf5} | 1 -> {#55ff55}150$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_hoe{#caeaf5} с зачарованием {#55ff55}efficiency:5,mending:1,silk_touch:1,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}150$"
   Unique_name_23:
     material: NETHERITE_HOE
     slot: 23
@@ -352,7 +352,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_hoe[enchantments={levels:{efficiency:5,mending:1,fortune:4,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_hoe{#caeaf5} с зачарованием{#55ff55}efficiency:5,mending:1,fortune:4,unbreaking:4{#caeaf5} | 1 -> {#55ff55}300$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_hoe{#caeaf5} с зачарованием {#55ff55}efficiency:5,mending:1,fortune:4,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}300$"
   Unique_name_27:
     material: SHIELD
     slot: 27
@@ -393,7 +393,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:shield[enchantments={levels:{mending:1,unbreaking:5}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}shield{#caeaf5} с зачарованием{#55ff55}mending:1,unbreaking:5{#caeaf5} | 1 -> {#55ff55}300$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}shield{#caeaf5} с зачарованием {#55ff55}mending:1,unbreaking:5 {#caeaf5}| 1 -> {#55ff55}300$"
   Unique_name_28:
     material: FLINT_AND_STEEL
     slot: 28
@@ -434,7 +434,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:flint_and_steel[enchantments={levels:{mending:1,unbreaking:5}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}flint_and_steel{#caeaf5} с зачарованием{#55ff55}mending:1,unbreaking:5{#caeaf5} | 1 -> {#55ff55}300$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}flint_and_steel{#caeaf5} с зачарованием {#55ff55}mending:1,unbreaking:5 {#caeaf5}| 1 -> {#55ff55}300$"
   Unique_name_34:
     material: SHEARS
     slot: 34
@@ -476,7 +476,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:shears[enchantments={levels:{efficiency:5,mending:1,unbreaking:5}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}shears{#caeaf5} с зачарованием{#55ff55}efficiency:5,mending:1,unbreaking:5{#caeaf5} | 1 -> {#55ff55}300$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}shears{#caeaf5} с зачарованием {#55ff55}efficiency:5,mending:1,unbreaking:5 {#caeaf5}| 1 -> {#55ff55}300$"
   Unique_name_35:
     material: FISHING_ROD
     slot: 35
@@ -519,4 +519,4 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:fishing_rod[enchantments={levels:{lure:4,luck_of_the_sea:4,mending:1,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}fishing_rod{#caeaf5} с зачарованием{#55ff55}lure:4,luck_of_the_sea:4,mending:1,unbreaking:4{#caeaf5} | 1 -> {#55ff55}300$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}fishing_rod{#caeaf5} с зачарованием {#55ff55}lure:4,luck_of_the_sea:4,mending:1,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}300$"

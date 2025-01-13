@@ -52,7 +52,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:turtle_helmet[enchantments={levels:{aqua_affinity:1,mending:1,protection:5,respiration:4,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}turtle_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,protection:5,respiration:4,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}turtle_helmet{#caeaf5} с зачарованием {#55ff55}aqua_affinity:1,mending:1,protection:5,respiration:4,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_12:
     material: TURTLE_HELMET
     slot: 12
@@ -97,7 +97,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:turtle_helmet[enchantments={levels:{aqua_affinity:1,mending:1,protection:5,respiration:4,unbreaking:4,thorns:3}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}turtle_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,protection:5,respiration:4,unbreaking:4,thorns:3{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}turtle_helmet{#caeaf5} с зачарованием {#55ff55}aqua_affinity:1,mending:1,protection:5,respiration:4,unbreaking:4,thorns:3 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_13:
     material: TURTLE_HELMET
     slot: 13
@@ -141,7 +141,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:turtle_helmet[enchantments={levels:{aqua_affinity:1,mending:1,projectile_protection:5,respiration:4,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}turtle_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,projectile_protection:5,respiration:4,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}turtle_helmet{#caeaf5} с зачарованием {#55ff55}aqua_affinity:1,mending:1,projectile_protection:5,respiration:4,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_14:
     material: TURTLE_HELMET
     slot: 14
@@ -186,7 +186,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:turtle_helmet[enchantments={levels:{aqua_affinity:1,mending:1,projectile_protection:5,respiration:4,unbreaking:4,thorns:3}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}turtle_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,projectile_protection:5,respiration:4,unbreaking:4,thorns:3{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}turtle_helmet{#caeaf5} с зачарованием {#55ff55}aqua_affinity:1,mending:1,projectile_protection:5,respiration:4,unbreaking:4,thorns:3 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_15:
     material: TURTLE_HELMET
     slot: 15
@@ -230,7 +230,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:turtle_helmet[enchantments={levels:{aqua_affinity:1,mending:1,fire_protection:5,respiration:4,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}turtle_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,fire_protection:5,respiration:4,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}turtle_helmet{#caeaf5} с зачарованием {#55ff55}aqua_affinity:1,mending:1,fire_protection:5,respiration:4,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_21:
     material: TURTLE_HELMET
     slot: 21
@@ -275,7 +275,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:turtle_helmet[enchantments={levels:{aqua_affinity:1,mending:1,fire_protection:5,respiration:4,unbreaking:4,thorns:3}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}turtle_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,fire_protection:5,respiration:4,unbreaking:4,thorns:3{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}turtle_helmet{#caeaf5} с зачарованием {#55ff55}aqua_affinity:1,mending:1,fire_protection:5,respiration:4,unbreaking:4,thorns:3 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_22:
     material: TURTLE_HELMET
     slot: 22
@@ -319,7 +319,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:turtle_helmet[enchantments={levels:{aqua_affinity:1,mending:1,blast_protection:5,respiration:4,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}turtle_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,blast_protection:5,respiration:4,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}turtle_helmet{#caeaf5} с зачарованием {#55ff55}aqua_affinity:1,mending:1,blast_protection:5,respiration:4,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_23:
     material: TURTLE_HELMET
     slot: 23
@@ -364,4 +364,4 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:turtle_helmet[enchantments={levels:{aqua_affinity:1,mending:1,blast_protection:5,respiration:4,unbreaking:4,thorns:3}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}turtle_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,blast_protection:5,respiration:4,unbreaking:4,thorns:3{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}turtle_helmet{#caeaf5} с зачарованием {#55ff55}aqua_affinity:1,mending:1,blast_protection:5,respiration:4,unbreaking:4,thorns:3 {#caeaf5}| 1 -> {#55ff55}600$"

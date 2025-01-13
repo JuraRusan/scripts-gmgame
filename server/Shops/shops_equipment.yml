@@ -51,7 +51,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:crossbow[enchantments={levels:{mending:1,quick_charge:4,piercing:5,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}crossbow{#caeaf5} с зачарованием{#55ff55}mending:1,quick_charge:4,piercing:5,unbreaking:4{#caeaf5} | 1 -> {#55ff55}300$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}crossbow{#caeaf5} с зачарованием {#55ff55}mending:1,quick_charge:4,piercing:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}300$"
   Unique_name_12:
     material: CROSSBOW
     slot: 12
@@ -94,7 +94,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:crossbow[enchantments={levels:{mending:1,quick_charge:4,multishot:1,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}crossbow{#caeaf5} с зачарованием{#55ff55}mending:1,quick_charge:4,multishot:1,unbreaking:4{#caeaf5} | 1 -> {#55ff55}300$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}crossbow{#caeaf5} с зачарованием {#55ff55}mending:1,quick_charge:4,multishot:1,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}300$"
   Unique_name_13:
     material: TRIDENT
     slot: 13
@@ -137,7 +137,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:trident[enchantments={levels:{riptide:3,mending:1,impaling:6,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}trident{#caeaf5} с зачарованием{#55ff55}riptide:3,mending:1,impaling:6,unbreaking:4{#caeaf5} | 1 -> {#55ff55}300$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}trident{#caeaf5} с зачарованием {#55ff55}riptide:3,mending:1,impaling:6,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}300$"
   Unique_name_14:
     material: BOW
     slot: 14
@@ -179,7 +179,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:bow[enchantments={levels:{mending:1,unbreaking:4,power:6}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}bow{#caeaf5} с зачарованием{#55ff55}mending:1,unbreaking:4,power:6{#caeaf5} | 1 -> {#55ff55}300$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}bow{#caeaf5} с зачарованием {#55ff55}mending:1,unbreaking:4,power:6 {#caeaf5}| 1 -> {#55ff55}300$"
   Unique_name_15:
     material: BOW
     slot: 15
@@ -221,7 +221,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:bow[enchantments={levels:{infinity:1,unbreaking:4,power:6}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}bow{#caeaf5} с зачарованием{#55ff55}infinity:1,unbreaking:4,power:6{#caeaf5} | 1 -> {#55ff55}300$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}bow{#caeaf5} с зачарованием {#55ff55}infinity:1,unbreaking:4,power:6 {#caeaf5}| 1 -> {#55ff55}300$"
   Unique_name_21:
     material: NETHERITE_SWORD
     slot: 21
@@ -265,7 +265,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_sword[enchantments={levels:{infinity:1,unbreaking:4,sweeping_edge:3,looting:3,smite:6}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_sword{#caeaf5} с зачарованием{#55ff55}infinity:1,unbreaking:4,sweeping_edge:3,looting:3,smite:6{#caeaf5} | 1 -> {#55ff55}300$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_sword{#caeaf5} с зачарованием {#55ff55}infinity:1,unbreaking:4,sweeping_edge:3,looting:3,smite:6 {#caeaf5}| 1 -> {#55ff55}300$"
   Unique_name_22:
     material: NETHERITE_SWORD
     slot: 22
@@ -309,7 +309,7 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_sword[enchantments={levels:{infinity:1,unbreaking:4,sweeping_edge:3,looting:3,sharpness:6}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_sword{#caeaf5} с зачарованием{#55ff55}infinity:1,unbreaking:4,sweeping_edge:3,looting:3,sharpness:6{#caeaf5} | 1 -> {#55ff55}300$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_sword{#caeaf5} с зачарованием {#55ff55}infinity:1,unbreaking:4,sweeping_edge:3,looting:3,sharpness:6 {#caeaf5}| 1 -> {#55ff55}300$"
   Unique_name_23:
     material: NETHERITE_SWORD
     slot: 23
@@ -353,4 +353,4 @@ items:
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_sword[enchantments={levels:{infinity:1,unbreaking:4,sweeping_edge:3,looting:3,bane_of_arthropods:6}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_sword{#caeaf5} с зачарованием{#55ff55}infinity:1,unbreaking:4,sweeping_edge:3,looting:3,bane_of_arthropods:6{#caeaf5} | 1 -> {#55ff55}300$"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_sword{#caeaf5} с зачарованием {#55ff55}infinity:1,unbreaking:4,sweeping_edge:3,looting:3,bane_of_arthropods:6 {#caeaf5}| 1 -> {#55ff55}300$"

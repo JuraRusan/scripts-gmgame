@@ -75,7 +75,7 @@ armors.map((element) => {
         "[refresh]",
         `[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-${amountFormat}&#caeaf5)`,
         `[console] minecraft:give %player_name% minecraft:${item.material.toLowerCase()}[enchantments={levels:{${lineEnchantments}}}] 1`,
-        `[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}${item.material.toLowerCase()}{#caeaf5} с зачарованием{#55ff55}${lineEnchantments}{#caeaf5} | 1 -> {#55ff55}${amountFormat}$`,
+        `[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}${item.material.toLowerCase()}{#caeaf5} с зачарованием {#55ff55}${lineEnchantments} {#caeaf5}| 1 -> {#55ff55}${amountFormat}$`,
       ],
     };
 

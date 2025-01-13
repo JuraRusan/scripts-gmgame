@@ -105,7 +105,7 @@ const resultSell = itemKeysYesSell.reduce((acc, curr) => {
       "[refresh]",
       `[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-${amountSingleBuy}&#caeaf5)`,
       `[console] minecraft:give %player_name% minecraft:${itemName.material} 1`,
-      `[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}${itemName.material}{#caeaf5} | 1 -> {#55ff55}${amountSingleBuy}$`,
+      `[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}${itemName.material} {#caeaf5}| 1 -> {#55ff55}${amountSingleBuy}$`,
     ],
     shift_left_click_commands: [
       `[takemoney] ${amountStackBuy}`,
@@ -114,21 +114,21 @@ const resultSell = itemKeysYesSell.reduce((acc, curr) => {
       "[refresh]",
       `[message] &#caeaf5 Вы успешно приобрели этот товар!(&#e6a500-${amountStackBuy}&#caeaf5)`,
       `[console] minecraft:give %player_name% minecraft:${itemName.material} 64`,
-      `[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}${itemName.material}{#caeaf5} | 64 -> {#55ff55}${amountStackBuy}$`,
+      `[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}${itemName.material} {#caeaf5}| 64 -> {#55ff55}${amountStackBuy}$`,
     ],
     right_click_commands: [
       `[givemoney] ${amountSingleSell}`,
       "[refresh]",
       `[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+${amountSingleSell}&#caeaf5)`,
       `[console] minecraft:clear %player_name% minecraft:${itemName.material} 1`,
-      `[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}${itemName.material}{#caeaf5} | 1 -> {#55ff55}${amountSingleSell}$`,
+      `[console] staffmsg {#caeaf5}%player_name% сдал {#55ff55}${itemName.material} {#caeaf5}| 1 -> {#55ff55}${amountSingleSell}$`,
     ],
     shift_right_click_commands: [
       `[givemoney] ${amountStackSell}`,
       "[refresh]",
       `[message] &#caeaf5 Вы успешно продали этот товар! (&#e6a500+${amountStackSell}&#caeaf5)`,
       `[console] minecraft:clear %player_name% minecraft:${itemName.material} 64`,
-      `[console] staffmsg {#caeaf5} %player_name% сдал {#55ff55}${itemName.material}{#caeaf5} | 64 -> {#55ff55}${amountStackSell}$`,
+      `[console] staffmsg {#caeaf5}%player_name% сдал {#55ff55}${itemName.material} {#caeaf5}| 64 -> {#55ff55}${amountStackSell}$`,
     ],
   };
 
@@ -194,14 +194,14 @@ const resultNoSell = itemNoKeys.reduce((acc, curr) => {
       "[refresh]",
       `[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-${amountSingle}&#caeaf5)`,
       `[console] minecraft:give %player_name% minecraft:${itemName.material} 1`,
-      `[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}${itemName.material}{#caeaf5} | 1 -> {#55ff55}${amountSingle}$`,
+      `[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}${itemName.material} {#caeaf5}| 1 -> {#55ff55}${amountSingle}$`,
     ],
     // shift_left_click_commands: [
     //   `[takemoney] ${amountStack}`,
     //   "[refresh]",
     //   `[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-${amountStack}&#caeaf5)`,
     //   `[console] minecraft:give %player_name% minecraft:${itemName.material} 64`,
-    //   `[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}${itemName.material}{#caeaf5} | 64-> {#55ff55}${amountStack}$`,
+    //   `[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}${itemName.material} {#caeaf5}| 64-> {#55ff55}${amountStack}$`,
     // ],
   };
 
