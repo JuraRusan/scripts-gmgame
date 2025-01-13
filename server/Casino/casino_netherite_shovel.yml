@@ -1,6 +1,6 @@
 open_command: casino_netherite_shovel_menu
-menu_title: Казино
 size: 36
+menu_title: Казино
 register_command: false
 items:
   Unique_name_10:
