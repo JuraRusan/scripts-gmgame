@@ -1,0 +1,27 @@
+# DeluxeMenus 1.14.1-DEV-184 main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: true
+gui_menus:
+  # -------------------- shops --------------------
+  shops_main:
+    file: spawn_shops/main_shops.yml
+  shops_ore:
+    file: spawn_shops/shops_ore.yml
+  shops_item:
+    file: spawn_shops/shops_item.yml
+  shops_equipment:
+    file: spawn_shops/shops_equipment.yml
+  shops_turtle_helmet:
+    file: spawn_shops/shops_turtle_helmet.yml
+  shops_netherite_helmet:
+    file: spawn_shops/shops_netherite_helmet.yml
+  shops_netherite_chestplate:
+    file: spawn_shops/shops_netherite_chestplate.yml
+  shops_netherite_leggings:
+    file: spawn_shops/shops_netherite_leggings.yml
+  shops_netherite_boots:
+    file: spawn_shops/shops_netherite_boots.yml

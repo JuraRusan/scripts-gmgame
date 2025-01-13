@@ -1,0 +1,85 @@
+menu_title: "Магазин"
+register_command: false
+open_command:
+  - deluxe_menu_shops
+size: 36
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: deluxemenus.default.deluxe_menu_shops.custom.menu.ultra
+      deny_commands:
+        - "[message] &#f42f31 Ошибка:&#caeaf5 Вы не можете выполнить данную команду или неверный аргумент!"
+items:
+  "1":
+    material: DEEPSLATE_DIAMOND_ORE
+    slot: 12
+    item_flags: [HIDE_ATTRIBUTES, HIDE_ENCHANTS]
+    enchantments:
+      - "MENDING;1"
+    display_name: "&#caeaf5  Руды  "
+    left_click_commands:
+      - "[openguimenu] shops_ore"
+  "2":
+    material: NETHERITE_SWORD
+    slot: 13
+    item_flags: [HIDE_ATTRIBUTES, HIDE_ENCHANTS]
+    enchantments:
+      - "MENDING;1"
+    display_name: "&#caeaf5  Снаряжение  "
+    left_click_commands:
+      - "[openguimenu] shops_equipment"
+  "3":
+    material: NETHERITE_PICKAXE
+    slot: 14
+    item_flags: [HIDE_ATTRIBUTES, HIDE_ENCHANTS]
+    enchantments:
+      - "MENDING;1"
+    display_name: "&#caeaf5  Инструменты  "
+    left_click_commands:
+      - "[openguimenu] shops_item"
+  "4":
+    material: TURTLE_HELMET
+    slot: 20
+    item_flags: [HIDE_ATTRIBUTES, HIDE_ENCHANTS]
+    enchantments:
+      - "MENDING;1"
+    display_name: "&#caeaf5  Черепашьи панцири  "
+    left_click_commands:
+      - "[openguimenu] shops_turtle_helmet"
+  "5":
+    material: NETHERITE_HELMET
+    slot: 21
+    item_flags: [HIDE_ATTRIBUTES, HIDE_ENCHANTS]
+    enchantments:
+      - "MENDING;1"
+    display_name: "&#caeaf5  Незеритовые шлемы  "
+    left_click_commands:
+      - "[openguimenu] shops_netherite_helmet"
+  "6":
+    material: NETHERITE_CHESTPLATE
+    slot: 22
+    item_flags: [HIDE_ATTRIBUTES, HIDE_ENCHANTS]
+    enchantments:
+      - "MENDING;1"
+    display_name: "&#caeaf5  Незеритовые нагрудники  "
+    left_click_commands:
+      - "[openguimenu] shops_netherite_chestplate"
+  "7":
+    material: NETHERITE_LEGGINGS
+    slot: 23
+    item_flags: [HIDE_ATTRIBUTES, HIDE_ENCHANTS]
+    enchantments:
+      - "MENDING;1"
+    display_name: "&#caeaf5  Незеритовые поножи  "
+    left_click_commands:
+      - "[openguimenu] shops_netherite_leggings"
+  "8":
+    material: NETHERITE_BOOTS
+    slot: 24
+    item_flags: [HIDE_ATTRIBUTES, HIDE_ENCHANTS]
+    enchantments:
+      - "MENDING;1"
+    display_name: "&#caeaf5  Незеритовые ботинки  "
+    left_click_commands:
+      - "[openguimenu] shops_netherite_boots"
