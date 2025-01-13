@@ -3,7 +3,7 @@ import fs from "fs-extra";
 
 import template from "./_sample.json" assert { type: "json" };
 
-import { armors, defaultEnchantments } from "./static.js";
+import { armors, defaultEnchantments } from "../Data/Static.js";
 
 armors.map((element) => {
   const itemKeys = Object.keys(element.list);

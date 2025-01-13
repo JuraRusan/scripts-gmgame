@@ -3,7 +3,7 @@ import fs from "fs-extra";
 
 import template from "./_sample.json" assert { type: "json" };
 
-import { no_sell, slots_no_sell, slots_sell, yes_sell } from "./static.js";
+import { no_sell, slots_no_sell, slots_sell, yes_sell } from "../Data/Static.js";
 
 const itemKeysYesSell = Object.keys(yes_sell);
 const itemNoKeys = Object.keys(no_sell);
