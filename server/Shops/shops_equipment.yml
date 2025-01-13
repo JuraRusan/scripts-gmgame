@@ -1,4 +1,4 @@
-menu_title: Незеритовые шлемы
+menu_title: Снаряжение
 size: 54
 items:
   previous:
@@ -10,7 +10,7 @@ items:
     left_click_commands:
       - "[openguimenu] shops_main"
   Unique_name_11:
-    material: NETHERITE_HELMET
+    material: CROSSBOW
     slot: 11
     update: true
     item_flags:
@@ -19,16 +19,15 @@ items:
       - HIDE_ADDITIONAL_TOOLTIP
     enchantments:
       - MENDING;1
-    display_name: "&#caeaf5Незеритовый шлем"
+    display_name: "&#caeaf5Арбалет"
     lore:
       - " "
-      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55300$"
       - " "
       - "&#ccb800 * &#caeaf5Зачарования:"
-      - "   &#ccb800• &#caeaf5Подводник 1"
       - "   &#ccb800• &#caeaf5Починка 1"
-      - "   &#ccb800• &#caeaf5Защита 5 (&#e6a500v. 4&#caeaf5)"
-      - "   &#ccb800• &#caeaf5Подводное дыхание 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Быстрая перезарядка 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Пронзающая стрела 5 (&#e6a500v. 4&#caeaf5)"
       - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
       - " "
       - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
@@ -38,7 +37,7 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 600
+          amount: 300
           deny_commands:
             - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
         item_check_slot:
@@ -48,13 +47,13 @@ items:
           deny_commands:
             - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
     left_click_commands:
-      - "[takemoney] 600"
+      - "[takemoney] 300"
       - "[refresh]"
-      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
-      - "[console] minecraft:give %player_name% minecraft:netherite_helmet[enchantments={levels:{aqua_affinity:1,mending:1,protection:5,respiration:4,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,protection:5,respiration:4,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:crossbow[enchantments={levels:{mending:1,quick_charge:4,piercing:5,unbreaking:4}}] 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}crossbow{#caeaf5} с зачарованием{#55ff55}mending:1,quick_charge:4,piercing:5,unbreaking:4{#caeaf5} | 1 -> {#55ff55}300$"
   Unique_name_12:
-    material: NETHERITE_HELMET
+    material: CROSSBOW
     slot: 12
     update: true
     item_flags:
@@ -63,18 +62,16 @@ items:
       - HIDE_ADDITIONAL_TOOLTIP
     enchantments:
       - MENDING;1
-    display_name: "&#caeaf5Незеритовый шлем"
+    display_name: "&#caeaf5Арбалет"
     lore:
       - " "
-      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55300$"
       - " "
       - "&#ccb800 * &#caeaf5Зачарования:"
-      - "   &#ccb800• &#caeaf5Подводник 1"
       - "   &#ccb800• &#caeaf5Починка 1"
-      - "   &#ccb800• &#caeaf5Защита 5 (&#e6a500v. 4&#caeaf5)"
-      - "   &#ccb800• &#caeaf5Подводное дыхание 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Быстрая перезарядка 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Тройной выстрел 1"
       - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
-      - "   &#ccb800• &#caeaf5Шипы 3"
       - " "
       - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
       - " "
@@ -83,7 +80,7 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 600
+          amount: 300
           deny_commands:
             - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
         item_check_slot:
@@ -93,13 +90,13 @@ items:
           deny_commands:
             - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
     left_click_commands:
-      - "[takemoney] 600"
+      - "[takemoney] 300"
       - "[refresh]"
-      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
-      - "[console] minecraft:give %player_name% minecraft:netherite_helmet[enchantments={levels:{aqua_affinity:1,mending:1,protection:5,respiration:4,unbreaking:4,thorns:3}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,protection:5,respiration:4,unbreaking:4,thorns:3{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:crossbow[enchantments={levels:{mending:1,quick_charge:4,multishot:1,unbreaking:4}}] 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}crossbow{#caeaf5} с зачарованием{#55ff55}mending:1,quick_charge:4,multishot:1,unbreaking:4{#caeaf5} | 1 -> {#55ff55}300$"
   Unique_name_13:
-    material: NETHERITE_HELMET
+    material: TRIDENT
     slot: 13
     update: true
     item_flags:
@@ -108,16 +105,15 @@ items:
       - HIDE_ADDITIONAL_TOOLTIP
     enchantments:
       - MENDING;1
-    display_name: "&#caeaf5Незеритовый шлем"
+    display_name: "&#caeaf5Трезубец"
     lore:
       - " "
-      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55300$"
       - " "
       - "&#ccb800 * &#caeaf5Зачарования:"
-      - "   &#ccb800• &#caeaf5Подводник 1"
+      - "   &#ccb800• &#caeaf5Тягун 3"
       - "   &#ccb800• &#caeaf5Починка 1"
-      - "   &#ccb800• &#caeaf5Защита от снарядов 5 (&#e6a500v. 4&#caeaf5)"
-      - "   &#ccb800• &#caeaf5Подводное дыхание 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Пронзатель 6 (&#e6a500v. 5&#caeaf5)"
       - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
       - " "
       - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
@@ -127,7 +123,7 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 600
+          amount: 300
           deny_commands:
             - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
         item_check_slot:
@@ -137,13 +133,13 @@ items:
           deny_commands:
             - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
     left_click_commands:
-      - "[takemoney] 600"
+      - "[takemoney] 300"
       - "[refresh]"
-      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
-      - "[console] minecraft:give %player_name% minecraft:netherite_helmet[enchantments={levels:{aqua_affinity:1,mending:1,projectile_protection:5,respiration:4,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,projectile_protection:5,respiration:4,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:trident[enchantments={levels:{riptide:3,mending:1,impaling:6,unbreaking:4}}] 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}trident{#caeaf5} с зачарованием{#55ff55}riptide:3,mending:1,impaling:6,unbreaking:4{#caeaf5} | 1 -> {#55ff55}300$"
   Unique_name_14:
-    material: NETHERITE_HELMET
+    material: BOW
     slot: 14
     update: true
     item_flags:
@@ -152,18 +148,15 @@ items:
       - HIDE_ADDITIONAL_TOOLTIP
     enchantments:
       - MENDING;1
-    display_name: "&#caeaf5Незеритовый шлем"
+    display_name: "&#caeaf5Лук"
     lore:
       - " "
-      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55300$"
       - " "
       - "&#ccb800 * &#caeaf5Зачарования:"
-      - "   &#ccb800• &#caeaf5Подводник 1"
       - "   &#ccb800• &#caeaf5Починка 1"
-      - "   &#ccb800• &#caeaf5Защита от снарядов 5 (&#e6a500v. 4&#caeaf5)"
-      - "   &#ccb800• &#caeaf5Подводное дыхание 4 (&#e6a500v. 3&#caeaf5)"
       - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
-      - "   &#ccb800• &#caeaf5Шипы 3"
+      - "   &#ccb800• &#caeaf5Сила 6 (&#e6a500v. 5&#caeaf5)"
       - " "
       - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
       - " "
@@ -172,7 +165,7 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 600
+          amount: 300
           deny_commands:
             - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
         item_check_slot:
@@ -182,13 +175,13 @@ items:
           deny_commands:
             - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
     left_click_commands:
-      - "[takemoney] 600"
+      - "[takemoney] 300"
       - "[refresh]"
-      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
-      - "[console] minecraft:give %player_name% minecraft:netherite_helmet[enchantments={levels:{aqua_affinity:1,mending:1,projectile_protection:5,respiration:4,unbreaking:4,thorns:3}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,projectile_protection:5,respiration:4,unbreaking:4,thorns:3{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:bow[enchantments={levels:{mending:1,unbreaking:4,power:6}}] 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}bow{#caeaf5} с зачарованием{#55ff55}mending:1,unbreaking:4,power:6{#caeaf5} | 1 -> {#55ff55}300$"
   Unique_name_15:
-    material: NETHERITE_HELMET
+    material: BOW
     slot: 15
     update: true
     item_flags:
@@ -197,17 +190,15 @@ items:
       - HIDE_ADDITIONAL_TOOLTIP
     enchantments:
       - MENDING;1
-    display_name: "&#caeaf5Незеритовый шлем"
+    display_name: "&#caeaf5Лук"
     lore:
       - " "
-      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55300$"
       - " "
       - "&#ccb800 * &#caeaf5Зачарования:"
-      - "   &#ccb800• &#caeaf5Подводник 1"
-      - "   &#ccb800• &#caeaf5Починка 1"
-      - "   &#ccb800• &#caeaf5Огнеупорность 5 (&#e6a500v. 4&#caeaf5)"
-      - "   &#ccb800• &#caeaf5Подводное дыхание 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Бесконечность 1"
       - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Сила 6 (&#e6a500v. 5&#caeaf5)"
       - " "
       - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
       - " "
@@ -216,7 +207,7 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 600
+          amount: 300
           deny_commands:
             - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
         item_check_slot:
@@ -226,13 +217,13 @@ items:
           deny_commands:
             - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
     left_click_commands:
-      - "[takemoney] 600"
+      - "[takemoney] 300"
       - "[refresh]"
-      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
-      - "[console] minecraft:give %player_name% minecraft:netherite_helmet[enchantments={levels:{aqua_affinity:1,mending:1,fire_protection:5,respiration:4,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,fire_protection:5,respiration:4,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:bow[enchantments={levels:{infinity:1,unbreaking:4,power:6}}] 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}bow{#caeaf5} с зачарованием{#55ff55}infinity:1,unbreaking:4,power:6{#caeaf5} | 1 -> {#55ff55}300$"
   Unique_name_21:
-    material: NETHERITE_HELMET
+    material: NETHERITE_SWORD
     slot: 21
     update: true
     item_flags:
@@ -241,18 +232,17 @@ items:
       - HIDE_ADDITIONAL_TOOLTIP
     enchantments:
       - MENDING;1
-    display_name: "&#caeaf5Незеритовый шлем"
+    display_name: "&#caeaf5Незеритовый меч"
     lore:
       - " "
-      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55300$"
       - " "
       - "&#ccb800 * &#caeaf5Зачарования:"
-      - "   &#ccb800• &#caeaf5Подводник 1"
-      - "   &#ccb800• &#caeaf5Починка 1"
-      - "   &#ccb800• &#caeaf5Огнеупорность 5 (&#e6a500v. 4&#caeaf5)"
-      - "   &#ccb800• &#caeaf5Подводное дыхание 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Бесконечность 1"
       - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
-      - "   &#ccb800• &#caeaf5Шипы 3"
+      - "   &#ccb800• &#caeaf5Разящий клинок 3"
+      - "   &#ccb800• &#caeaf5Добыча 3"
+      - "   &#ccb800• &#caeaf5Небесная кара 6 (&#e6a500v. 5&#caeaf5)"
       - " "
       - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
       - " "
@@ -261,7 +251,7 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 600
+          amount: 300
           deny_commands:
             - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
         item_check_slot:
@@ -271,13 +261,13 @@ items:
           deny_commands:
             - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
     left_click_commands:
-      - "[takemoney] 600"
+      - "[takemoney] 300"
       - "[refresh]"
-      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
-      - "[console] minecraft:give %player_name% minecraft:netherite_helmet[enchantments={levels:{aqua_affinity:1,mending:1,fire_protection:5,respiration:4,unbreaking:4,thorns:3}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,fire_protection:5,respiration:4,unbreaking:4,thorns:3{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:netherite_sword[enchantments={levels:{infinity:1,unbreaking:4,sweeping_edge:3,looting:3,smite:6}}] 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_sword{#caeaf5} с зачарованием{#55ff55}infinity:1,unbreaking:4,sweeping_edge:3,looting:3,smite:6{#caeaf5} | 1 -> {#55ff55}300$"
   Unique_name_22:
-    material: NETHERITE_HELMET
+    material: NETHERITE_SWORD
     slot: 22
     update: true
     item_flags:
@@ -286,17 +276,17 @@ items:
       - HIDE_ADDITIONAL_TOOLTIP
     enchantments:
       - MENDING;1
-    display_name: "&#caeaf5Незеритовый шлем"
+    display_name: "&#caeaf5Незеритовый меч"
     lore:
       - " "
-      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55300$"
       - " "
       - "&#ccb800 * &#caeaf5Зачарования:"
-      - "   &#ccb800• &#caeaf5Подводник 1"
-      - "   &#ccb800• &#caeaf5Починка 1"
-      - "   &#ccb800• &#caeaf5Взрывоустойчивость 5 (&#e6a500v. 4&#caeaf5)"
-      - "   &#ccb800• &#caeaf5Подводное дыхание 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Бесконечность 1"
       - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Разящий клинок 3"
+      - "   &#ccb800• &#caeaf5Добыча 3"
+      - "   &#ccb800• &#caeaf5Острота 6 (&#e6a500v. 5&#caeaf5)"
       - " "
       - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
       - " "
@@ -305,7 +295,7 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 600
+          amount: 300
           deny_commands:
             - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
         item_check_slot:
@@ -315,13 +305,13 @@ items:
           deny_commands:
             - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
     left_click_commands:
-      - "[takemoney] 600"
+      - "[takemoney] 300"
       - "[refresh]"
-      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
-      - "[console] minecraft:give %player_name% minecraft:netherite_helmet[enchantments={levels:{aqua_affinity:1,mending:1,blast_protection:5,respiration:4,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,blast_protection:5,respiration:4,unbreaking:4{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:netherite_sword[enchantments={levels:{infinity:1,unbreaking:4,sweeping_edge:3,looting:3,sharpness:6}}] 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_sword{#caeaf5} с зачарованием{#55ff55}infinity:1,unbreaking:4,sweeping_edge:3,looting:3,sharpness:6{#caeaf5} | 1 -> {#55ff55}300$"
   Unique_name_23:
-    material: NETHERITE_HELMET
+    material: NETHERITE_SWORD
     slot: 23
     update: true
     item_flags:
@@ -330,18 +320,17 @@ items:
       - HIDE_ADDITIONAL_TOOLTIP
     enchantments:
       - MENDING;1
-    display_name: "&#caeaf5Незеритовый шлем"
+    display_name: "&#caeaf5Незеритовый меч"
     lore:
       - " "
-      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600$"
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55300$"
       - " "
       - "&#ccb800 * &#caeaf5Зачарования:"
-      - "   &#ccb800• &#caeaf5Подводник 1"
-      - "   &#ccb800• &#caeaf5Починка 1"
-      - "   &#ccb800• &#caeaf5Взрывоустойчивость 5 (&#e6a500v. 4&#caeaf5)"
-      - "   &#ccb800• &#caeaf5Подводное дыхание 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Бесконечность 1"
       - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
-      - "   &#ccb800• &#caeaf5Шипы 3"
+      - "   &#ccb800• &#caeaf5Разящий клинок 3"
+      - "   &#ccb800• &#caeaf5Добыча 3"
+      - "   &#ccb800• &#caeaf5Бич членистоногих 6 (&#e6a500v. 5&#caeaf5)"
       - " "
       - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
       - " "
@@ -350,7 +339,7 @@ items:
       requirements:
         balance_check:
           type: has money
-          amount: 600
+          amount: 300
           deny_commands:
             - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
         item_check_slot:
@@ -360,8 +349,8 @@ items:
           deny_commands:
             - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
     left_click_commands:
-      - "[takemoney] 600"
+      - "[takemoney] 300"
       - "[refresh]"
-      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
-      - "[console] minecraft:give %player_name% minecraft:netherite_helmet[enchantments={levels:{aqua_affinity:1,mending:1,blast_protection:5,respiration:4,unbreaking:4,thorns:3}}] 1"
-      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_helmet{#caeaf5} с зачарованием{#55ff55}aqua_affinity:1,mending:1,blast_protection:5,respiration:4,unbreaking:4,thorns:3{#caeaf5} | 1 -> {#55ff55}600$"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-300&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:netherite_sword[enchantments={levels:{infinity:1,unbreaking:4,sweeping_edge:3,looting:3,bane_of_arthropods:6}}] 1"
+      - "[console] staffmsg {#caeaf5} %player_name% приобрел {#55ff55}netherite_sword{#caeaf5} с зачарованием{#55ff55}infinity:1,unbreaking:4,sweeping_edge:3,looting:3,bane_of_arthropods:6{#caeaf5} | 1 -> {#55ff55}300$"

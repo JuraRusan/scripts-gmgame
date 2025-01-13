@@ -84,7 +84,6 @@ export const armors = [
     slots: [11, 12, 13, 14, 15, 21, 22, 23],
     save: "shops_turtle_helmet.yml",
     title: "Черепашьи панцири",
-    command: "deluxe_menu_shops_turtle_helmets",
     list: [
       {
         material: "TURTLE_HELMET",
@@ -147,7 +146,6 @@ export const armors = [
     slots: [11, 12, 13, 14, 15, 21, 22, 23],
     save: "shops_netherite_helmet.yml",
     title: "Незеритовые шлемы",
-    command: "deluxe_menu_shops_netherite_helmets",
     list: [
       {
         material: "NETHERITE_HELMET",
@@ -210,7 +208,6 @@ export const armors = [
     slots: [11, 12, 13, 14, 15, 21, 22, 23],
     save: "shops_netherite_chestplate.yml",
     title: "Незеритовые нагрудник",
-    command: "deluxe_menu_shops_netherite_chestplates",
     list: [
       {
         material: "NETHERITE_CHESTPLATE",
@@ -266,7 +263,6 @@ export const armors = [
     slots: [11, 12, 13, 14, 15, 21, 22, 23],
     save: "shops_netherite_leggings.yml",
     title: "Незеритовые поножи",
-    command: "deluxe_menu_shops_netherite_leggings",
     list: [
       {
         material: "NETHERITE_LEGGINGS",
@@ -322,7 +318,6 @@ export const armors = [
     slots: [11, 12, 13, 14, 15, 21, 22, 23],
     save: "shops_netherite_boots.yml",
     title: "Незеритовые ботинки",
-    command: "deluxe_menu_shops_netherite_boots",
     list: [
       {
         material: "NETHERITE_BOOTS",
@@ -375,10 +370,9 @@ export const armors = [
     ],
   },
   {
-    slots: [11, 12, 13, 14, 15, 21, 22, 23],
+    slots: [11, 12, 13, 14, 15, 21, 22, 23, 27, 28, 34, 35],
     save: "shops_item.yml",
     title: "Инструменты",
-    command: "deluxe_menu_shops_item",
     list: [
       {
         material: "NETHERITE_PICKAXE",
@@ -427,6 +421,85 @@ export const armors = [
         name: "Незеритовая мотыга",
         amount: 300,
         enchantments: { efficiency: 5, mending: 1, fortune: 4, unbreaking: 4 },
+      },
+      {
+        material: "SHIELD",
+        name: "Щит",
+        amount: 300,
+        enchantments: { mending: 1, unbreaking: 5 },
+      },
+      {
+        material: "FLINT_AND_STEEL",
+        name: "Огниво",
+        amount: 300,
+        enchantments: { mending: 1, unbreaking: 5 },
+      },
+      {
+        material: "SHEARS",
+        name: "Ножницы",
+        amount: 300,
+        enchantments: { efficiency: 5, mending: 1, unbreaking: 5 },
+      },
+      {
+        material: "FISHING_ROD",
+        name: "Удочка",
+        amount: 300,
+        enchantments: { lure: 4, luck_of_the_sea: 4, mending: 1, unbreaking: 4 },
+      },
+    ],
+  },
+  {
+    slots: [11, 12, 13, 14, 15, 21, 22, 23],
+    save: "shops_equipment.yml",
+    title: "Снаряжение",
+    list: [
+      {
+        material: "CROSSBOW",
+        name: "Арбалет",
+        amount: 300,
+        enchantments: { mending: 1, quick_charge: 4, piercing: 5, unbreaking: 4 },
+      },
+      {
+        material: "CROSSBOW",
+        name: "Арбалет",
+        amount: 300,
+        enchantments: { mending: 1, quick_charge: 4, multishot: 1, unbreaking: 4 },
+      },
+      {
+        material: "TRIDENT",
+        name: "Трезубец",
+        amount: 300,
+        enchantments: { riptide: 3, mending: 1, impaling: 6, unbreaking: 4 },
+      },
+      {
+        material: "BOW",
+        name: "Лук",
+        amount: 300,
+        enchantments: { mending: 1, unbreaking: 4, power: 6 },
+      },
+      {
+        material: "BOW",
+        name: "Лук",
+        amount: 300,
+        enchantments: { infinity: 1, unbreaking: 4, power: 6 },
+      },
+      {
+        material: "NETHERITE_SWORD",
+        name: "Незеритовый меч",
+        amount: 300,
+        enchantments: { infinity: 1, unbreaking: 4, sweeping_edge: 3, looting: 3, smite: 6 },
+      },
+      {
+        material: "NETHERITE_SWORD",
+        name: "Незеритовый меч",
+        amount: 300,
+        enchantments: { infinity: 1, unbreaking: 4, sweeping_edge: 3, looting: 3, sharpness: 6 },
+      },
+      {
+        material: "NETHERITE_SWORD",
+        name: "Незеритовый меч",
+        amount: 300,
+        enchantments: { infinity: 1, unbreaking: 4, sweeping_edge: 3, looting: 3, bane_of_arthropods: 6 },
       },
     ],
   },

@@ -1,5 +1,4 @@
 {
-  "register_command": false,
   "size": 54,
   "items": {
     "previous": {
@@ -8,18 +7,7 @@
       "priority": 1,
       "update": true,
       "display_name": "&#caeaf5  Назад  ",
-      "left_click_commands": [
-        "[refresh]",
-        "[openguimenu] main_shops"
-      ],
-      "right_click_commands": [
-        "[refresh]",
-        "[openguimenu] main_shops"
-      ],
-      "middle_click_commands": [
-        "[refresh]",
-        "[openguimenu] main_shops"
-      ]
+      "left_click_commands": ["[openguimenu] shops_main"]
     }
   }
 }

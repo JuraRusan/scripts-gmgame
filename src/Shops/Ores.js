@@ -211,7 +211,6 @@ const resultNoSell = itemNoKeys.reduce((acc, curr) => {
 }, {});
 
 result.menu_title = "Руды";
-result.open_command = "deluxe_menu_shops_ore";
 result = { ...result, ...template };
 result.items = { ...result.items, ...resultSell, ...resultNoSell };
 

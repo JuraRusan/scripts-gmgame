@@ -85,7 +85,6 @@ armors.map((element) => {
   }, {});
 
   result.menu_title = element.title;
-  result.open_command = element.command;
   result = { ...result, ...template };
   result.items = { ...result.items, ...res };
 

@@ -1,6 +1,4 @@
 menu_title: Черепашьи панцири
-open_command: deluxe_menu_shops_turtle_helmets
-register_command: false
 size: 54
 items:
   previous:
@@ -10,14 +8,7 @@ items:
     update: true
     display_name: "&#caeaf5  Назад  "
     left_click_commands:
-      - "[refresh]"
-      - "[openguimenu] main_shops"
-    right_click_commands:
-      - "[refresh]"
-      - "[openguimenu] main_shops"
-    middle_click_commands:
-      - "[refresh]"
-      - "[openguimenu] main_shops"
+      - "[openguimenu] shops_main"
   Unique_name_11:
     material: TURTLE_HELMET
     slot: 11
