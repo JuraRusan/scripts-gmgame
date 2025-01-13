@@ -89,6 +89,6 @@ armors.map((element) => {
   result = { ...result, ...template };
   result.items = { ...result.items, ...res };
 
-  fs.writeFileSync(`./server/Shops_1.21/${element.save}`, YAML.stringify(result, { lineWidth: 0 }));
+  fs.writeFileSync(`./server/Shops/${element.save}`, YAML.stringify(result, { lineWidth: 0 }));
   console.log("\x1b[32m" + `Create file ${element.save}` + "\x1b[0m");
 });

@@ -215,5 +215,5 @@ result.open_command = "deluxe_menu_shops_ore";
 result = { ...result, ...template };
 result.items = { ...result.items, ...resultSell, ...resultNoSell };
 
-fs.writeFileSync("./server/Shops_1.21/shops_ore.yml", YAML.stringify(template, { lineWidth: -1 }));
+fs.writeFileSync("./server/Shops/shops_ore.yml", YAML.stringify(template, { lineWidth: -1 }));
 console.log("\x1b[32m" + "Create file shops_ore.yml" + "\x1b[0m");
