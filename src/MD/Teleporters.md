@@ -1,4 +1,5 @@
 # С лимитом 1x
+
 - `/give prestig9110 minecraft:rib_armor_trim_smithing_template{HideFlags:32} 1`
 - `/cmi itemname {#caeaf5}Фермерский мир`
 - `/cmi attachcommand !right!;;!limiteduse:1!;;asConsole! cmi server farmworld [playerName]`
@@ -13,9 +14,8 @@
 - `/cmi itemname {#caeaf5}Ресурсный мир`
 - `/cmi attachcommand !right!;;!limiteduse:1!;;asConsole! cmi server resourcesworld [playerName]`
 
-
-
 # С лимитом 8x
+
 - `/give prestig9110 minecraft:dune_armor_trim_smithing_template{HideFlags:32} 1`
 - `/cmi itemname {#caeaf5}Фермерский мир`
 - `/cmi attachcommand !right!;;!limiteduse:8!;;asConsole! cmi server farmworld [playerName]`
@@ -30,9 +30,8 @@
 - `/cmi itemname {#caeaf5}Ресурсный мир`
 - `/cmi attachcommand !right!;;!limiteduse:8!;;asConsole! cmi server resourcesworld [playerName]`
 
-
-
 # С лимитом 128x
+
 - `/give prestig9110 minecraft:sentry_armor_trim_smithing_template{HideFlags:32} 1`
 - `/cmi itemname {#caeaf5}Фермерский мир`
 - `/cmi attachcommand !right!;;!limiteduse:128!;;asConsole! cmi server farmworld [playerName]`
@@ -47,9 +46,8 @@
 - `/cmi itemname {#caeaf5}Ресурсный мир`
 - `/cmi attachcommand !right!;;!limiteduse:128!;;asConsole! cmi server resourcesworld [playerName]`
 
-
-
 # Без лимита
+
 - `/give prestig9110 minecraft:ward_armor_trim_smithing_template{HideFlags:32} 1`
 - `/cmi itemname {#caeaf5}Фермерский мир`
 - `/cmi attachcommand !right!;;asConsole! cmi server farmworld [playerName]`

@@ -7,7 +7,9 @@
       "priority": 1,
       "update": true,
       "display_name": "&#caeaf5  Назад  ",
-      "left_click_commands": ["[openguimenu] shops_main"]
+      "left_click_commands": [
+        "[openguimenu] shops_main"
+      ]
     }
   }
 }
