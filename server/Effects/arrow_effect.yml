@@ -8,8 +8,7 @@ open_requirement:
       type: has permission
       permission: gmgame.effect.arrow.menu
       deny_commands:
-        - "[message] &#f42f31 Ошибка:&#caeaf5 Вы не можете выполнить данную
-          команду или неверный аргумент!"
+        - "[message] &#f42f31 Ошибка:&#caeaf5 Вы не можете выполнить данную команду или неверный аргумент!"
 size: 36
 update_interval: 1
 items:
@@ -35,11 +34,9 @@ items:
           type: "!has permission"
           permission: gmgame.effect.arrow.1.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.1.server.gmgame"
+      - "[console] lp user %player_name% permission set gmgame.effect.arrow.1.server.gmgame"
       - "[console] ppo %player_name% add composter arrows"
-      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
-        &#e6a500composter&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль: &#e6a500composter&#caeaf5)"
       - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
       - "[refresh]"
   id_particles_1_switched_on_slot_10:
@@ -66,11 +63,9 @@ items:
           type: has permission
           permission: gmgame.effect.arrow.1.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.1.server.gmgame"
+      - "[console] lp user %player_name% permission unset gmgame.effect.arrow.1.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
-      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
-        &#e6a500composter&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль: &#e6a500composter&#caeaf5)"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
   id_particles_1_something_is_interfering_1_slot_10:
@@ -299,11 +294,9 @@ items:
           type: "!has permission"
           permission: gmgame.effect.arrow.2.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.2.server.gmgame"
+      - "[console] lp user %player_name% permission set gmgame.effect.arrow.2.server.gmgame"
       - "[console] ppo %player_name% add enchanted_hit arrows"
-      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
-        &#e6a500enchanted_hit&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль: &#e6a500enchanted_hit&#caeaf5)"
       - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
       - "[refresh]"
   id_particles_2_switched_on_slot_11:
@@ -330,11 +323,9 @@ items:
           type: has permission
           permission: gmgame.effect.arrow.2.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.2.server.gmgame"
+      - "[console] lp user %player_name% permission unset gmgame.effect.arrow.2.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
-      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
-        &#e6a500enchanted_hit&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль: &#e6a500enchanted_hit&#caeaf5)"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
   id_particles_2_something_is_interfering_1_slot_11:
@@ -563,11 +554,9 @@ items:
           type: "!has permission"
           permission: gmgame.effect.arrow.3.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.3.server.gmgame"
+      - "[console] lp user %player_name% permission set gmgame.effect.arrow.3.server.gmgame"
       - "[console] ppo %player_name% add enchant arrows"
-      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
-        &#e6a500enchant&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль: &#e6a500enchant&#caeaf5)"
       - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
       - "[refresh]"
   id_particles_3_switched_on_slot_12:
@@ -594,11 +583,9 @@ items:
           type: has permission
           permission: gmgame.effect.arrow.3.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.3.server.gmgame"
+      - "[console] lp user %player_name% permission unset gmgame.effect.arrow.3.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
-      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
-        &#e6a500enchant&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль: &#e6a500enchant&#caeaf5)"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
   id_particles_3_something_is_interfering_1_slot_12:
@@ -827,11 +814,9 @@ items:
           type: "!has permission"
           permission: gmgame.effect.arrow.4.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.4.server.gmgame"
+      - "[console] lp user %player_name% permission set gmgame.effect.arrow.4.server.gmgame"
       - "[console] ppo %player_name% add scrape arrows"
-      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
-        &#e6a500scrape&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль: &#e6a500scrape&#caeaf5)"
       - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
       - "[refresh]"
   id_particles_4_switched_on_slot_13:
@@ -858,11 +843,9 @@ items:
           type: has permission
           permission: gmgame.effect.arrow.4.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.4.server.gmgame"
+      - "[console] lp user %player_name% permission unset gmgame.effect.arrow.4.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
-      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
-        &#e6a500scrape&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль: &#e6a500scrape&#caeaf5)"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
   id_particles_4_something_is_interfering_1_slot_13:
@@ -1091,11 +1074,9 @@ items:
           type: "!has permission"
           permission: gmgame.effect.arrow.5.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.5.server.gmgame"
+      - "[console] lp user %player_name% permission set gmgame.effect.arrow.5.server.gmgame"
       - "[console] ppo %player_name% add totem_of_undying arrows"
-      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
-        &#e6a500totem_of_undying&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль: &#e6a500totem_of_undying&#caeaf5)"
       - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
       - "[refresh]"
   id_particles_5_switched_on_slot_14:
@@ -1122,11 +1103,9 @@ items:
           type: has permission
           permission: gmgame.effect.arrow.5.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.5.server.gmgame"
+      - "[console] lp user %player_name% permission unset gmgame.effect.arrow.5.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
-      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
-        &#e6a500totem_of_undying&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль: &#e6a500totem_of_undying&#caeaf5)"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
   id_particles_5_something_is_interfering_1_slot_14:
@@ -1355,11 +1334,9 @@ items:
           type: "!has permission"
           permission: gmgame.effect.arrow.6.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.6.server.gmgame"
+      - "[console] lp user %player_name% permission set gmgame.effect.arrow.6.server.gmgame"
       - "[console] ppo %player_name% add soul_fire_flame arrows"
-      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
-        &#e6a500soul_fire_flame&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль: &#e6a500soul_fire_flame&#caeaf5)"
       - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
       - "[refresh]"
   id_particles_6_switched_on_slot_15:
@@ -1386,11 +1363,9 @@ items:
           type: has permission
           permission: gmgame.effect.arrow.6.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.6.server.gmgame"
+      - "[console] lp user %player_name% permission unset gmgame.effect.arrow.6.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
-      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
-        &#e6a500soul_fire_flame&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль: &#e6a500soul_fire_flame&#caeaf5)"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
   id_particles_6_something_is_interfering_1_slot_15:
@@ -1619,11 +1594,9 @@ items:
           type: "!has permission"
           permission: gmgame.effect.arrow.7.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.7.server.gmgame"
+      - "[console] lp user %player_name% permission set gmgame.effect.arrow.7.server.gmgame"
       - "[console] ppo %player_name% add flame arrows"
-      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
-        &#e6a500flame&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль: &#e6a500flame&#caeaf5)"
       - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
       - "[refresh]"
   id_particles_7_switched_on_slot_16:
@@ -1650,11 +1623,9 @@ items:
           type: has permission
           permission: gmgame.effect.arrow.7.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.7.server.gmgame"
+      - "[console] lp user %player_name% permission unset gmgame.effect.arrow.7.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
-      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
-        &#e6a500flame&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль: &#e6a500flame&#caeaf5)"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
   id_particles_7_something_is_interfering_1_slot_16:
@@ -1883,11 +1854,9 @@ items:
           type: "!has permission"
           permission: gmgame.effect.arrow.8.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.8.server.gmgame"
+      - "[console] lp user %player_name% permission set gmgame.effect.arrow.8.server.gmgame"
       - "[console] ppo %player_name% add glow arrows"
-      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
-        &#e6a500glow&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль: &#e6a500glow&#caeaf5)"
       - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
       - "[refresh]"
   id_particles_8_switched_on_slot_20:
@@ -1914,11 +1883,9 @@ items:
           type: has permission
           permission: gmgame.effect.arrow.8.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.8.server.gmgame"
+      - "[console] lp user %player_name% permission unset gmgame.effect.arrow.8.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
-      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
-        &#e6a500glow&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль: &#e6a500glow&#caeaf5)"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
   id_particles_8_something_is_interfering_1_slot_20:
@@ -2147,11 +2114,9 @@ items:
           type: "!has permission"
           permission: gmgame.effect.arrow.9.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.9.server.gmgame"
+      - "[console] lp user %player_name% permission set gmgame.effect.arrow.9.server.gmgame"
       - "[console] ppo %player_name% add snowflake arrows"
-      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
-        &#e6a500snowflake&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль: &#e6a500snowflake&#caeaf5)"
       - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
       - "[refresh]"
   id_particles_9_switched_on_slot_21:
@@ -2178,11 +2143,9 @@ items:
           type: has permission
           permission: gmgame.effect.arrow.9.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.9.server.gmgame"
+      - "[console] lp user %player_name% permission unset gmgame.effect.arrow.9.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
-      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
-        &#e6a500snowflake&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль: &#e6a500snowflake&#caeaf5)"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
   id_particles_9_something_is_interfering_1_slot_21:
@@ -2411,11 +2374,9 @@ items:
           type: "!has permission"
           permission: gmgame.effect.arrow.10.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.10.server.gmgame"
+      - "[console] lp user %player_name% permission set gmgame.effect.arrow.10.server.gmgame"
       - "[console] ppo %player_name% add witch arrows"
-      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
-        &#e6a500witch&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль: &#e6a500witch&#caeaf5)"
       - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
       - "[refresh]"
   id_particles_10_switched_on_slot_22:
@@ -2442,11 +2403,9 @@ items:
           type: has permission
           permission: gmgame.effect.arrow.10.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.10.server.gmgame"
+      - "[console] lp user %player_name% permission unset gmgame.effect.arrow.10.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
-      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
-        &#e6a500witch&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль: &#e6a500witch&#caeaf5)"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
   id_particles_10_something_is_interfering_1_slot_22:
@@ -2675,11 +2634,9 @@ items:
           type: "!has permission"
           permission: gmgame.effect.arrow.11.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.11.server.gmgame"
+      - "[console] lp user %player_name% permission set gmgame.effect.arrow.11.server.gmgame"
       - "[console] ppo %player_name% add wax_off arrows"
-      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
-        &#e6a500wax_off&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль: &#e6a500wax_off&#caeaf5)"
       - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
       - "[refresh]"
   id_particles_11_switched_on_slot_23:
@@ -2706,11 +2663,9 @@ items:
           type: has permission
           permission: gmgame.effect.arrow.11.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.11.server.gmgame"
+      - "[console] lp user %player_name% permission unset gmgame.effect.arrow.11.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
-      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
-        &#e6a500wax_off&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль: &#e6a500wax_off&#caeaf5)"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
   id_particles_11_something_is_interfering_1_slot_23:
@@ -2939,11 +2894,9 @@ items:
           type: "!has permission"
           permission: gmgame.effect.arrow.12.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission set
-        gmgame.effect.arrow.12.server.gmgame"
+      - "[console] lp user %player_name% permission set gmgame.effect.arrow.12.server.gmgame"
       - "[console] ppo %player_name% add wax_on arrows"
-      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль:
-        &#e6a500wax_on&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно включили себе частицы! (Стиль: &#e6a500wax_on&#caeaf5)"
       - "[sound] ENTITY_EXPERIENCE_ORB_PICKUP"
       - "[refresh]"
   id_particles_12_switched_on_slot_24:
@@ -2970,11 +2923,9 @@ items:
           type: has permission
           permission: gmgame.effect.arrow.12.server.gmgame
     left_click_commands:
-      - "[console] lp user %player_name% permission unset
-        gmgame.effect.arrow.12.server.gmgame"
+      - "[console] lp user %player_name% permission unset gmgame.effect.arrow.12.server.gmgame"
       - "[console] ppo %player_name% remove arrows"
-      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль:
-        &#e6a500wax_on&#caeaf5)"
+      - "[message] &#caeaf5 Вы успешно выключили себе частицы! (Стиль: &#e6a500wax_on&#caeaf5)"
       - "[sound] BLOCK_NOTE_BLOCK_CHIME"
       - "[refresh]"
   id_particles_12_something_is_interfering_1_slot_24:

@@ -129,5 +129,5 @@ const res = itemKeys.reduce((acc, curr, index) => {
 
 template.items = { ...template.items, ...res };
 
-fs.writeFileSync("./server/Effects/arrow_effect.yml", YAML.stringify(template));
+fs.writeFileSync("./server/Effects/arrow_effect.yml", YAML.stringify(template, { lineWidth: 0 }));
 console.log("\x1b[32m" + "Create file arrow_effect.yml" + "\x1b[0m");
