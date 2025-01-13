@@ -6,22 +6,28 @@
 debug: false
 check_updates: true
 gui_menus:
-  # -------------------- shops --------------------
+  # -------------------- Shops --------------------
   shops_main:
-    file: spawn_shops/main_shops.yml
+    file: Shops/main_shops.yml
   shops_ore:
-    file: spawn_shops/shops_ore.yml
+    file: Shops/shops_ore.yml
   shops_item:
-    file: spawn_shops/shops_item.yml
+    file: Shops/shops_item.yml
   shops_equipment:
-    file: spawn_shops/shops_equipment.yml
+    file: Shops/shops_equipment.yml
   shops_turtle_helmet:
-    file: spawn_shops/shops_turtle_helmet.yml
+    file: Shops/shops_turtle_helmet.yml
   shops_netherite_helmet:
-    file: spawn_shops/shops_netherite_helmet.yml
+    file: Shops/shops_netherite_helmet.yml
   shops_netherite_chestplate:
-    file: spawn_shops/shops_netherite_chestplate.yml
+    file: Shops/shops_netherite_chestplate.yml
   shops_netherite_leggings:
-    file: spawn_shops/shops_netherite_leggings.yml
+    file: Shops/shops_netherite_leggings.yml
   shops_netherite_boots:
-    file: spawn_shops/shops_netherite_boots.yml
+    file: Shops/shops_netherite_boots.yml
+  # -------------------- Effects --------------------
+  arrow_effect:
+    file: Effects/arrow_effect.yml
+  # -------------------- Casino --------------------
+  casino_netherite_axe:
+    file: Casino/casino_netherite_axe.yml

@@ -504,3 +504,115 @@ export const armors = [
     ],
   },
 ];
+
+export const casino = [
+  {
+    slots: [10, 16, 20, 24, 22],
+    save: "casino_netherite_axe.yml",
+    open_command: "casino_netherite_axe_menu",
+    material: "NETHERITE_PICKAXE",
+    name: "Незеритовая кирка",
+    list: [
+      {
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 6,
+          },
+          mending: 1,
+          silk_touch: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 6,
+          },
+          mending: 1,
+          fortune: {
+            min: 1,
+            max: 4,
+          },
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        amount: 250,
+        token: {
+          min: 0,
+          max: 5,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 8,
+          },
+          mending: 1,
+          silk_touch: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        amount: 250,
+        token: {
+          min: 0,
+          max: 5,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 8,
+          },
+          mending: 1,
+          fortune: {
+            min: 1,
+            max: 4,
+          },
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        amount: 225,
+        token: {
+          min: 0,
+          max: 4,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 8,
+          },
+          mending: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+    ],
+  },
+];
