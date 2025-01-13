@@ -3,7 +3,7 @@ import fs from "fs-extra";
 
 import template from "./_sample.json" assert { type: "json" };
 
-import { casino, defaultEnchantments } from "../Data/Static.js";
+import { casino, defaultEnchantments, token } from "../Data/Static.js";
 
 const chance = "<chance=10>";
 
@@ -29,16 +29,16 @@ casino.map((element) => {
     });
 
     acc[`Unique_name_${slot}`] = {
-      material: element.material,
+      material: item.material,
       slot: slot,
       update: true,
       item_flags: ["HIDE_ATTRIBUTES", "HIDE_ENCHANTS", "HIDE_ADDITIONAL_TOOLTIP"],
       enchantments: ["MENDING;1"],
-      display_name: `&#caeaf5${element.name}`,
+      display_name: `&#caeaf5${item.name}`,
       lore: [
         " ",
         `&#ccb800 * &#caeaf5Игрок делает ставку: &#55ff55${amountFormat}$`,
-        `&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff55${element.name}`,
+        `&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff55${item.name}`,
         `&#ccb800 * &#caeaf5Шанс выигрыша — &#55ff5510%`,
         `&#ccb800 * &#caeaf5Уникальный приз: &#55ff55${item.token.min}&#caeaf5-&#55ff55${item.token.max}`,
         " ",
@@ -89,8 +89,9 @@ casino.map((element) => {
         "[console] balance %player_name%",
         // "[close]",
         `[message] &#caeaf5 Вы сыграли в ставку! (&#e6a500-${amountFormat}&#caeaf5)`,
-        `[console] ${chance} minecraft:give %player_name% minecraft:${element.material.toLowerCase()}[enchantments={levels:{${lineEnchantments}}}] 1`,
-        `[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}${element.material.toLowerCase()}{#caeaf5} с зачарованием {#55ff55}${lineEnchantments} {#caeaf5}| 1 -> {#55ff55}${amountFormat}$`,
+        `[console] ${chance} minecraft:give %player_name% minecraft:${item.material.toLowerCase()}[enchantments={levels:{${lineEnchantments}}}] 1`,
+        `[console] minecraft:give %player_name% minecraft:${token} %cmi_random_${item.token.min}_${item.token.max}%`,
+        `[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}${item.material.toLowerCase()}{#caeaf5} с зачарованием {#55ff55}${lineEnchantments} {#caeaf5}| 1 -> {#55ff55}${amountFormat}$`,
       ],
     };
 

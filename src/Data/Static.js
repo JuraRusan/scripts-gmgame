@@ -34,6 +34,8 @@ export const yes_sell = [
 
 export const no_sell = [{ material: "budding_amethyst", name: "Цветущий аметист", amount: 280 }];
 
+export const token = `paper[custom_name='["",{"text":"Уникальный токен предмет","color":"#3399ff"}]',lore=['["",{"text":" ","color":"gray"}]','["",{"text":" * ","italic":false,"color":"aqua"},{"text":"Токен предмет защищен от подделки","color":"gray"}]','["",{"text":" ","color":"gray","italic":false},{"text":"*","italic":false,"color":"aqua"},{"text":" ","italic":false,"color":"gray"},{"text":"и предназначенный только для","color":"gray"}]','["",{"text":" ","italic":false},{"text":"*","italic":false,"color":"aqua"},{"text":" ","italic":false},{"text":"использования в казино для того что бы...","color":"gray"}]','[""]','["",{"text":" ","italic":false},{"text":"*","italic":false,"color":"aqua"},{"text":" ","italic":false},{"text":"Но это совсем другая история...","color":"gray"}]'],enchantments={levels:{unbreaking:10},show_in_tooltip:false}]`;
+
 export const defaultEnchantments = {
   mending: { lv: 1, name: "Починка" },
   soul_speed: { lv: 3, name: "Скорость души" },
@@ -508,12 +510,12 @@ export const armors = [
 export const casino = [
   {
     slots: [10, 16, 20, 24, 22],
-    save: "casino_netherite_axe.yml",
-    open_command: "casino_netherite_axe_menu",
-    material: "NETHERITE_PICKAXE",
-    name: "Незеритовая кирка",
+    save: "casino_netherite_pickaxe.yml",
+    open_command: "casino_netherite_pickaxe_menu",
     list: [
       {
+        material: "NETHERITE_PICKAXE",
+        name: "Незеритовая кирка",
         amount: 50,
         token: {
           min: 0,
@@ -533,6 +535,8 @@ export const casino = [
         },
       },
       {
+        material: "NETHERITE_PICKAXE",
+        name: "Незеритовая кирка",
         amount: 50,
         token: {
           min: 0,
@@ -555,6 +559,8 @@ export const casino = [
         },
       },
       {
+        material: "NETHERITE_PICKAXE",
+        name: "Незеритовая кирка",
         amount: 250,
         token: {
           min: 0,
@@ -574,6 +580,8 @@ export const casino = [
         },
       },
       {
+        material: "NETHERITE_PICKAXE",
+        name: "Незеритовая кирка",
         amount: 250,
         token: {
           min: 0,
@@ -596,6 +604,8 @@ export const casino = [
         },
       },
       {
+        material: "NETHERITE_PICKAXE",
+        name: "Незеритовая кирка",
         amount: 225,
         token: {
           min: 0,
@@ -610,6 +620,638 @@ export const casino = [
           unbreaking: {
             min: 1,
             max: 5,
+          },
+        },
+      },
+    ],
+  },
+  {
+    slots: [10, 16, 20, 24, 22],
+    save: "casino_netherite_axe.yml",
+    open_command: "casino_netherite_axe_menu",
+    list: [
+      {
+        material: "NETHERITE_AXE",
+        name: "Незеритовый топор",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 6,
+          },
+          mending: 1,
+          silk_touch: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        material: "NETHERITE_AXE",
+        name: "Незеритовый топор",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 6,
+          },
+          mending: 1,
+          fortune: {
+            min: 1,
+            max: 4,
+          },
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        material: "NETHERITE_AXE",
+        name: "Незеритовый топор",
+        amount: 250,
+        token: {
+          min: 0,
+          max: 5,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 8,
+          },
+          mending: 1,
+          silk_touch: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        material: "NETHERITE_AXE",
+        name: "Незеритовый топор",
+        amount: 250,
+        token: {
+          min: 0,
+          max: 5,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 8,
+          },
+          mending: 1,
+          fortune: {
+            min: 1,
+            max: 4,
+          },
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        material: "NETHERITE_AXE",
+        name: "Незеритовый топор",
+        amount: 225,
+        token: {
+          min: 0,
+          max: 4,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 8,
+          },
+          mending: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+    ],
+  },
+  {
+    slots: [10, 16, 20, 24, 22],
+    save: "casino_netherite_shovel.yml",
+    open_command: "casino_netherite_shovel_menu",
+    list: [
+      {
+        material: "NETHERITE_SHOVEL",
+        name: "Незеритовая лопата",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 6,
+          },
+          mending: 1,
+          silk_touch: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        material: "NETHERITE_SHOVEL",
+        name: "Незеритовая лопата",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 6,
+          },
+          mending: 1,
+          fortune: {
+            min: 1,
+            max: 4,
+          },
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        material: "NETHERITE_SHOVEL",
+        name: "Незеритовая лопата",
+        amount: 250,
+        token: {
+          min: 0,
+          max: 5,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 8,
+          },
+          mending: 1,
+          silk_touch: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        material: "NETHERITE_SHOVEL",
+        name: "Незеритовая лопата",
+        amount: 250,
+        token: {
+          min: 0,
+          max: 5,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 8,
+          },
+          mending: 1,
+          fortune: {
+            min: 1,
+            max: 4,
+          },
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        material: "NETHERITE_SHOVEL",
+        name: "Незеритовая лопата",
+        amount: 225,
+        token: {
+          min: 0,
+          max: 4,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 8,
+          },
+          mending: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+    ],
+  },
+  {
+    slots: [10, 16, 20, 24, 22],
+    save: "casino_netherite_hoe.yml",
+    open_command: "casino_netherite_hoe_menu",
+    list: [
+      {
+        material: "NETHERITE_HOE",
+        name: "Незеритовая мотыга",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 6,
+          },
+          mending: 1,
+          silk_touch: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        material: "NETHERITE_HOE",
+        name: "Незеритовая мотыга",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 6,
+          },
+          mending: 1,
+          fortune: {
+            min: 1,
+            max: 4,
+          },
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        material: "NETHERITE_HOE",
+        name: "Незеритовая мотыга",
+        amount: 250,
+        token: {
+          min: 0,
+          max: 5,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 8,
+          },
+          mending: 1,
+          silk_touch: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        material: "NETHERITE_HOE",
+        name: "Незеритовая мотыга",
+        amount: 250,
+        token: {
+          min: 0,
+          max: 5,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 8,
+          },
+          mending: 1,
+          fortune: {
+            min: 1,
+            max: 4,
+          },
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        material: "NETHERITE_HOE",
+        name: "Незеритовая мотыга",
+        amount: 225,
+        token: {
+          min: 0,
+          max: 4,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 8,
+          },
+          mending: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+    ],
+  },
+  {
+    slots: [10, 16, 20, 24, 22],
+    save: "casino_item.yml",
+    open_command: "casino_item_menu",
+    list: [
+      {
+        material: "SHIELD",
+        name: "Щит",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          mending: 1,
+          unbreaking: {
+            min: 1,
+            max: 6,
+          },
+        },
+      },
+      {
+        material: "FLINT_AND_STEEL",
+        name: "Огниво",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          mending: 1,
+          unbreaking: {
+            min: 1,
+            max: 6,
+          },
+        },
+      },
+      {
+        material: "SHEARS",
+        name: "Ножницы",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          efficiency: {
+            min: 1,
+            max: 6,
+          },
+          mending: 1,
+          unbreaking: {
+            min: 1,
+            max: 7,
+          },
+        },
+      },
+      {
+        material: "FISHING_ROD",
+        name: "Удочка",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          mending: 1,
+          unbreaking: {
+            min: 1,
+            max: 6,
+          },
+          lure: {
+            min: 1,
+            max: 4,
+          },
+          luck_of_the_sea: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+    ],
+  },
+  {
+    slots: [11, 12, 14, 15, 19, 20, 24, 25],
+    save: "casino_equipment.yml",
+    open_command: "casino_equipment_menu",
+    list: [
+      {
+        material: "BOW",
+        name: "Лук",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          mending: 1,
+          flame: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+          power: {
+            min: 1,
+            max: 6,
+          },
+          punch: {
+            min: 1,
+            max: 3,
+          },
+        },
+      },
+      {
+        material: "BOW",
+        name: "Лук",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          infinity: 1,
+          flame: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+          power: {
+            min: 1,
+            max: 6,
+          },
+          punch: {
+            min: 1,
+            max: 3,
+          },
+        },
+      },
+      {
+        material: "BOW",
+        name: "Лук",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          mending: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+          power: {
+            min: 1,
+            max: 6,
+          },
+          punch: {
+            min: 1,
+            max: 3,
+          },
+        },
+      },
+      {
+        material: "BOW",
+        name: "Лук",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          infinity: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+          power: {
+            min: 1,
+            max: 6,
+          },
+          punch: {
+            min: 1,
+            max: 3,
+          },
+        },
+      },
+      {
+        material: "CROSSBOW",
+        name: "Арбалет",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          mending: 1,
+          multishot: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+          quick_charge: {
+            min: 1,
+            max: 4,
+          },
+        },
+      },
+      {
+        material: "CROSSBOW",
+        name: "Арбалет",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          mending: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+          quick_charge: {
+            min: 1,
+            max: 4,
+          },
+          piercing: {
+            min: 1,
+            max: 5,
+          },
+        },
+      },
+      {
+        material: "TRIDENT",
+        name: "Трезубец",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          mending: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+          riptide: {
+            min: 1,
+            max: 4,
+          },
+          impaling: {
+            min: 1,
+            max: 6,
+          },
+        },
+      },
+      {
+        material: "TRIDENT",
+        name: "Трезубец",
+        amount: 50,
+        token: {
+          min: 0,
+          max: 1,
+        },
+        enchantments: {
+          mending: 1,
+          unbreaking: {
+            min: 1,
+            max: 5,
+          },
+          loyalty: {
+            min: 1,
+            max: 4,
+          },
+          impaling: {
+            min: 1,
+            max: 6,
           },
         },
       },

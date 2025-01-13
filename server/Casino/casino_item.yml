@@ -1,0 +1,192 @@
+open_command: casino_item_menu
+menu_title: Казино
+size: 36
+register_command: false
+items:
+  Unique_name_10:
+    material: SHIELD
+    slot: 10
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    enchantments:
+      - MENDING;1
+    display_name: "&#caeaf5Щит"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок делает ставку: &#55ff5550$"
+      - "&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff55Щит"
+      - "&#ccb800 * &#caeaf5Шанс выигрыша — &#55ff5510%"
+      - "&#ccb800 * &#caeaf5Уникальный приз: &#55ff550&#caeaf5-&#55ff551"
+      - " "
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800• &#caeaf5Починка 1"
+      - "   &#ccb800• &#caeaf5Прочность 1-6 (&#e6a500v. 3&#caeaf5)"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы выбрать"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 50
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    left_click_commands:
+      - "[console] balance %player_name%"
+      - "[takemoney] 50"
+      - "[console] balance %player_name%"
+      - "[message] &#caeaf5 Вы сыграли в ставку! (&#e6a500-50&#caeaf5)"
+      - "[console] <chance=10> minecraft:give %player_name% minecraft:shield[enchantments={levels:{mending:1,unbreaking:%cmi_random_1_6%}}] 1"
+      - "[console] minecraft:give %player_name% minecraft:paper[custom_name='[\"\",{\"text\":\"Уникальный токен предмет\",\"color\":\"#3399ff\"}]',lore=['[\"\",{\"text\":\" \",\"color\":\"gray\"}]','[\"\",{\"text\":\" * \",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"Токен предмет защищен от подделки\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"color\":\"gray\",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false,\"color\":\"gray\"},{\"text\":\"и предназначенный только для\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"использования в казино для того что бы...\",\"color\":\"gray\"}]','[\"\"]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"Но это совсем другая история...\",\"color\":\"gray\"}]'],enchantments={levels:{unbreaking:10},show_in_tooltip:false}] %cmi_random_0_1%"
+      - "[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}shield{#caeaf5} с зачарованием {#55ff55}mending:1,unbreaking:%cmi_random_1_6% {#caeaf5}| 1 -> {#55ff55}50$"
+  Unique_name_16:
+    material: FLINT_AND_STEEL
+    slot: 16
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    enchantments:
+      - MENDING;1
+    display_name: "&#caeaf5Огниво"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок делает ставку: &#55ff5550$"
+      - "&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff55Огниво"
+      - "&#ccb800 * &#caeaf5Шанс выигрыша — &#55ff5510%"
+      - "&#ccb800 * &#caeaf5Уникальный приз: &#55ff550&#caeaf5-&#55ff551"
+      - " "
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800• &#caeaf5Починка 1"
+      - "   &#ccb800• &#caeaf5Прочность 1-6 (&#e6a500v. 3&#caeaf5)"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы выбрать"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 50
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    left_click_commands:
+      - "[console] balance %player_name%"
+      - "[takemoney] 50"
+      - "[console] balance %player_name%"
+      - "[message] &#caeaf5 Вы сыграли в ставку! (&#e6a500-50&#caeaf5)"
+      - "[console] <chance=10> minecraft:give %player_name% minecraft:flint_and_steel[enchantments={levels:{mending:1,unbreaking:%cmi_random_1_6%}}] 1"
+      - "[console] minecraft:give %player_name% minecraft:paper[custom_name='[\"\",{\"text\":\"Уникальный токен предмет\",\"color\":\"#3399ff\"}]',lore=['[\"\",{\"text\":\" \",\"color\":\"gray\"}]','[\"\",{\"text\":\" * \",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"Токен предмет защищен от подделки\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"color\":\"gray\",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false,\"color\":\"gray\"},{\"text\":\"и предназначенный только для\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"использования в казино для того что бы...\",\"color\":\"gray\"}]','[\"\"]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"Но это совсем другая история...\",\"color\":\"gray\"}]'],enchantments={levels:{unbreaking:10},show_in_tooltip:false}] %cmi_random_0_1%"
+      - "[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}flint_and_steel{#caeaf5} с зачарованием {#55ff55}mending:1,unbreaking:%cmi_random_1_6% {#caeaf5}| 1 -> {#55ff55}50$"
+  Unique_name_20:
+    material: SHEARS
+    slot: 20
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    enchantments:
+      - MENDING;1
+    display_name: "&#caeaf5Ножницы"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок делает ставку: &#55ff5550$"
+      - "&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff55Ножницы"
+      - "&#ccb800 * &#caeaf5Шанс выигрыша — &#55ff5510%"
+      - "&#ccb800 * &#caeaf5Уникальный приз: &#55ff550&#caeaf5-&#55ff551"
+      - " "
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800• &#caeaf5Эффективность 1-6 (&#e6a500v. 5&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Починка 1"
+      - "   &#ccb800• &#caeaf5Прочность 1-7 (&#e6a500v. 3&#caeaf5)"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы выбрать"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 50
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    left_click_commands:
+      - "[console] balance %player_name%"
+      - "[takemoney] 50"
+      - "[console] balance %player_name%"
+      - "[message] &#caeaf5 Вы сыграли в ставку! (&#e6a500-50&#caeaf5)"
+      - "[console] <chance=10> minecraft:give %player_name% minecraft:shears[enchantments={levels:{efficiency:%cmi_random_1_6%,mending:1,unbreaking:%cmi_random_1_7%}}] 1"
+      - "[console] minecraft:give %player_name% minecraft:paper[custom_name='[\"\",{\"text\":\"Уникальный токен предмет\",\"color\":\"#3399ff\"}]',lore=['[\"\",{\"text\":\" \",\"color\":\"gray\"}]','[\"\",{\"text\":\" * \",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"Токен предмет защищен от подделки\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"color\":\"gray\",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false,\"color\":\"gray\"},{\"text\":\"и предназначенный только для\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"использования в казино для того что бы...\",\"color\":\"gray\"}]','[\"\"]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"Но это совсем другая история...\",\"color\":\"gray\"}]'],enchantments={levels:{unbreaking:10},show_in_tooltip:false}] %cmi_random_0_1%"
+      - "[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}shears{#caeaf5} с зачарованием {#55ff55}efficiency:%cmi_random_1_6%,mending:1,unbreaking:%cmi_random_1_7% {#caeaf5}| 1 -> {#55ff55}50$"
+  Unique_name_24:
+    material: FISHING_ROD
+    slot: 24
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    enchantments:
+      - MENDING;1
+    display_name: "&#caeaf5Удочка"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок делает ставку: &#55ff5550$"
+      - "&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff55Удочка"
+      - "&#ccb800 * &#caeaf5Шанс выигрыша — &#55ff5510%"
+      - "&#ccb800 * &#caeaf5Уникальный приз: &#55ff550&#caeaf5-&#55ff551"
+      - " "
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800• &#caeaf5Починка 1"
+      - "   &#ccb800• &#caeaf5Прочность 1-6 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Приманка 1-4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Везучий рыбак 1-5 (&#e6a500v. 3&#caeaf5)"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы выбрать"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 50
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    left_click_commands:
+      - "[console] balance %player_name%"
+      - "[takemoney] 50"
+      - "[console] balance %player_name%"
+      - "[message] &#caeaf5 Вы сыграли в ставку! (&#e6a500-50&#caeaf5)"
+      - "[console] <chance=10> minecraft:give %player_name% minecraft:fishing_rod[enchantments={levels:{mending:1,unbreaking:%cmi_random_1_6%,lure:%cmi_random_1_4%,luck_of_the_sea:%cmi_random_1_5%}}] 1"
+      - "[console] minecraft:give %player_name% minecraft:paper[custom_name='[\"\",{\"text\":\"Уникальный токен предмет\",\"color\":\"#3399ff\"}]',lore=['[\"\",{\"text\":\" \",\"color\":\"gray\"}]','[\"\",{\"text\":\" * \",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"Токен предмет защищен от подделки\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"color\":\"gray\",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false,\"color\":\"gray\"},{\"text\":\"и предназначенный только для\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"использования в казино для того что бы...\",\"color\":\"gray\"}]','[\"\"]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"Но это совсем другая история...\",\"color\":\"gray\"}]'],enchantments={levels:{unbreaking:10},show_in_tooltip:false}] %cmi_random_0_1%"
+      - "[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}fishing_rod{#caeaf5} с зачарованием {#55ff55}mending:1,unbreaking:%cmi_random_1_6%,lure:%cmi_random_1_4%,luck_of_the_sea:%cmi_random_1_5% {#caeaf5}| 1 -> {#55ff55}50$"

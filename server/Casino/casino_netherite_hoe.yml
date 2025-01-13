@@ -1,10 +1,10 @@
-open_command: casino_netherite_axe_menu
+open_command: casino_netherite_hoe_menu
 menu_title: Казино
 size: 36
 register_command: false
 items:
   Unique_name_10:
-    material: NETHERITE_AXE
+    material: NETHERITE_HOE
     slot: 10
     update: true
     item_flags:
@@ -13,11 +13,11 @@ items:
       - HIDE_ADDITIONAL_TOOLTIP
     enchantments:
       - MENDING;1
-    display_name: "&#caeaf5Незеритовый топор"
+    display_name: "&#caeaf5Незеритовая мотыга"
     lore:
       - " "
       - "&#ccb800 * &#caeaf5Игрок делает ставку: &#55ff5550$"
-      - "&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff55Незеритовый топор"
+      - "&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff55Незеритовая мотыга"
       - "&#ccb800 * &#caeaf5Шанс выигрыша — &#55ff5510%"
       - "&#ccb800 * &#caeaf5Уникальный приз: &#55ff550&#caeaf5-&#55ff551"
       - " "
@@ -48,11 +48,11 @@ items:
       - "[takemoney] 50"
       - "[console] balance %player_name%"
       - "[message] &#caeaf5 Вы сыграли в ставку! (&#e6a500-50&#caeaf5)"
-      - "[console] <chance=10> minecraft:give %player_name% minecraft:netherite_axe[enchantments={levels:{efficiency:%cmi_random_1_6%,mending:1,silk_touch:1,unbreaking:%cmi_random_1_5%}}] 1"
+      - "[console] <chance=10> minecraft:give %player_name% minecraft:netherite_hoe[enchantments={levels:{efficiency:%cmi_random_1_6%,mending:1,silk_touch:1,unbreaking:%cmi_random_1_5%}}] 1"
       - "[console] minecraft:give %player_name% minecraft:paper[custom_name='[\"\",{\"text\":\"Уникальный токен предмет\",\"color\":\"#3399ff\"}]',lore=['[\"\",{\"text\":\" \",\"color\":\"gray\"}]','[\"\",{\"text\":\" * \",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"Токен предмет защищен от подделки\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"color\":\"gray\",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false,\"color\":\"gray\"},{\"text\":\"и предназначенный только для\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"использования в казино для того что бы...\",\"color\":\"gray\"}]','[\"\"]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"Но это совсем другая история...\",\"color\":\"gray\"}]'],enchantments={levels:{unbreaking:10},show_in_tooltip:false}] %cmi_random_0_1%"
-      - "[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}netherite_axe{#caeaf5} с зачарованием {#55ff55}efficiency:%cmi_random_1_6%,mending:1,silk_touch:1,unbreaking:%cmi_random_1_5% {#caeaf5}| 1 -> {#55ff55}50$"
+      - "[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}netherite_hoe{#caeaf5} с зачарованием {#55ff55}efficiency:%cmi_random_1_6%,mending:1,silk_touch:1,unbreaking:%cmi_random_1_5% {#caeaf5}| 1 -> {#55ff55}50$"
   Unique_name_16:
-    material: NETHERITE_AXE
+    material: NETHERITE_HOE
     slot: 16
     update: true
     item_flags:
@@ -61,11 +61,11 @@ items:
       - HIDE_ADDITIONAL_TOOLTIP
     enchantments:
       - MENDING;1
-    display_name: "&#caeaf5Незеритовый топор"
+    display_name: "&#caeaf5Незеритовая мотыга"
     lore:
       - " "
       - "&#ccb800 * &#caeaf5Игрок делает ставку: &#55ff5550$"
-      - "&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff55Незеритовый топор"
+      - "&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff55Незеритовая мотыга"
       - "&#ccb800 * &#caeaf5Шанс выигрыша — &#55ff5510%"
       - "&#ccb800 * &#caeaf5Уникальный приз: &#55ff550&#caeaf5-&#55ff551"
       - " "
@@ -96,11 +96,11 @@ items:
       - "[takemoney] 50"
       - "[console] balance %player_name%"
       - "[message] &#caeaf5 Вы сыграли в ставку! (&#e6a500-50&#caeaf5)"
-      - "[console] <chance=10> minecraft:give %player_name% minecraft:netherite_axe[enchantments={levels:{efficiency:%cmi_random_1_6%,mending:1,fortune:%cmi_random_1_4%,unbreaking:%cmi_random_1_5%}}] 1"
+      - "[console] <chance=10> minecraft:give %player_name% minecraft:netherite_hoe[enchantments={levels:{efficiency:%cmi_random_1_6%,mending:1,fortune:%cmi_random_1_4%,unbreaking:%cmi_random_1_5%}}] 1"
       - "[console] minecraft:give %player_name% minecraft:paper[custom_name='[\"\",{\"text\":\"Уникальный токен предмет\",\"color\":\"#3399ff\"}]',lore=['[\"\",{\"text\":\" \",\"color\":\"gray\"}]','[\"\",{\"text\":\" * \",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"Токен предмет защищен от подделки\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"color\":\"gray\",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false,\"color\":\"gray\"},{\"text\":\"и предназначенный только для\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"использования в казино для того что бы...\",\"color\":\"gray\"}]','[\"\"]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"Но это совсем другая история...\",\"color\":\"gray\"}]'],enchantments={levels:{unbreaking:10},show_in_tooltip:false}] %cmi_random_0_1%"
-      - "[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}netherite_axe{#caeaf5} с зачарованием {#55ff55}efficiency:%cmi_random_1_6%,mending:1,fortune:%cmi_random_1_4%,unbreaking:%cmi_random_1_5% {#caeaf5}| 1 -> {#55ff55}50$"
+      - "[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}netherite_hoe{#caeaf5} с зачарованием {#55ff55}efficiency:%cmi_random_1_6%,mending:1,fortune:%cmi_random_1_4%,unbreaking:%cmi_random_1_5% {#caeaf5}| 1 -> {#55ff55}50$"
   Unique_name_20:
-    material: NETHERITE_AXE
+    material: NETHERITE_HOE
     slot: 20
     update: true
     item_flags:
@@ -109,11 +109,11 @@ items:
       - HIDE_ADDITIONAL_TOOLTIP
     enchantments:
       - MENDING;1
-    display_name: "&#caeaf5Незеритовый топор"
+    display_name: "&#caeaf5Незеритовая мотыга"
     lore:
       - " "
       - "&#ccb800 * &#caeaf5Игрок делает ставку: &#55ff55250$"
-      - "&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff55Незеритовый топор"
+      - "&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff55Незеритовая мотыга"
       - "&#ccb800 * &#caeaf5Шанс выигрыша — &#55ff5510%"
       - "&#ccb800 * &#caeaf5Уникальный приз: &#55ff550&#caeaf5-&#55ff555"
       - " "
@@ -144,11 +144,11 @@ items:
       - "[takemoney] 250"
       - "[console] balance %player_name%"
       - "[message] &#caeaf5 Вы сыграли в ставку! (&#e6a500-250&#caeaf5)"
-      - "[console] <chance=10> minecraft:give %player_name% minecraft:netherite_axe[enchantments={levels:{efficiency:%cmi_random_1_8%,mending:1,silk_touch:1,unbreaking:%cmi_random_1_5%}}] 1"
+      - "[console] <chance=10> minecraft:give %player_name% minecraft:netherite_hoe[enchantments={levels:{efficiency:%cmi_random_1_8%,mending:1,silk_touch:1,unbreaking:%cmi_random_1_5%}}] 1"
       - "[console] minecraft:give %player_name% minecraft:paper[custom_name='[\"\",{\"text\":\"Уникальный токен предмет\",\"color\":\"#3399ff\"}]',lore=['[\"\",{\"text\":\" \",\"color\":\"gray\"}]','[\"\",{\"text\":\" * \",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"Токен предмет защищен от подделки\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"color\":\"gray\",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false,\"color\":\"gray\"},{\"text\":\"и предназначенный только для\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"использования в казино для того что бы...\",\"color\":\"gray\"}]','[\"\"]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"Но это совсем другая история...\",\"color\":\"gray\"}]'],enchantments={levels:{unbreaking:10},show_in_tooltip:false}] %cmi_random_0_5%"
-      - "[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}netherite_axe{#caeaf5} с зачарованием {#55ff55}efficiency:%cmi_random_1_8%,mending:1,silk_touch:1,unbreaking:%cmi_random_1_5% {#caeaf5}| 1 -> {#55ff55}250$"
+      - "[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}netherite_hoe{#caeaf5} с зачарованием {#55ff55}efficiency:%cmi_random_1_8%,mending:1,silk_touch:1,unbreaking:%cmi_random_1_5% {#caeaf5}| 1 -> {#55ff55}250$"
   Unique_name_24:
-    material: NETHERITE_AXE
+    material: NETHERITE_HOE
     slot: 24
     update: true
     item_flags:
@@ -157,11 +157,11 @@ items:
       - HIDE_ADDITIONAL_TOOLTIP
     enchantments:
       - MENDING;1
-    display_name: "&#caeaf5Незеритовый топор"
+    display_name: "&#caeaf5Незеритовая мотыга"
     lore:
       - " "
       - "&#ccb800 * &#caeaf5Игрок делает ставку: &#55ff55250$"
-      - "&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff55Незеритовый топор"
+      - "&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff55Незеритовая мотыга"
       - "&#ccb800 * &#caeaf5Шанс выигрыша — &#55ff5510%"
       - "&#ccb800 * &#caeaf5Уникальный приз: &#55ff550&#caeaf5-&#55ff555"
       - " "
@@ -192,11 +192,11 @@ items:
       - "[takemoney] 250"
       - "[console] balance %player_name%"
       - "[message] &#caeaf5 Вы сыграли в ставку! (&#e6a500-250&#caeaf5)"
-      - "[console] <chance=10> minecraft:give %player_name% minecraft:netherite_axe[enchantments={levels:{efficiency:%cmi_random_1_8%,mending:1,fortune:%cmi_random_1_4%,unbreaking:%cmi_random_1_5%}}] 1"
+      - "[console] <chance=10> minecraft:give %player_name% minecraft:netherite_hoe[enchantments={levels:{efficiency:%cmi_random_1_8%,mending:1,fortune:%cmi_random_1_4%,unbreaking:%cmi_random_1_5%}}] 1"
       - "[console] minecraft:give %player_name% minecraft:paper[custom_name='[\"\",{\"text\":\"Уникальный токен предмет\",\"color\":\"#3399ff\"}]',lore=['[\"\",{\"text\":\" \",\"color\":\"gray\"}]','[\"\",{\"text\":\" * \",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"Токен предмет защищен от подделки\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"color\":\"gray\",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false,\"color\":\"gray\"},{\"text\":\"и предназначенный только для\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"использования в казино для того что бы...\",\"color\":\"gray\"}]','[\"\"]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"Но это совсем другая история...\",\"color\":\"gray\"}]'],enchantments={levels:{unbreaking:10},show_in_tooltip:false}] %cmi_random_0_5%"
-      - "[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}netherite_axe{#caeaf5} с зачарованием {#55ff55}efficiency:%cmi_random_1_8%,mending:1,fortune:%cmi_random_1_4%,unbreaking:%cmi_random_1_5% {#caeaf5}| 1 -> {#55ff55}250$"
+      - "[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}netherite_hoe{#caeaf5} с зачарованием {#55ff55}efficiency:%cmi_random_1_8%,mending:1,fortune:%cmi_random_1_4%,unbreaking:%cmi_random_1_5% {#caeaf5}| 1 -> {#55ff55}250$"
   Unique_name_22:
-    material: NETHERITE_AXE
+    material: NETHERITE_HOE
     slot: 22
     update: true
     item_flags:
@@ -205,11 +205,11 @@ items:
       - HIDE_ADDITIONAL_TOOLTIP
     enchantments:
       - MENDING;1
-    display_name: "&#caeaf5Незеритовый топор"
+    display_name: "&#caeaf5Незеритовая мотыга"
     lore:
       - " "
       - "&#ccb800 * &#caeaf5Игрок делает ставку: &#55ff55225$"
-      - "&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff55Незеритовый топор"
+      - "&#ccb800 * &#caeaf5Выигрыш может составить: &#55ff55Незеритовая мотыга"
       - "&#ccb800 * &#caeaf5Шанс выигрыша — &#55ff5510%"
       - "&#ccb800 * &#caeaf5Уникальный приз: &#55ff550&#caeaf5-&#55ff554"
       - " "
@@ -239,6 +239,6 @@ items:
       - "[takemoney] 225"
       - "[console] balance %player_name%"
       - "[message] &#caeaf5 Вы сыграли в ставку! (&#e6a500-225&#caeaf5)"
-      - "[console] <chance=10> minecraft:give %player_name% minecraft:netherite_axe[enchantments={levels:{efficiency:%cmi_random_1_8%,mending:1,unbreaking:%cmi_random_1_5%}}] 1"
+      - "[console] <chance=10> minecraft:give %player_name% minecraft:netherite_hoe[enchantments={levels:{efficiency:%cmi_random_1_8%,mending:1,unbreaking:%cmi_random_1_5%}}] 1"
       - "[console] minecraft:give %player_name% minecraft:paper[custom_name='[\"\",{\"text\":\"Уникальный токен предмет\",\"color\":\"#3399ff\"}]',lore=['[\"\",{\"text\":\" \",\"color\":\"gray\"}]','[\"\",{\"text\":\" * \",\"italic\":false,\"color\":\"aqua\"},{\"text\":\"Токен предмет защищен от подделки\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"color\":\"gray\",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false,\"color\":\"gray\"},{\"text\":\"и предназначенный только для\",\"color\":\"gray\"}]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"использования в казино для того что бы...\",\"color\":\"gray\"}]','[\"\"]','[\"\",{\"text\":\" \",\"italic\":false},{\"text\":\"*\",\"italic\":false,\"color\":\"aqua\"},{\"text\":\" \",\"italic\":false},{\"text\":\"Но это совсем другая история...\",\"color\":\"gray\"}]'],enchantments={levels:{unbreaking:10},show_in_tooltip:false}] %cmi_random_0_4%"
-      - "[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}netherite_axe{#caeaf5} с зачарованием {#55ff55}efficiency:%cmi_random_1_8%,mending:1,unbreaking:%cmi_random_1_5% {#caeaf5}| 1 -> {#55ff55}225$"
+      - "[console] staffmsg {#caeaf5}%player_name% сделал ставку на {#55ff55}netherite_hoe{#caeaf5} с зачарованием {#55ff55}efficiency:%cmi_random_1_8%,mending:1,unbreaking:%cmi_random_1_5% {#caeaf5}| 1 -> {#55ff55}225$"

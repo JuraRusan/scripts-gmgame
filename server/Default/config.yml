@@ -29,5 +29,15 @@ gui_menus:
   arrow_effect:
     file: Effects/arrow_effect.yml
   # -------------------- Casino --------------------
+  casino_netherite_pickaxe:
+    file: Casino/casino_netherite_pickaxe.yml
   casino_netherite_axe:
     file: Casino/casino_netherite_axe.yml
+  casino_netherite_shovel:
+    file: Casino/casino_netherite_shovel.yml
+  casino_netherite_hoe:
+    file: Casino/casino_netherite_hoe.yml
+  casino_item:
+    file: Casino/casino_item.yml
+  casino_equipment:
+    file: Casino/casino_equipment.yml
