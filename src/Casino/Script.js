@@ -87,7 +87,7 @@ casino.map((element) => {
         "[console] balance %player_name%",
         `[takemoney] ${amountFormat}`,
         "[console] balance %player_name%",
-        // "[close]",
+        "[close]",
         `[message] &#caeaf5 Вы сыграли в ставку! (&#e6a500-${amountFormat}&#caeaf5)`,
         `[console] ${chance} minecraft:give %player_name% minecraft:${item.material.toLowerCase()}[enchantments={levels:{${lineEnchantments}}}] 1`,
         `[console] minecraft:give %player_name% minecraft:${token} %cmi_random_${item.token.min}_${item.token.max}%`,
