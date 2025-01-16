@@ -1,0 +1,370 @@
+npc-data:
+  # -----------------------------------------------------------
+  npc-24:
+    cooldown: 0
+    right-click-commands:
+      - '[easycommandblocker.bypass.commands] deluxe_menu_shops'
+    left-click-commands:
+      - '[easycommandblocker.bypass.commands] deluxe_menu_shops'
+    price: 0
+  # -----------------------------------------------------------
+  npc-29:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    price: 0
+  npc-30:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    price: 0
+  npc-31:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    price: 0
+  npc-32:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    price: 0
+  npc-33:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    price: 0
+  npc-34:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    price: 0
+  npc-35:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    price: 0
+  npc-36:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    price: 0
+  npc-37:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    price: 0
+  npc-38:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    price: 0
+  npc-39:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    price: 0
+  npc-40:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    price: 0
+  npc-41:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    price: 0
+  npc-42:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    price: 0
+  npc-57:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    price: 0
+  npc-58:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не нужно на меня здесь смотреть, проходи давай...'
+      - '[message] &o- '
+    price: 0
+  # -----------------------------------------------------------
+  npc-43:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Добро пожаловать к нам в казино, проходите'
+      - '[message] &o- по коридору и занимайте стол, желаю'
+      - '[message] &o- приятной игры, и успешных выигрышей'
+      - '[message] &o- '
+      - '[message] &o- Режим работы нашего заведения:'
+      - '[message] &o- Ежедневно с 19:00 до 03:00'
+      - '[message] &o- Выходные круглосуточно'
+      - '[message] &o- '
+      - '[message] &o- P.S. Но будьте бдительны, в вашем инвентаре должны'
+      - '[message] &o- быть пустые слоты, что бы вы могли получить свою награду'
+      - '[message] &o- потому что утеря будет только на вашей совести..'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Добро пожаловать к нам в казино, проходите'
+      - '[message] &o- по коридору и занимайте стол, желаю'
+      - '[message] &o- приятной игры, и успешных выигрышей'
+      - '[message] &o- '
+      - '[message] &o- Режим работы нашего заведения:'
+      - '[message] &o- Ежедневно с 19:00 до 03:00'
+      - '[message] &o- Выходные круглосуточно'
+      - '[message] &o- '
+      - '[message] &o- P.S. Но будьте бдительны, в вашем инвентаре должны'
+      - '[message] &o- быть пустые слоты, что бы вы могли получить свою награду'
+      - '[message] &o- потому что утеря будет только на вашей совести..'
+      - '[message] &o- '
+    price: 0
+  npc-44:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не мешай мне воспроизводить музыку'
+      - '[message] &o- Если есть какие-то пожелания к воспроизведению'
+      - '[message] &o- то, пожалуйста, соизволь сам поставить пластинку'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Не мешай мне воспроизводить музыку'
+      - '[message] &o- Если есть какие-то пожелания к воспроизведению'
+      - '[message] &o- то, пожалуйста, соизволь сам поставить пластинку'
+      - '[message] &o- '
+    price: 0
+  npc-55:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Что-то желаете выпить?'
+      - '[message] &o- '
+      - '[message] &o- Ах... Да... Но увы у нас все закончилось, вам'
+      - '[message] &o- придётся на трезвую голову играть'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Что-то желаете выпить?'
+      - '[message] &o- '
+      - '[message] &o- Ах... Да... Но увы у нас все закончилось, вам'
+      - '[message] &o- придётся на трезвую голову играть'
+      - '[message] &o- '
+    price: 0
+  npc-56:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Что-то желаете выпить?'
+      - '[message] &o- '
+      - '[message] &o- Ах... Да... Но увы у нас все закончилось, вам'
+      - '[message] &o- придётся на трезвую голову играть'
+      - '[message] &o- '
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Что-то желаете выпить?'
+      - '[message] &o- '
+      - '[message] &o- Ах... Да... Но увы у нас все закончилось, вам'
+      - '[message] &o- придётся на трезвую голову играть'
+      - '[message] &o- '
+    price: 0
+  # -----------------------------------------------------------
+  npc-51:
+    cooldown: 10
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Приятно увидеть вас снова за игрой!'
+      - '[message] &o- Здесь вы можете попытать удачу на'
+      - '[message] &o- получение уникальных инструментов'
+      - '[message] &o- '
+      - '[easycommandblocker.bypass.commands] casino_equipment_menu'
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Приятно увидеть вас снова за игрой!'
+      - '[message] &o- Здесь вы можете попытать удачу на'
+      - '[message] &o- получение уникальных инструментов'
+      - '[message] &o- '
+      - '[easycommandblocker.bypass.commands] casino_equipment_menu'
+    price: 0
+  npc-52:
+    cooldown: 10
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Приятно увидеть вас снова за игрой!'
+      - '[message] &o- Здесь вы можете попытать удачу на'
+      - '[message] &o- получение уникальных инструментов'
+      - '[message] &o- '
+      - '[easycommandblocker.bypass.commands] casino_netherite_axe_menu'
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Приятно увидеть вас снова за игрой!'
+      - '[message] &o- Здесь вы можете попытать удачу на'
+      - '[message] &o- получение уникальных инструментов'
+      - '[message] &o- '
+      - '[easycommandblocker.bypass.commands] casino_netherite_axe_menu'
+    price: 0
+  npc-53:
+    cooldown: 10
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Приятно увидеть вас снова за игрой!'
+      - '[message] &o- Здесь вы можете попытать удачу на'
+      - '[message] &o- получение уникальных инструментов'
+      - '[message] &o- '
+      - '[easycommandblocker.bypass.commands] casino_item_menu'
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Приятно увидеть вас снова за игрой!'
+      - '[message] &o- Здесь вы можете попытать удачу на'
+      - '[message] &o- получение уникальных инструментов'
+      - '[message] &o- '
+      - '[easycommandblocker.bypass.commands] casino_item_menu'
+    price: 0
+  npc-54:
+    cooldown: 10
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Приятно увидеть вас снова за игрой!'
+      - '[message] &o- Здесь вы можете попытать удачу на'
+      - '[message] &o- получение уникальных инструментов'
+      - '[message] &o- '
+      - '[easycommandblocker.bypass.commands] casino_netherite_hoe_menu'
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Приятно увидеть вас снова за игрой!'
+      - '[message] &o- Здесь вы можете попытать удачу на'
+      - '[message] &o- получение уникальных инструментов'
+      - '[message] &o- '
+      - '[easycommandblocker.bypass.commands] casino_netherite_hoe_menu'
+    price: 0
+  npc-59:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Приятно увидеть вас снова за игрой!'
+      - '[message] &o- Здесь вы можете попытать удачу на'
+      - '[message] &o- получение уникальных инструментов'
+      - '[message] &o- '
+      - '[easycommandblocker.bypass.commands] casino_netherite_pickaxe_menu'
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Приятно увидеть вас снова за игрой!'
+      - '[message] &o- Здесь вы можете попытать удачу на'
+      - '[message] &o- получение уникальных инструментов'
+      - '[message] &o- '
+      - '[easycommandblocker.bypass.commands] casino_netherite_pickaxe_menu'
+    price: 0
+  npc-60:
+    cooldown: 0
+    right-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Приятно увидеть вас снова за игрой!'
+      - '[message] &o- Здесь вы можете попытать удачу на'
+      - '[message] &o- получение уникальных инструментов'
+      - '[message] &o- '
+      - '[easycommandblocker.bypass.commands] casino_netherite_shovel_menu'
+    left-click-commands:
+      - '[message] &o- '
+      - '[message] &o- Приятно увидеть вас снова за игрой!'
+      - '[message] &o- Здесь вы можете попытать удачу на'
+      - '[message] &o- получение уникальных инструментов'
+      - '[message] &o- '
+      - '[easycommandblocker.bypass.commands] casino_netherite_shovel_menu'
+    price: 0
