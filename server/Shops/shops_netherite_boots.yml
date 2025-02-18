@@ -9,9 +9,9 @@ items:
     display_name: "&#caeaf5  Назад  "
     left_click_commands:
       - "[openguimenu] shops_main"
-  Unique_name_11:
+  Unique_name_10:
     material: NETHERITE_BOOTS
-    slot: 11
+    slot: 10
     update: true
     item_flags:
       - HIDE_ATTRIBUTES
@@ -53,9 +53,9 @@ items:
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_boots[enchantments={levels:{depth_strider:3,feather_falling:5,mending:1,protection:5,unbreaking:4}}] 1"
       - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_boots{#caeaf5} с зачарованием {#55ff55}depth_strider:3,feather_falling:5,mending:1,protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
-  Unique_name_12:
+  Unique_name_11:
     material: NETHERITE_BOOTS
-    slot: 12
+    slot: 11
     update: true
     item_flags:
       - HIDE_ATTRIBUTES
@@ -98,9 +98,98 @@ items:
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_boots[enchantments={levels:{depth_strider:3,feather_falling:5,mending:1,protection:5,unbreaking:4,thorns:3}}] 1"
       - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_boots{#caeaf5} с зачарованием {#55ff55}depth_strider:3,feather_falling:5,mending:1,protection:5,unbreaking:4,thorns:3 {#caeaf5}| 1 -> {#55ff55}600$"
+  Unique_name_12:
+    material: NETHERITE_BOOTS
+    slot: 12
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    enchantments:
+      - MENDING;1
+    display_name: "&#caeaf5Незеритовые ботинки"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600$"
+      - " "
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800• &#caeaf5Ледоход 2"
+      - "   &#ccb800• &#caeaf5Невесомость 5 (&#e6a500v. 4&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Починка 1"
+      - "   &#ccb800• &#caeaf5Защита 5 (&#e6a500v. 4&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 600
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    left_click_commands:
+      - "[takemoney] 600"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:netherite_boots[enchantments={levels:{frost_walker:2,feather_falling:5,mending:1,protection:5,unbreaking:4}}] 1"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_boots{#caeaf5} с зачарованием {#55ff55}frost_walker:2,feather_falling:5,mending:1,protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_13:
     material: NETHERITE_BOOTS
     slot: 13
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    enchantments:
+      - MENDING;1
+    display_name: "&#caeaf5Незеритовые ботинки"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600$"
+      - " "
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800• &#caeaf5Ледоход 2"
+      - "   &#ccb800• &#caeaf5Невесомость 5 (&#e6a500v. 4&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Починка 1"
+      - "   &#ccb800• &#caeaf5Защита 5 (&#e6a500v. 4&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Шипы 3"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 600
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    left_click_commands:
+      - "[takemoney] 600"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:netherite_boots[enchantments={levels:{frost_walker:2,feather_falling:5,mending:1,protection:5,unbreaking:4,thorns:3}}] 1"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_boots{#caeaf5} с зачарованием {#55ff55}frost_walker:2,feather_falling:5,mending:1,protection:5,unbreaking:4,thorns:3 {#caeaf5}| 1 -> {#55ff55}600$"
+  Unique_name_14:
+    material: NETHERITE_BOOTS
+    slot: 14
     update: true
     item_flags:
       - HIDE_ATTRIBUTES
@@ -142,9 +231,9 @@ items:
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_boots[enchantments={levels:{depth_strider:3,feather_falling:5,mending:1,projectile_protection:5,unbreaking:4}}] 1"
       - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_boots{#caeaf5} с зачарованием {#55ff55}depth_strider:3,feather_falling:5,mending:1,projectile_protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
-  Unique_name_14:
+  Unique_name_15:
     material: NETHERITE_BOOTS
-    slot: 14
+    slot: 15
     update: true
     item_flags:
       - HIDE_ATTRIBUTES
@@ -187,9 +276,98 @@ items:
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_boots[enchantments={levels:{depth_strider:3,feather_falling:5,mending:1,projectile_protection:5,unbreaking:4,thorns:3}}] 1"
       - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_boots{#caeaf5} с зачарованием {#55ff55}depth_strider:3,feather_falling:5,mending:1,projectile_protection:5,unbreaking:4,thorns:3 {#caeaf5}| 1 -> {#55ff55}600$"
-  Unique_name_15:
+  Unique_name_16:
     material: NETHERITE_BOOTS
-    slot: 15
+    slot: 16
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    enchantments:
+      - MENDING;1
+    display_name: "&#caeaf5Незеритовые ботинки"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600$"
+      - " "
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800• &#caeaf5Ледоход 2"
+      - "   &#ccb800• &#caeaf5Невесомость 5 (&#e6a500v. 4&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Починка 1"
+      - "   &#ccb800• &#caeaf5Защита от снарядов 5 (&#e6a500v. 4&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 600
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    left_click_commands:
+      - "[takemoney] 600"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:netherite_boots[enchantments={levels:{frost_walker:2,feather_falling:5,mending:1,projectile_protection:5,unbreaking:4}}] 1"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_boots{#caeaf5} с зачарованием {#55ff55}frost_walker:2,feather_falling:5,mending:1,projectile_protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
+  Unique_name_20:
+    material: NETHERITE_BOOTS
+    slot: 20
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    enchantments:
+      - MENDING;1
+    display_name: "&#caeaf5Незеритовые ботинки"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600$"
+      - " "
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800• &#caeaf5Ледоход 2"
+      - "   &#ccb800• &#caeaf5Невесомость 5 (&#e6a500v. 4&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Починка 1"
+      - "   &#ccb800• &#caeaf5Защита от снарядов 5 (&#e6a500v. 4&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Шипы 3"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 600
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    left_click_commands:
+      - "[takemoney] 600"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:netherite_boots[enchantments={levels:{frost_walker:2,feather_falling:5,mending:1,projectile_protection:5,unbreaking:4,thorns:3}}] 1"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_boots{#caeaf5} с зачарованием {#55ff55}frost_walker:2,feather_falling:5,mending:1,projectile_protection:5,unbreaking:4,thorns:3 {#caeaf5}| 1 -> {#55ff55}600$"
+  Unique_name_21:
+    material: NETHERITE_BOOTS
+    slot: 21
     update: true
     item_flags:
       - HIDE_ATTRIBUTES
@@ -231,9 +409,9 @@ items:
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_boots[enchantments={levels:{depth_strider:3,feather_falling:5,mending:1,fire_protection:5,unbreaking:4}}] 1"
       - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_boots{#caeaf5} с зачарованием {#55ff55}depth_strider:3,feather_falling:5,mending:1,fire_protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
-  Unique_name_21:
+  Unique_name_22:
     material: NETHERITE_BOOTS
-    slot: 21
+    slot: 22
     update: true
     item_flags:
       - HIDE_ATTRIBUTES
@@ -276,9 +454,98 @@ items:
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_boots[enchantments={levels:{depth_strider:3,feather_falling:5,mending:1,fire_protection:5,unbreaking:4,thorns:3}}] 1"
       - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_boots{#caeaf5} с зачарованием {#55ff55}depth_strider:3,feather_falling:5,mending:1,fire_protection:5,unbreaking:4,thorns:3 {#caeaf5}| 1 -> {#55ff55}600$"
-  Unique_name_22:
+  Unique_name_23:
     material: NETHERITE_BOOTS
-    slot: 22
+    slot: 23
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    enchantments:
+      - MENDING;1
+    display_name: "&#caeaf5Незеритовые ботинки"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600$"
+      - " "
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800• &#caeaf5Ледоход 2"
+      - "   &#ccb800• &#caeaf5Невесомость 5 (&#e6a500v. 4&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Починка 1"
+      - "   &#ccb800• &#caeaf5Огнеупорность 5 (&#e6a500v. 4&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 600
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    left_click_commands:
+      - "[takemoney] 600"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:netherite_boots[enchantments={levels:{frost_walker:2,feather_falling:5,mending:1,fire_protection:5,unbreaking:4}}] 1"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_boots{#caeaf5} с зачарованием {#55ff55}frost_walker:2,feather_falling:5,mending:1,fire_protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
+  Unique_name_24:
+    material: NETHERITE_BOOTS
+    slot: 24
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    enchantments:
+      - MENDING;1
+    display_name: "&#caeaf5Незеритовые ботинки"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600$"
+      - " "
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800• &#caeaf5Ледоход 2"
+      - "   &#ccb800• &#caeaf5Невесомость 5 (&#e6a500v. 4&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Починка 1"
+      - "   &#ccb800• &#caeaf5Огнеупорность 5 (&#e6a500v. 4&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Шипы 3"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 600
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    left_click_commands:
+      - "[takemoney] 600"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:netherite_boots[enchantments={levels:{frost_walker:2,feather_falling:5,mending:1,fire_protection:5,unbreaking:4,thorns:3}}] 1"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_boots{#caeaf5} с зачарованием {#55ff55}frost_walker:2,feather_falling:5,mending:1,fire_protection:5,unbreaking:4,thorns:3 {#caeaf5}| 1 -> {#55ff55}600$"
+  Unique_name_29:
+    material: NETHERITE_BOOTS
+    slot: 29
     update: true
     item_flags:
       - HIDE_ATTRIBUTES
@@ -320,9 +587,9 @@ items:
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_boots[enchantments={levels:{depth_strider:3,feather_falling:5,mending:1,blast_protection:5,unbreaking:4}}] 1"
       - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_boots{#caeaf5} с зачарованием {#55ff55}depth_strider:3,feather_falling:5,mending:1,blast_protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
-  Unique_name_23:
+  Unique_name_30:
     material: NETHERITE_BOOTS
-    slot: 23
+    slot: 30
     update: true
     item_flags:
       - HIDE_ATTRIBUTES
@@ -365,3 +632,92 @@ items:
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
       - "[console] minecraft:give %player_name% minecraft:netherite_boots[enchantments={levels:{depth_strider:3,feather_falling:5,mending:1,blast_protection:5,unbreaking:4,thorns:3}}] 1"
       - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_boots{#caeaf5} с зачарованием {#55ff55}depth_strider:3,feather_falling:5,mending:1,blast_protection:5,unbreaking:4,thorns:3 {#caeaf5}| 1 -> {#55ff55}600$"
+  Unique_name_32:
+    material: NETHERITE_BOOTS
+    slot: 32
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    enchantments:
+      - MENDING;1
+    display_name: "&#caeaf5Незеритовые ботинки"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600$"
+      - " "
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800• &#caeaf5Ледоход 2"
+      - "   &#ccb800• &#caeaf5Невесомость 5 (&#e6a500v. 4&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Починка 1"
+      - "   &#ccb800• &#caeaf5Взрывоустойчивость 5 (&#e6a500v. 4&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 600
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    left_click_commands:
+      - "[takemoney] 600"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:netherite_boots[enchantments={levels:{frost_walker:2,feather_falling:5,mending:1,blast_protection:5,unbreaking:4}}] 1"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_boots{#caeaf5} с зачарованием {#55ff55}frost_walker:2,feather_falling:5,mending:1,blast_protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
+  Unique_name_33:
+    material: NETHERITE_BOOTS
+    slot: 33
+    update: true
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS
+      - HIDE_ADDITIONAL_TOOLTIP
+    enchantments:
+      - MENDING;1
+    display_name: "&#caeaf5Незеритовые ботинки"
+    lore:
+      - " "
+      - "&#ccb800 * &#caeaf5Игрок покупает - цена за 1 единицу: &#55ff55600$"
+      - " "
+      - "&#ccb800 * &#caeaf5Зачарования:"
+      - "   &#ccb800• &#caeaf5Ледоход 2"
+      - "   &#ccb800• &#caeaf5Невесомость 5 (&#e6a500v. 4&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Починка 1"
+      - "   &#ccb800• &#caeaf5Взрывоустойчивость 5 (&#e6a500v. 4&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Шипы 3"
+      - " "
+      - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
+      - " "
+      - "&#f42f31[ ! ] &#caeaf5Щелкните левой кнопкой мыши, чтобы купить"
+    left_click_requirement:
+      requirements:
+        balance_check:
+          type: has money
+          amount: 600
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 У Вас недостаточно средств для покупки этого предмета!"
+        item_check_slot:
+          type: has item
+          material: AIR
+          amount: 1
+          deny_commands:
+            - "[message] &#f42f31 Ошибка:&#caeaf5 Нет необходимого места для покупки этого предмета!"
+    left_click_commands:
+      - "[takemoney] 600"
+      - "[refresh]"
+      - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
+      - "[console] minecraft:give %player_name% minecraft:netherite_boots[enchantments={levels:{frost_walker:2,feather_falling:5,mending:1,blast_protection:5,unbreaking:4,thorns:3}}] 1"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_boots{#caeaf5} с зачарованием {#55ff55}frost_walker:2,feather_falling:5,mending:1,blast_protection:5,unbreaking:4,thorns:3 {#caeaf5}| 1 -> {#55ff55}600$"

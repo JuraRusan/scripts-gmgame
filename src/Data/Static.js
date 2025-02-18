@@ -317,7 +317,7 @@ export const armors = [
     ],
   },
   {
-    slots: [11, 12, 13, 14, 15, 21, 22, 23],
+    slots: [10, 11, 12, 13, 14, 15, 16, 20, 21, 22, 23, 24, 29, 30, 32, 33],
     save: "shops_netherite_boots.yml",
     title: "Незеритовые ботинки",
     list: [
@@ -337,6 +337,18 @@ export const armors = [
         material: "NETHERITE_BOOTS",
         name: "Незеритовые ботинки",
         amount: 600,
+        enchantments: { frost_walker: 2, feather_falling: 5, mending: 1, protection: 5, unbreaking: 4 },
+      },
+      {
+        material: "NETHERITE_BOOTS",
+        name: "Незеритовые ботинки",
+        amount: 600,
+        enchantments: { frost_walker: 2, feather_falling: 5, mending: 1, protection: 5, unbreaking: 4, thorns: 3 },
+      },
+      {
+        material: "NETHERITE_BOOTS",
+        name: "Незеритовые ботинки",
+        amount: 600,
         enchantments: { depth_strider: 3, feather_falling: 5, mending: 1, projectile_protection: 5, unbreaking: 4 },
       },
       {
@@ -345,6 +357,25 @@ export const armors = [
         amount: 600,
         enchantments: {
           depth_strider: 3,
+          feather_falling: 5,
+          mending: 1,
+          projectile_protection: 5,
+          unbreaking: 4,
+          thorns: 3,
+        },
+      },
+      {
+        material: "NETHERITE_BOOTS",
+        name: "Незеритовые ботинки",
+        amount: 600,
+        enchantments: { frost_walker: 2, feather_falling: 5, mending: 1, projectile_protection: 5, unbreaking: 4 },
+      },
+      {
+        material: "NETHERITE_BOOTS",
+        name: "Незеритовые ботинки",
+        amount: 600,
+        enchantments: {
+          frost_walker: 2,
           feather_falling: 5,
           mending: 1,
           projectile_protection: 5,
@@ -375,6 +406,25 @@ export const armors = [
         material: "NETHERITE_BOOTS",
         name: "Незеритовые ботинки",
         amount: 600,
+        enchantments: { frost_walker: 2, feather_falling: 5, mending: 1, fire_protection: 5, unbreaking: 4 },
+      },
+      {
+        material: "NETHERITE_BOOTS",
+        name: "Незеритовые ботинки",
+        amount: 600,
+        enchantments: {
+          frost_walker: 2,
+          feather_falling: 5,
+          mending: 1,
+          fire_protection: 5,
+          unbreaking: 4,
+          thorns: 3,
+        },
+      },
+      {
+        material: "NETHERITE_BOOTS",
+        name: "Незеритовые ботинки",
+        amount: 600,
         enchantments: { depth_strider: 3, feather_falling: 5, mending: 1, blast_protection: 5, unbreaking: 4 },
       },
       {
@@ -383,6 +433,25 @@ export const armors = [
         amount: 600,
         enchantments: {
           depth_strider: 3,
+          feather_falling: 5,
+          mending: 1,
+          blast_protection: 5,
+          unbreaking: 4,
+          thorns: 3,
+        },
+      },
+      {
+        material: "NETHERITE_BOOTS",
+        name: "Незеритовые ботинки",
+        amount: 600,
+        enchantments: { frost_walker: 2, feather_falling: 5, mending: 1, blast_protection: 5, unbreaking: 4 },
+      },
+      {
+        material: "NETHERITE_BOOTS",
+        name: "Незеритовые ботинки",
+        amount: 600,
+        enchantments: {
+          frost_walker: 2,
           feather_falling: 5,
           mending: 1,
           blast_protection: 5,
