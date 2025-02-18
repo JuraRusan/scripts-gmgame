@@ -70,6 +70,7 @@ items:
       - "   &#ccb800• &#caeaf5Починка 1"
       - "   &#ccb800• &#caeaf5Защита 5 (&#e6a500v. 4&#caeaf5)"
       - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Шипы 3"
       - " "
       - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
       - " "
@@ -91,8 +92,8 @@ items:
       - "[takemoney] 600"
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
-      - "[console] minecraft:give %player_name% minecraft:netherite_leggings[enchantments={levels:{mending:1,protection:5,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием {#55ff55}mending:1,protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
+      - "[console] minecraft:give %player_name% minecraft:netherite_leggings[enchantments={levels:{mending:1,protection:5,unbreaking:4,thorns:3}}] 1"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием {#55ff55}mending:1,protection:5,unbreaking:4,thorns:3 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_13:
     material: NETHERITE_LEGGINGS
     slot: 13
@@ -154,6 +155,7 @@ items:
       - "   &#ccb800• &#caeaf5Починка 1"
       - "   &#ccb800• &#caeaf5Защита от снарядов 5 (&#e6a500v. 4&#caeaf5)"
       - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Шипы 3"
       - " "
       - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
       - " "
@@ -175,8 +177,8 @@ items:
       - "[takemoney] 600"
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
-      - "[console] minecraft:give %player_name% minecraft:netherite_leggings[enchantments={levels:{mending:1,projectile_protection:5,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием {#55ff55}mending:1,projectile_protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
+      - "[console] minecraft:give %player_name% minecraft:netherite_leggings[enchantments={levels:{mending:1,projectile_protection:5,unbreaking:4,thorns:3}}] 1"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием {#55ff55}mending:1,projectile_protection:5,unbreaking:4,thorns:3 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_15:
     material: NETHERITE_LEGGINGS
     slot: 15
@@ -238,6 +240,7 @@ items:
       - "   &#ccb800• &#caeaf5Починка 1"
       - "   &#ccb800• &#caeaf5Огнеупорность 5 (&#e6a500v. 4&#caeaf5)"
       - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Шипы 3"
       - " "
       - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
       - " "
@@ -259,8 +262,8 @@ items:
       - "[takemoney] 600"
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
-      - "[console] minecraft:give %player_name% minecraft:netherite_leggings[enchantments={levels:{mending:1,fire_protection:5,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием {#55ff55}mending:1,fire_protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
+      - "[console] minecraft:give %player_name% minecraft:netherite_leggings[enchantments={levels:{mending:1,fire_protection:5,unbreaking:4,thorns:3}}] 1"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием {#55ff55}mending:1,fire_protection:5,unbreaking:4,thorns:3 {#caeaf5}| 1 -> {#55ff55}600$"
   Unique_name_22:
     material: NETHERITE_LEGGINGS
     slot: 22
@@ -322,6 +325,7 @@ items:
       - "   &#ccb800• &#caeaf5Починка 1"
       - "   &#ccb800• &#caeaf5Взрывоустойчивость 5 (&#e6a500v. 4&#caeaf5)"
       - "   &#ccb800• &#caeaf5Прочность 4 (&#e6a500v. 3&#caeaf5)"
+      - "   &#ccb800• &#caeaf5Шипы 3"
       - " "
       - "&#ccb800 * &#caeaf5Ваш баланс: &#55ff55%coinsengine_balance_plain_gmcoin%"
       - " "
@@ -343,5 +347,5 @@ items:
       - "[takemoney] 600"
       - "[refresh]"
       - "[message] &#caeaf5 Вы успешно приобрели этот товар! (&#e6a500-600&#caeaf5)"
-      - "[console] minecraft:give %player_name% minecraft:netherite_leggings[enchantments={levels:{mending:1,blast_protection:5,unbreaking:4}}] 1"
-      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием {#55ff55}mending:1,blast_protection:5,unbreaking:4 {#caeaf5}| 1 -> {#55ff55}600$"
+      - "[console] minecraft:give %player_name% minecraft:netherite_leggings[enchantments={levels:{mending:1,blast_protection:5,unbreaking:4,thorns:3}}] 1"
+      - "[console] staffmsg {#caeaf5}%player_name% приобрел {#55ff55}netherite_leggings{#caeaf5} с зачарованием {#55ff55}mending:1,blast_protection:5,unbreaking:4,thorns:3 {#caeaf5}| 1 -> {#55ff55}600$"
