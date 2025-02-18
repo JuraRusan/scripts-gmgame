@@ -23,7 +23,7 @@ const commands = [
   { id: 42, coords: "68.5 42.5 766.5" }, // Охранник
   { id: 57, coords: "76.5 50.5 757.5" }, // Охранник
   { id: 58, coords: "76.5 50.5 762.5" }, // Охранник
-  { id: 43, coords: "68.5 42.5 76" }, // Ресепшен
+  { id: 43, coords: "68.5 42.5 760" }, // Ресепшен
   { id: 44, coords: "10.5 50.5 760" }, // Диджей
   { id: 55, coords: "6.5 42.5 757.5" }, // Бармен
   { id: 56, coords: "6.5 42.5 762.5" }, // Бармен
@@ -43,9 +43,9 @@ const commands = [
 
 (async () => {
   for (const command of commands) {
-    exec(`echo "npc2 select ${command.id}" | socat EXEC:${uuid},pty STDIN`);
+    exec(`echo "npc select ${command.id}" | socat EXEC:${uuid},pty STDIN`);
     await sleep(100);
-    exec(`echo "npc2 moveto ${command.coords}" | socat EXEC:${uuid},pty STDIN`);
+    exec(`echo "npc moveto ${command.coords}" | socat EXEC:${uuid},pty STDIN`);
     await sleep(500);
   }
 })();

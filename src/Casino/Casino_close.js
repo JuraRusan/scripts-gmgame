@@ -43,9 +43,9 @@ const commands = [
 
 (async () => {
   for (const command of commands) {
-    exec(`echo "npc2 select ${command.id}" | socat EXEC:${uuid},pty STDIN`);
+    exec(`echo "npc select ${command.id}" | socat EXEC:${uuid},pty STDIN`);
     await sleep(100);
-    exec(`echo "npc2 moveto ${command.coords}" | socat EXEC:${uuid},pty STDIN`);
+    exec(`echo "npc moveto ${command.coords}" | socat EXEC:${uuid},pty STDIN`);
     await sleep(500);
   }
 })();
