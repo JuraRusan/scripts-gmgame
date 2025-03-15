@@ -1,0 +1,34 @@
+RestartInfo:
+  Enabled: true
+  MinPlayers: 1
+  FeedBack: false
+  Repeat: true
+  Commands:
+    - asConsole! title @a times 20 100 20
+    - title! {#e62e5a}АВТО-РЕСТАРТ
+    - subtitle! {#caeaf5}Перезагрузка через 60 секунд!
+    - delay! 30
+    - title! {#e62e5a}АВТО-РЕСТАРТ
+    - subtitle! {#caeaf5}Перезагрузка через 30 секунд!
+    - delay! 20
+    - actionbar! {#caeaf5}Перезагрузка через {#ffb700}10 {#caeaf5}секунд!
+    - delay! 1
+    - actionbar! {#caeaf5}Перезагрузка через {#ffb700}9 {#caeaf5}секунд!
+    - delay! 1
+    - actionbar! {#caeaf5}Перезагрузка через {#ffb700}8 {#caeaf5}секунд!
+    - delay! 1
+    - actionbar! {#caeaf5}Перезагрузка через {#ffb700}7 {#caeaf5}секунд!
+    - delay! 1
+    - actionbar! {#caeaf5}Перезагрузка через {#ffb700}6 {#caeaf5}секунд!
+    - delay! 1
+    - actionbar! {#caeaf5}Перезагрузка через {#ffb700}5 {#caeaf5}секунд!
+    - delay! 1
+    - actionbar! {#caeaf5}Перезагрузка через {#ffb700}4 {#caeaf5}секунды!
+    - delay! 1
+    - actionbar! {#caeaf5}Перезагрузка через {#ffb700}3 {#caeaf5}секунды!
+    - delay! 1
+    - actionbar! {#caeaf5}Перезагрузка через {#ffb700}2 {#caeaf5}секунды!
+    - delay! 1
+    - actionbar! {#caeaf5}Перезагрузка через {#ffb700}1 {#caeaf5}секунду!
+    - delay! 1
+    - actionbar! {#e62e5a}STOP!
