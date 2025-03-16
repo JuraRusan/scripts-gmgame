@@ -6,18 +6,18 @@
 
 `/cmi itemname {#caeaf5}Покупка перемещения 128x {#55ff55}[ Niksa_Viento ]`
 
-###  
+###   
 
 `/cmi itemname {#caeaf5}Покупка colorpicker {#55ff55}[ Niksa_Viento ]`
 
-###  
+###   
 
 `/cmi itemname {#caeaf5}Покупка group.colors {#55ff55}[ Niksa_Viento ]`
 
-###  
+###   
 
 `/cmi itemname {#caeaf5}Покупка player_effect {#55ff55}[ Niksa_Viento ]`
 
-###  
+###   
 
 `/cmi itemname {#caeaf5}Покупка openshulker {#55ff55}[ Niksa_Viento ]`

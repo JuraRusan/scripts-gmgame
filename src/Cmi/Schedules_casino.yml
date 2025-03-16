@@ -4,215 +4,215 @@ CasinoOpen:
   FeedBack: false
   Repeat: true
   Commands:
-  - asConsole! npc select 29
-  - delay! 1
-  - asConsole! npc moveto 74.5 42.5 745.5
-  - delay! 1
-  - asConsole! npc select 30
-  - delay! 1
-  - asConsole! npc moveto 8.5 42.5 774.5
-  - delay! 1
-  - asConsole! npc select 31
-  - delay! 1
-  - asConsole! npc moveto 15.5 45.5 767.5
-  - delay! 1
-  - asConsole! npc select 32
-  - delay! 1
-  - asConsole! npc moveto 54.5 43.5 763.5
-  - delay! 1
-  - asConsole! npc select 33
-  - delay! 1
-  - asConsole! npc moveto 74.5 42.5 774.5
-  - delay! 1
-  - asConsole! npc select 34
-  - delay! 1
-  - asConsole! npc moveto 8.5 42.5 745.5
-  - delay! 1
-  - asConsole! npc select 35
-  - delay! 1
-  - asConsole! npc moveto 15.5 43.5 752.5
-  - delay! 1
-  - asConsole! npc select 36
-  - delay! 1
-  - asConsole! npc moveto 54.5 43.5 756.5
-  - delay! 1
-  - asConsole! npc select 37
-  - delay! 1
-  - asConsole! npc moveto 14.5 50.5 769.5
-  - delay! 1
-  - asConsole! npc select 38
-  - delay! 1
-  - asConsole! npc moveto 14.5 50.5 750.5
-  - delay! 1
-  - asConsole! npc select 39
-  - delay! 1
-  - asConsole! npc moveto -7.5 51.5 762.5
-  - delay! 1
-  - asConsole! npc select 40
-  - delay! 1
-  - asConsole! npc moveto -7.5 51.5 757.5
-  - delay! 1
-  - asConsole! npc select 41
-  - delay! 1
-  - asConsole! npc moveto 68.5 42.5 753.5
-  - delay! 1
-  - asConsole! npc select 42
-  - delay! 1
-  - asConsole! npc moveto 68.5 42.5 766.5
-  - delay! 1
-  - asConsole! npc select 57
-  - delay! 1
-  - asConsole! npc moveto 76.5 50.5 757.5
-  - delay! 1
-  - asConsole! npc select 58
-  - delay! 1
-  - asConsole! npc moveto 76.5 50.5 762.5
-  - delay! 1
-  - asConsole! npc select 43
-  - delay! 1
-  - asConsole! npc moveto 68.5 42.5 760
-  - delay! 1
-  - asConsole! npc select 44
-  - delay! 1
-  - asConsole! npc moveto 10.5 50.5 760
-  - delay! 1
-  - asConsole! npc select 55
-  - delay! 1
-  - asConsole! npc moveto 6.5 42.5 757.5
-  - delay! 1
-  - asConsole! npc select 56
-  - delay! 1
-  - asConsole! npc moveto 6.5 42.5 762.5
-  - delay! 1
-  - asConsole! npc select 51
-  - delay! 1
-  - asConsole! npc moveto 1.5 50.5 755.5
-  - delay! 1
-  - asConsole! npc select 52
-  - delay! 1
-  - asConsole! npc moveto 25.5 43.5 760.5
-  - delay! 1
-  - asConsole! npc select 53
-  - delay! 1
-  - asConsole! npc moveto 1.5 50.5 764.5
-  - delay! 1
-  - asConsole! npc select 54
-  - delay! 1
-  - asConsole! npc moveto 44.5 43.5 759.5
-  - delay! 1
-  - asConsole! npc select 59
-  - delay! 1
-  - asConsole! npc moveto 71.5 51.5 769.5
-  - delay! 1
-  - asConsole! npc select 60
-  - delay! 1
-  - asConsole! npc moveto 71.5 51.5 750.5
+    - asConsole! npc select 29
+    - delay! 1
+    - asConsole! npc moveto 74.5 42.5 745.5
+    - delay! 1
+    - asConsole! npc select 30
+    - delay! 1
+    - asConsole! npc moveto 8.5 42.5 774.5
+    - delay! 1
+    - asConsole! npc select 31
+    - delay! 1
+    - asConsole! npc moveto 15.5 45.5 767.5
+    - delay! 1
+    - asConsole! npc select 32
+    - delay! 1
+    - asConsole! npc moveto 54.5 43.5 763.5
+    - delay! 1
+    - asConsole! npc select 33
+    - delay! 1
+    - asConsole! npc moveto 74.5 42.5 774.5
+    - delay! 1
+    - asConsole! npc select 34
+    - delay! 1
+    - asConsole! npc moveto 8.5 42.5 745.5
+    - delay! 1
+    - asConsole! npc select 35
+    - delay! 1
+    - asConsole! npc moveto 15.5 43.5 752.5
+    - delay! 1
+    - asConsole! npc select 36
+    - delay! 1
+    - asConsole! npc moveto 54.5 43.5 756.5
+    - delay! 1
+    - asConsole! npc select 37
+    - delay! 1
+    - asConsole! npc moveto 14.5 50.5 769.5
+    - delay! 1
+    - asConsole! npc select 38
+    - delay! 1
+    - asConsole! npc moveto 14.5 50.5 750.5
+    - delay! 1
+    - asConsole! npc select 39
+    - delay! 1
+    - asConsole! npc moveto -7.5 51.5 762.5
+    - delay! 1
+    - asConsole! npc select 40
+    - delay! 1
+    - asConsole! npc moveto -7.5 51.5 757.5
+    - delay! 1
+    - asConsole! npc select 41
+    - delay! 1
+    - asConsole! npc moveto 68.5 42.5 753.5
+    - delay! 1
+    - asConsole! npc select 42
+    - delay! 1
+    - asConsole! npc moveto 68.5 42.5 766.5
+    - delay! 1
+    - asConsole! npc select 57
+    - delay! 1
+    - asConsole! npc moveto 76.5 50.5 757.5
+    - delay! 1
+    - asConsole! npc select 58
+    - delay! 1
+    - asConsole! npc moveto 76.5 50.5 762.5
+    - delay! 1
+    - asConsole! npc select 43
+    - delay! 1
+    - asConsole! npc moveto 68.5 42.5 760
+    - delay! 1
+    - asConsole! npc select 44
+    - delay! 1
+    - asConsole! npc moveto 10.5 50.5 760
+    - delay! 1
+    - asConsole! npc select 55
+    - delay! 1
+    - asConsole! npc moveto 6.5 42.5 757.5
+    - delay! 1
+    - asConsole! npc select 56
+    - delay! 1
+    - asConsole! npc moveto 6.5 42.5 762.5
+    - delay! 1
+    - asConsole! npc select 51
+    - delay! 1
+    - asConsole! npc moveto 1.5 50.5 755.5
+    - delay! 1
+    - asConsole! npc select 52
+    - delay! 1
+    - asConsole! npc moveto 25.5 43.5 760.5
+    - delay! 1
+    - asConsole! npc select 53
+    - delay! 1
+    - asConsole! npc moveto 1.5 50.5 764.5
+    - delay! 1
+    - asConsole! npc select 54
+    - delay! 1
+    - asConsole! npc moveto 44.5 43.5 759.5
+    - delay! 1
+    - asConsole! npc select 59
+    - delay! 1
+    - asConsole! npc moveto 71.5 51.5 769.5
+    - delay! 1
+    - asConsole! npc select 60
+    - delay! 1
+    - asConsole! npc moveto 71.5 51.5 750.5
 CasinoClose:
   Enabled: true
   MinPlayers: 0
   FeedBack: false
   Repeat: true
   Commands:
-  - asConsole! npc select 29
-  - delay! 1
-  - asConsole! npc moveto 1636.5 128.5 5637.5
-  - delay! 1
-  - asConsole! npc select 30
-  - delay! 1
-  - asConsole! npc moveto 1634.5 128.5 5637.5
-  - delay! 1
-  - asConsole! npc select 31
-  - delay! 1
-  - asConsole! npc moveto 1632.5 128.5 5637.5
-  - delay! 1
-  - asConsole! npc select 32
-  - delay! 1
-  - asConsole! npc moveto 1630.5 128.5 5637.5
-  - delay! 1
-  - asConsole! npc select 33
-  - delay! 1
-  - asConsole! npc moveto 1636.5 128.5 5639.5
-  - delay! 1
-  - asConsole! npc select 34
-  - delay! 1
-  - asConsole! npc moveto 1634.5 128.5 5639.5
-  - delay! 1
-  - asConsole! npc select 35
-  - delay! 1
-  - asConsole! npc moveto 1632.5 128.5 5639.5
-  - delay! 1
-  - asConsole! npc select 36
-  - delay! 1
-  - asConsole! npc moveto 1630.5 128.5 5639.5
-  - delay! 1
-  - asConsole! npc select 37
-  - delay! 1
-  - asConsole! npc moveto 1636.5 128.5 5641.5
-  - delay! 1
-  - asConsole! npc select 38
-  - delay! 1
-  - asConsole! npc moveto 1634.5 128.5 5641.5
-  - delay! 1
-  - asConsole! npc select 39
-  - delay! 1
-  - asConsole! npc moveto 1632.5 128.5 5641.5
-  - delay! 1
-  - asConsole! npc select 40
-  - delay! 1
-  - asConsole! npc moveto 1630.5 128.5 5641.5
-  - delay! 1
-  - asConsole! npc select 41
-  - delay! 1
-  - asConsole! npc moveto 1636.5 128.5 5643.5
-  - delay! 1
-  - asConsole! npc select 42
-  - delay! 1
-  - asConsole! npc moveto 1634.5 128.5 5643.5
-  - delay! 1
-  - asConsole! npc select 57
-  - delay! 1
-  - asConsole! npc moveto 1632.5 128.5 5643.5
-  - delay! 1
-  - asConsole! npc select 58
-  - delay! 1
-  - asConsole! npc moveto 1630.5 128.5 5643.5
-  - delay! 1
-  - asConsole! npc select 43
-  - delay! 1
-  - asConsole! npc moveto 1636.5 128.5 5647.5
-  - delay! 1
-  - asConsole! npc select 44
-  - delay! 1
-  - asConsole! npc moveto 1634.5 128.5 5647.5
-  - delay! 1
-  - asConsole! npc select 55
-  - delay! 1
-  - asConsole! npc moveto 1632.5 128.5 5647.5
-  - delay! 1
-  - asConsole! npc select 56
-  - delay! 1
-  - asConsole! npc moveto 1630.5 128.5 5647.5
-  - delay! 1
-  - asConsole! npc select 51
-  - delay! 1
-  - asConsole! npc moveto 1636.5 128.5 5649.5
-  - delay! 1
-  - asConsole! npc select 52
-  - delay! 1
-  - asConsole! npc moveto 1634.5 128.5 5649.5
-  - delay! 1
-  - asConsole! npc select 53
-  - delay! 1
-  - asConsole! npc moveto 1632.5 128.5 5649.5
-  - delay! 1
-  - asConsole! npc select 54
-  - delay! 1
-  - asConsole! npc moveto 1630.5 128.5 5649.5
-  - delay! 1
-  - asConsole! npc select 59
-  - delay! 1
-  - asConsole! npc moveto 1636.5 128.5 5651.5
-  - delay! 1
-  - asConsole! npc select 60
-  - delay! 1
-  - asConsole! npc moveto 1634.5 128.5 5651.5
+    - asConsole! npc select 29
+    - delay! 1
+    - asConsole! npc moveto 1636.5 128.5 5637.5
+    - delay! 1
+    - asConsole! npc select 30
+    - delay! 1
+    - asConsole! npc moveto 1634.5 128.5 5637.5
+    - delay! 1
+    - asConsole! npc select 31
+    - delay! 1
+    - asConsole! npc moveto 1632.5 128.5 5637.5
+    - delay! 1
+    - asConsole! npc select 32
+    - delay! 1
+    - asConsole! npc moveto 1630.5 128.5 5637.5
+    - delay! 1
+    - asConsole! npc select 33
+    - delay! 1
+    - asConsole! npc moveto 1636.5 128.5 5639.5
+    - delay! 1
+    - asConsole! npc select 34
+    - delay! 1
+    - asConsole! npc moveto 1634.5 128.5 5639.5
+    - delay! 1
+    - asConsole! npc select 35
+    - delay! 1
+    - asConsole! npc moveto 1632.5 128.5 5639.5
+    - delay! 1
+    - asConsole! npc select 36
+    - delay! 1
+    - asConsole! npc moveto 1630.5 128.5 5639.5
+    - delay! 1
+    - asConsole! npc select 37
+    - delay! 1
+    - asConsole! npc moveto 1636.5 128.5 5641.5
+    - delay! 1
+    - asConsole! npc select 38
+    - delay! 1
+    - asConsole! npc moveto 1634.5 128.5 5641.5
+    - delay! 1
+    - asConsole! npc select 39
+    - delay! 1
+    - asConsole! npc moveto 1632.5 128.5 5641.5
+    - delay! 1
+    - asConsole! npc select 40
+    - delay! 1
+    - asConsole! npc moveto 1630.5 128.5 5641.5
+    - delay! 1
+    - asConsole! npc select 41
+    - delay! 1
+    - asConsole! npc moveto 1636.5 128.5 5643.5
+    - delay! 1
+    - asConsole! npc select 42
+    - delay! 1
+    - asConsole! npc moveto 1634.5 128.5 5643.5
+    - delay! 1
+    - asConsole! npc select 57
+    - delay! 1
+    - asConsole! npc moveto 1632.5 128.5 5643.5
+    - delay! 1
+    - asConsole! npc select 58
+    - delay! 1
+    - asConsole! npc moveto 1630.5 128.5 5643.5
+    - delay! 1
+    - asConsole! npc select 43
+    - delay! 1
+    - asConsole! npc moveto 1636.5 128.5 5647.5
+    - delay! 1
+    - asConsole! npc select 44
+    - delay! 1
+    - asConsole! npc moveto 1634.5 128.5 5647.5
+    - delay! 1
+    - asConsole! npc select 55
+    - delay! 1
+    - asConsole! npc moveto 1632.5 128.5 5647.5
+    - delay! 1
+    - asConsole! npc select 56
+    - delay! 1
+    - asConsole! npc moveto 1630.5 128.5 5647.5
+    - delay! 1
+    - asConsole! npc select 51
+    - delay! 1
+    - asConsole! npc moveto 1636.5 128.5 5649.5
+    - delay! 1
+    - asConsole! npc select 52
+    - delay! 1
+    - asConsole! npc moveto 1634.5 128.5 5649.5
+    - delay! 1
+    - asConsole! npc select 53
+    - delay! 1
+    - asConsole! npc moveto 1632.5 128.5 5649.5
+    - delay! 1
+    - asConsole! npc select 54
+    - delay! 1
+    - asConsole! npc moveto 1630.5 128.5 5649.5
+    - delay! 1
+    - asConsole! npc select 59
+    - delay! 1
+    - asConsole! npc moveto 1636.5 128.5 5651.5
+    - delay! 1
+    - asConsole! npc select 60
+    - delay! 1
+    - asConsole! npc moveto 1634.5 128.5 5651.5
