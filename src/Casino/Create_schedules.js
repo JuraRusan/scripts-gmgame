@@ -111,8 +111,8 @@ const generateAndWriteToFile = () => {
     if (a !== commands_close.length - 1) result += `  - delay! 1` + "\n";
   }
 
-  fs.writeFileSync("src/Casino/Schedules.yml", result);
-  console.log("\x1b[32m" + "Check! The results are written to a file: src/Casino/Schedules.yml" + "\x1b[0m");
+  fs.writeFileSync("src/Cmi/Schedules_casino.yml", result);
+  console.log("\x1b[32m" + "Check! The results are written to a file: src/Cmi/Schedules_casino.yml" + "\x1b[0m");
 };
 
 generateAndWriteToFile();
