@@ -13,32 +13,6 @@ const res = itemKeys.reduce((acc, curr, index) => {
   const idMapList = idMap[i];
   const itemEffects = effects[curr];
 
-  // const requirements = {};
-  //
-  // for (let step = 1; step <= idMap.length; step++) {
-  //   requirements[`permission_check_${step}`] = {
-  //     type: "has permission",
-  //     permission: `gmgame.effect.arrow.${step}.server.gmgame`,
-  //   };
-  // }
-  //
-  // delete requirements[`permission_check_${idMapList}`];
-  //
-  // acc[`id_particles_${idMapList}_something_is_interfering_slot_${slot}`] = {
-  //   material: somethingIsInterfering,
-  //   slot: slot,
-  //   priority: 100,
-  //   update: true,
-  //   item_flags: ["HIDE_ATTRIBUTES", "HIDE_ENCHANTS", "HIDE_ADDITIONAL_TOOLTIP"],
-  //   enchantments: ["MENDING;1"],
-  //   display_name: "&#caeaf5Включены другие частицы",
-  //   view_requirement: {
-  //     minimum_requirements: 1,
-  //     stop_at_success: true,
-  //     requirements: requirements,
-  //   },
-  // };
-
   acc[`id_particles_${idMapList}_switched_off_slot_${slot}`] = {
     material: itemEffects.display_material,
     slot: slot,
