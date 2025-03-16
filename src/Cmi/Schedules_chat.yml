@@ -1,0 +1,20 @@
+BroadcastInfo:
+  Enabled: true
+  MinPlayers: 1
+  FeedBack: false
+  Repeat: true
+  Commands:
+    - cmi ctellraw all <T>{#e62e5a} </T>
+    - cmi ctellraw all <T>{#e62e5a} Объявление! </T>; <T>{#caeaf5}Вся необходимая информация публикуется в Discord </T>; <T>{#caeaf5}https://discord.com/invite/cAM6tUYEuX</T><URL>https://discord.com/invite/cAM6tUYEuX</URL><H>{#caeaf5}Нажмите чтобы перейти по ссылке</H>; <T> {#caeaf5}Присутствие обязательно!</T> -s;
+    - cmi ctellraw all <T>{#e62e5a} </T>
+    - delay! 300
+    - cmi schedule WikiInfo
+WikiInfo:
+  Enabled: true
+  MinPlayers: 1
+  FeedBack: false
+  Repeat: true
+  Commands:
+    - cmi ctellraw all <T>{#e62e5a} </T>
+    - cmi ctellraw all <T>{#caeaf5} Гайды и множество полезной информации по серверу можно найти на </T>; <T>{#caeaf5}https://wiki.gmgame.ru</T><URL>https://wiki.gmgame.ru</URL><H>{#caeaf5}Нажмите чтобы перейти по ссылке</H>; -s;
+    - cmi ctellraw all <T>{#e62e5a} </T>
